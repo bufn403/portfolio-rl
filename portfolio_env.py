@@ -17,11 +17,11 @@ class BasicPortfolioEnv(gym.Env):
 
     # set spaces
     # TODO: bounds are bad
-    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size,), dtype=np.float32)
+    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size+1,), dtype=np.float32)
     self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size+1, self.T+1), dtype=np.float32)
   
-  @staticmethod
-  def __get_data() -> tuple:
+  # @staticmethod
+  def __get_data(self) -> tuple:
     # read SNP data
     df = pd.read_csv('crsp_snp100_2010_to_2024.csv', dtype='string')
 
@@ -64,6 +64,7 @@ class BasicPortfolioEnv(gym.Env):
     idx_df['vol_20'] = idx_df.vwretd.rolling(20).std()
     idx_df['vol_60'] = idx_df.vwretd.rolling(60).std()
     idx_df.set_index('DATE', inplace=True)
+    self.idx_df = idx_df
     vol_20 = idx_df.loc[times].vol_20.values
     vol_60 = idx_df.loc[times].vol_60.values
 
@@ -98,12 +99,13 @@ class BasicPortfolioEnv(gym.Env):
     """
     action = action / action.sum()
     # (action - self.w) could be used to add transaction costs
+    self.w = action
 
     # liquidate everything
     port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
     # reassign shares and cash according to new prices
     self.v[:] = 0.0
-    self.v[:-1] = port_val * action / self.price[1+self.t, :]
+    self.v[:-1] = port_val * action[:-1] / self.price[1+self.t, :]
     self.v[-1] = port_val * action[-1]
 
     # create next state
@@ -123,7 +125,9 @@ class BasicPortfolioEnv(gym.Env):
     self.A += self.eta * dA
     self.B += self.eta * dB
 
-    return next_state, D, (self.t == len(self.times)), False, {}
+    return next_state, D, (self.t == len(self.times)), False, {
+      'port_val': new_port_val,
+    }
 
 
   def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
