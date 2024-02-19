@@ -6,10 +6,12 @@ import gymnasium as gym
 
 
 class BasicPortfolioEnv(gym.Env):
-  def __init__(self, T: int = 100):
+  def __init__(self, T: int = 100, start_year: int = 2010, end_year: int = 2019):
     # set constants
     self.eta = 1/252
     self.T = T
+    self.start_year = start_year
+    self.end_year = end_year
 
     # get data
     self.times, self.tickers, self.price, self.ret, self.vol_20, self.vol_60, self.vix = self.__get_data()
@@ -45,6 +47,7 @@ class BasicPortfolioEnv(gym.Env):
       return ticker_ok[ticker]
     ok = df.apply(lambda row: is_max_val_count(row['TICKER']), axis=1)
     df = df[ok]
+    df = df[(df.date.dt.year >= self.start_year) & (df.date.dt.year <= self.end_year)]
 
     # create numpy array
     pivot_df = df.pivot(index='date', columns='TICKER', values='PRC')
