@@ -17,7 +17,7 @@ class BasicPortfolioEnv(gym.Env):
 
     # set spaces
     # TODO: bounds are bad
-    self.action_space = gym.spaces.Box(low=1.0, high=1.0, shape=(self.universe_size+1,), dtype=np.float32)
+    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size+1,), dtype=np.float32)
     self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size+1, self.T+1), dtype=np.float32)
   
   # @staticmethod
