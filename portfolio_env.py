@@ -17,7 +17,7 @@ class BasicPortfolioEnv(gym.Env):
 
     # set spaces
     # TODO: bounds are bad
-    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size+1,), dtype=np.float32)
+    self.action_space = gym.spaces.Box(low=1.0, high=1.0, shape=(self.universe_size+1,), dtype=np.float32)
     self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size+1, self.T+1), dtype=np.float32)
   
   # @staticmethod
@@ -98,15 +98,14 @@ class BasicPortfolioEnv(gym.Env):
     reward and next state computed at end of day.
     """
     action = action / action.sum()
-    # (action - self.w) could be used to add transaction costs
     self.w = action
 
     # liquidate everything
     port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
-    # reassign shares and cash according to new prices
+    # reassign shares and cash according to new weights
     self.v[:] = 0.0
-    self.v[:-1] = port_val * action[:-1] / self.price[1+self.t, :]
-    self.v[-1] = port_val * action[-1]
+    self.v[:-1] = port_val * self.w[:-1] / self.price[1+self.t-1, :]
+    self.v[-1] = port_val * self.w[-1]
 
     # create next state
     self.t += 1
