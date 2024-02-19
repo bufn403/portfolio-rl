@@ -3,27 +3,15 @@ import pandas as pd
 import scipy
 import matplotlib.pyplot as plt
 import gymnasium as gym
+from abc import abstractmethod
 
-
-class BasicPortfolioEnv(gym.Env):
-  def __init__(self, T: int = 100, start_year: int = 2010, end_year: int = 2019):
-    # set constants
-    self.eta = 1/252
-    self.T = T
-    self.start_year = start_year
-    self.end_year = end_year
-
-    # get data
-    self.times, self.tickers, self.price, self.ret, self.vol_20, self.vol_60, self.vix = self.__get_data()
-    self.universe_size = len(self.tickers)
-
-    # set spaces
-    # TODO: bounds are bad
-    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size+1,), dtype=np.float32)
-    self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size+1, self.T+1), dtype=np.float32)
-  
-  # @staticmethod
-  def __get_data(self) -> tuple:
+class AbstractPortfolioEnv(gym.Env):
+  """
+  Abstract class that provides functionality for all environments to load 
+  the same data. Environments should inerhit from this class and implement
+  the interface specified by gym.Env. 
+  """
+  def get_data(self) -> tuple:
     # read SNP data
     df = pd.read_csv('crsp_snp100_2010_to_2024.csv', dtype='string')
 
@@ -82,11 +70,34 @@ class BasicPortfolioEnv(gym.Env):
 
     return times, tickers, stock_array, ret_array, vol_20, vol_60, vix
 
+
+class BasicPortfolioEnv(AbstractPortfolioEnv):
+  """
+  https://icaps23.icaps-conference.org/papers/finplan/FinPlan23_paper_4.pdf
+  Deep RL for Portfolio Optimization by Sood, Papasotiriou, Vaiciulis, Balch
+  """
+  def __init__(self, T: int = 100, start_year: int = 2010, end_year: int = 2019):
+    # Set constants
+    self.eta = 1/252
+    self.T = T
+    self.start_year = start_year
+    self.end_year = end_year
+
+    # Get data
+    self.times, self.tickers, self.price, self.ret, self.vol_20, self.vol_60, self.vix = self.get_data()
+    self.universe_size = len(self.tickers)
+
+    # Box for continuous spaces
+    # TODO: bounds are bad
+    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size + 1,), dtype=np.float32)
+    self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size + 1, self.T+1), dtype=np.float32)
+  
+
   def __compute_state(self) -> np.ndarray:
     """
     stock and index data just before the beginning of day t
     """
-    s = np.zeros((self.universe_size+1, self.T+1))
+    s = np.zeros((self.universe_size + 1, self.T + 1))
     s[:, 0] = self.w
     s[1:, :-1] = self.ret[self.t-self.T:self.t, :].T
     s[-1, 1] = self.vol_20[self.t-1]
