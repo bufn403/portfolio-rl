@@ -1,9 +1,12 @@
 import numpy as np
 import pandas as pd
-import scipy
 import matplotlib.pyplot as plt
 import gymnasium as gym
 from abc import abstractmethod
+import pandas_ta as ta
+from tensorly.decomposition import Tucker
+import torch
+
 
 class AbstractPortfolioEnv(gym.Env):
   """
@@ -80,6 +83,7 @@ class BasicEnv(AbstractPortfolioEnv):
     # Get data
     self.times, self.tickers, self.price, self.ret, self.vol_20, self.vol_60, self.vix = self.get_data()
     self.universe_size = len(self.tickers)
+
     # Box for continuous spaces
     # TODO: bounds are bad
     self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size + 1,), dtype=np.float32)
@@ -146,6 +150,9 @@ class BasicEnv(AbstractPortfolioEnv):
     self.state = self.__compute_state()
     return self.state.copy(), {}
 
+
+
+
 class MPT(AbstractPortfolioEnv):
   """
   Deep Reinforcement Learning for Stock Portfolio Optimization by connecting
@@ -160,58 +167,64 @@ class MPT(AbstractPortfolioEnv):
 
   Let M = number of days in dataset, T = 252, and N = universe size
   """
-  def __init__(self, T: int = 252, start_year: int = 2010, end_year: int = 2019):
+  def __init__(self, start_year: int = 2010, end_year: int = 2019, rank = (5, 5, 5, 5)):
     # Set constants
-    self.T, self.t = T, T
-    self.start_year = start_year
-    self.end_year = end_year
+    self.start_year, self.end_year = start_year, end_year
+    self.w1, self.w2, self.w3 = 28, 14, 9
     self.m = 28
-    # MA parameters
-    self.w1 = 28
-    # RSI parameters
-    self.w2 = 14
-    self.alpha = 2 / (1 + self.w2)
-    # MACD constants
-    self.k, self.d, self.w3 = 26, 12, 9
+    self.t = self.m
+    self.rank = (5, 5, 5, 5)
     # Get data
     self.times, self.tickers, self.price, _, _, _, _ = self.get_data()
-    # Now 28 day moving averages for all stocks
-    self.ma = self.price.rolling(self.w1).mean()
-    # EMAs
-    self.ema_14 = self.price.rolling(14).ewa(self.alpha)
-    self.ema_k = self.price.rolling(self.k).ewa(self.alpha)
-    self.ema_d = self.price.rolling(self.d).ewa(self.alpha)
+
+    # TODO: Construct F tensor for all t
+    df = (pd.DataFrame(self.price, columns=self.tickers))
+    df["Date"] = pd.Series(self.times)
+    df = df.dropna()
+    self.__pivot = df[df["Date"] > pd.to_datetime(f"{start_year + 1}-01-01")].index[0] - self.m
+    df = df.set_index("Date")
+    mp = {ticker: pd.DataFrame(df[ticker]).rename(columns={ticker: "close"}) for ticker in self.tickers}
+    # SMA df
+    sma = {ticker: pd.DataFrame(mp[ticker].ta.sma(self.w1)).rename(columns={"SMA_28": ticker}) for ticker in self.tickers}
+    sma_df = (pd.concat(sma.values(), axis=1))
+    # RSI df
+    rsi = {ticker: pd.DataFrame(mp[ticker].ta.rsi(self.w2)).rename(columns={"RSI_14": ticker}) for ticker in self.tickers}
+    rsi_df = (pd.concat(rsi.values(), axis=1))
+    # MACD df
+    macd = {ticker: pd.DataFrame(mp[ticker].ta.macd(self.w3, 26, 12)["MACD_9_26_12"]).rename(columns={"MACD_9_26_12": ticker}) for ticker in self.tickers}
+    macd_df = (pd.concat(macd.values(), axis=1))
+
+    # We need lookback; can't start at 2010 or else NaNs, start at 2011 and so self.__pivot
+    # is beginning of the data we need s.t. first day of 2011 can have 28 day lookback 
+    df = df[self.__pivot:]
+    sma_df = sma_df[self.__pivot:]
+    rsi_df = rsi_df[self.__pivot:]
+    macd_df = macd_df[self.__pivot:]
+
+    # Compute F = V @ Corr
+    V = np.array([np.array(x.T) for x in [df, sma_df, rsi_df, macd_df]])
+    Corr = np.array([np.corrcoef(x) for x in V])
+    self.F = np.einsum('aki,akj->akij', V, Corr)
+
     self.universe_size = len(self.tickers)
     # Box for continuous spaces
     # TODO: bounds are bad
-    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size + 1,), dtype=np.float32)
-    self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size + 1, self.T+1), dtype=np.float32)
+    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size,), dtype=np.float32)
+    self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(rank[0] * rank[1], rank[2] * rank[3]), dtype=np.float32)
   
   
   def __compute_state(self) -> np.ndarray:
     """
-    Computes V: (4, m, n) and Cor: (4, n, n) in the paper and returns 
-    F: (4, n, m, n). Returns stock
-    and technical indicators just before day t
+    Technical indicators and correlations data just before day t
     """
-    # TODO: from self.prices, build F from V and Cor and
-    prices = self.price[self.t - self.m: self.t]
-    # Calculate MA
-    ma = self.price.rolling(self.m + self.w1 + 1).mean()[self.t - self.m: self.t]
-    # Calculate RSI
-    change = self.price[self.m + self.w2 + 1].diff()
-    change_up, change_down = change.clip(lower=0, upper=0)
-    up = change_up.rolling(self.w2).ewm(self.alpha)[self.t - self.m: self.t]
-    down = change_down.rolling(self.w2).ewm(self.alpha).abs()[self.t - self.m: self.t]
-    rsi = 100 * (1 - (1) / (1 + (up / down)))
-    # Calculate MACD
-    ema_k = self.price.rolling(self.k).ewm(self.alpha)
-    ema_d = self.price.rolling(self.k).ewm(self.alpha)
-    macd = (ema_k - ema_d).rolling(9).sum()
-    V = [prices, ma, rsi, macd]
-    Cor = [prices.corr(), ma.corr(), rsi.corr(), macd.corr()]
-    F = np.einsum('aki,akj->akij', V, Cor)
-    return F
+    f = self.F[:, :, self.t - self.m: self.t, :]
+    f = torch.Tensor(np.expand_dims(f, axis=0))
+    conv3d = torch.nn.Conv3d(in_channels=4, out_channels=32, kernel_size=(1, 3, 1))
+    f = conv3d(f)
+    f = torch.nn.ReLU()(f).detach().numpy().squeeze(axis=0)
+    tucker = Tucker(rank=self.rank, init="random")
+    core, _ = tucker.fit_transform(f)
+    return core
 
   def step(self, action: np.ndarray) -> tuple:
     """
@@ -222,8 +235,19 @@ class MPT(AbstractPortfolioEnv):
     action = action / action.sum()
     self.w = action
     
+    # Liquidate everything and calculate portfolio value
+    port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
+    
+    # Reassign shares and cash according to new weights
+    self.v[:] = 0.0
+    self.v[:-1] = port_val * self.w[:-1] / self.price[1+self.t-1, :]
+    self.v[-1] = port_val * self.w[-1]
     # Create next state
-    next_state = None
+    self.t += 1
+    next_state = self.__compute_state()
+    # Compute rewthe next reward
+    new_port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
+    assert new_port_val > 0, f"{new_port_val=}, {self.v=}"
 
     # Compute reward
 
@@ -237,6 +261,6 @@ class MPT(AbstractPortfolioEnv):
     """
     Resets the environment
     """
-    self.t = self.T
+    self.t = self.m - 1
     self.state = self.__compute_state() 
     return self.state.copy(), {}
