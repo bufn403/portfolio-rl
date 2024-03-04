@@ -14,7 +14,7 @@ class AbstractPortfolioEnv(gym.Env):
   the same data. Environments should inerhit from this class and implement
   the interface specified by gym.Env. 
   """
-  def get_data(self) -> tuple:
+  def get_data(self, sample = "IN") -> tuple:
     # read SNP data
     df = pd.read_csv('crsp_snp100_2010_to_2024.csv', dtype='string')
     # convert datatypes
@@ -36,7 +36,12 @@ class AbstractPortfolioEnv(gym.Env):
       return ticker_ok[ticker]
     ok = df.apply(lambda row: is_max_val_count(row['TICKER']), axis=1)
     df = df[ok]
-    df = df[(df.date.dt.year >= self.start_year) & (df.date.dt.year <= self.end_year)]
+    if sample == "IN":
+      df = df[(df.date.dt.year >= self.start_year) & (df.date.dt.year <= self.end_year)]
+    else:
+      # In out of sample, we need lookback
+      df = df[(df.date.dt.year >= self.start_year - 1) & (df.date.dt.year <= self.end_year)]
+
     # create numpy array
     pivot_df = df.pivot(index='date', columns='TICKER', values='PRC')
     stock_array = pivot_df.values.astype(float)
@@ -152,7 +157,6 @@ class BasicEnv(AbstractPortfolioEnv):
 
 
 
-
 class MPT(AbstractPortfolioEnv):
   """
   Deep Reinforcement Learning for Stock Portfolio Optimization by connecting
@@ -167,21 +171,24 @@ class MPT(AbstractPortfolioEnv):
 
   Let M = number of days in dataset, T = 252, and N = universe size
   """
-  def __init__(self, start_year: int = 2010, end_year: int = 2019, rank = (5, 5, 5, 5)):
+  def __init__(self, start_year: int = 2010, end_year: int = 2019, rank = (5, 5, 5, 5), sample = "IN"):
     # Set constants
     self.start_year, self.end_year = start_year, end_year
     self.w1, self.w2, self.w3 = 28, 14, 9
     self.m = 28
     self.t = self.m
     self.rank = (5, 5, 5, 5)
+    self.eta = 1/252
     # Get data
-    self.times, self.tickers, self.price, _, _, _, _ = self.get_data()
+    self.times, self.tickers, self.price, _, _, _, _ = self.get_data(sample)
 
     # TODO: Construct F tensor for all t
     df = (pd.DataFrame(self.price, columns=self.tickers))
     df["Date"] = pd.Series(self.times)
     df = df.dropna()
-    self.__pivot = df[df["Date"] > pd.to_datetime(f"{start_year + 1}-01-01")].index[0] - self.m
+    # If in sample, start 1 year in front, else use sliver of training period as lookback
+    start_year = start_year + 1 if sample == "IN" else start_year
+    self.__pivot = df[df["Date"] > pd.to_datetime(f"{start_year}-01-01")].index[0] - self.m
     df = df.set_index("Date")
     mp = {ticker: pd.DataFrame(df[ticker]).rename(columns={ticker: "close"}) for ticker in self.tickers}
     # SMA df
@@ -209,7 +216,7 @@ class MPT(AbstractPortfolioEnv):
     self.universe_size = len(self.tickers)
     # Box for continuous spaces
     # TODO: bounds are bad
-    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size,), dtype=np.float32)
+    self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size + 1,), dtype=np.float32)
     self.observation_space = gym.spaces.Box(low=-np.inf, high=np.inf, shape=(rank[0] * rank[1], rank[2] * rank[3]), dtype=np.float32)
   
   
@@ -224,6 +231,8 @@ class MPT(AbstractPortfolioEnv):
     f = torch.nn.ReLU()(f).detach().numpy().squeeze(axis=0)
     tucker = Tucker(rank=self.rank, init="random")
     core, _ = tucker.fit_transform(f)
+    # Reshape this into 2d array
+    core = np.reshape(core, (self.rank[0] * self.rank[1], self.rank[2] * self.rank[3]))
     return core
 
   def step(self, action: np.ndarray) -> tuple:
@@ -237,30 +246,45 @@ class MPT(AbstractPortfolioEnv):
     
     # Liquidate everything and calculate portfolio value
     port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
-    
+
     # Reassign shares and cash according to new weights
     self.v[:] = 0.0
     self.v[:-1] = port_val * self.w[:-1] / self.price[1+self.t-1, :]
     self.v[-1] = port_val * self.w[-1]
+
     # Create next state
     self.t += 1
     next_state = self.__compute_state()
-    # Compute rewthe next reward
+
+    # Compute next reward (paper uses log returns, let's also tr DSR)
     new_port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
     assert new_port_val > 0, f"{new_port_val=}, {self.v=}"
-
     # Compute reward
-
+    R = np.log(new_port_val / port_val)
+    dA = R - self.A
+    dB = R**2 - self.B
+    if self.B - self.A**2 == 0:
+      D = 0
+    else:
+      D = (self.B * dA - 0.5 * self.A * dB) / (self.B - self.A**2)**(3/2)
+    self.A += self.eta * dA
+    self.B += self.eta * dB
 
     return next_state, D, (self.t == len(self.times)), False, {
       'port_val': new_port_val,
     } 
-    pass
   
   def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
     """
     Resets the environment
     """
-    self.t = self.m - 1
+    self.t = self.m
+    # portfolio weights (final is cash weight)
+    self.w = np.zeros(self.universe_size+1, dtype=float)
+    self.w[-1] = 1.0
+    # portfolio shares (final is raw cash)
+    self.v = np.zeros(self.universe_size+1, dtype=float)
+    self.v[-1] = 1.0
     self.state = self.__compute_state() 
+    self.A, self.B = 0.0, 0.0
     return self.state.copy(), {}
