@@ -91,7 +91,7 @@ class AbstractPortfolioEnvWithTCost(gym.Env):
         self.t += 1
         self.v_new = self.get_prices()
         self.y = self.v_new / self.v
-        self.mu = self.find_mu(self.w, self.w_new)
+        self.mu = self.find_mu(self.y * self.w / (self.y * self.w).sum(), self.w_new)
         self.new_port_val = self.port_val * self.mu * (self.y @ self.w)
 
         self.reward = self.compute_reward()
