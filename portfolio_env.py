@@ -175,7 +175,7 @@ class MPT(AbstractPortfolioEnv):
 
   Let M = number of days in dataset, T = 252, and N = universe size
   """
-  def __init__(self, start_year: int = 2010, end_year: int = 2019, rank = (5, 5, 5, 5), sample = "IN"):
+  def __init__(self, start_year: int = 2010, end_year: int = 2019, sample = "IN"):
     # Set constants
     self.start_year, self.end_year = start_year, end_year
     self.w1, self.w2, self.w3 = 28, 14, 9
@@ -184,9 +184,15 @@ class MPT(AbstractPortfolioEnv):
     self.eta = 1/252
     # Get data
     self.times, self.tickers, self.price, _, _, _, _ = self.get_data(sample)
+    self.universe_size = len(self.tickers)
     # portfolio weights (final is cash weight)
     self.w = jnp.zeros(self.universe_size+1, dtype=float)
     self.w = self.w.at[-1].set(1)
+    self.conv3d = torch.nn.Conv3d(in_channels=4, out_channels=32, kernel_size=(1, 3, 1))
+    self.relu = torch.nn.ReLU()
+    self.tucker = Tucker(rank=(5, 5, 5, 5), init="random")
+
+    self.A, self.B = 1e-9, -1e-9
 
     # portfolio shares (final is raw cash)
     self.v = jnp.zeros(self.universe_size+1, dtype=float)
@@ -216,32 +222,26 @@ class MPT(AbstractPortfolioEnv):
     macd_df = macd_df[self.__pivot:]
 
     # Compute F = V @ Corr
-    V = jnp.array([np.array(x.T) for x in [df, sma_df, rsi_df, macd_df]])
-    Corr = jnp.array([np.corrcoef(x) for x in V])
-    self.F = jnp.einsum('aki,akj->akij', V, Corr)
+    V = np.array([np.array(x.T) for x in [df, sma_df, rsi_df, macd_df]])
+    Corr = np.array([np.corrcoef(x) for x in V])
+    self.F = np.einsum('aki,akj->akij', V, Corr)
 
-    self.universe_size = len(self.tickers)
     # Box for continuous spaces
     self.action_space = gym.spaces.Box(low=0.0, high=1.0, shape=(self.universe_size + 1,), dtype=np.float32)
-    self.observation_space = gym.spaces.Box(low=-3000, high=3000, shape=self.rank, dtype=np.float32)
+    self.observation_space = gym.spaces.Box(low=-3000, high=3000, shape=(5, 5, 5, 5), dtype=np.float32)
   
-  
-  @jax.jit
-  def __compute_state(f: jnp.ndarray) -> jnp.ndarray:
+
+  # @jax.jit
+  # TODO: either jax jit or torch jit this
+  def __compute_state(self) -> np.ndarray:
     """
     Technical indicators and correlations data just before day t
     """
-    f = jnp.expand_dims(f, axis=0)
-
-    # Perform 3d convolutions using Jax not PyTorch (probab;y need stride and filters??)
-    conv3d = torch.nn.Conv3d(in_channels=4, out_channels=32, kernel_size=(1, 3, 1))
-    f = conv3d(f)
-    f = torch.nn.ReLU()(f).detach().numpy()
-    
-    f = jnp.squeeze(f, axis=0)
-    # tucker = Tucker(rank=self.rank, init="random")
-    # core, _ = tucker.fit_transform(f)
-    return f
+    f = self.F[:, :, self.t - self.m : self.t, :]
+    f = torch.Tensor(np.expand_dims(f, axis=0))
+    f = self.relu(self.conv3d(f)).detach().numpy().squeeze(axis=0)
+    core, _ = self.tucker.fit_transform(f)
+    return core 
 
   def step(self, action: np.ndarray) -> tuple:
     """
@@ -249,50 +249,35 @@ class MPT(AbstractPortfolioEnv):
     returns and indicators from close of previous day.
     reward and next state computed at end of day.
     """
+    action = action / action.sum()
+    self.w = action
 
-    @partial(jax.jit, static_argnums=(5,))
-    def __step_jax(action, v, prices, A, B, eta=1/252) -> tuple:
-
-      # Ensure output action sums to 1
-      action /= jnp.sum(action)
-      w = action
-      price_t, price_t1 = prices[0, :], prices[1, :]
-
-      # Liquidate everything and calculate portfolio value
-      port_val = jnp.dot(v[:-1], price_t) + v[-1]
-
-      # Reassign shares and cash according to new weights
-      v[:] = 0.0
-      v[:-1] = port_val * w[:-1] / price_t
-      v = v.at[-1].set(port_val * w[-1])
-    
-      # Compute the new portfolio value
-      new_port_val = jnp.dot(v[:-1], price_t1) + v[-1]
-      assert new_port_val > 0, f"{new_port_val=}, {v=}"
-
-      # Compute differential sharpe ratio reward
-      R = jnp.log(new_port_val / port_val)
-      dA = R - A
-      dB = jnp.pow(R, 2) - B
-      D = 0 if B - jnp.pow(A, 2) == 0 else ((B * dA - 0.5 * A * dB) / jnp.pow((B - jnp.pow(A, 2), 1.5)))
-      A += eta * dA
-      B += eta * dB
-
-      # Convert jax arrays of length 1 back to scalers and return 
-      return v, w, A.item(), B.item(), new_port_val.item(), D.item()
-
-    # Call the jitted step function
-    self.v, self.w, self.A, self.B, new_port_val, D \
-      = __step_jax(jnp.array(action), self.v, jnp.array(self.price[self.t: self.t + 2, :]), self.A, self.B, self.eta)
-
-    # Call the jitted compute state function
+    # liquidate everything
+    port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
+    # reassign shares and cash according to new weights
+    self.v[:] = 0.0
+    self.v[:-1] = port_val * self.w[:-1] / self.price[1+self.t-1, :]
+    self.v[-1] = port_val * self.w[-1]
+    # create next state
     self.t += 1
-    next_state = self.__compute_state(self.F[:, :, self.t - self.m: self.t, :])
-
-    # Return tuple of items for Gym
+    next_state = self.__compute_state()
+    # compute reward
+    new_port_val = self.v[:-1] @ self.price[1+self.t-1, :] + self.v[-1]
+    assert new_port_val > 0, f"{new_port_val=}, {self.v=}"
+    R = np.log(new_port_val / port_val)
+    dA = R - self.A
+    dB = R**2 - self.B
+    if self.B - self.A**2 == 0:
+      D = 0
+    else:
+      D = (self.B * dA - 0.5 * self.A * dB) / (self.B - self.A**2)**(3/2)
+    self.A += self.eta * dA
+    self.B += self.eta * dB
     return next_state, D, (self.t == len(self.times)), False, {
       'port_val': new_port_val,
     } 
+
+      
   
   def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
     """
@@ -306,7 +291,7 @@ class MPT(AbstractPortfolioEnv):
     # Portfolio shares (final is raw cash)
     self.v = jnp.zeros(self.universe_size+1, dtype=float)
     self.v = self.v.at[-1].set(1)
-    
-    self.state = self.__compute_state(self.F[:, :, self.t - self.m: self.t, :]) 
+
+    self.state = self.__compute_state() 
     self.A, self.B = 0.0, 0.0
     return self.state.copy(), {}
