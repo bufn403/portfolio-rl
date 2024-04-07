@@ -1,0 +1,47 @@
+\documentclass{report}
+
+\PassOptionsToPackage{square, numbers}{natbib}
+\usepackage[preprint]{neurips_2022}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{graphicx}
+
+
+\title{BUFN403 Project Report}
+\author{%
+  Sumit Nawathe \quad Ravi Panguluri \quad James Zhang \quad Sashwat Venkatesh \\
+  Computational Finance Minor Capstone \\
+  University of Maryland College Park \\
+  \texttt{\{snawathe, rpangulu, jzhang72, sashvenk\}@terpmail.umd.edu} \\
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+  We aim to create a reinforcement learning agent that utilizes historical price data
+  as well as sentiment and topical embeddings of news articles to optimally trade on
+  S\&P100 stocks. After implementing multiple papers on financial reinforcement learning
+  for equity trading, our contribution will be in experimenting and synthesizing an improved
+  combination of the state space and reward function for our environment. We compare our
+  best strategy against other standard equity portfolio benchmarks.
+\end{abstract}
+
+\tableofcontents
+
+\include{overview}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{unsrtnat}
+\bibliography{papers}
+
+
+\end{document}
