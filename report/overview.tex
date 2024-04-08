@@ -239,7 +239,9 @@ trading performance. As of this writing, we have partial implementations of pape
 Paper \cite{rl_augmented_states} includes the following diagram, which is very close to our desired 
 architecture:
 
+\begin{center}
 \includegraphics[width=13cm]{formulation.png}
+\end{center}
 
 An explanation of this diagram: at time t, the origin state $S^*$ is a 3D tensor of dimensions $U \times H \times C$
 which contains historical price data. $U$ is the size of our universe (for example, for the S$\&$P100, $U = 100$). 

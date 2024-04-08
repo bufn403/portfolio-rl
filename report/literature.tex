@@ -58,3 +58,57 @@ The Differential Sharpe Ratio is defined to be proportional derivative in that e
 This reward function is simple to implement in an environment. The authors of the original papers provide
 experimental support for the value of this reward function in a reinforcement learning setting.
 
+
+
+
+\section{Transaction Costs}
+
+\cite{drl_framework} contains an excellent walkthrough of the mathematics for modeling transaction costs
+in RL environment updates. We provide a shortened version here.
+
+Suppose we have $m$ tradeable assets and the risk-free asset. Let $\mathbf v_t = (1, v_{1,t}, v_{2,t}, \ldots v_{m,t}) \in \R^{m+1}$ be the
+prices of the assets at time $t$ (the first entry is the risk-free asset). The raw return vector is defined as
+$\mathbf y_t = \mathbf v_t \varoslash \mathbf v_{t-1} \in \R^{m+1}$, where division is element-wise. Suppose the portfolio
+weight vector during time period $t$ is $\mathbf w_t \in \R^{m+1}$, and let the value of the portfolio value at time $t$ be $p_t$.
+If we were not considering transaction costs, then the portfolio return would be $\frac{p_t}{p_{t-1}} = \mathbf y_t \cdot \mathbf w_t$.
+
+Unfortunately, buying and selling assets incurs transaction costs. Let $\mathbf w_t' \in \R^{m+1}$ be the effective portfoliio weights
+at the end of time $t$ (it has changed from $\mathbf w_t$ due to the changes in price). We have
+\begin{align*}
+  \mathbf w_t' = \frac{\mathbf y_t \odot \mathbf w_t}{\mathbf y_t \cdot \mathbf w_t}
+\end{align*}
+where $\odot$ is element-wise multiplication. Between time $t-1$ and time $t$, the portfolio value is also
+adjusted from $p_{t-1} \in \R$ to $p_t' = p_{t-1} \mathbf y_t \cdot \mathbf w_{t-1}$. Let $p_t$ be the value of the portfolio
+after transaction costs, and let $\mu_t \in \R$ be the transaction cost factor, such that $p_t = \mu_t p_t'$.
+We can keep track of the relevant time of each variable with the following diagram:
+
+\begin{center}
+  \includegraphics[width=13cm]{transaction_cost_time_updates.png}
+\end{center}
+
+In this paradigm, the final portfolio value at time $T$ is
+\begin{align*}
+  p_T = p_0 \prod_{t=1}^T \frac{p_t}{p_{t-1}} = p_0 \prod_{t=1}^T \mu_t \mathbf y_t \cdot \mathbf w_{t-1}
+\end{align*}
+The main difficulty is in determining the factor $\mu_t$, since it is an aggregate of all the transaction cost penalties.
+
+Let $c_s \in [0, 1)$ be the commission rate for selling. We need to sell some amount of asset $i$ if 
+there is more of asset $i$ in $\mathbf w_t'$ than in $\mathbf w_t$ by dollar value. Mathematically, this condition
+is $p_t' w_{i,t}' > p_t w_{t,i}$, which is equivalent to $w_{i,t}' > \mu_t w_{i,t}$. Thus, the total amount of
+money raised from selling assets is
+\begin{align*}
+  (1-c_s) p_t' \sum_{i=1}^m (w_{i,t}' - \mu_t w_{i,t})^+
+\end{align*}
+where $(\cdot)^+ = \max\{0, \cdot\} = \mathrm{ReLU}(\cdot)$. This money, as well as the money from adjusting the cash reserve
+from $p_t' w_{0,t}'$ to $p_t w_{0,t}$, is used to purchase assets according to the opposite condition.
+Let $c_p \in [0, 1)$ be the commision rate for purchasing. Equating the amount of money available from selling/cash and the amount of money
+used for purchasing assets yields
+\begin{align*}
+  (1-c_p)\left[ w_{0,t}' - mu_t w_{0,t} + (1-c_s) p_t' \sum_{i=1}^m (w_{i,t}' - \mu_t w_{i,t})^+ \right] = p_t'\sum_{i=1}^m (\mu_t w_{i,t} - w_{i,t}')+
+\end{align*}
+Moving terms around and simplifying the ReLU expressions, we find that $\mu_t$ is a fixed-point of the function $f$ defined as:
+\begin{align*}
+  \mu_t = f(\mu_t) = \frac{1}{1 - c_p w_{0,t}}\left[ 1 - c_p w_{0,t}' - (c_s + c_p - c_s c_p) \sum_{i=1}^m (w_{i,t}' - \mu_t w_{i,t})^+ \right]
+\end{align*}
+$f$ is a nonlinear function. However, for reasonable values of $c_s and c_p$, $f$ is both monotone increasing and a contraction, so its unique fixed point
+can be found by iteratively computing values of $f$. This procedure is fairly efficient and easy to implement.
