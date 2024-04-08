@@ -1,0 +1,58 @@
+\chapter{Literature Notes and Commentary}
+
+\section{Differential Sharpe Ratio}
+
+\cite{drl_mvo} utilizes the Differential Sharpe Ratio to implement and evaluate a reinforcement learning agent.
+The Differential Sharpe Ratio is based on Portfolio Management Theory, and is developed in the author' previous works \cite{diff_sharpe_ratio_paper} and \cite{diff_sharpe_ratio_book}.
+We briefly review the theory developed in both sources.
+
+The traditional definition of the Sharpe Ratio is the ratio of expected excess returns to volatility.
+If $R_t$ is the return of the portfolio at time $t$, and $r_f$ is the risk-free rate then
+\begin{align*}
+  \mathcal{S} = \frac{\mathbb{E}_t[R_t] - r_f}{\sqrt{\Var_t[R_t]}}
+\end{align*}
+
+This works well to analyze a strategy once all data is collected.
+The goal of traditional portfolio theory is to maximize the Sharpe Ratio over the given time period (equivalently,
+to maximize the mean-variance utility function).
+
+Unfortunately, this will not work for a reinforcement learning agent. The agent must be given a reward after every time step,
+but the traditional Sharpe ratio is only calculated at the end.
+
+The Differential Sharpe Ratio attempts to remedy this by approximating a change in the total Sharpe ratio up to that point.
+By summing together many of these incremental changes (though approximate), the cumulative rewards is an approximation of the total
+Sharpe ratio over the complete time period.
+
+The approximation works by updating moment-based estimators of the expectation and variance in the Sharpe Ratio formula.
+Let $A_t$ and $B_t$ be estimates of the first and second moments of the return $R_t$ up to time $t$.
+After time step $t$, having obtained $R_t$, we perform the following updates:
+\begin{align*}
+  \Delta A_t = R_t - A_{t-1} && A_t = A_{t-1} + \eta \Delta A_t \\
+  \Delta B_t = R_t - B_{t-1} && B_t = B_{t-1} + \eta \Delta B_t
+\end{align*}
+where $A_0 = B_0 = 0$ and $\eta \sim 1/T$ is an update parameter, where there are $T$ total time periods.
+These updates are essentially exponential moving averages.
+
+Let $S_t$ be an approximation of the Sharpe Ratio up to time $t$ based on estimates $A$ and $B$. That is,
+\begin{align*}
+  S_t = \frac{A_t}{K_\eta \sqrt{B_t - A_t^2}} && K_\eta = \sqrt{\frac{1-\eta/2}{1-\eta}}
+\end{align*}
+The definition here ignores the risk-free rate term. $K_\eta$ is a normalization constant to ensure an unbiased estimator.
+
+Pretend that at the update for time $t$, $A_{t-1}$ and $B_{t-1}$ are constants,
+and $R_t$ is also a known constant. Then the updates to $A_t$ and $B_t$ really only depend on the time step / weight parameter $\eta$.
+Indeed, if $\eta = 0$, then $A_t = A_{t-1}$ and $B_t = B_{t-1}$, so $S_t = S_{t-1}$.
+Now consider varying $\eta$; expanding the Sharpe ratio estimator formula gives
+\begin{align*}
+  S_t \approx S_{t-1} + \eta \frac{\diff S_t}{\diff \eta}\Big|_{\eta = 0} + o(\eta^2)
+\end{align*}
+
+If $\eta$ is small, the final term is negligible, so this formula gives us an exponential-moving-average update for $S_t$.
+The Differential Sharpe Ratio is defined to be proportional derivative in that expression. With some tedious calculus, we find that
+\begin{align*}
+  D_t = \frac{\diff S_t}{\diff \eta} = \frac{B_t \Delta A_t - \frac{1}{2} A_t \Delta B_t}{(B_t - A_t^2)^{3/2}}
+\end{align*}
+
+This reward function is simple to implement in an environment. The authors of the original papers provide
+experimental support for the value of this reward function in a reinforcement learning setting.
+

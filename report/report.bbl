@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -52,5 +52,20 @@ Jinho Lee, Raehyun Kim, Seok-Won Yi, and Jaewoo Kang.
 \newblock \doi{10.24963/ijcai.2020/623}.
 \newblock URL \url{http://arxiv.org/abs/2007.05402}.
 \newblock arXiv:2007.05402 [cs].
+
+\bibitem[Moody and Wu()]{diff_sharpe_ratio_paper}
+J.~Moody and Lizhong Wu.
+\newblock Optimization of trading systems and portfolios.
+\newblock In \emph{Proceedings of the {IEEE}/{IAFE} 1997 Computational Intelligence for Financial Engineering ({CIFEr})}, pages 300--307.
+\newblock \doi{10.1109/CIFER.1997.618952}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/618952}.
+
+\bibitem[Moody et~al.()Moody, Saffell, Liao, and Wu]{diff_sharpe_ratio_book}
+John Moody, Matthew Saffell, Yuansong Liao, and Lizhong Wu.
+\newblock Reinforcement learning for trading systems and portfolios: Immediate vs future rewards.
+\newblock In Apostolos-Paul~N. Refenes, Andrew~N. Burgess, and John~E. Moody, editors, \emph{Decision Technologies for Computational Finance: Proceedings of the fifth International Conference Computational Finance}, pages 129--140. Springer {US}.
+\newblock ISBN 978-1-4615-5625-1.
+\newblock \doi{10.1007/978-1-4615-5625-1_10}.
+\newblock URL \url{https://doi.org/10.1007/978-1-4615-5625-1_10}.
 
 \end{thebibliography}

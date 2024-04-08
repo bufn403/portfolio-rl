@@ -14,6 +14,44 @@
 \usepackage{xcolor}         % colors
 \usepackage{graphicx}
 
+% % Sumit's package list
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}{Lemma}[theorem]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newcommand{\E}{\mathop{\mathbb{E}}}
+\renewcommand{\P}{\mathop{\mathbb{P}}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\Corr}{\operatorname{Corr}}
+\newcommand{\T}{\intercal}
+\newcommand{\arrow}[0]{\xrightarrow{}}
+\newcommand{\R}[0]{\mathbb{R}}
+\newcommand{\N}[0]{\mathbb{N}}
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand*\Diff[1]{\mathop{}\!\mathrm{d^#1}}
+\newcommand\bigfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+\def\bigo{\mathcal O}
+\def\floor#1{\left\lfloor#1\right\rfloor}
+\def\ceil#1{\left\lceil#1\right\rceil}
+\def\norm#1{\left\lVert#1\right\rVert}
+\def\iprod#1#2{\left\langle#1,#2\right\rangle}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage[edges]{forest}
+\usepackage{pgfplots}
+\usepackage{adjustbox}
+\usepackage{xstring}
+\usepackage{ifthen}
+\usetikzlibrary{positioning}
+
 
 \title{BUFN403 Project Report}
 \author{%
@@ -38,6 +76,8 @@
 \tableofcontents
 
 \include{overview}
+
+\include{literature}
 
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{unsrtnat}
