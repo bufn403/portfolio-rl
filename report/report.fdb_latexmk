@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex report"] 1712538941 "report.aux" "report.bbl" "report" 1712538945 0
+["bibtex report"] 1712538941 "report.aux" "report.bbl" "report" 1712539809 0
   "./papers.bib" 1712538800 18408 ce6a1274eb185ec6ad1051b45ed27c94 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1680467437 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "literature.aux" 1712538944 1474 b0cd49ae9caf39c7484712949163ed3d "pdflatex"
-  "overview.aux" 1712538944 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
-  "report.aux" 1712538944 1482 e5a72b5ca3761a144929e7863b1c3b5b "pdflatex"
+  "literature.aux" 1712539808 1474 b0cd49ae9caf39c7484712949163ed3d "pdflatex"
+  "overview.aux" 1712539808 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
+  "report.aux" 1712539808 1482 e5a72b5ca3761a144929e7863b1c3b5b "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1712538942 "c:/Users/sumit/GitRepos/portfolio-rl/report/report.tex" "report.pdf" "report" 1712538945 0
+["pdflatex"] 1712539806 "c:/Users/sumit/GitRepos/portfolio-rl/report/report.tex" "report.pdf" "report" 1712539809 0
   "c:/Users/sumit/GitRepos/portfolio-rl/report/report.tex" 1712536723 2885 60bf63d36d6ca5a4f70175810836fa8e ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1680465963 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1680465585 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -32,8 +32,10 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1680464983 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1680464983 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1680464983 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1680464983 37912 07513ec114ac737ab54cea0152f4424b ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1680464983 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1680464983 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1680464983 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1680464983 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1680464983 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1680464983 32716 08e384dc442464e7285e891af9f45947 ""
@@ -277,16 +279,16 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1680469263 7885570 9a18e5815685da0cb3f702b407c1fe12 ""
   "c:/texlive/2023/texmf.cnf" 1680469157 713 e69b156964470283e0530f5060668171 ""
   "formulation.png" 1712525954 646963 7e118552ecc9429e852b730aacde8c3d ""
-  "literature.aux" 1712538944 1474 b0cd49ae9caf39c7484712949163ed3d "pdflatex"
-  "literature.tex" 1712538937 3567 a3c1a86b2db25bb1957d7e78b572501e ""
+  "literature.aux" 1712539808 1474 b0cd49ae9caf39c7484712949163ed3d "pdflatex"
+  "literature.tex" 1712539805 3895 a52398a8804d73ff90a1c184e4e6af04 ""
   "neurips_2022.sty" 1712523482 11941 661cd92ad550c1019b26b23eb061a6e2 ""
-  "overview.aux" 1712538944 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
+  "overview.aux" 1712539808 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
   "overview.tex" 1712531056 19032 3ef01f6f31fc0701a30865db48efe394 ""
-  "report.aux" 1712538944 1482 e5a72b5ca3761a144929e7863b1c3b5b "pdflatex"
+  "report.aux" 1712539808 1482 e5a72b5ca3761a144929e7863b1c3b5b "pdflatex"
   "report.bbl" 1712538942 4360 27631865aebcf6e6bdaa6fe8b15cfc34 "bibtex report"
-  "report.out" 1712538944 2014 5d80b6e1f9428f92ee42176922074627 "pdflatex"
+  "report.out" 1712539808 2014 5d80b6e1f9428f92ee42176922074627 "pdflatex"
   "report.tex" 1712536723 2885 60bf63d36d6ca5a4f70175810836fa8e ""
-  "report.toc" 1712538944 1624 b626a1d85cf7a216c2ddd59891c1c283 "pdflatex"
+  "report.toc" 1712539808 1624 b626a1d85cf7a216c2ddd59891c1c283 "pdflatex"
   (generated)
   "literature.aux"
   "overview.aux"

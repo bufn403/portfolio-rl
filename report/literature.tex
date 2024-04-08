@@ -35,14 +35,14 @@ These updates are essentially exponential moving averages.
 
 Let $S_t$ be an approximation of the Sharpe Ratio up to time $t$ based on estimates $A$ and $B$. That is,
 \begin{align*}
-  S_t = \frac{A_t}{K_\eta \sqrt{B_t - A_t^2}} && K_\eta = \sqrt{\frac{1-\eta/2}{1-\eta}}
+  S_t = \frac{A_t}{\sqrt{B_t - A_t^2}}
 \end{align*}
 The definition here ignores the risk-free rate term. $K_\eta$ is a normalization constant to ensure an unbiased estimator.
 
 Pretend that at the update for time $t$, $A_{t-1}$ and $B_{t-1}$ are constants,
-and $R_t$ is also a known constant. Then the updates to $A_t$ and $B_t$ really only depend on the time step / weight parameter $\eta$.
+and $R_t$ is also a known constant. Then the updates to $A_t$ and $B_t$ really only depend on the time step parameter $\eta$.
 Indeed, if $\eta = 0$, then $A_t = A_{t-1}$ and $B_t = B_{t-1}$, so $S_t = S_{t-1}$.
-Now consider varying $\eta$; expanding the Sharpe ratio estimator formula gives
+Now consider varying $\eta$; expanding the Sharpe ratio estimator formula in Taylor series gives
 \begin{align*}
   S_t \approx S_{t-1} + \eta \frac{\diff S_t}{\diff \eta}\Big|_{\eta = 0} + o(\eta^2)
 \end{align*}
@@ -50,7 +50,9 @@ Now consider varying $\eta$; expanding the Sharpe ratio estimator formula gives
 If $\eta$ is small, the final term is negligible, so this formula gives us an exponential-moving-average update for $S_t$.
 The Differential Sharpe Ratio is defined to be proportional derivative in that expression. With some tedious calculus, we find that
 \begin{align*}
-  D_t = \frac{\diff S_t}{\diff \eta} = \frac{B_t \Delta A_t - \frac{1}{2} A_t \Delta B_t}{(B_t - A_t^2)^{3/2}}
+  D_t &= \frac{\diff S_t}{\diff \eta} = \frac{\diff}{\diff\eta}\left[ \frac{A_t}{\sqrt{B_t - A_t^2}} \right] = \frac{\frac{\diff A_t}{\diff \eta} \sqrt{B_t - A_t^2} - A_t \frac{\frac{\diff B_t}{\diff \eta} - 2 A_t \frac{\diff A_t}{\diff \eta}}{2 \sqrt{B_t - A_t^2}}}{B_t - A_t^2} \\
+  &= \frac{\Delta A_t \sqrt{B_t - A_t^2} - A_t \frac{\Delta B_t - 2 A_t \Delta A_t}{2 \sqrt{B_t - A_t^2}}}{B_t - A_t^2}
+  = \frac{B_t \Delta A_t - \frac{1}{2} A_t \Delta B_t}{(B_t - A_t^2)^{3/2}}
 \end{align*}
 
 This reward function is simple to implement in an environment. The authors of the original papers provide
