@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  7 APR 2024 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  9 APR 2024 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -987,7 +987,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 18
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [5]
-<formulation.png, id=128, 1116.17pt x 348.30125pt>
+<formulation.png, id=143, 1116.17pt x 348.30125pt>
 File: formulation.png Graphic file (type png)
 <use formulation.png>
 Package pdftex.def Info: formulation.png  used on input line 243.
@@ -997,38 +997,41 @@ Package pdftex.def Info: formulation.png  used on input line 243.
 
  (./literature.tex
 Chapter 2.
-[8
+
+Underfull \vbox (badness 2626) has occurred while \output is active []
+
+ [8
 
 
 
 
-]
-<transaction_cost_time_updates.png, id=167, 832.3095pt x 132.495pt>
+] [9]
+<transaction_cost_time_updates.png, id=188, 832.3095pt x 132.495pt>
 File: transaction_cost_time_updates.png Graphic file (type png)
 <use transaction_cost_time_updates.png>
-Package pdftex.def Info: transaction_cost_time_updates.png  used on input line 86.
+Package pdftex.def Info: transaction_cost_time_updates.png  used on input line 144.
 (pdftex.def)             Requested size: 369.88582pt x 58.88223pt.
- [9 <./transaction_cost_time_updates.png>]) [10] (./report.bbl) [11
+ [10 <./transaction_cost_time_updates.png>]) [11] (./report.bbl) [12
 
 
 
 ] (./report.aux (./overview.aux) (./literature.aux))
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: EA3316E65902B915A45F204B1DF45E9F;2157.
+(rerunfilecheck)             Checksum: 19F0603674E7F9E832FF0FB1E6030A34;2691.
  ) 
 Here is how much of TeX's memory you used:
- 47510 strings out of 476017
- 1124745 string characters out of 5793767
+ 47520 strings out of 476017
+ 1124868 string characters out of 5793767
  1869660 words of memory out of 5000000
- 66976 multiletter control sequences out of 15000+600000
- 558087 words of font info for 204 fonts, out of 8000000 for 9000
+ 66979 multiletter control sequences out of 15000+600000
+ 558217 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,12n,94p,1647b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (11 pages, 818033 bytes).
+Output written on report.pdf (12 pages, 826821 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 51847 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 51871 words of extra memory for PDF output out of 61914 (max. 10000000)
 

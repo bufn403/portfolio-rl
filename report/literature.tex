@@ -1,5 +1,63 @@
 \chapter{Literature Notes and Commentary}
 
+\section{Reinforcement Learning Overview}
+
+The reader may not be readily familiar with reinforcement learning (RL).
+Thus, we here provide a brief overview of the terminology, basic definition, essential results, and common algorithms in RL theory.
+
+\subsection{Markov Decision Process}
+
+A Markov Decision Process (MDP) problem is a framework for modeling sequential decision-making by an agent in an environment.
+A problem is formally defined as a $4$-tuple $(S, A, T, R)$.
+\begin{itemize}
+  \item $S$ is the state space, which is the set of all possible states of the environment.
+  \item $A$ is the action space, which contains all possible actions that the agent can take (across all possible states).
+  \item $T: S \times A \times S \to [0, 1]$ is the transition function in a stochastic environment. When the environment is in state $s$ and
+    the agent takes action $a$, then $T(s, a, s')$ is the probability that the environment transitions to state $s'$ as a result. (In a deterministic environment,
+    this function may not be necessary, as there may be only one possible state due to the taken action.)
+  \item $R: S \times A \times S \to \R$ is the reward function. When the environment changes state from $s$ to $s'$ due to action $a$, the agent recieves reward $R(s, a, s')$.
+\end{itemize}
+The environment is Markov, which means that the distribution of the next state $s'$ conditioned on the current state $s$ and action $a$ is independent from the time step.
+
+A policy is a function $\pi: S \to A$ that dictates actions to take at a given state.
+A solution to an MDP problem is an optimal policy $\pi^*$ that maximizes the agent's utility, however that is defined.
+
+\subsection{RL Terminology}
+
+In RL, the agent's utility is generally defined as the total expected discounted reward.
+Let $\gamma \in [0, 1]$ be a constant discount factor. The utility from a sequence of reward $\{r_t\}_{t=0}^\infty$ is
+thus commonly defined as $U([r_0, r_1, \ldots]) = \sum_{t=0}^\infty \gamma^t r_t \leq \frac{\sup_t r_t}{1-\gamma}$.
+The benefit of this formulation is that (1) utility is bounded if the rewards are bounded, and (2) there is a balance
+between small immediate rewards and large long-term rewards. (The use of the discount factor depends on the actual reward function.
+For custom reward functions, it may not be necessary or even desireable; we include it because it is common in RL literature.)
+
+Given a policy $\pi: S \to A$, we define the value function $V^\pi: S \to \R$ and the $Q$-function $Q^\pi: S \times A \to \R$ as
+\begin{align*}
+  V^\pi(s) = \E_\pi\left[ \sum_{t=0}^\infty \gamma^t R_t \:|\: s_0 = s  \right] &&
+  Q^\pi(s, a) = \E_\pi\left[  \sum_{t=0}^\infty \gamma^t R_t \:|\: s_0 = s, a_0 = a \right]
+\end{align*}
+$V^\pi(s)$ is the expected utility from starting at $s$ and following policy $\pi$, and $Q^\pi(s, a)$ is the expected utility
+from starting at $s$, taking action $a$, and then following policy $\pi$ thereafter.
+The goal of RL is to find the optimal policy $\pi^*$, from which we have the optimal value function $V^*$ and optimal $Q$-function $Q^*$.
+These optimal values can further be defined as follows:
+\begin{align*}
+  Q^*(s, a) &= \E_{s'}[R(s, a, s') + \gamma V^*(s')] = \sum_{s'} T(s, a, s')[R(s, a, s') + \gamma V^*(s')] \\
+  V^*(s) &= \max_a Q^*(s, a) = \max_a \sum_{s'} T(s, a, s')[R(s, a, s') + \gamma V^*(s')]
+\end{align*}
+The second equation is known as the Bellman equation.
+
+There are two main branches of RL: model-based and model-free.
+In model-based RL, the agent attempt to build a model of the environment transition function $T$ and reward function $R$.
+Based on these model, it then attempts to directly maximize the total expected reward.
+In model-free RL, the agent does not attempt to model the environment, but instead attempts to learn either the value function or $Q$-function.
+Once it has one of these, it can derive an optimal policy from it as:
+\begin{align*}
+  \pi^*(s) = \arg\max_a Q^*(s, a) \arg\max_a \sum_{s'} T(s, a, s')\left[ R(s, a) + \gamma V^*(s')\right]
+\end{align*}
+We proceed with model-free RL in this project.
+
+
+
 \section{Differential Sharpe Ratio}
 
 \cite{drl_mvo} utilizes the Differential Sharpe Ratio to implement and evaluate a reinforcement learning agent.
@@ -110,5 +168,5 @@ Moving terms around and simplifying the ReLU expressions, we find that $\mu_t$ i
 \begin{align*}
   \mu_t = f(\mu_t) = \frac{1}{1 - c_p w_{0,t}}\left[ 1 - c_p w_{0,t}' - (c_s + c_p - c_s c_p) \sum_{i=1}^m (w_{i,t}' - \mu_t w_{i,t})^+ \right]
 \end{align*}
-$f$ is a nonlinear function. However, for reasonable values of $c_s and c_p$, $f$ is both monotone increasing and a contraction, so its unique fixed point
+The function $f$ is a nonlinear. However, for reasonable values of $c_s$ and $c_p$, $f$ is both monotone increasing and a contraction, so its unique fixed point
 can be found by iteratively computing values of $f$. This procedure is fairly efficient and easy to implement.

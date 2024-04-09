@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex report"] 1712544733 "report.aux" "report.bbl" "report" 1712545078 0
+["bibtex report"] 1712636097 "report.aux" "report.bbl" "report" 1712636737 0
   "./papers.bib" 1712538800 18408 ce6a1274eb185ec6ad1051b45ed27c94 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1680467437 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "literature.aux" 1712545077 1617 868bfc8d5298de4f1ccf1f8b6ff425ca "pdflatex"
-  "overview.aux" 1712545077 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
-  "report.aux" 1712545077 1482 a2f834de827ca6c0df5f6b185b9f8588 "pdflatex"
+  "literature.aux" 1712636735 2009 f339bd2723ec52fa23818ac9c536c7da "pdflatex"
+  "overview.aux" 1712636735 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
+  "report.aux" 1712636735 1482 b55da04b9f9f3000362c261b343b1f49 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1712545075 "c:/Users/sumit/GitRepos/portfolio-rl/report/report.tex" "report.pdf" "report" 1712545078 0
+["pdflatex"] 1712636733 "c:/Users/sumit/GitRepos/portfolio-rl/report/report.tex" "report.pdf" "report" 1712636737 0
   "c:/Users/sumit/GitRepos/portfolio-rl/report/report.tex" 1712542871 2910 c58ccb9b096aa5828f8c9484f04359f2 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1680465963 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1680465585 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -290,16 +290,16 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1680469263 7885570 9a18e5815685da0cb3f702b407c1fe12 ""
   "c:/texlive/2023/texmf.cnf" 1680469157 713 e69b156964470283e0530f5060668171 ""
   "formulation.png" 1712525954 646963 7e118552ecc9429e852b730aacde8c3d ""
-  "literature.aux" 1712545077 1617 868bfc8d5298de4f1ccf1f8b6ff425ca "pdflatex"
-  "literature.tex" 1712545074 7574 ca199bb5d03f039f0d9f23b226aee667 ""
+  "literature.aux" 1712636735 2009 f339bd2723ec52fa23818ac9c536c7da "pdflatex"
+  "literature.tex" 1712636733 11741 f7324471a246d372dc6d4230f82e45f1 ""
   "neurips_2022.sty" 1712523482 11941 661cd92ad550c1019b26b23eb061a6e2 ""
-  "overview.aux" 1712545077 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
+  "overview.aux" 1712636735 3688 3002ffc37c5e5aaec4eacdfa8dc16aef "pdflatex"
   "overview.tex" 1712543155 19060 7fef52c361e376f6024980be1995887a ""
-  "report.aux" 1712545077 1482 a2f834de827ca6c0df5f6b185b9f8588 "pdflatex"
-  "report.bbl" 1712544733 4360 27631865aebcf6e6bdaa6fe8b15cfc34 "bibtex report"
-  "report.out" 1712545077 2157 ea3316e65902b915a45f204b1df45e9f "pdflatex"
+  "report.aux" 1712636735 1482 b55da04b9f9f3000362c261b343b1f49 "pdflatex"
+  "report.bbl" 1712636097 4360 27631865aebcf6e6bdaa6fe8b15cfc34 "bibtex report"
+  "report.out" 1712636735 2691 19f0603674e7f9e832ff0fb1e6030a34 "pdflatex"
   "report.tex" 1712542871 2910 c58ccb9b096aa5828f8c9484f04359f2 ""
-  "report.toc" 1712545077 1701 9d55b9e3be7786a723bdc738f2f79c88 "pdflatex"
+  "report.toc" 1712636735 1970 f7e0282bbacb9d5f6012206f74d965e9 "pdflatex"
   "transaction_cost_time_updates.png" 1712543260 18192 fdcb1ee3c195a9ed2a827fa06478bfaf ""
   (generated)
   "literature.aux"
