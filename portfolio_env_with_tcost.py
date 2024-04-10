@@ -5,11 +5,12 @@ import gymnasium as gym
 
 
 class AbstractPortfolioEnvWithTCost(gym.Env):
-    def __init__(self, w_lb=0.0, w_ub=1.0, cp=0.0, cs=0.0, logging=True):
+    def __init__(self, w_lb=0.0, w_ub=1.0, cp=0.0, cs=0.0, logging=True, sample="IN"):
         # set constants
         self.eta = 1 / 252
         self.cp, self.cs = cp, cs
         self.logging = logging
+        self.sample = sample
 
         # get data, set problem size
         self.num_time_periods, self.universe_size = self.get_data()

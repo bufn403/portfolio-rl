@@ -231,8 +231,6 @@ class MPT(AbstractPortfolioEnv):
     self.observation_space = gym.spaces.Box(low=-3000, high=3000, shape=(5, 5, 5, 5), dtype=np.float32)
   
 
-  # @jax.jit
-  # TODO: either jax jit or torch jit this
   def __compute_state(self) -> np.ndarray:
     """
     Technical indicators and correlations data just before day t
