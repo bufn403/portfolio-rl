@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 *.zip
+=======
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+*.zip
+>>>>>>> a63efb6a6f344e935c3a6fc4c36f0542ac7f781a
