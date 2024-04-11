@@ -20,6 +20,12 @@
 \contentsline {section}{\numberline {2.1}Reinforcement Learning Overview}{8}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Markov Decision Process}{8}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}RL Terminology}{8}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Differential Sharpe Ratio}{9}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Transaction Costs}{10}{section.2.3}%
-\contentsline {chapter}{Bibliography}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.2}Policy Gradient Methods}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Deterministic Policy Gradient}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Trust Region Optimization}{9}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}State Spaces}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Volatility-Augmented State Spaces}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Tensor Decompositions and Modern Portfolio Theory}{10}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Differential Sharpe Ratio}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Transaction Costs}{11}{section.2.5}%
+\contentsline {chapter}{Bibliography}{13}{section.2.5}%
