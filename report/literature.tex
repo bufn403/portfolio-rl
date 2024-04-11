@@ -33,8 +33,8 @@ For custom reward functions, it may not be necessary or even desireable; we incl
 
 Given a policy $\pi: S \to A$, we define the value function $V^\pi: S \to \R$ and the $Q$-function $Q^\pi: S \times A \to \R$ as
 \begin{align*}
-  V^\pi(s) = \E_\pi\left[ \sum_{t=0}^\infty \gamma^t R_t \:|\: s_0 = s  \right] &&
-  Q^\pi(s, a) = \E_\pi\left[  \sum_{t=0}^\infty \gamma^t R_t \:|\: s_0 = s, a_0 = a \right]
+  V^\pi(s) = \E_\pi\left[ \sum_{t=0}^\infty \gamma^t R_t \:\Big|\: s_0 = s  \right] &&
+  Q^\pi(s, a) = \E_\pi\left[  \sum_{t=0}^\infty \gamma^t R_t \:\Big|\: s_0 = s, a_0 = a \right]
 \end{align*}
 $V^\pi(s)$ is the expected utility from starting at $s$ and following policy $\pi$, and $Q^\pi(s, a)$ is the expected utility
 from starting at $s$, taking action $a$, and then following policy $\pi$ thereafter.
@@ -52,10 +52,11 @@ Based on this model, it then attempts to directly maximize the total expected re
 In model-free RL, the agent does not attempt to model the environment, but instead attempts to learn either the value function or $Q$-function.
 Once it has one of these, it can derive an optimal policy from it as:
 \begin{align*}
-  \pi^*(s) = \arg\max_a Q^*(s, a) \arg\max_a \sum_{s'} T(s, a, s')\left[ R(s, a) + \gamma V^*(s')\right]
+  \pi^*(s) = \arg\max_a Q^*(s, a) = \arg\max_a \sum_{s'} T(s, a, s')\left[ R(s, a) + \gamma V^*(s')\right]
 \end{align*}
 We proceed with model-free RL in this project.
 
+<<<<<<< HEAD
 \section{Policy Gradient Methods}
 
 \subsection{Deterministic Policy Gradient}
@@ -100,9 +101,33 @@ returns.
 \subsection{Tensor Decompositions and Modern Portfolio Theory}
 
 \cite{drl_modern_portfolio_theory} 
+=======
+\subsection{Specialization to Our Application}
+
+In the portfolio optimization setting, our RL agent seeks to produce an optimal set of portfolio weights given all the information it knows.
+Assume that there are $n$ tradeable stocks in our universe, and one risk-free asset.
+The action space $A = \left\{a \in \R^{n+1} \:|\: \sum_i a_i = 1\right\}$ is the set of all possible portfolio weights.
+
+The state space $S$ encompasses all information available to the agent when it is asked to make a portfolio allocation decision at a given time.
+Depending on what information is provided, this could include past performance of the strategy, historical stock prices, encoded news information for
+select/all tickers in the universe, or some combination of these. For most of the scenarios we consider, $S \in \R^{n \times N}$ is a matrix, where
+each row corresponds to a different stock ticker, and along that row we find the past few weeks of historical price data as well as some
+aggregate of news sentiment indicators/scores.
+
+The transition function $T$ is a delta function since state transitions are deterministic.
+The environment uses the weights provided by the agent to reallocate the portfolio, computes the new portfolio value,
+and reads in new historical stock data and news datapoints to form the next state (for the next time period) which is provided to the agent.
+(The exact for of $T$ is not needed; it is implicitly defined by the deterministic environment udpates.)
+
+The reward function $R$ should be such that it encourages the agent to produce good portfolio weights.
+One simple reward function is pure profit: $R(s_t, a_t)$ is how much profit is gained to portfolio allocation $a_t$ during time interval $[t, t+1)$.
+Another possible reward function is the Differential Sharpe ratio (as described in section \ref{diff_sharpe_ratio_section}), which urges the agent to make portfolio allocations to maximize its total Sharpe ratio. 
+
+>>>>>>> origin/main
 
 
 \section{Differential Sharpe Ratio}
+\label{diff_sharpe_ratio_section}
 
 \cite{drl_mvo} utilizes the Differential Sharpe Ratio to implement and evaluate a reinforcement learning agent.
 The Differential Sharpe Ratio is based on Portfolio Management Theory, and is developed in the author' previous works \cite{diff_sharpe_ratio_paper} and \cite{diff_sharpe_ratio_book}.
@@ -204,7 +229,7 @@ from $p_t' w_{0,t}'$ to $p_t w_{0,t}$, is used to purchase assets according to t
 Let $c_p \in [0, 1)$ be the commision rate for purchasing. Equating the amount of money available from selling/cash and the amount of money
 used for purchasing assets yields
 \begin{align*}
-  (1-c_p)\left[ w_{0,t}' - mu_t w_{0,t} + (1-c_s) p_t' \sum_{i=1}^m (w_{i,t}' - \mu_t w_{i,t})^+ \right] = p_t'\sum_{i=1}^m (\mu_t w_{i,t} - w_{i,t}')+
+  (1-c_p)\left[ w_{0,t}' - \mu_t w_{0,t} + (1-c_s) p_t' \sum_{i=1}^m (w_{i,t}' - \mu_t w_{i,t})^+ \right] = p_t'\sum_{i=1}^m (\mu_t w_{i,t} - w_{i,t}')+
 \end{align*}
 Moving terms around and simplifying the ReLU expressions, we find that $\mu_t$ is a fixed-point of the function $f$ defined as:
 \begin{align*}
