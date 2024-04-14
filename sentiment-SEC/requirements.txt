@@ -1,0 +1,6 @@
+sec-edgar-downloader
+pandas
+numpy
+nltk
+pysentiment2
+bs4
