@@ -1,0 +1,1716 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ MztlwLU5ro3AmsSOom8x/2LE1E2hSl6T3BGiXFW6xONHL2JND/bRqaq51fJVThcn
+ 1nP4R604YEhmjAr89njohA==
+
+<SEC-DOCUMENT>0000912057-01-004642.txt : 20010213
+<SEC-HEADER>0000912057-01-004642.hdr.sgml : 20010213
+ACCESSION NUMBER:		0000912057-01-004642
+CONFORMED SUBMISSION TYPE:	10-Q
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20001230
+FILED AS OF DATE:		20010212
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			APPLE COMPUTER INC
+		CENTRAL INDEX KEY:			0000320193
+		STANDARD INDUSTRIAL CLASSIFICATION:	ELECTRONIC COMPUTERS [3571]
+		IRS NUMBER:				942404110
+		STATE OF INCORPORATION:			CA
+		FISCAL YEAR END:			0930
+
+	FILING VALUES:
+		FORM TYPE:		10-Q
+		SEC ACT:		
+		SEC FILE NUMBER:	000-10030
+		FILM NUMBER:		1534347
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1 INFINITE LOOP
+		CITY:			CUPERTINO
+		STATE:			CA
+		ZIP:			95014
+		BUSINESS PHONE:		4089961010
+
+	MAIL ADDRESS:	
+		STREET 1:		ONE INFINITE LOOP
+		CITY:			CUPERTINO
+		STATE:			CA
+		ZIP:			95014
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>10-Q
+<SEQUENCE>1
+<FILENAME>a2038036z10-q.txt
+<DESCRIPTION>10-Q
+<TEXT>
+
+<PAGE>
+
+                                  UNITED STATES
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+
+                                -----------------
+
+                                    FORM 10-Q
+
+                                -----------------
+
+                                   (MARK ONE)
+
+     X     QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+     -                 SECURITIES EXCHANGE ACT OF 1934
+
+     -         For the quarterly period ended December 30, 2000 OR
+            TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+               For the transition period from _______ to ________.
+
+                         Commission file number 0-10030
+
+                                   -----------
+
+                              APPLE COMPUTER, INC.
+             (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+
+                                   -----------
+
+                CALIFORNIA                                942404110
+      (STATE OR OTHER JURISDICTION          (I.R.S. EMPLOYER IDENTIFICATION NO.)
+    OF INCORPORATION OR ORGANIZATION)
+             1 Infinite Loop
+          Cupertino, California                             95014
+(ADDRESS OF PRINCIPAL EXECUTIVE OFFICES)                 (ZIP CODE)
+
+       REGISTRANT'S TELEPHONE NUMBER, INCLUDING AREA CODE: (408) 996-1010
+
+        Securities registered pursuant to Section 12(b) of the Act: None
+
+           Securities registered pursuant to Section 12(g) of the Act:
+                           Common Stock, no par value
+                          Common Share Purchase Rights
+                               (Titles of classes)
+
+                                   -----------
+
+Indicate by check mark whether the Registrant (1) has filed all reports required
+ to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934
+  during the preceding 12 months (or for such shorter period that the Registrant
+   was required to file such reports), and (2) has been subject to such filing
+    requirements for the past 90 days.
+
+                                    Yes  X  No
+                                        ---     ---
+
+346,028,976 shares of Common Stock Issued and Outstanding as of January 30, 2001
+
+
+<PAGE>
+
+PART I. FINANCIAL INFORMATION
+
+ITEM 1. FINANCIAL STATEMENTS
+
+                              APPLE COMPUTER, INC.
+
+           CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)
+                (in millions, except share and per share amounts)
+
+<TABLE>
+<CAPTION>
+                                                                                 Three Months Ended
+                                                                                 ------------------
+                                                                      December 30, 2000       January 1, 2000
+                                                                      -----------------       ---------------
+<S>                                                                             <C>                   <C>
+Net sales                                                                        $1,007                $2,343
+Cost of sales                                                                     1,028                 1,736
+                                                                              ---------             ---------
+   Gross margin                                                                     (21)                  607
+                                                                              ---------             ---------
+Operating expenses:
+   Research and development                                                         102                    90
+   Selling, general, and administrative                                             297                   319
+   Special charges:
+        Executive bonus                                                              --                    90
+        Restructuring costs                                                          --                     8
+                                                                              ---------             ---------
+               Total operating expenses                                             399                   507
+                                                                              ---------             ---------
+Operating income (loss)                                                            (420)                  100
+
+Gains from sales of investments                                                      71                   134
+Unrealized loss on convertible securities                                           (13)                   --
+Interest and other income, net                                                       67                    40
+                                                                              ---------             ---------
+   Total interest and other income, net                                             125                   174
+                                                                              ---------             ---------
+Income (loss) before provision (benefit) for income taxes                          (295)                  274
+
+Provision (benefit) for income taxes                                                (88)                   91
+                                                                              ---------             ---------
+
+Income (loss) before accounting change                                             (207)                  183
+
+Cumulative effect of accounting change, net of income taxes of $5                    12                    --
+                                                                              ---------             ---------
+
+Net income (loss)                                                                $ (195)               $  183
+                                                                              =========             =========
+Earnings (loss) per common share before accounting change:
+   Basic                                                                         $(0.61)               $ 0.57
+   Diluted                                                                       $(0.61)               $ 0.51
+
+
+Earnings (loss) per common share after accounting change:
+   Basic                                                                         $(0.58)               $ 0.57
+   Diluted                                                                       $(0.58)               $ 0.51
+
+
+Shares used in computing earnings (loss) per share (in thousands):
+   Basic                                                                        337,170               322,077
+   Diluted                                                                      337,170               356,834
+</TABLE>
+
+
+     See accompanying notes to condensed consolidated financial statements.
+
+
+                                        2
+
+<PAGE>
+
+
+                              APPLE COMPUTER, INC.
+
+                CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)
+                       (in millions, except share amounts)
+
+                                     ASSETS:
+
+<TABLE>
+<CAPTION>
+                                                                                December 30, 2000      September 30, 2000
+                                                                                -----------------      ------------------
+<S>                                                                                       <C>                     <C>
+Current assets:
+   Cash and cash equivalents                                                               $1,737                  $1,191
+   Short-term investments                                                                   2,328                   2,836
+   Accounts receivable, less allowances of $61 and $64, respectively                          441                     953
+   Inventories                                                                                 21                      33
+   Deferred tax assets                                                                        231                     162
+   Other current assets                                                                       168                     252
+                                                                                           ------                  ------
+        Total current assets                                                                4,926                   5,427
+
+Property, plant and equipment, net                                                            325                     313
+Non-current debt and equity investments                                                       447                     786
+Other assets                                                                                  288                     277
+                                                                                           ------                  ------
+        Total assets                                                                       $5,986                  $6,803
+                                                                                           ======                  ======
+
+
+
+                              LIABILITIES AND SHAREHOLDERS' EQUITY:
+
+Current liabilities:
+   Accounts payable                                                                        $  637                  $1,157
+   Accrued expenses                                                                         1,000                     776
+                                                                                           ------                  ------
+        Total current liabilities                                                           1,637                   1,933
+
+Long-term debt                                                                                311                     300
+Deferred tax liabilities                                                                      326                     463
+                                                                                           ------                  ------
+        Total liabilities                                                                   2,274                   2,696
+                                                                                           ------                  ------
+
+Commitments and contingencies
+
+Shareholders' equity:
+   Series A non-voting convertible preferred stock, no par value; 150,000
+   shares authorized, 3,300 and 75,750 issued and outstanding,
+   respectively                                                                                 3                      76
+   Common stock, no par value; 900,000,000 shares authorized;
+   345,307,408 and 335,676,889 shares issued and outstanding,
+   respectively                                                                             1,578                   1,502
+   Retained earnings                                                                        2,090                   2,285
+   Accumulated other comprehensive income                                                      41                     244
+                                                                                           ------                  ------
+        Total shareholders' equity                                                          3,712                   4,107
+                                                                                           ------                  ------
+        Total liabilities and shareholders' equity                                         $5,986                  $6,803
+                                                                                           ======                  ======
+</TABLE>
+
+
+     See accompanying notes to condensed consolidated financial statements.
+
+
+                                        3
+
+<PAGE>
+
+
+                              APPLE COMPUTER, INC.
+
+           CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)
+                                  (in millions)
+
+<TABLE>
+<CAPTION>
+                                                                                             Three Months Ended
+                                                                                             ------------------
+                                                                                  December 30, 2000         January 1, 2000
+                                                                                  -----------------         ---------------
+<S>                                                                                        <C>                     <C>
+Cash and cash equivalents, beginning of the period                                          $ 1,191                 $ 1,326
+                                                                                            -------                 -------
+Operating:
+Net income (loss)                                                                              (195)                    183
+Cumulative effect of accounting change, net of taxes                                            (12)                     --
+Adjustments to reconcile net income to cash generated (used) by operating
+   activities:
+   Depreciation and amortization                                                                 24                      20
+   Provision for deferred income taxes                                                          (92)                     64
+   Loss on sale of property, plant, and equipment                                                --                       3
+   Gains from sales of investments                                                              (71)                   (134)
+   Unrealized loss on convertible securities                                                     13                      --
+Changes in operating assets and liabilities:
+   Accounts receivable                                                                          512                    (211)
+   Inventories                                                                                   12                       5
+   Other current assets                                                                         116                       4
+   Other assets                                                                                 (16)                      3
+   Accounts payable                                                                            (520)                    362
+   Other current liabilities                                                                    216                      74
+                                                                                            -------                 -------
+
+      Cash generated by (used for) operating activities                                         (13)                    373
+                                                                                            -------                 -------
+Investing:
+Purchase of short-term investments                                                             (634)                   (693)
+Proceeds from maturities of short-term investments                                            1,142                     519
+Purchase of long-term investments                                                                (1)                     --
+Purchase of property, plant, and equipment                                                      (22)                    (38)
+Proceeds from sales of equity investments                                                        74                     136
+Other                                                                                            (3)                    (13)
+                                                                                            -------                 -------
+      Cash generated by (used for) investing activities                                         556                     (89)
+                                                                                            -------                 -------
+Financing:
+Proceeds from issuance of common stock                                                            3                      17
+Cash used for repurchase of common stock                                                         --                     (41)
+                                                                                            -------                 -------
+      Cash generated by (used for) financing activities                                           3                     (24)
+                                                                                            -------                 -------
+Increase  in cash and cash equivalents                                                          546                     260
+                                                                                            -------                 -------
+Cash and cash equivalents, end of the period                                                $ 1,737                 $ 1,586
+                                                                                            =======                 =======
+
+
+
+Supplemental cash flow disclosures:
+   Cash paid for interest                                                                   $    --                 $    --
+   Cash paid for income taxes, net                                                          $     9                 $     8
+   Noncash transactions:
+         Issuance of common stock for conversion of Series A Preferred Stock                $    73                 $    --
+</TABLE>
+
+
+     See accompanying notes to condensed consolidated financial statements.
+
+                                        4
+
+<PAGE>
+
+                              APPLE COMPUTER, INC.
+
+        Notes to Condensed Consolidated Financial Statements (Unaudited)
+
+NOTE 1 - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+BASIS OF PRESENTATION AND PREPARATION
+
+Interim information is unaudited; however, in the opinion of the Company's
+management, all adjustments of a normal recurring nature necessary for a fair
+statement of interim periods presented have been included. The results for
+interim periods are not necessarily indicative of results to be expected for the
+entire year. These condensed consolidated financial statements and accompanying
+notes should be read in conjunction with the Company's annual consolidated
+financial statements and the notes thereto for the fiscal year ended September
+30, 2000, included in its Annual Report on Form 10-K for the year ended
+September 30, 2000 (the 2000 Form 10-K). Approximately every six years, the
+Company reports a 53-week fiscal year to align its fiscal quarters with calendar
+quarters by adding a week to its first fiscal quarter. Consequently, an
+additional week was added to the first quarter of fiscal 2000.
+
+DERIVATIVE FINANCIAL INSTRUMENTS
+
+On October 1, 2000, the Company adopted Statement of Financial Accounting
+Standards (SFAS) No. 133, "Accounting for Derivative Instruments and Hedging
+Activities." SFAS No. 133 establishes accounting and reporting standards for
+derivative instruments, hedging activities, and exposure definition. SFAS No.
+133 requires that all derivatives be recognized as either assets or
+liabilities at fair value. Derivatives that are not hedges must be adjusted
+to fair value through income. If the derivative is a hedge, depending on the
+nature of the hedge, changes in fair value will either be offset against the
+change in fair value of the hedged assets, liabilities, or firm commitments
+through earnings, or recognized in other comprehensive income until the
+hedged item is recognized in earnings. Net of the related income tax effect
+of approximately $5 million, adoption of SFAS No. 133 resulted in a favorable
+cumulative-effect-type adjustment to net income of approximately $12 million.
+Net of the related income tax effect of approximately $5 million, adoption of
+SFAS No. 133 resulted in a favorable cumulative-effect-type adjustment to
+other comprehensive income of approximately $12 million, all of which is
+expected to be reclassified to earnings by the end of the third quarter of
+fiscal 2001. Management does not believe that ongoing application of SFAS No.
+133 will significantly alter the Company's hedging strategies. However, its
+application may increase the volatility of other income and expense and other
+comprehensive income.
+
+For derivative instruments that hedge the exposure of variability in expected
+future cash flows that is attributable to a particular risk and that are
+designated as cash flow hedges, the effective portion of the net gain or loss
+on the derivative instrument is reported as a component of other
+comprehensive income in stockholders' equity and reclassified into earnings
+in the same period or periods during which the hedged transaction affects
+earnings. The remaining net gain or loss on the derivative instrument in
+excess of the cumulative change in the present value of the future cash flows
+on the hedged item, if any, is recognized in current earnings. For derivative
+instruments that hedge the exposure to changes in the fair value of an asset
+or a liability or an identified portion thereof that is attributable to a
+particular risk and that are designated as fair value hedges, the net gain or
+loss on the derivative instrument as well as the offsetting gain or loss on
+the hedged item attributable to the hedged risk are recognized in earnings in
+the current period. The net gain or loss on a derivative instrument that is
+designated as, and is effective as, an economic hedge of the foreign currency
+translation exposure of the net investment in a foreign operation is reported
+in the same manner as a foreign currency translation adjustment to the extent
+it is effective as a hedge. For derivative instruments not designated as
+hedging instruments, changes in fair value are recognized in earnings in the
+current period.
+
+For foreign currency forward contracts designated as cash flow hedges, hedge
+effectiveness is measured based on changes in the fair value of the contract
+attributable to changes in the forward exchange rate. Changes in the expected
+future cash flows on the forecasted hedged transaction and changes in the fair
+value of the forward hedge are both measured from the contract rate to the
+forward exchange rate associated with the forward contract's maturity date.
+
+
+                                        5
+
+<PAGE>
+
+For currency option contracts, hedge effectiveness is assessed based on changes
+in the option's intrinsic value. Apple defines intrinsic value as the present
+value of the gain or loss on the option contract calculated from the option's
+strike price to the forward rate associated with the option's cash settlement
+date. Hedge effectiveness is assessed by comparing the present value of the
+cumulative change in expected future cash flows on the forecasted hedged
+transaction attributable to the hedged risk with the cumulative change in the
+intrinsic value of the option. Changes in the expected future cash flows on the
+forecasted transaction and changes in the intrinsic value of the option hedge
+are both measured from the option strike price to the forward exchange rate.
+Changes in fair value of the option contract attributable to time value are
+excluded from the measurement of hedge effectiveness and are recognized in
+current earnings. For interest rate swap agreements qualifying as fair value
+hedges, the Company assumes no ineffectiveness as each interest rate swap meets
+the criteria for accounting under the short-cut method defined in SFAS No. 133.
+
+RECENT ACCOUNTING PRONOUNCEMENTS
+
+In December 1999, the Securities and Exchange Commission issued Staff
+Accounting Bulletin (SAB) No. 101, "Revenue Recognition in Financial
+Statements." SAB No. 101, as amended, summarizes certain of the SEC's views
+in applying generally accepted accounting principles to revenue recognition
+in financial statements and provides guidance on revenue recognition issues
+in the absence of authoritative literature addressing a specific arrangement
+or a specific industry. The Company adopted SAB No. 101 in the first quarter
+of fiscal year 2001. Adoption of this guidance did not have a material impact
+on the Company's financial position or results of operations.
+
+NOTE 2 - EARNINGS PER SHARE
+
+Basic earnings per share is computed by dividing income available to common
+shareholders by the weighted-average number of shares of common stock
+outstanding during the period. Diluted earnings per share is computed by
+dividing income available to common shareholders by the weighted-average number
+of shares of common stock outstanding during the period increased to include the
+number of additional common shares that would have been outstanding if dilutive
+potential common shares had been issued. The dilutive effect of outstanding
+options is reflected in diluted earnings per share by application of the
+treasury stock method. The dilutive effect of convertible securities is
+reflected using the if-converted method. Common stock options and convertible
+preferred stock were not included in the computation of diluted loss per share
+in the first quarter of 2001 as their effect was antidilutive. On June 21, 2000,
+the Company effected a two-for-one stock split in the form of a Common Stock
+dividend to shareholders of record as of May 19, 2000. All per share data and
+numbers of Common shares have been retroactively adjusted to reflect the stock
+split.
+
+                                        6
+
+<PAGE>
+
+
+The following table sets forth the computation of basic and diluted earnings
+(loss) per share (in thousands, except net income (loss) and per share amounts):
+
+<TABLE>
+<CAPTION>
+
+                                                                                         FOR THE THREE MONTHS ENDED
+                                                                                      -------------------------------
+                                                                                       12/30/00                1/1/00
+                                                                                       --------                ------
+<S>                                                                                   <C>                   <C>
+          Numerator (in millions):
+            Net income (loss)                                                          $   (195)             $    183
+                                                                                       --------              --------
+          Denominator:
+            Denominator for basic earnings (loss) per share -- weighted-
+             average shares outstanding                                                 337,170               322,077
+            Effect of dilutive securities:
+             Convertible preferred stock                                                     --                18,182
+             Dilutive options                                                                --                16,575
+                                                                                       --------              --------
+            Dilutive potential common shares                                                 --                34,757
+                                                                                       --------              --------
+
+            Denominator for diluted earnings (loss) per share                           337,170               356,834
+                                                                                       ========              ========
+
+          Basic earnings (loss) per share before accounting change                     $  (0.61)             $   0.57
+          Cumulative effect of accounting change, net of tax                           $   0.03              $     --
+                                                                                       --------              --------
+          Basic earnings (loss) per share after accounting change                      $  (0.58)             $   0.57
+                                                                                       ========              ========
+
+          Diluted earnings (loss) per share before accounting change                   $  (0.61)             $   0.51
+          Cumulative effect of accounting change, net of tax                           $   0.03              $     --
+                                                                                       --------              --------
+          Diluted earnings (loss) per share after accounting change                    $  (0.58)             $   0.51
+                                                                                       ========              ========
+</TABLE>
+
+Options to purchase approximately 14.8 million shares of common stock that were
+outstanding at January 1, 2000, were not included in the computation of diluted
+earnings per share for the first quarter of 2000 because the options' exercise
+price was greater than the average market price of the Company's common stock
+during this period and, therefore, the effect would be antidilutive. At December
+30, 2000, the Company had options to purchase approximately 90.6 million shares
+of its common stock outstanding, all of which were excluded from the computation
+of diluted loss per share for the first quarter of 2001 because the effect would
+have been antidilutive.
+
+                                        7
+
+
+<PAGE>
+
+
+NOTE 3 - CONSOLIDATED FINANCIAL STATEMENT DETAILS (IN MILLIONS)
+
+<TABLE>
+<CAPTION>
+INVENTORIES
+
+                                                                                 12/30/00                   9/30/00
+                                                                                 --------                   -------
+<S>                                                                              <C>                        <C>
+                Purchased parts                                                       $ 2                       $ 1
+                Work in process                                                         3                         2
+                Finished goods                                                         16                        30
+                                                                                 --------                   -------
+                Total inventories                                                     $21                       $33
+                                                                                 ========                   =======
+
+PROPERTY, PLANT, AND EQUIPMENT
+
+                                                                                 12/30/00                   9/30/00
+                                                                                 --------                   -------
+                Land and buildings                                                  $ 332                     $ 324
+                Machinery and equipment                                               190                       185
+                Office furniture and equipment                                         63                        60
+                Leasehold improvements                                                129                       131
+                Accumulated depreciation and amortization                            (389)                     (387)
+                                                                                 --------                   -------
+                Net property, plant, and equipment                                  $ 325                     $ 313
+                                                                                 ========                   =======
+
+ACCRUED EXPENSES
+
+                                                                                 12/30/00                   9/30/00
+                                                                                 --------                   -------
+                Accrued compensation and employee benefits                         $  182                    $  176
+                Accrued marketing and distribution                                    229                       149
+                Accrued warranty and related costs                                    101                       108
+                Other current liabilities                                             488                       343
+                                                                                 --------                   -------
+                Total accrued expenses                                             $1,000                    $  776
+                                                                                 ========                   =======
+
+INTEREST AND OTHER INCOME, NET
+
+                                                                                         THREE MONTHS ENDED
+                                                                                 ----------------------------------
+                                                                                 12/30/00                    1/1/00
+                                                                                 --------                   -------
+                Interest income                                                      $ 64                      $ 47
+                Interest expense                                                       (5)                       (5)
+                Other income (expense), net                                             8                        (2)
+                                                                                 --------                   -------
+                Interest and other income (expense), net                             $ 67                      $ 40
+                                                                                 ========                   =======
+</TABLE>
+
+NOTE 4 - NON-CURRENT DEBT AND EQUITY INVESTMENTS AND OTHER STRATEGIC INVESTMENTS
+
+The Company holds significant investments in ARM Holdings plc (ARM), Akamai
+Technologies, Inc. (Akamai) and EarthLink Network, Inc. (EarthLink). These
+investments are reflected in the consolidated balance sheets as non-current debt
+and equity investments and have been categorized as available-for-sale requiring
+that they be carried at fair value with unrealized gains and losses, net of
+taxes, reported in equity as a component of accumulated other comprehensive
+income. If it is determined that a decline in value of any of these investments
+is other than temporary, then the investment's basis would be written down to
+fair value, and the write down would be included in earnings as a loss. All
+realized gains on the sale of these investments have been included in other
+income. The Company believes it is likely there will be significant fluctuations
+in the fair value of these investments in the future.
+
+The Company has additional minority debt and equity investments of approximately
+$34 million in several privately held technology companies. These investments,
+which are reflected in the consolidated balance sheets in other assets, are
+inherently risky because the products of these companies may be under
+development and/or because the markets for the technologies or products these
+companies have under development are typically in the early stages of
+development.
+
+                                        8
+
+<PAGE>
+
+ARM HOLDINGS
+
+ARM is a publicly held company in the United Kingdom involved in the design and
+licensing of high performance microprocessors and related technology. As of
+September 30, 2000, the Company held 34.8 million shares of ARM stock with a
+fair value of $383 million. During the first quarter of 2001, the Company sold
+approximately 3.8 million shares of ARM stock for net proceeds of approximately
+$35 million and a gain before taxes of $35 million. As of December 30, 2000, the
+Company holds 31 million shares of ARM stock with a fair value of $234 million.
+
+AKAMAI
+
+In June 1999, the Company invested $12.5 million in Akamai, a global Internet
+content delivery service. The investment was in the form of convertible
+preferred stock that converted into 4.1 million shares of Akamai common stock
+(adjusted for subsequent stock splits) at the time of Akamai's initial public
+offering in October 1999. Beginning in the first quarter of 2000, the Company
+categorized its shares in Akamai as available-for-sale. The fair value of the
+Company's investment in Akamai was approximately $216 million as of September
+30, 2000. During the first quarter of 2001, the Company sold 1 million shares of
+Akamai stock for net proceeds of approximately $39 million and a gain before
+taxes of approximately $36 million. As of December 30, 2000, the Company holds
+approximately 3.1 million shares of Akamai stock with a fair value of
+approximately $66 million.
+
+EARTHLINK
+
+In January 2000, the Company invested $200 million in EarthLink, an Internet
+service provider (ISP). The investment is in EarthLink's Series C Convertible
+Preferred Stock, which is convertible by the Company after January 4, 2001, into
+approximately 7.1 million shares of EarthLink common stock. Concurrent with this
+investment, EarthLink and the Company entered into a multi-year agreement to
+deliver ISP service to Macintosh users in the United States. Under the terms of
+the agreement, the Company profits from each new Mac customer that subscribes to
+EarthLink's ISP service for a specified period of time, and EarthLink is the
+default ISP in Apple's Internet Setup Software included with all Macintosh
+computers sold in the United States. The fair value of the Company's investment
+in EarthLink was approximately $36 million as of December 30, 2000.
+
+SAMSUNG
+
+During the fourth quarter of 1999, the Company invested $100 million in Samsung
+Electronics Co., Ltd. (Samsung), to assist in the further expansion of Samsung's
+TFT-LCD flat-panel display production capacity. The investment, in the form of
+three year unsecured bonds, is convertible into approximately 550,000 shares of
+Samsung common stock beginning in July 2000. The bonds carry an annual coupon
+rate of 2% and pay a total yield to maturity of 5% if redeemed at their
+maturity. This investment is reflected in the consolidated balance sheets as a
+non-current debt and equity investment.
+
+The Company categorizes its investment in Samsung as available-for-sale
+requiring that it be carried at fair value with unrealized gains and losses, net
+of taxes, reported in equity as a component of accumulated other comprehensive
+income. With the adoption of SFAS No. 133 on October 1, 2000, the Company is
+required to account for the conversion option embedded in the Samsung bonds
+separately from the related debt. The conversion feature is carried at fair
+value with any changes in fair value recognized in earnings in the period in
+which they occur. Included in the $17 million gross SFAS No. 133 transition
+adjustment recorded in earnings was a $23 million favorable adjustment for the
+restatement to fair value as of October 1, 2000, of the derivative component of
+the Company's investment in Samsung. To adjust the carrying value of the
+derivative component of its investment in Samsung to fair value as of December
+30, 2000, the Company recognized an unrealized loss of approximately $13 million
+during the first quarter of 2001. The Company believes it is likely there will
+be significant fluctuations in the fair value of the embedded conversion option
+of this investment in the future.
+
+                                        9
+
+<PAGE>
+
+NOTE 5 - SHAREHOLDER'S EQUITY
+
+STOCK REPURCHASE PLAN
+
+In July 1999, the Company's Board of Directors authorized a plan for the Company
+to repurchase up to $500 million of its common stock. This repurchase plan does
+not obligate the Company to acquire any specific number of shares or acquire
+shares over any specified period of time. During 2000, the Company repurchased a
+total of 2.55 million shares of its common stock at a cost of $116 million. No
+shares were repurchased in the first quarter of 2001. Since inception of the
+plan, the Company has repurchased a total of 5.05 million shares of its common
+stock at a cost of $191 million.
+
+PREFERRED STOCK
+
+In August 1997, the Company and Microsoft Corporation (Microsoft) entered into
+patent cross licensing and technology agreements. In addition, Microsoft
+purchased 150,000 shares of Apple Series A nonvoting convertible preferred stock
+("preferred stock") for $150 million. Upon any sale of the preferred stock by
+Microsoft, the shares will automatically be converted into shares of Apple
+common stock at a conversion price of $8.25 per share, and the shares can be
+converted at Microsoft's option at such price after August 5, 2000. On September
+15, 2000, 74,250 shares of preferred stock were converted to 9 million shares of
+the Company's common stock. In the first quarter of 2001, an additional 72,400
+shares of preferred stock were converted to 8.8 million shares of the Company's
+common stock.
+
+NOTE 6 - DERIVATIVE FINANCIAL INSTRUMENTS
+
+The Company uses derivatives to partially offset its business exposure to
+currency and interest rate risk. Forward and option contracts are used to offset
+the foreign exchange risk on certain existing assets and liabilities and to
+hedge the foreign exchange risk of future cash flows on certain forecasted
+revenues and cost of sales. From time to time, the Company enters into interest
+rate swap agreements to modify the interest rate profile of certain investments
+and debt. The Company's accounting policies for these instruments are based on
+whether the instruments are designated as hedge or non-hedge instruments. The
+Company records all derivatives on the balance sheet at fair value.
+
+FOREIGN EXCHANGE RISK MANAGEMENT
+
+The Company enters into foreign exchange forward and option contracts with
+financial institutions primarily to protect against currency exchange risk
+associated with expected future cash flows, existing assets and liabilities, and
+certain firmly committed transactions. Generally, the Company's practice is to
+hedge a majority of its existing material foreign exchange transaction
+exposures. However, the Company may not hedge certain foreign exchange
+transaction exposures due to immateriality, prohibitive economic cost of hedging
+particular exposures, and availability of appropriate hedging instruments.
+
+
+                                       10
+
+
+
+<PAGE>
+
+In accordance with SFAS No. 133, hedges related to anticipated transactions are
+designated and documented at hedge inception as cash flow hedges and evaluated
+for hedge effectiveness quarterly. For currency forward contracts, hedge
+effectiveness is measured based on changes in the fair value of the contract
+attributable to changes in the forward exchange rate. Changes in the expected
+future cash flows on the forecasted hedged transaction and changes in the fair
+value of the forward hedge are both measured from the contract rate to the
+forward exchange rate associated with the forward contract's maturity date. For
+currency option contracts, hedge effectiveness is measured based on changes in
+the option's intrinsic value. Apple defines intrinsic value as the present value
+of the gain or loss on the option contract calculated from the option's strike
+price to the forward rate associated with the option's cash settlement date.
+Hedge effectiveness is assessed by comparing the present value of the cumulative
+change in expected future cash flows on the forecasted transaction attributable
+to the hedged risk with the cumulative change in the intrinsic value of the
+option. Changes in the expected future cash flows on the forecasted transaction
+and changes in the intrinsic value of the option hedge are both measured from
+the option strike price to the forward exchange rate. Changes in fair value of
+the option contract attributable to time value are excluded from the measurement
+of hedge effectiveness and are recognized in current earnings. The effective
+portions of the net gains or losses on derivative instruments are reported as
+components of other comprehensive income in stockholders' equity and
+reclassified into earnings in the same period or periods during which the hedged
+transaction affects earnings. Any residual changes in fair value of the
+instruments, including option time value or ineffectiveness are recognized in
+current earnings in interest and other income and expense.
+
+To protect gross margins from fluctuations in foreign currency exchange rates,
+the Company's U.S. dollar functional subsidiaries hedge a portion of forecasted
+foreign currency revenues, and the Company's non-U.S. dollar functional
+subsidiaries selling in foreign currencies hedge a portion of forecasted
+inventory purchases not denominated in the subsidiaries' functional currency.
+Other comprehensive income associated with hedges of foreign currency sales is
+recognized as a component of net sales in the same period as the related sales
+are recognized, and other comprehensive income related to inventory purchases is
+recognized as a component of cost of sales in the same period as the related
+costs are recognized. Typically, the Company hedges portions of its forecasted
+foreign currency exposure associated with revenues and inventory purchases over
+a time horizon of 3 to 9 months.
+
+The Company also enters into foreign currency forward and option contracts to
+offset the foreign exchange gains and losses generated by the remeasurement of
+certain recorded assets and liabilities in non-functional currencies. Changes in
+the fair value of these derivatives are recognized in current earnings in
+interest and other income as offsets to the changes in the fair value of the
+related assets or liabilities.
+
+The Company may enter into foreign currency forward contracts to offset the
+translation and economic exposure of a net investment position in a foreign
+subsidiary. Hedge effectiveness on forwards designated as net investment
+hedges is measured based on changes in the fair value of the contract
+attributable to changes in the spot exchange rate. The effective portion of
+the net gain or loss on a derivative instrument designated as a hedge of the
+net investment position in a foreign subsidiary is reported in the same
+manner as a foreign currency translation adjustment. Any residual changes in
+fair value of the forward contract, including changes in fair value based on
+the differential between the spot and forward exchange rates are recognized
+in current earnings in interest and other income and expense. For the quarter
+ended December 30, 2000, the Company recorded a net favorable adjustment of
+$4.0 million in the accumulated translation adjustment for derivatives
+designated as net investment hedges.
+
+                                       11
+
+<PAGE>
+
+As discussed above, the Company enters into foreign currency option contracts as
+designated cash flow hedges and, sometimes, as items which provide an offset to
+the remeasurement of certain recorded assets and liabilities denominated in
+non-functional currencies. All changes in the fair value of these derivative
+contracts based on changes in option time value are recorded in current earnings
+in interest and other income and expense. Due to market movements, changes in
+option time value can lead to increased volatility in other income and expense.
+For the quarter ended December 30, 2000, the Company recorded a net loss of $7.5
+million in interest and other income related to adjusting to fair value the
+change in time value of outstanding option contracts.
+
+Derivative instruments designated as cash flow hedges must be de-designated as
+hedges when it is probable that the forecasted hedged transaction will not occur
+in the initially identified time period. Deferred gains and losses in other
+comprehensive income associated with such derivative instruments are immediately
+reclassified into earnings in interest and other income. Any subsequent changes
+in fair value of such derivative instruments are also reflected in current
+earnings unless they are re-designated as hedges of other transactions. During
+the first quarter of 2001, the Company recorded a net gain of $5.1 million in
+interest and other income related to the loss of hedge designation on
+discontinued cash flow hedges due to changes in the Company's forecast of future
+net sales and cost of sales.
+
+INTEREST RATE RISK MANAGEMENT
+
+The Company sometimes enters into interest rate derivative transactions,
+including interest rate swaps, collars, and floors, with financial institutions
+in order to better match the Company's floating-rate interest income on its cash
+equivalents and short-term investments with its fixed-rate interest expense on
+its long-term debt, and/or to diversify a portion of the Company's exposure away
+from fluctuations in short-term U.S. interest rates. The Company may also enter
+into interest rate contracts that are intended to reduce the cost of the
+interest rate risk management program. The Company assumes no ineffectiveness
+with regard to the debt swaps as each interest rate swap meets the criteria for
+accounting under the short-cut method defined in SFAS No. 133 for fair value
+hedges of debt instruments. Accordingly, no net gains or losses were recorded in
+income relative to the Company's underlying debt and interest rate swaps. The
+Company's asset swaps do not qualify for hedge accounting treatment and are
+recorded at fair value on the balance sheet with associated gains and losses
+recorded in interest and other income. Included in the transition adjustment for
+SFAS No. 133 was an unfavorable adjustment before tax of approximately $5.7
+million that adjusted the asset swaps to fair value as of October 1, 2000. For
+the quarter ended December 30, 2000, the Company recorded a before tax gain on
+the asset swaps of approximately $3.8 million.
+
+DERIVATIVE ACTIVITY IN ACCUMULATED OTHER COMPREHENSIVE INCOME
+
+As of December 30, 2000, the Company had a net deferred gain associated with
+cash flow hedges of approximately $13 million net of taxes, all of which is
+expected to be reclassified to earnings by the end of the third quarter of
+fiscal 2001. The following table summarizes activity in other comprehensive
+income related to derivatives, net of taxes, held by the Company during the
+period from October 1, 2000 through December 30, 2000 (in millions):
+
+<TABLE>
+<CAPTION>
+
+<S>                                                      <C>
+Cumulative effect of adopting SFAS No. 133               $ 12
+Changes in fair value of derivatives                       11
+Gains reclassified from OCI                               (10)
+                                                         ----
+Accumulated derivative gain                              $ 13
+                                                         ====
+</TABLE>
+
+                               12
+
+<PAGE>
+
+NOTE 7 - COMPREHENSIVE INCOME
+
+Comprehensive income is comprised of two components, net income and other
+comprehensive income. Other comprehensive income refers to revenue, expenses,
+gains and losses that under generally accepted accounting principles are
+recorded as an element of shareholders' equity but are excluded from net
+income. The Company's other comprehensive income is comprised of foreign
+currency translation adjustments from those subsidiaries not using the U.S.
+dollar as their functional currency, changes in fair value of derivatives
+designated as and effective as cash flow hedges, and unrealized gains and
+losses, net of taxes, on marketable securities categorized as
+available-for-sale. Refer to "Note 4 - Non-Current Debt and Equity
+Investments and Other Strategic Investments" for additional information
+regarding unrealized gains and losses on available-for-sale securities and
+"Note 6 - Derivative Financial Instruments" regarding accounting for
+derivative financial instruments. The components of comprehensive income, net
+of tax, are as follows (in millions):
+
+<TABLE>
+<CAPTION>
+
+                                                                       FOR THE THREE MONTHS ENDED
+                                                                    -------------------------------
+                                                                    12/30/00                 1/1/00
+                                                                    --------                -------
+<S>                                                                 <C>                     <C>
+Net income (loss)                                                    $  (195)               $   183
+Other comprehensive income:
+   Change in unrealized gain on derivative instruments                    13                     --
+   Change in accumulated translation adjustment                            3                     (1)
+   Unrealized gains (losses) on investments                             (153)                 1,233
+   Reclassification adjustment for investment gains
+        included in net income                                           (66)                  (101)
+                                                                     -------                -------
+
+Total comprehensive income                                           $  (398)               $ 1,314
+                                                                     =======                =======
+</TABLE>
+
+NOTE 8 - SPECIAL CHARGES
+
+RESTRUCTURING ACTIONS
+
+During the first quarter of 2000, the Company initiated restructuring actions
+resulting in recognition of an $8 million restructuring charge. This charge was
+comprised of $3 million for the write-off of various operating assets and $5
+million for severance payments to approximately 95 employees associated with
+consolidation of various domestic and international sales and marketing
+functions. Of the $5 million accrued for severance, $2.5 million had been spent
+by September 30, 2000, and an additional $1 million was spent in the first
+quarter of 2001. Of the $3 million accrued for the write-off of various assets,
+substantially all was utilized by the end of the second quarter of 2000.
+
+EXECUTIVE BONUS
+
+During the first quarter of 2000, the Company's Board of Directors approved a
+special executive bonus for the Company's Chief Executive Officer for past
+services in the form of an aircraft with a total cost to the company of
+approximately $90 million, the majority of which is not tax deductible.
+Approximately half of the total charge is the cost of the aircraft. The other
+half represents all other costs and taxes associated with the bonus. This
+executive bonus has been presented outside selling, general, and administrative
+expenses as a special charge.
+
+NOTE 9 - SEGMENT INFORMATION AND GEOGRAPHIC DATA
+
+The Company manages its business primarily on a geographic basis. The Company's
+reportable segments are comprised of the Americas, Europe, and Japan. The
+Americas segment includes both North and South America. The European segment
+includes European countries as well as the Middle East and Africa. Other
+operating segments include Asia-Pacific, which includes Australia and Asia
+except for Japan, and the Company's subsidiary, Filemaker, Inc. Each reportable
+operating segment provides similar products and services, and the accounting
+policies of the various segments are the same as those described in the 2000
+Form 10-K.
+
+
+                                       13
+
+<PAGE>
+
+The Company evaluates the performance of its operating segments based on net
+sales and operating income. Operating income for each segment includes revenue,
+cost of sales, and operating expenses directly attributable to the segment. Net
+sales are based on the location of the customers. Operating income for each
+segment excludes other income and expense and certain expenses that are managed
+outside the reportable segment. Costs excluded from segment operating income
+include various corporate expenses, income taxes, and nonrecurring charges for
+purchased in-process research and development, restructuring, and acquisition
+related costs. Corporate expenses include research and development,
+manufacturing expenses not included in segment cost of sales, corporate
+marketing expenses, and other separately managed general and administrative
+expenses. The Company does not include intercompany transfers between segments
+for management reporting purposes. Summary information by segment follows (in
+millions):
+
+<TABLE>
+<CAPTION>
+                                                                    Three Months Ended
+                                                                  ----------------------
+                                                                  12/30/00        1/1/00
+                                                                  --------        ------
+<S>                                                               <C>             <C>
+
+          Americas:
+             Net sales                                              $  513        $1,189
+             Operating income (loss)                                $  (93)       $  166
+
+          Europe:
+             Net sales                                              $  326        $  626
+             Operating income (loss)                                $  (10)       $  114
+
+          Japan:
+             Net sales                                              $   84        $  412
+             Operating income (loss)                                $  (29)       $  114
+
+          Other Segments:
+             Net sales                                              $   84        $  116
+             Operating income                                       $   11        $   25
+</TABLE>
+
+A reconciliation of the Company's segment operating income to the condensed
+consolidated financial statements follows (in millions):
+
+<TABLE>
+<CAPTION>
+                                                                  12/30/00        1/1/00
+                                                                  --------        ------
+<S>                                                               <C>             <C>
+          Segment operating income (loss)                             (121)          419
+          Corporate expenses, net                                     (299)         (221)
+          Restructuring costs                                           --            (8)
+          Executive bonus                                               --           (90)
+                                                                  --------        ------
+             Total operating income (loss)                           $(420)        $ 100
+                                                                  ========        ======
+</TABLE>
+
+Information regarding net sales by product is as follows (in millions):
+
+<TABLE>
+<CAPTION>
+                                                                  12/30/00        1/1/00
+                                                                  --------        ------
+<S>                                                               <C>             <C>
+          Power Macintosh                                           $  267        $  707
+          PowerBook                                                     84           212
+          G4 Cube                                                       14            --
+          iMac                                                         265           795
+          iBook                                                        146           351
+          Software, service, and other net sales                       231           278
+                                                                  --------        ------
+             Total net sales                                        $1,007        $2,343
+                                                                  ========        ======
+</TABLE>
+
+
+                                       14
+
+<PAGE>
+
+
+NOTE 10 - CONTINGENCIES
+
+The Company is subject to various legal proceedings and claims that are
+discussed in detail in the 2000 Form 10-K. The Company is also subject to
+certain other legal proceedings and claims which have arisen in the ordinary
+course of business and which have not been fully adjudicated. The results of
+legal proceedings cannot be predicted with certainty; however, in the opinion of
+management, the Company does not have a potential liability related to any legal
+proceedings and claims that would have a material adverse effect on its
+financial condition or results of operations.
+
+The Internal Revenue Service (IRS) has proposed federal income tax deficiencies
+for the years 1984 through 1991, and the Company has made certain prepayments
+thereon. The Company contested the proposed deficiencies by filing petitions
+with the United States Tax Court, and most of the issues in dispute have now
+been resolved. On June 30, 1997, the IRS proposed income tax adjustments for the
+years 1992 through 1994. Although most of the issues for these years have been
+resolved, certain issues still remain in dispute and are being contested by the
+Company. Management believes adequate provision has been made for any
+adjustments that may result from tax examinations.
+
+
+                                       15
+
+<PAGE>
+
+ITEM 2. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS
+        OF OPERATIONS
+
+THIS SECTION AND OTHER PARTS OF THIS FORM 10-Q CONTAIN FORWARD-LOOKING
+STATEMENTS THAT INVOLVE RISKS AND UNCERTAINTIES. THE COMPANY'S ACTUAL RESULTS
+MAY DIFFER SIGNIFICANTLY FROM THE RESULTS DISCUSSED IN THE FORWARD-LOOKING
+STATEMENTS. FACTORS THAT MIGHT CAUSE SUCH DIFFERENCES INCLUDE, BUT ARE NOT
+LIMITED TO, THOSE DISCUSSED IN THE SUBSECTION ENTITLED "FACTORS THAT MAY AFFECT
+FUTURE RESULTS AND FINANCIAL CONDITION" BELOW. THE FOLLOWING DISCUSSION SHOULD
+BE READ IN CONJUNCTION WITH THE 2000 FORM 10-K AND THE CONDENSED CONSOLIDATED
+FINANCIAL STATEMENTS AND NOTES THERETO INCLUDED ELSEWHERE IN THIS FORM 10-Q. ALL
+INFORMATION IS BASED ON THE COMPANY'S FISCAL CALENDAR.
+
+RESULTS OF OPERATIONS
+
+Tabular information (dollars in millions, except per share amounts):
+
+<TABLE>
+<CAPTION>
+                                     --------------------------------------   --------------------------------------
+                                       FIRST         FIRST                      FIRST        FOURTH
+                                      QUARTER       QUARTER         CHANGE     QUARTER       QUARTER        CHANGE
+                                        2001          2000                       2001          2000
+                                     --------------------------------------   --------------------------------------
+<S>                                   <C>           <C>            <C>         <C>           <C>           <C>
+Net sales                             $ 1,007       $ 2,343          (57)%     $ 1,007       $ 1,870         (46)%
+   Macintosh CPU unit sales
+      (in thousands)                      659         1,377          (52)%         659         1,122         (41)%
+Gross margin                          $   (21)      $   607         (103)%     $   (21)      $   467        (104)%
+   Percentage of net sales               (2.1)%        25.9%                      (2.1)%        25.0%
+Research and development              $   102       $    90           13%      $   102       $   101           1%
+   Percentage of net sales                 10%            4%                        10%            5%
+Selling, general and
+   administrative                     $   297       $   319           (7)%     $   297       $   282           5%
+   Percentage of net sales                 29%           14%                        29%           15%
+Special Charges                       $    --       $    98           NM       $    --       $    --          NM
+Gains from sales of investments       $    71       $   134          (47)%     $    71       $    83         (14)%
+Unrealized loss on convertible
+   securities                         $   (13)      $    --           NM       $   (13)      $    --          NM
+Interest and other income, net        $    67       $    40           68%      $    67       $    62           8%
+Provision (benefit) for income
+   taxes                              $   (88)      $    91         (197)%     $   (88)      $    59        (249)%
+   Effective tax rate                      30%           33%                        30%           26%
+Net income (loss) before
+   accounting change                  $  (207)      $   183         (213)%     $  (207)      $   170        (222)%
+Effect of accounting change, net      $    12       $    --           NM       $    12       $    --          NM
+Net income (loss)                     $  (195)      $   183         (207)%     $  (195)      $   170        (215)%
+
+Basic earnings (loss) per share
+   before accounting change           $ (0.61)      $    --           NM       $ (0.61)      $    --          NM
+Diluted earnings (loss) per share
+   before accounting change           $ (0.61)      $    --           NM       $ (0.61)      $    --          NM
+Basic earnings (loss) per share       $ (0.58)      $  0.57         (202)%     $ (0.58)      $  0.52        (212)%
+Diluted earnings (loss) per share     $ (0.58)      $  0.51         (214)%     $ (0.58)      $  0.47        (223)%
+</TABLE>
+
+
+NM: Not Meaningful
+
+                                       16
+
+<PAGE>
+
+NET SALES
+
+Net sales for geographic operating segments and Macintosh unit sales by
+geographic segment and by product follow (net sales in millions and Macintosh
+unit sales in thousands):
+
+<TABLE>
+<CAPTION>
+                                            Three Months Ended   Yr-to-Yr   Three Months Ended   Sequential
+                                            -------------------             -------------------
+                                            12/30/00     1/1/00    Change   12/30/00    9/30/00    Change
+                                            --------     ------    ------   --------    -------    ------
+<S>                                         <C>          <C>       <C>      <C>         <C>        <C>
+Americas net sales                            $  513     $1,189     (57)%     $  513     $1,099     (53)%
+Europe net sales                              $  326     $  626     (48)%     $  326     $  369     (12)%
+Japan net sales                               $   84     $  412     (80)%     $   84     $  281     (70)%
+Asia Pacific net sales                        $   50     $   77     (35)%     $   50     $   86     (42)%
+
+
+Americas Macintosh unit sales                    329        708     (54)%        329        688     (52)%
+Europe Macintosh unit sales                      230        389     (41)%        230        224       3%
+Japan Macintosh unit sales                        61        235     (74)%         61        156     (61)%
+Asia Pacific Macintosh unit sales                 39         45     (13)%         39         54     (28)%
+                                            --------     ------             --------    -------
+     Total Macintosh unit sales                  659      1,377     (52)%        659      1,122     (41)%
+                                            ========     ======             ========    =======
+Power Macintosh unit sales                       173        355     (51)%        173        269     (36)%
+PowerBook unit sales                              49         84     (42)%         49         86     (43)%
+G4 Cube unit sales                                29         --      NM           29        107     (73)%
+iMac unit sales                                  308        702     (56)%        308        571     (46)%
+iBook unit sales                                 100        236     (58)%        100         89      12%
+                                            --------     ------             --------    -------
+     Total Macintosh unit sales                  659      1,377     (52)%        659      1,122     (41)%
+                                            ========     ======             ========    =======
+</TABLE>
+
+FIRST QUARTER FISCAL 2001
+
+Net sales decreased 57% to $1.007 billion in the first quarter of 2001
+compared to the same quarter in 2000 and decreased 46% from the fourth
+quarter of 2000. Both the year-over-year and sequential declines in net sales
+are attributable to several factors including continued deterioration in
+worldwide demand for personal computers and rebate programs and price cuts
+instituted by the Company during the quarter that negatively affected the
+Company's net sales for the quarter by approximately $138 million. In
+addition, the Company implemented a plan to reduce substantially the level of
+inventory in its distribution channels from the amounts at the end of fiscal
+2000 to more normal levels by the end of the first quarter of 2001. The
+Company ended fiscal 2000 with substantially more inventory in its
+distribution channels than planned due to the lower than expected
+sell-through of the Company's products during the fourth quarter of that
+year. The Company reduced channel inventory during the first quarter by
+approximately 300,000 units. These factors contributed to the 52%
+year-over-year decline in total Macintosh unit sales that were experienced
+across the Company's entire product line. These factors also reduced the
+average revenue per Macintosh unit shipped (a function of total net sales
+generated by hardware shipments and total Macintosh CPU unit sales) during
+the first quarter of 2001 to $1,476, a decline of approximately 12% from the
+same period in 2000.
+
+OUTLOOK
+
+For all of 2001, the Company anticipates net sales will decline as compared to
+2000 to approximately $6 billion. The Company currently expects that it will be
+profitable, before the effect of any investment gains, during each of the last
+three quarters of 2001.
+
+The foregoing statements concerning the Company's anticipated net sales for all
+of 2001 and profitability for the remainder of fiscal 2001 are forward-looking.
+The Company's actual results could differ. The Company's future operating
+results and financial condition are dependent upon general economic conditions,
+market conditions within the PC industry, and the Company's ability to
+successfully develop, manufacture, and market technologically innovative
+products in order to meet the dynamic conditions within the highly competitive
+market for personal computers. Some of the potential risks and uncertainties
+that could affect the Company's future operating results and financial condition
+are discussed throughout this Item 2, including the discussion under the heading
+"Factors That May Affect Future Results and Financial Condition."
+
+
+                                       17
+
+<PAGE>
+
+SEGMENT OPERATING PERFORMANCE
+
+The Company manages its business primarily on a geographic basis. The Company's
+reportable geographic segments include the Americas, Europe, and Japan. The
+Americas segment includes both North and South America. The European segment
+includes European countries as well as the Middle East and Africa. The Japan
+segment includes only Japan. Each geographic operating segment provides similar
+hardware and software products and similar services. Further information
+regarding the Company's operating segments may be found in this Form 10-Q in the
+Notes to Condensed Consolidated Financial Statements at Note 9, "Segment
+Information and Geographic Data."
+
+AMERICAS AND EUROPE
+
+The operating results of these two segments reflect the Company's overall
+results. Net sales in the Americas segment during the first quarter of fiscal
+2001 decreased $676 million or 57% compared to the same period in 2000.
+Macintosh unit sales in the Americas decreased 54% on a year-over-year basis.
+Net sales in the Europe segment decreased $300 million or 48% during the first
+quarter of 2001 as compared to the same quarter in 2000, while the segment's
+Macintosh unit sales decreased 41%. These two segments combined represent
+approximately 83% of the Company's total net sales during the first quarter of
+2001 and account for approximately $103 million of the Company's total operating
+loss for the first quarter of 2001.
+
+JAPAN
+
+Net sales in Japan declined 80% or $328 million and Macintosh unit sales
+declined 74% during the first quarter of 2001 as compared to the same quarter in
+2000. The Company's Japan segment was most impacted by the Company's plan to
+reduce channel inventory during the first quarter of 2001 which is reflected in
+the 91% decrease in unit sales of iMac in Japan during the first quarter of 2001
+compared to the same quarter in 2000.
+
+GROSS MARGIN
+
+Gross margin for the first quarter of 2001 was (2.1)% compared to 25.9% for the
+same quarter in 2000 and 25.0% for the fourth quarter of 2000. In addition to
+lower than normal net sales, margins were negatively impacted by the rebate
+programs and price cuts discussed above instituted by the Company during the
+first quarter that decreased revenue by approximately $138 million.
+Additionally, actual and forecasted declines in net sales caused the Company to
+recognize during the first quarter approximately $122 million of charges
+associated with purchase order cancellations and loss commitments for component
+purchases. Without these charges, gross margin for the first quarter of 2001
+would have been approximately 21%.
+
+There can be no assurance that historical or current gross margin will be
+maintained, targeted gross margin levels will be achieved, or current margins on
+existing individual products will be maintained. In general, gross margin and
+margins on individual products will remain under significant downward pressure
+due to a variety of factors, including continued industry wide global pricing
+pressures, increased competition, compressed product life cycles, potential
+increases in the cost and availability of raw material and outside manufacturing
+services, and potential changes to the Company's product mix, including higher
+unit sales of consumer products with lower average selling prices and lower
+gross margins. In response to these downward pressures, the Company expects it
+will continue to take pricing actions with respect to its products. Gross margin
+could also be affected by the Company's ability to effectively manage quality
+problems and warranty costs and to stimulate demand for certain of its products.
+The Company's operating strategy and pricing take into account anticipated
+changes in foreign currency exchange rates over time; however, the Company's
+results of operations can be significantly affected in the short term by
+fluctuations in exchange rates.
+
+OPERATING EXPENSES
+
+Selling, general and administrative expenses, excluding special charges,
+decreased $22 million or 7% during the first quarter of 2001 as compared to the
+same period in 2000. The decrease in selling, general and administrative
+expenses during the first quarter of 2001 is the result of lower variable
+selling and marketing expenses resulting from the year-over-year 57% decrease in
+net sales and due to lower discretionary spending on marketing and advertising.
+Expenditures for research and development increased 13% between the first
+quarter of fiscal 2001 and the same quarter in 2000 primarily as a result of
+increased spending in 2001 to support multiple new product manufacturing ramps
+and increased research and development headcount of approximately 8%.
+
+
+                                       18
+
+
+<PAGE>
+
+During the first quarter of fiscal 2000, the Company initiated restructuring
+actions resulting in recognition of an $8 million restructuring charge. This
+charge was comprised of $3 million for the write-off of various operating assets
+and $5 million for employee termination benefits associated with consolidation
+of various domestic and international sales and marketing functions. Of the $5
+million accrued for severance, $2.5 million had been spent by September 30,
+2000, and an additional $1 million was spent in the first quarter of 2001. Of
+the $3 million accrued for the write-off of various assets, substantially all
+was utilized by the end of the second quarter of 2000.
+
+In December 1999, the Company's Board of Directors approved a special executive
+bonus for the Company's Chief Executive Officer for past services in the form of
+an aircraft with a total cost to the company of approximately $90 million, the
+majority of which is not tax deductible. Approximately half of the total charge
+is the cost of the aircraft. The other half represents all other costs and taxes
+associated with the purchase.
+
+INTEREST AND OTHER INCOME (EXPENSE), NET
+
+Interest and other income and expense (net) increased $27 million or 68% to $67
+million during the first quarter of fiscal 2001 compared to the same quarter in
+2000. This increase is attributable primarily to two factors. First, interest
+income increased approximately $17 million or 36% between the first quarter of
+2001 and the same quarter in 2000 as a result of higher cash, cash equivalents,
+and short-term investment balances and due to an increase in the overall yield
+earned on the Company's investment portfolio. Second, net gains from foreign
+exchange and net gains classified in other income and expense associated with
+derivative instruments were approximately $10 million higher in the first
+quarter of 2001 compared to the same period in 2000. For the second half of
+fiscal 2001, the Company expects a moderate decline in net interest income as a
+result of declining market interest rates.
+
+During the first quarter of 2001, the Company sold 3.8 million shares of ARM
+stock for net proceeds of approximately $35 million and a gain before taxes of
+$35 million. During the first quarter of 2001, the Company also sold 1 million
+shares of Akamai stock for net proceeds of approximately $39 million and a gain
+before taxes of $36 million.
+
+On October 1, 2000, the Company adopted SFAS No. 133. SFAS No. 133 establishes
+accounting and reporting standards for derivative instruments, hedging
+activities, and exposure definition. Net of the related income tax effect of
+approximately $5 million, adoption of SFAS No. 133 resulted in favorable
+cumulative-effect-type adjustment to net income of approximately $12 million.
+The $17 million gross transition adjustment was comprised of a $23 million
+favorable adjustment for the restatement to fair value of the derivative
+component of the Company's investment in Samsung, partially offset by the
+unfavorable adjustments to certain foreign currency and interest rate
+derivatives. Management does not believe that adoption of SFAS No. 133 will
+significantly alter the Company's hedging strategies. However, its application
+may increase the volatility of other income and expense and other comprehensive
+income. SFAS No. 133 also requires the Company to adjust the carrying value of
+the derivative component of its investment in Samsung to earnings on a
+go-forward basis, the before tax effect of which during the first quarter of
+2001 was an unrealized loss of approximately $13 million.
+
+PROVISION FOR INCOME TAXES
+
+As of December 30, 2000, the Company had deferred tax assets arising from
+deductible temporary differences, tax losses, and tax credits of $612 million
+before being offset against certain deferred tax liabilities for presentation on
+the Company's balance sheet. This asset is generally realizable based on the
+ability to offset existing deferred tax liabilities. As of December 30, 2000, a
+valuation allowance of $30 million was recorded against the deferred tax asset
+for the benefits of tax losses that may not be realized. The valuation allowance
+relates principally to the operating loss carryforwards acquired from NeXT, the
+utilization of which is subject to certain limitations imposed by the Internal
+Revenue Code. The Company will continue to evaluate the realizability of the
+deferred tax assets quarterly by assessing the need for and amount of the
+valuation allowance.
+
+
+                                       19
+
+
+<PAGE>
+
+The Company's effective tax rate for the three months ended December 30, 2000,
+was approximately 30%. This effective rate is less than the statutory federal
+income tax rate of 35% due primarily to the reversal of a portion of the
+previously established valuation allowance for tax loss and credit carryforwards
+and certain undistributed foreign earnings for which no U.S. taxes will be
+provided. The Company's effective tax rate for the first quarter of 2000 was
+approximately 33% and includes the effect of the special executive bonus of $90
+million accrued during that quarter. The effective tax rate during the first
+quarter of 2000 without this charge was approximately 25%.
+
+THE COMPANY CURRENTLY BELIEVES THAT ITS EFFECTIVE TAX RATE FOR THE REMAINDER OF
+FISCAL 2001 WILL BE APPROXIMATELY 30%. THE FOREGOING-STATEMENTS ARE FORWARD-
+LOOKING. THE COMPANY'S ACTUAL RESULTS COULD DIFFER BECAUSE OF SEVERAL FACTORS,
+INCLUDING THOSE SET FORTH BELOW IN THE SUBSECTION ENTITLED "FACTORS THAT MAY
+AFFECT FUTURE RESULTS AND FINANCIAL CONDITION." ADDITIONALLY, THE ACTUAL FUTURE
+TAX RATE WILL BE SIGNIFICANTLY IMPACTED BY THE AMOUNT OF AND JURISDICTION IN
+WHICH THE COMPANY'S FOREIGN PROFITS ARE EARNED.
+
+
+                                       20
+
+
+<PAGE>
+
+LIQUIDITY AND CAPITAL RESOURCES
+
+The following table presents selected financial information and statistics for
+each of the fiscal quarters ending on the dates indicated (dollars in millions):
+
+<TABLE>
+<CAPTION>
+                                                        12/30/00        9/30/00        1/1/00
+                                                        --------        -------       -------
+<S>                                                     <C>             <C>           <C>
+Cash, cash equivalents, and short-term investments       $ 4,065        $ 4,027       $ 3,660
+Accounts receivable, net                                 $   441        $   953       $   892
+Inventory                                                $    21        $    33       $    15
+Working capital                                          $ 3,289        $ 3,494       $ 2,944
+Non-current debt and equity investments                  $   447        $   786       $ 2,140
+Long-term debt                                           $   311        $   300       $   300
+Days sales in accounts receivable (a)                         40             46            37
+Days of supply in inventory (b)                                2              2             1
+Days payables outstanding (c)                                 57             74            66
+Operating cash flow (quarterly)                          $   (13)       $   158       $   373
+</TABLE>
+
+   (a) Based on ending net trade receivables and most recent quarterly net sales
+       for each period
+   (b) Based on ending inventory and most recent quarterly cost of sales for
+       each period
+   (c) Based on ending accounts payable and most recent quarterly cost of sales
+       adjusted for the change in inventory
+
+As of December 30, 2000, the Company had $4.065 billion in cash, cash
+equivalents, and short-term investments, an increase of $38 million or 1% over
+the same balances at the end of fiscal 2000. For the first quarter of fiscal
+2001, the Company's primary source of cash was $556 million in cash flows from
+investing activities. Cash generated by investing activities consisted primarily
+of $1 billion in proceeds from the maturities of short-term investments and $74
+million in proceeds from the sale of ARM and Akamai shares. These sources of
+cash were partially offset by purchases of short-term investments for $634
+million. Cash used for operating activities was primarily from a net loss of
+$195 million and decreases in accounts payable partially offset by a decrease in
+accounts receivable and an increase in other current liabilities.
+
+In July 1999, the Company's Board of Directors authorized a plan for the Company
+to repurchase up to $500 million of its common stock. This repurchase plan does
+not obligate the Company to acquire any specific number of shares or acquire
+shares over any specified period of time. During 2000, the Company repurchased a
+total of 2.55 million shares of its common stock at a cost of $116 million. No
+shares were repurchased in the first quarter of 2001. Since inception of the
+plan, the Company has repurchased a total of 5.05 million shares of its common
+stock at a cost of $191 million.
+
+The Company believes its balances of cash, cash equivalents, and short-term
+investments will be sufficient to meet its cash requirements over the next
+twelve months, including any cash utilized by its stock repurchase plan.
+However, given the Company's current non-investment grade debt ratings (Standard
+and Poor's Rating Agency of BB and Moody's Investor Services of Ba2), if the
+Company should need to obtain short-term borrowings, there can be no assurance
+such borrowings could be obtained at favorable rates. The inability to obtain
+such borrowings at favorable rates could materially adversely affect the
+Company's results of operations, financial condition, and liquidity.
+
+NON-CURRENT DEBT AND EQUITY INVESTMENTS
+
+The Company holds significant investments in ARM Holdings plc (ARM), Samsung
+Electronics Co., Ltd. (Samsung), Akamai Technologies, Inc. (Akamai) and
+EarthLink Network, Inc. (EarthLink). These investments are carried at fair value
+in the consolidated balance sheets and are classified as non-current debt and
+equity investments. Any realized gains on the sale of these investments have
+been included in other income. The Company believes it is likely there will be
+significant fluctuations in the fair value of these investments in the future.
+Additional information related to the Company's non-current debt and equity
+investments may be found in this Form 10-Q in the Notes to Consolidated
+Financial Statements at Note 4, " Non-Current Debt and Equity Investments and
+Other Strategic Investments."
+
+
+                                       21
+
+
+<PAGE>
+
+FACTORS THAT MAY AFFECT FUTURE RESULTS AND FINANCIAL CONDITION
+
+The Company operates in a rapidly changing environment that involves a number of
+uncertainties, some of which are beyond the Company's control, that will affect
+the Company's future results and business and may cause the Company's actual
+results to differ from those currently expected. Therefore, past financial
+performance should not be considered to be a reliable indicator of future
+performance, and investors should not use historical trends to anticipate
+results or trends in future periods.
+
+The personal computer industry is highly competitive and is characterized by
+aggressive pricing practices, downward pressure on gross margins, frequent
+introduction of new products, short product life cycles, continual improvement
+in product price/performance characteristics, price sensitivity on the part of
+consumers, and a large number of competitors. The Company's results of
+operations and financial condition have been, and in the future may continue to
+be, adversely affected by industry wide pricing pressures and downward pressures
+on gross margins. The personal computer industry has also been characterized by
+rapid technological advances in software functionality, hardware performance,
+and features based on existing or emerging industry standards. Further, as the
+personal computer industry and its customers place more reliance on the
+Internet, an increasing number of Internet devices that are smaller and simpler
+than traditional personal computers may compete for market share with the
+Company's existing products. Several competitors of the Company have either
+targeted or announced their intention to target certain of the Company's key
+market segments, including consumer, education, and design and publishing.
+Additionally, several of the Company's competitors have introduced or announced
+plans to introduce products that mimic many of the unique design, technical
+features, and solutions of the Company's products. Many of the Company's
+competitors have greater financial, marketing, manufacturing, and technological
+resources, as well as broader product lines and larger installed customer bases
+than those of the Company. Additionally, the Company's future operating results
+and financial condition may be affected by overall demand for personal computers
+and general customer preferences for one platform over another or one set of
+product features over another.
+
+The Company is currently the only maker of hardware using the Mac OS. The Mac OS
+has a minority market share in the personal computer market, which is dominated
+by makers of computers utilizing Microsoft Windows operating systems. The
+Company's future operating results and financial condition are substantially
+dependent on its ability to continue to develop improvements to the Macintosh
+platform in order to maintain perceived design and functional advantages over
+competing platforms.
+
+Additional risks and uncertainties that could have an adverse impact on the
+Company's future operating results and financial condition include, among other
+things, continued or worsening worldwide and regional economic conditions, risks
+associated with product introductions and transitions, including the planned
+introduction of Mac OS X in 2001; risk that the Company will forecast
+incorrectly and produce or order from third parties excess or insufficient
+inventories of particular products; the Company's ability to supply products
+free of latent defects or other faults; increasing dependence on third-parties
+for manufacturing and other outsourced functions such as logistics; the
+availability of key components on terms acceptable to the Company; the
+availability of certain components and services essential to the Company's
+business currently obtained by the Company from sole or limited sources,
+including PowerPC RISC microprocessors developed by and obtained from IBM and
+Motorola and the final assembly of certain of the Company's products; the
+ability of the Company's suppliers to provide a sufficient supply of
+microprocessors with price/performance features that compare favorably with
+those supplied to the Company's competitors; the Company's ability to increase
+its share of the education market or maintain its existing share of the market;
+the continued viability of the Company's existing distribution channels; risks
+associated with international operations, including economic and labor
+conditions, regional economic problems, political instability, tax laws, and
+currency fluctuations; the continued support of third-party software developers
+and the continued availability of third-party software for particular
+applications; the future availability of any necessary patent or other rights to
+technology on commercially reasonable terms; fluctuations in the product,
+geographic, and channel mix of the Company's net sales; the Company's ability to
+attract, motivate and retain key employees; volatility in and/or impairment of
+the fair value of certain of the Company's minority debt and equity investments;
+managing the continuing impact of the European Union's transition to the Euro as
+its common legal currency; and continued volatility of the Company's stock
+price.
+
+For a discussion of these and other factors affecting the Company's future
+results and financial condition, see "Item 7 -- Management's Discussion and
+Analysis -- Factors That May Affect Future Results and Financial Condition" and
+"Item 1 - Business" in the Company's 2000 Form 10-K.
+
+                                       22
+
+<PAGE>
+
+ITEM 3. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+
+THE INFORMATION PRESENTED BELOW REGARDING MARKET RISK CONTAINS FORWARD-LOOKING
+STATEMENTS THAT ARE SUBJECT TO RISKS AND UNCERTAINTIES. THE COMPANY'S ACTUAL
+RESULTS MAY DIFFER SIGNIFICANTLY FROM THOSE DISCUSSED BELOW AND ELSEWHERE IN
+THIS FORM 10-Q REGARDING MARKET RISK. THE FOLLOWING DISCUSSION SHOULD BE READ IN
+CONJUNCTION WITH THE 2000 FORM 10-K AND THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS AND NOTES THERETO INCLUDED ELSEWHERE IN THIS FORM 10-Q.
+
+FOREIGN CURRENCY RISK
+
+Overall, the Company is a net receiver of currencies other than the U.S. dollar
+and, as such, benefits from a weaker dollar and is adversely affected by a
+stronger dollar relative to major currencies worldwide. Accordingly, changes in
+exchange rates, and in particular a strengthening of the U.S. dollar, may
+negatively affect the Company's net sales and gross margins as expressed in U.S.
+dollars.
+
+The Company enters into foreign exchange forward and option contracts with
+financial institutions primarily to protect against currency exchange risk
+associated with expected future cash flows, existing assets and liabilities,
+certain firmly committed transactions, and probable but not firmly committed
+transactions. Generally, the Company's practice is to hedge a majority of its
+existing material foreign exchange transaction exposures. However, the Company
+may not hedge certain foreign exchange transaction exposures due to
+immateriality, prohibitive economic cost of hedging particular exposures, and
+availability of appropriate hedging instruments. Foreign exchange forward
+contracts are carried at fair value in other current assets and liabilities.
+
+INTEREST RATE RISK
+
+The Company's exposure to market risk for changes in interest rates relates
+primarily to the Company's investments and long-term debt obligations and
+related derivative financial instruments. The Company places its investments
+with high credit quality issuers and, by policy, limits the amount of credit
+exposure to any one issuer. The Company's general policy is to limit the risk of
+principal loss and ensure the safety of invested funds by limiting market and
+credit risk. While the Company is exposed to interest rate fluctuations in many
+of the world's leading industrialized countries, the Company's interest income
+and expense is most sensitive to fluctuations in the general level of U.S.
+interest rates. In this regard, changes in U.S. interest rates affect the
+interest earned on the Company's cash, cash equivalents, and short-term
+investments as well as costs associated with foreign currency hedges.
+
+During the last two years, the Company has entered into interest rate swaps with
+financial institutions in order to better match the Company's floating-rate
+interest income on its cash equivalents and short-term investments with its
+fixed-rate interest expense on its long-term debt, and/or to diversify a portion
+of the Company's exposure away from fluctuations in short-term U.S. interest
+rates. The Company may also enter into interest rate contracts that are intended
+to reduce the cost of the interest rate risk management program. The Company
+does not hold or transact in such financial instruments for purposes other than
+risk management.
+
+RISK MANAGEMENT ACTIVITIES
+
+To ensure the adequacy and effectiveness of the Company's foreign exchange and
+interest rate hedge positions, as well as to monitor the risks and opportunities
+of the non-hedge portfolios, the Company continually monitors its foreign
+exchange forward and option positions, and its interest rate swap, option and
+floor positions both on a stand-alone basis and in conjunction with its
+underlying foreign currency and interest rate related exposures, respectively,
+from both an accounting and an economic perspective. However, given the
+effective horizons of the Company's risk management activities and the
+anticipatory nature of the exposures intended to hedge, there can be no
+assurance the aforementioned programs will offset more than a portion of the
+adverse financial impact resulting from unfavorable movements in either foreign
+exchange or interest rates. In addition, the timing of the accounting for
+recognition of gains and losses related to derivative instruments for any given
+period may not coincide with the timing of gains and losses related to the
+underlying economic exposures and, therefore, may adversely affect the Company's
+operating results and financial position.
+
+On October 1, 2000, the Company adopted SFAS No. 133. SFAS No. 133 establishes
+accounting and reporting standards for derivative instruments, hedging
+activities, and exposure definition. Management does not believe that adoption
+of or ongoing application of SFAS No. 133 will significantly alter the Company's
+hedging strategies. However, its application may increase the volatility of
+other income and expense and other comprehensive income.
+
+The Company's market risks at December 30, 2000, are not significantly different
+from those discussed "Item 7A. -Disclosures About Market Risk" in the Company's
+2000 Form 10-K. Also, refer to "Note 6 - Derivative Financial Instruments," of
+this Form 10-Q for additional discussion regarding the Company's market risks,
+its accounting for derivatives, and the impact of adoption of SFAS No. 133.
+
+
+                                       23
+
+
+<PAGE>
+
+PART II. OTHER INFORMATION
+
+ITEM 1. LEGAL PROCEEDINGS
+
+The Company is subject to various legal proceedings and claims which are
+discussed in the 2000 Form 10-K. The Company is also subject to certain other
+legal proceedings and claims that have arisen in the ordinary course of business
+and which have not been fully adjudicated. The results of legal proceedings
+cannot be predicted with certainty; however, in the opinion of management, the
+Company does not have a potential liability related to any legal proceedings and
+claims that would have a material adverse effect on its financial condition or
+results of operations.
+
+
+ITEM 6. EXHIBITS AND REPORTS ON FORM 8-K
+
+(a)  EXHIBITS
+
+None
+
+(b)     REPORTS ON FORM 8-K
+
+None
+
+
+                                       24
+
+
+
+<PAGE>
+
+
+
+                                   SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the
+Registrant has duly caused this report to be signed on its behalf by the
+undersigned, thereunto duly authorized.
+
+
+
+
+
+
+
+
+                              APPLE COMPUTER, INC.
+                                  (Registrant)
+
+
+
+
+
+
+
+
+                              By: /s/ Fred D. Anderson
+                                 ---------------------
+
+
+                                 Fred D. Anderson
+               Executive Vice President and Chief Financial Officer
+                                 February 12, 2001
+
+
+                                       25
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

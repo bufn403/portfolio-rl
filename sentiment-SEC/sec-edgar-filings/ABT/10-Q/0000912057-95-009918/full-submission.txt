@@ -1,0 +1,965 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ UKtcOKVfJHf1beluVbYAjGIJ4IOKxYhJ0zpJc3Cl99NtjKIwG5vE3TLnF767L9Eo
+ gtV+cUihjP0C6PLQ5Da5Yw==
+
+<SEC-DOCUMENT>0000912057-95-009918.txt : 19951119
+<SEC-HEADER>0000912057-95-009918.hdr.sgml : 19951119
+ACCESSION NUMBER:		0000912057-95-009918
+CONFORMED SUBMISSION TYPE:	10-Q
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	19950930
+FILED AS OF DATE:		19951114
+SROS:			NYSE
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ABBOTT LABORATORIES
+		CENTRAL INDEX KEY:			0000001800
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				360698440
+		STATE OF INCORPORATION:			IL
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		10-Q
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-02189
+		FILM NUMBER:		95591817
+
+	BUSINESS ADDRESS:	
+		STREET 1:		100 ABBOTT PARK ROAD
+		STREET 2:		D-322 AP6D
+		CITY:			ABBOTT PARK
+		STATE:			IL
+		ZIP:			60064-3500
+		BUSINESS PHONE:		(708)-937-6100
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>10-Q
+<SEQUENCE>1
+<DESCRIPTION>10-Q
+<TEXT>
+
+<PAGE>
+                                FORM 10-Q
+
+                   SECURITIES AND EXCHANGE COMMISSION
+
+                        WASHINGTON, D. C.  20549
+
+
+(Mark One)
+
+[X]   QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+               SECURITIES EXCHANGE ACT OF 1934
+
+For the quarterly period ended September 30, 1995
+
+                                    OR
+
+[ ]  TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+               SECURITIES EXCHANGE ACT OF 1934
+
+
+For the transition period from _______________ to _______________
+
+Commission File No. 1-2189
+
+
+                            ABBOTT LABORATORIES
+
+An Illinois Corporation                   I.R.S. Employer Identification
+                                                 No. 36-0698440
+
+
+                           100 Abbott Park Road
+                     Abbott Park, Illinois  60064-3500
+
+                        Telephone:  (708) 937-6l00
+
+
+Indicate by check mark whether the registrant (l) has filed all
+reports required to be filed by Section l3 or l5(d) of the
+Securities Exchange Act of l934 during the preceding l2 months
+(or for such shorter period that the registrant was required to
+file such reports), and (2) has been subject to such filing
+requirements for the past 90 days.         Yes  X  .  No     .
+
+As of October 31, 1995, the Corporation had 790,443,845 common
+shares without par value outstanding.
+
+<PAGE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         PART  1  FINANCIAL  INFORMATION
+
+                     ABBOTT  LABORATORIES  AND  SUBSIDIARIES
+
+                 CONDENSED  CONSOLIDATED  FINANCIAL  STATEMENTS
+
+                                   (UNAUDITED)
+
+
+
+
+
+
+
+<PAGE>
+
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                  CONDENSED CONSOLIDATED STATEMENT OF EARNINGS
+
+                                   (UNAUDITED)
+
+                  (Dollars in thousands except per share data)
+
+<TABLE>
+<CAPTION>
+
+                                                          THREE MONTHS ENDED               NINE MONTHS ENDED
+                                                              SEPTEMBER 30                     SEPTEMBER 30
+                                                       --------------------------       ---------------------------
+                                                          1995            1994             1995             1994
+                                                       ----------      ----------       ----------       ----------
+<S>                                                    <C>             <C>              <C>              <C>
+Net Sales. . . . . . . . . . . . . . . . . . . . .     $2,390,753      $2,254,817       $7,415,460       $6,674,095
+                                                       ----------      ----------       ----------       ----------
+
+Cost of products sold. . . . . . . . . . . . . . .      1,070,253       1,015,831        3,245,187        2,926,919
+Research and development . . . . . . . . . . . . .        255,829         239,390          790,364          711,176
+Selling, general and administrative. . . . . . . .        521,754         515,568        1,652,863        1,481,491
+                                                       ----------      ----------       ----------       ----------
+
+  Total Operating Cost and Expenses. . . . . . . .      1,847,836       1,770,789        5,688,414        5,119,586
+                                                       ----------      ----------       ----------       ----------
+
+Operating Earnings . . . . . . . . . . . . . . . .        542,917         484,028        1,727,046        1,554,509
+                                                       ----------      ----------       ----------       ----------
+
+Interest expense . . . . . . . . . . . . . . . . .         18,420          12,776           50,224           36,525
+Interest and dividend income . . . . . . . . . . .        (13,173)         (9,131)         (37,385)         (25,857)
+Other (income) expense, net. . . . . . . . . . . .         (4,246)        (21,535)         (21,020)         (19,204)
+                                                       ----------      ----------       ----------       ----------
+
+Earnings Before Taxes. . . . . . . . . . . . . . .        541,916         501,918        1,735,227        1,563,045
+
+Taxes on Earnings. . . . . . . . . . . . . . . . .        159,865         150,576          511,892          468,914
+                                                       ----------      ----------       ----------       ----------
+
+Net Earnings . . . . . . . . . . . . . . . . . . .     $  382,051      $  351,342       $1,223,335       $1,094,131
+                                                       ----------      ----------       ----------       ----------
+                                                       ----------      ----------       ----------       ----------
+
+Net Earnings Per Common Share. . . . . . . . . . .           $.48            $.43            $1.53            $1.34
+                                                       ----------      ----------       ----------       ----------
+                                                       ----------      ----------       ----------       ----------
+
+Cash Dividends Declared
+  Per Common Share . . . . . . . . . . . . . . . .           $.21            $.19             $.63             $.57
+                                                       ----------      ----------       ----------       ----------
+                                                       ----------      ----------       ----------       ----------
+
+</TABLE>
+
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+
+                                        2
+<PAGE>
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                      CONDENSED CONSOLIDATED BALANCE SHEET
+
+                             (Dollars in Thousands)
+
+<TABLE>
+<CAPTION>
+
+                                                                                   SEPTEMBER 30      DECEMBER 31
+                                                                                   -----------       -----------
+                                                                                       1995              1994
+                                                                                   -----------       -----------
+                                                                                   (unaudited)
+                                                               ASSETS
+
+Current Assets:
+<S>                                                                                <C>               <C>
+  Cash and cash equivalents. . . . . . . . . . . . . . . . . . . . . . . .         $   320,799       $   290,272
+  Investment securities. . . . . . . . . . . . . . . . . . . . . . . . . .              93,872            25,056
+  Trade Receivables, less allowances of $156,408 in 1995
+    and $128,929 in 1994 . . . . . . . . . . . . . . . . . . . . . . . . .           1,470,651         1,468,519
+  Inventories:
+    Finished products. . . . . . . . . . . . . . . . . . . . . . . . . . .             511,010           514,715
+    Work in process. . . . . . . . . . . . . . . . . . . . . . . . . . . .             259,939           218,643
+    Materials. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             280,397           284,833
+                                                                                   -----------       -----------
+       Total Inventories . . . . . . . . . . . . . . . . . . . . . . . . .           1,051,346         1,018,191
+
+  Prepaid income taxes . . . . . . . . . . . . . . . . . . . . . . . . . .             559,848           549,091
+
+  Other prepaid expenses and receivables . . . . . . . . . . . . . . . . .             580,983           525,199
+                                                                                   -----------       -----------
+       Total Current Assets. . . . . . . . . . . . . . . . . . . . . . . .           4,077,499         3,876,328
+                                                                                   -----------       -----------
+Investment Securities Maturing after One Year. . . . . . . . . . . . . . .             407,475           316,195
+                                                                                   -----------       -----------
+Property and Equipment, at Cost. . . . . . . . . . . . . . . . . . . . . .           7,621,574         7,053,604
+  Less: accumulated depreciation and amortization. . . . . . . . . . . . .           3,438,766         3,132,754
+                                                                                   -----------       -----------
+       Net Property and Equipment. . . . . . . . . . . . . . . . . . . . .           4,182,808         3,920,850
+
+Deferred Charges and Other Assets. . . . . . . . . . . . . . . . . . . . .             402,100           410,351
+                                                                                   -----------       -----------
+                                                                                   $ 9,069,882       $ 8,523,724
+                                                                                   -----------       -----------
+                                                                                   -----------       -----------
+
+                                              LIABILITIES AND SHAREHOLDERS' INVESTMENT
+
+Current Liabilities:
+  Short-term borrowings and current portion of long-term debt. . . . . . .         $   937,193       $   772,503
+  Trade accounts payable . . . . . . . . . . . . . . . . . . . . . . . . .             665,932           671,100
+  Salaries, income taxes, dividends payable, and other accruals. . . . . .           1,963,794         2,032,263
+                                                                                   -----------       -----------
+       Total Current Liabilities . . . . . . . . . . . . . . . . . . . . .           3,566,919         3,475,866
+                                                                                   -----------       -----------
+Long-Term Debt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             435,297           287,091
+                                                                                   -----------       -----------
+Other Liabilities and Deferrals. . . . . . . . . . . . . . . . . . . . . .             791,559           711,367
+                                                                                   -----------       -----------
+Shareholders' Investment:
+  Preferred shares, $1 par value
+    Authorized - 1,000,000 shares, none issued . . . . . . . . . . . . . .                  --                --
+  Common shares, without par value
+    Authorized - 1,200,000,000 shares
+    Issued at stated capital amount -
+       1995: 801,874,446 shares; 1994: 813,046,602 shares. . . . . . . . .             568,005           505,170
+
+Earnings employed in the business. . . . . . . . . . . . . . . . . . . . .           3,822,581         3,652,434
+
+Cumulative translation adjustments . . . . . . . . . . . . . . . . . . . .             (57,874)          (51,124)
+                                                                                   -----------       -----------
+                                                                                     4,332,712         4,106,480
+Less:
+Common shares held in treasury, at cost -
+  1995: 9,722,379 shares; 1994: 9,766,880 shares . . . . . . . . . . . . .              51,310            51,545
+
+Unearned compensation - restricted stock awards. . . . . . . . . . . . . .               5,295             5,535
+                                                                                   -----------       -----------
+       Total Shareholders' Investment. . . . . . . . . . . . . . . . . . .           4,276,107         4,049,400
+                                                                                   -----------       -----------
+                                                                                   $ 9,069,882       $ 8,523,724
+                                                                                   -----------       -----------
+                                                                                   -----------       -----------
+
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+
+                                        3
+<PAGE>
+
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                 CONDENSED CONSOLIDATED STATEMENT OF CASH FLOWS
+
+                                   (UNAUDITED)
+
+                             (Dollars in thousands)
+
+
+<TABLE>
+<CAPTION>
+
+                                                                      NINE MONTHS ENDED SEPTEMBER 30
+                                                                     ---------------------------------
+                                                                         1995                1994
+                                                                      ----------          ----------
+Cash Flow From (Used in) Operating Activities:
+<S>                                                                   <C>                 <C>
+    Net earnings . . . . . . . . . . . . . . . . . . . . . .          $1,223,335          $1,094,131
+    Adjustments to reconcile net earnings to
+      net cash from operating activities -
+    Depreciation and amortization. . . . . . . . . . . . . .             399,494             391,049
+    Trade receivables. . . . . . . . . . . . . . . . . . . .               5,039            (100,140)
+    Inventories. . . . . . . . . . . . . . . . . . . . . . .             (30,789)            (87,128)
+    Other, net . . . . . . . . . . . . . . . . . . . . . . .             (42,680)            322,531
+                                                                      ----------          ----------
+
+         Net Cash From Operating Activities. . . . . . . . .           1,554,399           1,620,443
+                                                                      ----------          ----------
+
+Cash Flow From (Used in) Investing Activities:
+
+    Acquisitions of property and equipment . . . . . . . . .            (698,881)           (689,270)
+    Investment securities transactions . . . . . . . . . . .            (160,778)            (83,754)
+    Other. . . . . . . . . . . . . . . . . . . . . . . . . .              17,239              21,425
+                                                                      ----------          ----------
+
+         Net Cash (Used in) Investing Activities . . . . . .            (842,420)           (751,599)
+                                                                      ----------          ----------
+
+Cash Flow From (Used in) Financing Activities:
+
+    Borrowing transactions . . . . . . . . . . . . . . . . .             299,834             (85,855)
+    Common share transactions. . . . . . . . . . . . . . . .            (490,873)           (413,802)
+    Dividends paid . . . . . . . . . . . . . . . . . . . . .            (487,309)           (448,899)
+                                                                      ----------          ----------
+
+         Net Cash (Used in) Financing Activities . . . . . .            (678,348)           (948,556)
+                                                                      ----------          ----------
+
+Effect of exchange rate changes on cash and
+    cash equivalents . . . . . . . . . . . . . . . . . . . .              (3,104)              1,067
+                                                                      ----------          ----------
+
+Net Increase (Decrease) in Cash and Cash Equivalents . . . .              30,527             (78,645)
+
+Cash and Cash Equivalents, Beginning of Year . . . . . . . .             290,272             300,676
+                                                                      ----------          ----------
+
+Cash and Cash Equivalents, End of Period . . . . . . . . . .           $ 320,799           $ 222,031
+                                                                      ----------          ----------
+                                                                      ----------          ----------
+
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+                                        4
+
+
+<PAGE>
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+              NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+
+                               SEPTEMBER 30, 1995
+
+                                   (UNAUDITED)
+
+NOTE 1 - BASIS OF PREPARATION:
+
+The accompanying unaudited, condensed consolidated financial statements have
+been prepared pursuant to rules and regulations of the Securities and Exchange
+Commission and, therefore, do not include all information and footnote
+disclosures normally included in audited financial statements.  However, in the
+opinion of management, all adjustments (which include only normal adjustments)
+necessary to present fairly the financial position, cash flows, and results of
+operations have been made.  It is suggested that these statements be read in
+conjunction with the financial statements included in the Company's Annual
+Report on Form 10-K for the year ended December 31, 1994.
+
+
+NOTE 2 - EARNINGS PER COMMON SHARE:
+
+Earnings per common share amounts are computed by using the weighted average
+number of common shares outstanding.  These shares averaged 797,321,000 for the
+nine months ended September 30, 1995 and 814,480,000 for the same period
+in 1994.
+
+
+NOTE 3 - TAXES ON EARNINGS:
+
+Taxes on earnings reflect the estimated annual effective tax rates.  The
+effective tax rates are less than the statutory U.S. Federal income tax rate
+principally due to tax incentive grants related to subsidiaries operating in
+Puerto Rico, the Dominican Republic, Italy, Ireland, and the Netherlands.
+
+
+                                        5
+<PAGE>
+
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+SEPTEMBER 30, 1995
+(Unaudited), Continued
+
+
+
+NOTE 4 - LITIGATION AND ENVIRONMENTAL MATTERS:
+
+The Company is involved in various claims and legal proceedings including
+numerous antitrust suits and investigations in connection with the sale and
+marketing of infant formula products and the pricing of prescription
+pharmaceuticals.
+
+In addition, the Company has been identified as a potentially responsible party
+for investigation and cleanup costs at a number of locations in the United
+States and Puerto Rico under Federal remediation laws and is voluntarily
+investigating potential contamination at a number of Company-owned locations.
+
+The matters above are discussed more fully in Item 1, Business - Environmental
+Matters, and Item 3, Legal Proceedings, in the Annual Report on Form 10-K, which
+is available upon request, and in Part II, Item 1, Legal Proceedings, in this
+Form.
+
+While it is not feasible to predict the outcome of such pending claims,
+proceedings, investigations and remediation activities with certainty,
+management is of the opinion that their ultimate disposition should not have a
+material adverse effect on the Company's financial position, cash flows, or
+results of operations.
+
+
+                                        6
+
+
+<PAGE>
+
+FINANCIAL REVIEW
+
+RESULTS OF OPERATIONS - THIRD QUARTER AND FIRST NINE MONTHS 1995 COMPARED WITH
+SAME PERIODS IN 1994
+
+Worldwide sales for the third quarter and first nine months increased
+6.0 percent and 11.1 percent, respectively, over the comparable 1994 periods.
+Net earnings increased 8.7 percent and 11.8 percent, respectively, in the third
+quarter and first nine months 1995.  Earnings per share increased 11.6 percent
+and 14.2 percent, respectively, in the third quarter and first nine months 1995.
+
+Gross profit margin (sales less cost of products sold, including freight and
+distribution expenses) was 55.2 percent for the 1995 third quarter, compared to
+54.9 percent for the third quarter of 1994.  Gross margin for the first nine
+months was 56.2 percent, compared to 56.1 percent a year earlier.  These
+increases are due to favorable product mix, primarily higher sales of
+pharmaceuticals, and productivity improvements; partially offset by higher
+project expenses for new products, higher excess capacity costs for anticipated
+unit growth, and the effects of inflation.
+
+Research and development expenses were $255.8 million and $790.4 million for the
+third quarter and first nine months 1995, respectively.  This represented
+10.7 percent of net sales for both the quarter and year-to-date period, compared
+to 10.6 percent and 10.7 percent in 1994.  The majority of research and
+development expenditures continues to be concentrated on pharmaceutical and
+diagnostic products.
+
+Selling, general and administrative expenses for the third quarter and first
+nine months 1995 increased 1.2 percent and 11.6 percent, respectively, over the
+comparable prior year periods, including the adverse effects of the relatively
+weaker U.S. dollar of 2.2 percent and 2.5 percent, respectively.  Selling,
+general, and administrative expenses also increased as a result of additional
+selling and marketing support for new and existing products, primarily in the
+pharmaceutical and nutritional segment, and was partially offset by lower third
+quarter litigation charges in 1995.  The nine month results reflect
+contributions to the Company's charitable foundation and charges against
+earnings for certain settled and pending litigation.
+
+Other (income) expense, net, includes net foreign exchange losses of
+$3.5 million and $19.0 million, respectively, for the third quarter and first
+nine months 1995 compared with net foreign exchange losses of $1.9 million and
+$29.5 million for the corresponding prior year periods.
+
+
+                                        7
+
+
+<PAGE>
+
+FINANCIAL REVIEW
+(Continued)
+
+
+INDUSTRY SEGMENTS
+
+Industry segment sales for the third quarter and first nine months 1995 and the
+related change from the comparable 1994 periods are shown in the table below.
+The Pharmaceutical and Nutritional Products segment includes a broad line of
+adult and pediatric pharmaceuticals and nutritionals, which are sold primarily
+on the prescription or recommendation of physicians or other health care
+professionals; consumer products; agricultural and chemical products; and bulk
+pharmaceuticals.  The Hospital and Laboratory Products segment includes
+diagnostic systems for blood banks, hospitals, commercial laboratories and
+alternate-care testing sites; intravenous and irrigation fluids and related
+administration equipment; drugs and drug delivery systems; anesthetics; critical
+care products; and other medical specialty products for hospitals and alternate-
+care sites.
+
+Domestic and international sales for the third quarter and first nine months
+1995 primarily reflect unit growth. International sales were favorably affected
+4.4 percent by the relatively weaker dollar in the third quarter.  On a year-to-
+date basis, international sales were favorably affected 5.7 percent by the
+relatively weaker U.S. dollar.
+
+<TABLE>
+<CAPTION>
+
+                                                       Third Quarter                        Nine Months
+- --------------------------------------------------------------------------------------------------------------
+SEGMENT SALES                                        1995           Percent             1995          Percent
+(in millions of dollars)                             Sales          Increase            Sales         Increase
+- --------------------------------------------------------------------------------------------------------------
+<S>                                                 <C>             <C>                <C>            <C>
+Pharmaceutical and Nutritional Products:
+Domestic                                            $  840.0            0.6            $2,715.2           10.1
+- --------------------------------------------------------------------------------------------------------------
+International                                          463.0           23.6             1,456.8           28.2
+- --------------------------------------------------------------------------------------------------------------
+                                                     1,303.0            7.7             4,172.0           15.8
+
+Hospital and Laboratory Products:
+Domestic                                               574.8            1.5             1,738.5            2.0
+- --------------------------------------------------------------------------------------------------------------
+International                                          513.0            7.1             1,505.0           10.1
+- --------------------------------------------------------------------------------------------------------------
+                                                     1,087.8            4.1             3,243.5            5.6
+
+Total All Segments:
+Domestic                                             1,414.8            1.0             4,453.7            6.8
+- --------------------------------------------------------------------------------------------------------------
+International                                          976.0           14.3             2,961.8           18.3
+- --------------------------------------------------------------------------------------------------------------
+                                                    $2,390.8            6.0            $7,415.5           11.1
+- --------------------------------------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------------------------------------
+
+</TABLE>
+
+
+
+                                        8
+<PAGE>
+
+FINANCIAL REVIEW
+(continued)
+
+
+LIQUIDITY AND CAPITAL RESOURCES AT SEPTEMBER 30, 1995
+COMPARED WITH DECEMBER 31, 1994
+
+Net cash from operating activities for the first nine months 1995 totaled
+$1.554 billion.  The Company expects annual cash flow from operating activities
+to continue to approximate or exceed the Company's capital expenditures and cash
+dividends.
+
+The Company has maintained its favorable bond ratings (AAA by Standard & Poor's
+Corporation and Aa1 by Moody's Investors Service) and continues to have readily
+available financial resources, including unused domestic lines of credit of
+$400 million at September 30, 1995.  These lines of credit support domestic
+commercial paper borrowing arrangements.
+
+During the first nine months 1995, the Company continued its program to purchase
+its common shares.  The Company purchased and retired 14,645,000 shares during
+this period at a cost of $553 million.  As of September 30, 1995, an additional
+18,725,000 shares may be purchased in future periods under authorization granted
+by the Board of Directors in September 1995.
+
+In May 1995, the Company issued $150 million in senior debt securities under a
+registration statement filed with the Securities and Exchange Commission in
+1993.  Net proceeds were used to retire short-term borrowings and for the
+purchase of the Company's common shares.  The Company may issue up to an
+additional $150 million of debt securities in the future under this registration
+statement.
+
+LEGISLATIVE ISSUES
+
+The Company's primary markets are highly competitive and subject to substantial
+government regulation.  The Company expects debate to continue during 1995 at
+both the federal and the state levels over the availability, method of
+delivery, and payment for health care products and services.  The Company
+believes that if legislation is enacted, it could have the effect of reducing
+prices, or reducing the rate of price increases, for health and medical
+insurance and medical products and services.  International operations are
+also subject to a significant degree of government regulation.  It is not
+possible to predict the extent to which the Company or the health care industry
+in general might be adversely affected by these factors in the future.  A more
+complete discussion of these factors is contained in Item 1, Business, in
+the Annual Report on Form 10-K, which is available upon request.
+
+
+                                        9
+
+
+
+<PAGE>
+
+PART II.       OTHER INFORMATION
+
+ITEM 1.        LEGAL PROCEEDINGS
+
+          The Company is involved in various claims and legal
+proceedings in connection with the Company's marketing of infant
+formula products including antitrust suits, governmental
+investigations, and one shareholder derivative suit, as described
+in the Company's Form 10-K for 1994 and its Form 10-Q for the
+quarters ended March 31 and June 30, 1995.  Their current status
+is described below.
+
+          The infant formula antitrust cases that were pending in federal
+courts in Alabama, Kentucky, Mississippi, Nevada, North Dakota, and
+Tennessee were remanded to state courts.  The Nevada and Tennessee cases
+were then dismissed by the state trial courts and are now on appeal.
+The case that had been pending in state court in Shelby County,
+Alabama was voluntarily dismissed.  The cases that were pending
+in state courts in Colorado, Florida, and North Carolina also
+have been dismissed by their trial courts and are now on appeal.
+The case that was pending in state court in the parish of West
+Baton Rouge, Louisiana has been removed to federal court in Baton
+Rouge, Louisiana.  On June 19, 1995, a jury in federal court in
+Los Angeles, California found in favor of the Company and the
+American Academy of Pediatrics in the infant formula antitrust
+case brought by Nestle Food Company ("Nestle").  Nestle has
+appealed this verdict.
+
+          Infant formula cases in state courts in Kansas and
+Wisconsin (2 cases) have been certified as state consumer class
+actions.  Class certification has been denied with respect to two
+of the infant formula cases pending in state courts in Michigan
+and Minnesota.  The plaintiffs in the Michigan case have appealed
+the denial of class certification.
+
+          On July 7, 1995, the Minnesota Attorney General brought suit
+against the Company and certain other infant formula manufacturers in state
+court in Minnesota alleging that the Company conspired with one or more of
+its competitors to fix prices for infant formula and to restrain trade and
+monopolize the market for infant formula products in violation of state
+antitrust laws.  The Minnesota Attorney General is seeking treble damages,
+statutory penalties, civil penalties, injunctive relief, attorneys' fees and
+costs and other relief.  The Company has filed a response denying all
+substantive allegations.  The Company has previously disclosed that the
+Minnesota Attorney General was conducting an investigation.  As of September
+30, 1995, 1 Canadian provincial and 5 other state investigations are pending.
+
+<PAGE>
+
+          As of September 30, 1995, in addition to the 5 infant
+formula antitrust cases that are on appeal in the state courts,
+16 cases are pending in state courts.  The cases are pending in
+Alabama (2 cases), Illinois, Kansas, Kentucky, Michigan,
+Minnesota (2 cases), Mississippi, North Dakota, South Dakota,
+Texas (2 cases), West Virginia, and Wisconsin (2 cases).  As of
+September 30, 1995, in addition to the infant formula antitrust
+case that is on appeal in the federal courts, a total of 3 cases
+are pending in federal district courts in Florida, Louisiana, and
+Massachusetts.  The shareholder derivative action is pending in state
+court in Cook County, Illinois.
+
+          The Company's 10-Q for the fiscal quarter ended June
+30, 1995 reported 122 antitrust suits in connection with the
+Company's pricing of prescription pharmaceuticals.  During the
+third quarter, the Company was served with 5 new antitrust suits
+regarding the Company's pricing of prescription pharmaceuticals.
+Two of these cases were consolidated in the litigation that is
+pending in federal court in Chicago, Illinois and is known as IN
+RE: BRAND NAME PRESCRIPTION DRUG ANTITRUST LITIGATION, MDL 997.
+The three other cases were filed in state court.  One was filed
+on July 5, 1995 in Alameda County, California on behalf of
+California consumers.  One was filed on August 8, 1995 in Yavapai
+County, Arizona on behalf of Arizona consumers.  The third was
+filed on July 13, 1995 in New York County, New York on behalf of
+New York consumers.  Each of these 3 cases purports to be a class
+action.  The cases allege that various pharmaceutical
+manufacturers have conspired to fix prices for prescription
+pharmaceuticals and/or to discriminate in pricing to retail
+pharmacies by providing discounts to mail-order pharmacies,
+institutional pharmacies and HMOs in violation of state and
+federal antitrust laws.  The suits have been brought on behalf of
+individuals and retail pharmacies and name both the Company and
+other pharmaceutical manufacturers as well as pharmaceutical
+wholesalers and at least one mail-order pharmacy company as
+defendants.  The plaintiffs in these cases seek treble damages in
+an unspecified amount, civil penalties, injunctive and other
+relief.  The Company has filed or intends to file a response to
+each of the complaints denying all substantive allegations.  The
+Company has previously disclosed that one of the cases which is
+pending in the MDL 997 litigation has been certified as a class
+action.  On August 16, 1995 the state court in San Francisco
+County, California certified a consumer class action on behalf of
+California consumers.  The defendants are appealing the
+certification.  In addition, an amended complaint has been filed
+in the state court case pending in Greene County, Alabama
+purporting to be a class action on behalf of Alabama retail
+pharmacists.  As of September 30, 1995, a total of 127 antitrust
+suits are pending in state and federal courts in connection with
+the Company's pricing of prescription pharmaceuticals.
+
+<PAGE>
+
+          On February 23, 1994, the United States Environmental
+Protection Agency ("USEPA") instituted a civil administrative
+proceeding by filing a complaint alleging that the Company burned
+hazardous waste at its North Chicago facility in violation of the
+Resource Conservation and Recovery Act ("RCRA").  On September
+29, 1995, the Company and the USEPA concluded the proceeding by
+executing a settlement agreement.  Under the settlement
+agreement, the Company does not admit liability but does agree to
+make a settlement payment of $182,654 to the USEPA and to spend
+at least $160,000 in equipment modifications at its North Chicago
+facility.
+
+          While it is not feasible to predict the outcome of such
+pending claims, proceedings, and investigations with certainty,
+management is of the opinion that their ultimate disposition
+should not have a material adverse effect on the Company's
+financial position, cash flows, or results of operations.
+
+
+ITEM 6.        EXHIBITS AND REPORTS ON FORM 8-K
+
+               (a)  Exhibits
+
+                    11.  Statement re:  computation of per share
+                         earnings - attached hereto.
+
+                    12.  Statement re:  computation of ratio of
+                         earnings to fixed charges - attached
+                         hereto.
+
+                    27.  Financial Data Schedule - attached
+                         hereto.
+
+               (b)  Reports on Form 8-K
+
+                   No reports on Form 8-K were filed during the
+                   quarter ended September 30, 1995.
+
+
+                          SIGNATURE
+
+          Pursuant to the requirements of the Securities Exchange
+Act of 1934, the registrant has duly caused this report to be
+signed on its behalf by the undersigned thereunto duly
+authorized.
+
+                                 ABBOTT LABORATORIES
+
+                                 /s/ Theodore A. Olson
+                                ---------------------------------
+Date:  November 13, 1995       Theodore A. Olson, Vice President
+                                and Controller (Principal
+                                Accounting Officer)
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-11
+<SEQUENCE>2
+<DESCRIPTION>EXHIBIT 11
+<TEXT>
+
+<PAGE>
+
+                                                                      EXHIBIT 11
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                 CALCULATION OF FULLY DILUTED EARNINGS PER SHARE
+
+            (Dollars and Shares in Millions Except Per Share Amounts)
+
+<TABLE>
+<CAPTION>
+
+                                                 NINE MONTHS ENDED SEPTEMBER 30
+                                                 ------------------------------
+                                                       1995             1994
+                                                 -----------        ----------
+<S>                                              <C>                <C>
+1.   Net earnings                                  $ 1,223.3         $ 1,094.1
+                                                   ---------         ---------
+2.   Average number of shares outstanding              797.3             814.5
+                                                   ---------         ---------
+3.   Earnings per share based upon average
+     outstanding shares (1 divided by 2)           $    1.53         $    1.34
+                                                   ---------         ---------
+                                                   ---------         ---------
+
+4.   Fully diluted earnings per share:
+
+  a. Stock options granted and outstanding for
+     which the market price at quarter-end
+     exceeds the option price                           30.0              18.1
+                                                   ---------         ---------
+                                                   ---------         ---------
+  b. Aggregate proceeds to the Company from
+     the exercise of options in 4.a.               $   828.1         $   321.7
+                                                   ---------         ---------
+                                                   ---------         ---------
+  c. Market price of the Company's common
+     stock at quarter-end                          $  42.625         $  31.375
+                                                   ---------         ---------
+                                                   ---------         ---------
+  d. Shares which could be repurchased
+     under the treasury stock
+     method (4.b. divided by 4.c.)                      19.4              10.3
+                                                   ---------         ---------
+                                                   ---------         ---------
+  e. Addition to average outstanding shares
+     (4.a. - 4.d.)                                      10.6               7.8
+                                                   ---------         ---------
+                                                   ---------         ---------
+  f. Shares for fully diluted earnings per
+     share calculation (2. + 4.e.)                     807.9             822.3
+                                                   ---------         ---------
+                                                   ---------         ---------
+  g. Fully diluted earnings per share
+     (1. divided by 4.f.)                          $    1.51         $    1.33
+                                                   ---------         ---------
+                                                   ---------         ---------
+</TABLE>
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-12
+<SEQUENCE>3
+<DESCRIPTION>EXHIBIT 12
+<TEXT>
+
+<PAGE>
+
+                                                                      EXHIBIT 12
+
+                               ABBOTT LABORATORIES
+
+                CALCULATION OF RATIO OF EARNINGS TO FIXED CHARGES
+
+                                   (Unaudited)
+
+
+                              (Millions of Dollars)
+
+
+<TABLE>
+<CAPTION>
+
+                                                              NINE MONTHS ENDED
+                                                             SEPTEMBER 30, 1995
+                                                             ------------------
+<S>                                                               <C>
+Net Earnings                                                      $   1,223
+
+  Add (deduct):
+     Income taxes                                                       512
+     Capitalized interest cost, net
+        of amortization                                                  (5)
+     Minority interest                                                   15
+                                                                  ---------
+     Net earnings as adjusted                                     $   1,745
+                                                                  ---------
+
+  Fixed Charges:
+     Interest on long-term and
+        short-term debt                                                  50
+     Capitalized interest cost                                           14
+     Rental expense representative
+     of an interest factor                                               19
+                                                                  ---------
+  Total Fixed Charges                                                    83
+                                                                  ---------
+  Total adjusted earnings available for
+     payment of fixed charges                                     $   1,828
+                                                                  ---------
+                                                                  ---------
+  Ratio of earnings to fixed charges                                   22.0
+                                                                  ---------
+                                                                  ---------
+
+</TABLE>
+
+
+     NOTE:     For the purpose of calculating this ratio, (i) earnings have been
+calculated by adjusting net earnings for taxes on earnings; interest expense;
+capitalized interest cost, net of amortization; minority interest; and the
+portion of rentals representative of the interest factor, (ii) the Company
+considers one-third of rental expense to be the amount representing return on
+capital, and (iii) fixed charges comprise total interest expense, including
+capitalized interest and such portion of rentals.
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>4
+<DESCRIPTION>FINANCIAL DATA SCHEDULE
+<TEXT>
+
+<TABLE> <S> <C>
+
+<PAGE>
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS NINE MONTH YEAR-TO-DATE SUMMARY FINANCIAL INFORMATION
+EXTRACTED FROM ABBOTT LABORATORIES 1995 THIRD QUARTER FORM 10-Q AND IS QUALIFIED
+IN ITS ENTIRETY BY REFERENCE TO SUCH FORM 10-Q FILING.
+</LEGEND>
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   9-MOS
+<FISCAL-YEAR-END>                          DEC-31-1995
+<PERIOD-START>                             JAN-01-1995
+<PERIOD-END>                               SEP-30-1995
+<CASH>                                         320,799
+<SECURITIES>                                    93,872
+<RECEIVABLES>                                1,627,059
+<ALLOWANCES>                                   156,408
+<INVENTORY>                                  1,051,346
+<CURRENT-ASSETS>                             4,077,499
+<PP&E>                                       7,621,574
+<DEPRECIATION>                               3,438,766
+<TOTAL-ASSETS>                               9,069,882
+<CURRENT-LIABILITIES>                        3,566,919
+<BONDS>                                        435,297
+<COMMON>                                       568,005
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<OTHER-SE>                                   3,708,102
+<TOTAL-LIABILITY-AND-EQUITY>                 9,069,882
+<SALES>                                      7,415,460
+<TOTAL-REVENUES>                             7,415,460
+<CGS>                                        3,245,187
+<TOTAL-COSTS>                                3,245,187
+<OTHER-EXPENSES>                               790,364<F1>
+<LOSS-PROVISION>                                34,583
+<INTEREST-EXPENSE>                              50,224
+<INCOME-PRETAX>                              1,735,227
+<INCOME-TAX>                                   511,892
+<INCOME-CONTINUING>                          1,223,335
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                 1,223,335
+<EPS-PRIMARY>                                     1.53
+<EPS-DILUTED>                                     1.51
+<FN>
+<F1>OTHER EXPENSES CONSIST OF RESEARCH AND DEVELOPMENT EXPENSES.
+</FN>
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

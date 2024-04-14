@@ -1,0 +1,2013 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ TVENT4WNw9gUt6LGoMH7m1t4G+cuSLqtRxlw6osVVoBHZ0RkGoUK4cmm/oNOeUPp
+ ruIT66D57/8/k3XijtAO3g==
+
+<SEC-DOCUMENT>0000912057-00-024277.txt : 20000516
+<SEC-HEADER>0000912057-00-024277.hdr.sgml : 20000516
+ACCESSION NUMBER:		0000912057-00-024277
+CONFORMED SUBMISSION TYPE:	10-Q
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	20000331
+FILED AS OF DATE:		20000515
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ABBOTT LABORATORIES
+		CENTRAL INDEX KEY:			0000001800
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				360698440
+		STATE OF INCORPORATION:			IL
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		10-Q
+		SEC ACT:		
+		SEC FILE NUMBER:	001-02189
+		FILM NUMBER:		631217
+
+	BUSINESS ADDRESS:	
+		STREET 1:		100 ABBOTT PARK ROAD
+		STREET 2:		D-322 AP6D
+		CITY:			ABBOTT PARK
+		STATE:			IL
+		ZIP:			60064-3500
+		BUSINESS PHONE:		8479376100
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>10-Q
+<SEQUENCE>1
+<DESCRIPTION>10-Q
+<TEXT>
+
+<PAGE>
+
+
+                                    FORM 10-Q
+
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D. C. 20549
+
+(Mark One)
+
+         /X/ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+             SECURITIES EXCHANGE ACT OF 1934
+
+For the quarterly period ended March 31, 2000
+
+                                       OR
+
+        / / TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES
+            EXCHANGE ACT OF 1934
+
+For the transition period from___________________________ to___________________
+
+
+Commission File No. 1-2189
+
+
+                               ABBOTT LABORATORIES
+
+An Illinois Corporation                          I.R.S. Employer Identification
+                                                         No. 36-0698440
+
+
+
+                              100 Abbott Park Road
+                        Abbott Park, Illinois 60064-6400
+
+                            Telephone: (847) 937-6l00
+
+
+Indicate by check mark whether the registrant (l) has filed all reports required
+to be filed by Section l3 or l5(d) of the Securities Exchange Act of l934 during
+the preceding l2 months (or for such shorter period that the registrant was
+required to file such reports), and (2) has been subject to such filing
+requirements for the past 90 days.   Yes / X /     No /   /
+
+As of April 14, 2000 the Corporation had 1,549,423,189 common shares without par
+value outstanding.
+
+
+<PAGE>
+
+                          PART I. FINANCIAL INFORMATION
+
+                      Abbott Laboratories and Subsidiaries
+
+                   Condensed Consolidated Financial Statements
+
+                                   (Unaudited)
+
+<PAGE>
+
+                      Abbott Laboratories and Subsidiaries
+
+                  Condensed Consolidated Statement of Earnings
+
+                                   (Unaudited)
+
+             (dollars and shares in thousands except per share data)
+
+<TABLE>
+<CAPTION>
+                                                                         Three Months Ended
+                                                                              March 31
+                                                                     --------------------------
+                                                                       2000            1999
+                                                                     ----------      ----------
+<S>                                                                  <C>             <C>
+Net Sales                                                            $3,353,178      $3,313,320
+                                                                     ----------      ----------
+
+Cost of products sold .........................................       1,496,447       1,453,016
+Research and development ......................................         321,367         269,497
+Selling, general and administrative ...........................         730,304         685,480
+Gain on sale of business ......................................         (46,304)             --
+                                                                     ----------      ----------
+     Total Operating Cost and Expenses ........................       2,501,814       2,407,993
+                                                                     ----------      ----------
+
+Operating Earnings ............................................         851,364         905,327
+
+Net interest expense ..........................................          12,034          25,852
+Income from TAP Pharmaceutical Products Inc. joint venture ....        (118,914)        (71,569)
+Net foreign exchange loss .....................................             841          20,559
+Other (income) expense, net ...................................           8,147           1,731
+                                                                     ----------      ----------
+   Earnings Before Taxes ......................................         949,256         928,754
+
+Taxes on earnings .............................................         256,299         260,051
+                                                                     ----------      ----------
+Net Earnings ..................................................      $  692,957      $  668,703
+                                                                     ==========      ==========
+
+Basic Earnings Per Common Share ...............................           $0.45           $0.44
+                                                                          =====           =====
+
+Diluted Earnings Per Common Share .............................           $0.44           $0.43
+                                                                          =====           =====
+
+Cash Dividends Declared Per Common Share ......................           $0.19           $0.17
+                                                                          =====           =====
+
+Average Number of Common Shares Outstanding
+
+   Used for Basic Earnings Per Common Share ...................       1,548,066       1,532,325
+
+Dilutive Common Stock Options .................................          11,489          25,106
+                                                                     ----------      ----------
+
+Average Number of Common Shares Outstanding
+
+   Plus Dilutive Common Stock Options .........................       1,559,555       1,557,431
+                                                                      =========       =========
+
+Outstanding Common Stock Options Having No Dilutive Effect ....          49,936           1,709
+                                                                         ======           =====
+</TABLE>
+
+The accompanying notes to consolidated financial statements are an integral part
+of this statement.
+
+
+                                           2
+
+<PAGE>
+
+                      Abbott Laboratories and Subsidiaries
+
+                 Condensed Consolidated Statement of Cash Flows
+
+                                   (Unaudited)
+
+                             (dollars in thousands)
+
+<TABLE>
+<CAPTION>
+                                                                           Three Months Ended
+                                                                                March 31
+                                                                     ---------------------------
+                                                                          2000           1999
+                                                                       ----------      ----------
+<S>                                                                    <C>             <C>
+ Cash Flow From (Used in) Operating Activities:
+
+  Net earnings ..................................................       $ 692,957      $ 668,703
+  Adjustments to reconcile net earnings to
+  net cash from operating activities -
+
+  Depreciation and amortization .................................         172,561        212,211
+  Trade receivables .............................................          80,183        (86,703)
+  Inventories ...................................................        (166,898)          (911)
+  Gain on sale of business ......................................         (46,304)           ---
+  Other, net ....................................................        (352,534)        26,840
+                                                                        ---------      ----------
+    Net Cash From Operating Activities ..........................         379,965        820,140
+                                                                        ---------      ----------
+
+Cash Flow From (Used in) Investing Activities:
+
+  Proceeds from sale of business ................................         116,000            ---
+  Acquisitions of property and equipment ........................        (241,804)      (211,908)
+  Investment securities transactions ............................         (39,410)        90,450
+  Other .........................................................          63,761          7,439
+                                                                        ---------      ----------
+    Net Cash Used in Investing Activities .......................        (101,453)      (114,019)
+                                                                        ---------      ----------
+
+Cash Flow From (Used in) Financing Activities:
+
+  Repayments of commercial paper, net ...........................         (25,000)      (491,000)
+  Other borrowing transactions, net .............................          31,216         23,180
+  Common share transactions .....................................          54,821         35,748
+  Dividends paid ................................................        (263,062)      (227,519)
+                                                                        ---------      ----------
+    Net Cash Used in Financing Activities .......................        (202,025)      (659,591)
+                                                                        ---------      ----------
+
+Effect of exchange rate changes on cash and cash equivalents ....          (3,690)        (7,104)
+                                                                        ---------      ----------
+
+Net Increase in Cash and Cash Equivalents .......................          72,797         39,426
+Cash and Cash Equivalents, Beginning of Year ....................         608,097        315,238
+                                                                        ---------      ----------
+Cash and Cash Equivalents, End of Period ........................       $ 680,894      $ 354,664
+                                                                        =========      =========
+</TABLE>
+
+The accompanying notes to consolidated financial statements are an integral part
+of this statement.
+
+                                                  3
+
+<PAGE>
+
+                                 Abbott Laboratories and Subsidiaries
+
+                                  Condensed Consolidated Balance Sheet
+
+                                         (dollars in thousands)
+
+<TABLE>
+<CAPTION>
+
+                                                                                       March 31     December 31
+                                                                                         2000           1999
+                                                                                     -----------    -----------
+<S>                                                                                 <C>            <C>
+                                                                                      (Unaudited)
+                                     Assets
+Current Assets:
+  Cash and cash equivalents .......................................................  $   680,894   $   608,097
+  Investment securities ...........................................................       94,453       115,199
+  Trade receivables, less allowances of $235,001 in 2000 and $238,956 in 1999 .....    1,941,480     2,055,839
+  Inventories:
+
+    Finished products .............................................................      864,116       772,478
+    Work in process ...............................................................      368,784       338,818
+    Materials .....................................................................      389,409       384,148
+                                                                                     -----------   -----------
+      Total inventories ...........................................................    1,622,309     1,495,444
+Prepaid expenses, income taxes, and other receivables .............................    2,388,770     2,145,175
+                                                                                     -----------   -----------
+      Total Current Assets ........................................................    6,727,906     6,419,754
+                                                                                     -----------   -----------
+Investment Securities Maturing after One Year .....................................    1,014,931       954,778
+                                                                                     -----------   -----------
+Property and Equipment, at Cost ...................................................    9,891,241     9,797,567
+  Less: accumulated depreciation and amortization .................................    5,110,228     5,027,508
+                                                                                     -----------   -----------
+  Net Property and Equipment ......................................................    4,781,013     4,770,059
+Deferred Charges, Intangible and Other Assets .....................................    2,437,073     2,326,453
+                                                                                     -----------   -----------
+                                                                                     $14,960,923   $14,471,044
+                                                                                     ===========   ===========
+                    Liabilities and Shareholders' Investment
+
+Current Liabilities:
+
+  Short-term borrowings and current portion of long-term debt .....................  $   909,117    $  896,271
+  Trade accounts payable ..........................................................    1,203,779     1,226,854
+  Salaries, income taxes, dividends payable, and other accruals ...................    2,387,749     2,393,586
+                                                                                     -----------     ---------
+       Total Current Liabilities ..................................................    4,500,645     4,516,711
+                                                                                     -----------     ---------
+Long-Term Debt ....................................................................    1,326,746     1,336,789
+                                                                                     -----------     ---------
+Other Liabilities and Deferrals ...................................................    1,259,965     1,189,949
+                                                                                     -----------     ---------
+Shareholders' Investment:
+  Preferred shares, one dollar par value
+    Authorized - 1,000,000 shares, none issued ....................................          ---           ---
+  Common shares, without par value
+    Authorized - 2,400,000,000 shares
+    Issued at stated capital amount -
+    Shares: 2000: 1,566,756,449; 1999: 1,564,670,440 ..............................    2,001,434     1,939,673
+  Common shares held in treasury, at cost -
+     Shares: 2000: 17,622,834 ; 1999: 17,650,834 ..................................     (257,347)     (257,756)
+  Unearned compensation - restricted stock awards..................................      (21,965)      (23,028)
+  Earnings employed in the business................................................    6,566,506     6,174,007
+  Accumulated other comprehensive loss.............................................     (415,061)     (405,301)
+                                                                                     -----------   -----------
+     Total Shareholders' Investment................................................    7,873,567     7,427,595
+                                                                                     -----------   -----------
+                                                                                     $14,960,923   $14,471,044
+                                                                                     ===========   ===========
+</TABLE>
+
+The accompanying notes to consolidated financial statements are an integral part
+of this statement.
+
+                                              4
+<PAGE>
+
+                     Abbott Laboratories and Subsidiaries
+
+              Notes to Condensed Consolidated Financial Statements
+
+                                 March 31, 2000
+
+                                   (Unaudited)
+
+Note 1 - Basis of Presentation
+
+The accompanying unaudited, condensed consolidated financial statements have
+been prepared pursuant to rules and regulations of the Securities and Exchange
+Commission and, therefore, do not include all information and footnote
+disclosures normally included in audited financial statements. However, in the
+opinion of management, all adjustments (which include only normal adjustments)
+necessary to present fairly the results of operations, financial position and
+cash flows have been made. It is suggested that these statements be read in
+conjunction with the financial statements included in Abbott's Annual Report on
+Form 10-K for the year ended December 31, 1999.
+
+Note 2 - Supplemental Financial Information
+(dollars in thousands)
+
+<TABLE>
+<CAPTION>
+                                                     Three Months Ended
+                                                         March 31
+                                                ------------------------
+                                                  2000            1999
+                                                --------        --------
+<S>                                            <C>             <C>
+Net interest expense:
+
+   Interest expense...................         $ 32,215        $ 40,348
+   Interest income....................          (20,181)        (14,496)
+                                                --------        --------
+Total.................................         $ 12,034        $ 25,852
+                                                ========        ========
+</TABLE>
+
+Note 3 - Taxes on Earnings
+
+Taxes on earnings reflect the estimated annual effective tax rates. The
+effective tax rates are less than the statutory U.S. Federal income tax rate
+principally due to the domestic dividend exclusion and tax incentive grants
+related to subsidiaries operating in Puerto Rico, the Dominican Republic,
+Ireland, and the Netherlands.
+
+Note 4 - Litigation and Environmental Matters
+
+Abbott is involved in various claims and legal proceedings including numerous
+antitrust suits and investigations in connection with the pricing of
+prescription pharmaceuticals. These suits and investigations allege that various
+pharmaceutical manufacturers have conspired to fix prices for prescription
+pharmaceuticals and/or to discriminate in pricing to retail pharmacies by
+providing discounts to mail-order pharmacies, institutional pharmacies and HMOs
+in violation of state and federal antitrust laws. The suits have been brought on
+behalf of individuals and retail pharmacies and name both Abbott and certain
+other pharmaceutical manufacturers and pharmaceutical wholesalers and at least
+one mail-order pharmacy company as defendants. The cases seek treble damages,
+civil penalties, and injunctive and other relief. Abbott has filed or intends to
+file a response to each of the remaining complaints denying all substantive
+allegations.
+
+In addition, there are several lawsuits and one investigation pending in
+connection with the sales of HYTRIN. These suits and the investigation allege
+that Abbott violated state or federal antitrust laws and, in some cases,
+unfair competition laws by signing separate agreements with Geneva
+Pharmaceuticals, Inc. and Zenith Laboratories, Inc. Those agreements related
+to pending patent infringement lawsuits between Abbott and the two companies.
+Some of the suits also allege that Abbott violated various state or federal
+laws by filing frivolous patent infringement lawsuits to protect HYTRIN from
+generic competition. The cases seek treble damages, civil penalties and other
+relief. Abbott has filed or intends to file a response to each of the
+complaints denying all substantive allegations.
+
+Abbott has also been identified as a potentially responsible party for
+investigation and cleanup costs at a number of locations in the United States
+and Puerto Rico under federal and state remediation laws and is investigating
+potential contamination at a number of Company-owned locations.
+
+Abbott expects that within the next year, legal proceedings will occur that
+may result in a change in the estimated reserves recorded by Abbott. While it
+is not feasible to predict the outcome of such pending claims, proceedings,
+investigations and remediation activities with certainty, management is of
+the opinion that their ultimate disposition should not have a material
+adverse effect on Abbott's financial position, cash flows, or results of
+operations.
+
+                                       5
+<PAGE>
+
+Notes to Condensed Consolidated Financial Statements
+March 31, 2000
+(Unaudited), continued
+
+The matters above are discussed more fully in Note 14 to the financial
+statements included in Abbott's Annual Report on Form 10-K, which is
+available upon request.
+
+Note 5  - U.S. Food and Drug Administration Consent Decree
+
+In November 1999, Abbott reached agreement with the U.S. Food and Drug
+Administration to have a consent decree entered to settle issues involving
+Abbott's diagnostics manufacturing operations in Lake County, Ill. The decree
+requires Abbott to ensure its diagnostics manufacturing processes in Lake
+County, Ill., conform with the FDA's current Quality System Regulation. The
+decree allows for the continued manufacture and distribution of medically
+necessary diagnostic products made in Lake County, Ill. However, Abbott is
+prohibited from manufacturing or distributing certain diagnostic products
+until Abbott ensures the processes in its Lake County, Ill., diagnostics
+manufacturing operations conform with the current Quality System Regulation.
+Under the terms of the consent decree, among other actions, Abbott has
+submitted to the FDA a proposed master compliance and validation plan to
+ensure its processes conform with the current Quality System Regulation. The
+decree requires Abbott to ensure its facilities are in conformance with the
+current Quality System Regulation within one year from the date of the
+consent decree. The consent decree allows Abbott to export diagnostic
+products and components for sale and distribution outside the United States
+if they meet the export requirements of the Federal Food, Drug and Cosmetic
+Act.
+
+Note 6 - Comprehensive Income
+(dollars in thousands)
+
+<TABLE>
+<CAPTION>
+
+                                                                                Three Months Ended
+                                                                                      March 31
+                                                                            -------------------------
+                                                                               2000            1999
+                                                                            --------       ---------
+<S>                                                                         <C>            <C>
+Foreign currency translation adjustments..............................      $(31,062)      $ (79,537)
+Tax (expense) benefit related to foreign
+   currency translation adjustments...................................          (418)            126
+Unrealized gains (losses) on marketable equity securities.............        32,566         (27,999)
+Tax (expense) benefit related to unrealized gains (losses)
+   on marketable equity securities....................................       (10,846)         11,184
+                                                                            --------       ---------
+Other comprehensive loss, net of tax..................................        (9,760)        (96,226)
+Net Earnings..........................................................       692,957         668,703
+                                                                            --------       ---------
+Comprehensive Income..................................................      $683,197       $ 572,477
+                                                                            ========       =========
+
+Supplemental Comprehensive Income Information:
+
+Cumulative foreign currency translation loss adjustments, net of tax..      $463,422        $340,122
+
+Cumulative unrealized (gains) on marketable equity securities,
+  net of tax..........................................................       (48,361)        (16,203)
+                                                                            ========        ========
+</TABLE>
+
+
+                                             6
+
+<PAGE>
+
+Notes to Condensed Consolidated Financial Statements
+March 31, 2000
+(Unaudited), continued
+
+Note 7 - Segment Information
+(dollars in millions)
+
+REVENUE SEGMENTS-- Abbott's principal business is the discovery, development,
+manufacture and sale of a broad line of health care products and services.
+Abbott's products are generally sold directly to retailers, wholesalers,
+hospitals, health care facilities, laboratories, physicians' offices and
+government agencies throughout the world. Segments are identified as those
+revenue divisions that report directly to the chief operating officer of
+Abbott. Abbott's reportable segments are as follows:
+
+PHARMACEUTICAL PRODUCTS-- U.S. sales of a broad line of pharmaceuticals.
+
+DIAGNOSTIC PRODUCTS-- Worldwide sales of diagnostic systems for blood banks,
+hospitals, consumers, commercial laboratories and alternate-care testing sites.
+
+HOSPITAL PRODUCTS-- U.S. sales of intravenous and irrigation fluids and related
+administration equipment, drugs and drug-delivery systems, anesthetics, critical
+care products, and other medical specialty products for hospitals and
+alternate-care sites.
+
+ROSS PRODUCTS-- U.S. sales of a broad line of adult and pediatric nutritional
+products, pediatric pharmaceuticals and consumer products.
+
+INTERNATIONAL-- Non-U.S. sales of all of Abbott's pharmaceutical, hospital and
+nutritional products. Products sold by International are manufactured by
+domestic segments and by international manufacturing locations.
+
+Abbott's underlying accounting records are maintained on a legal entity basis
+for government and public reporting requirements. Segment disclosures are on a
+performance basis consistent with internal management reporting. Intersegment
+transfers of inventory are recorded at standard cost and are not a measure of
+segment operating earnings. The cost of some corporate functions and the cost of
+certain employee benefits are sold to segments at predetermined rates which
+approximate cost. Remaining costs, if any, are not allocated to revenue
+segments. The following segment information has been prepared in accordance with
+the internal accounting policies of Abbott, as described above, and may not be
+presented in accordance with generally accepted accounting principles.
+
+<TABLE>
+<CAPTION>
+                                                                   Three Months Ended March 31
+                                                          --------------------------------------------
+                                                               Net Sales to               Operating
+                                                           External Customers              Earnings
+                                                          -------------------         ----------------
+                                                            2000        1999           2000       1999
+                                                            ----        ----           ----       ----
+<S>                                                       <C>         <C>            <C>         <C>
+Pharmaceutical (a) .....................................  $  607      $  624         $  234     $  348
+Diagnostics ............................................     708         715             60        110
+Hospital (a) ...........................................     570         576            126        152
+Ross ...................................................     550         501            222        185
+International ..........................................     852         832            227        213
+                                                           -----       -----           ----      -----
+Total Reportable Segments ..............................   3,287       3,248            869      1,008
+Other...................................................      66          65
+                                                          ------      ------
+Net Sales ..............................................  $3,353      $3,313
+                                                          ======      ======
+Corporate functions ...............................................................      41         27
+Benefit plans costs ...............................................................      19         27
+Non-reportable segments ...........................................................      (7)       (13)
+Gain on sale of business ..........................................................     (46)        --
+Net interest expense ..............................................................      12         26
+Income from TAP Pharmaceutical Products Inc. ......................................    (119)       (72)
+Net foreign exchange loss .........................................................       1         21
+Other expense (income), net .......................................................      19         63
+                                                                                     ------     ------
+Consolidated Earnings Before Taxes ................................................  $  949     $  929
+                                                                                     ======     ======
+</TABLE>
+
+(a) In 2000, management of the cardiovascular medicine franchise was transferred
+from the Pharmaceutical segment to the Hospital segment. Net sales and operating
+earnings for 1999 have been restated to reflect this reclassification.
+
+                                       7
+<PAGE>
+
+Notes to Condensed Consolidated Financial Statements
+March 31, 2000
+(Unaudited), continued
+
+Note 8 -- Sale of Agricultural Products Business
+
+On January 20, 2000, Abbott sold its agricultural products business to
+Sumitomo Chemical Co., Ltd., resulting in a $46 million gain recorded in the
+first quarter 2000. In addition, under the terms of the agreement, upon
+Sumitomo achieving a specified sales milestone, an additional $80 to $90
+million would be due to Abbott. This could occur as early as the second
+quarter of 2000. Under the transaction, Sumitomo acquired research and
+development, sales, marketing, and support operations for Abbott's entire
+line of naturally occurring biopesticides, plant growth regulators and other
+products for agriculture, public health and forestry. Bulk active ingredient
+manufacturing rights were retained by Abbott. For the full year 1999, Abbott
+recorded approximately $102 million in sales from this business.
+
+                                       8
+
+<PAGE>
+
+FINANCIAL REVIEW
+
+RESULTS OF OPERATIONS  - FIRST QUARTER 2000 COMPARED WITH FIRST QUARTER 1999
+
+The following table details sales by segment for the first quarter 2000:
+(dollars in millions)
+
+<TABLE>
+<CAPTION>
+                                                                  Net Sales to            Percentage
+                                                               External Customers         Change (a)
+                                                              -------------------        -----------
+                                                                    Three Months Ended March 31
+                                                              ---------------------------------------
+                                                                2000          1999
+                                                              ------        ------
+<S>                                                          <C>            <C>            <C>
+Pharmaceutical (b)..............................              $  607        $  624           (2.7)
+Diagnostics.....................................                 708           715           (1.1)
+Hospital (b)....................................                 570           576           (1.1)
+Ross............................................                 550           501            9.7
+International...................................                 852           832            2.5
+                                                              ------        ------
+Total Reportable Segments.......................               3,287         3,248            1.2
+Other...........................................                  66            65
+                                                              ------        ------
+Net Sales.......................................              $3,353        $3,313            1.2
+                                                              ======        ======
+Total U.S.......................................              $2,061        $2,055            0.3
+                                                              ======        ======
+Total International.............................              $1,292        $1,258            2.7
+                                                              ======        ======
+</TABLE>
+
+(a) Percentage changes are based on unrounded numbers.
+
+(b) In 2000, management of the cardiovascular medicine franchise was transferred
+from the Pharmaceutical segment to the Hospital segment. Net sales for 1999 have
+been restated to reflect this reclassification.
+
+Worldwide sales for the first quarter reflect primarily unit growth. Excluding
+the negative effect of the relatively stronger U.S. dollar, sales increased 2.8
+percent over the first quarter 1999. Pharmaceutical segment sales decreased
+primarily due to volume shortfalls for HYTRIN. Diagnostics segment sales
+decreased primarily due to the effect of the consent decree as discussed in
+Note 5 and due to the negative effect of the relatively stronger U.S. Dollar.
+Excluding exchange, Diagnostics and International segment sales increased 1.9
+and 6.3 percent, respectively. Diluted earnings per common share for the
+quarter rose to 44 cents, up 2.3 percent from 43 cents a year ago. Net earnings
+increased 3.6 percent to $693 million, from $669 million in the first quarter
+of 1999.
+
+In late 1998, the U.S. Food and Drug Administration (FDA) suspended its
+approval of the release of production lots of Abbott's pharmaceutical product
+ABBOKINASE due to Current Good Manufacturing Practice concerns raised by the
+FDA following inspections of Abbott and its raw material supplier. On December
+10, 1999, Abbott met with the FDA to review Abbott's plan for the qualification
+of new raw materials and reinitiation of manufacturing. In the future, Abbott
+will sell only ABBOKINASE that is manufactured with new raw materials that meet
+the FDA's criteria. Abbott cannot predict, however, whether it will be
+successful in qualifying new raw material sources or the effect of this matter
+on future sales of ABBOKINASE. It is anticipated, however, that sales of
+ABBOKINASE will resume after 2000. In 1999, sales of ABBOKINASE were
+approximately $47 million, all of which were recorded in the first quarter.
+
+In August 1999, Geneva Pharmaceuticals, Inc. began shipments of generic
+HYTRIN in the United States, which has adversely impacted Abbott's HYTRIN
+sales. Full year U.S sales of HYTRIN amounted to $466 million in 1999. For
+the first quarter 2000, U.S. Sales of HYTRIN were $34 million.
+
+As a result of the consent decree entered into with the U.S. Food and Drug
+Administration in 1999, as discussed in Note 5, Abbott is prohibited from
+manufacturing or distributing certain diagnostic products until Abbott ensures
+the processes in its Lake County, Ill., diagnostics manufacturing operations
+conform with the current Quality System Regulation. The consent decree resulted
+in a one-time charge of $168 million in 1999. In addition, Abbott estimates that
+2000 sales may be negatively impacted up to $250 million and earnings per share
+may be negatively impacted up to 10 cents per share.
+
+Gross profit margin (sales less cost of products sold, including freight and
+distribution expenses) was 55.4 percent for the 2000 first quarter, compared to
+56.1 percent for the 1999 first quarter. This decrease was primarily due to
+unfavorable product mix, primarily lower sales of pharmaceuticals.
+
+
+                                       9
+<PAGE>
+
+FINANCIAL REVIEW
+
+(continued)
+
+Research and development expenses for the first quarter 2000 increased 19.2
+percent over the comparable 1999 period and includes charges relating to several
+research and development collaboration agreements entered into in the first
+quarter 2000. The majority of research and development expenditures continues to
+be concentrated on pharmaceutical and diagnostic products.
+
+Selling, general and administrative expenses for the first quarter 2000
+increased 6.5 percent over the comparable 1999 period, due primarily to
+increased selling and marketing support for new and existing products.
+
+SALE OF AGRICULTURAL PRODUCTS BUSINESS
+
+On January 20, 2000, Abbott sold its agricultural products business to
+Sumitomo Chemical Co., Ltd., resulting in a $46 million gain recorded in the
+first quarter 2000. In addition, under the terms of the agreement, upon
+Sumitomo achieving a specified sales milestone, an additional $80 to $90
+million would be due to Abbott. This could occur as early as the second
+quarter of 2000. Under the transaction, Sumitomo acquired research and
+development, sales, marketing, and support operations for Abbott's entire
+line of naturally occurring biopesticides, plant growth regulators and other
+products for agriculture, public health and forestry. Bulk active ingredient
+manufacturing rights were retained by Abbott. For the full year 1999, Abbott
+recorded approximately $102 million in sales from this business.
+
+INTEREST (INCOME) EXPENSE, NET
+
+Net interest expense decreased in 2000 due primarily to a lower level of
+borrowings as a result of the termination of the common share purchase program.
+
+TAXES ON EARNINGS
+
+The effective income tax rate was 27.0 percent in 2000 and 28.0 percent in
+1999. The tax rate for 2000 was reduced primarily due to the domestic
+dividend exclusion.
+
+LIQUIDITY AND CAPITAL RESOURCES AT MARCH 31, 2000 COMPARED WITH
+DECEMBER 31, 1999
+
+Net cash from operating activities for the first quarter 2000 totaled $380
+million. Abbott expects annual cash flow from operating activities to continue
+to approximate or exceed Abbott's capital expenditures and cash dividends.
+
+Abbott has maintained its favorable bond ratings (AAA by Standard & Poor's
+Corporation and Aa1 by Moody's Investors Service) and continues to have readily
+available financial resources, including unused domestic lines of credit of
+$2.505 billion at March 31, 2000. These lines of credit support domestic
+commercial paper borrowing arrangements.
+
+Abbott may issue up to $521 million of securities in the future under a
+registration statement filed with the Securities and Exchange Commission in
+1999. Of the $521 million, Abbott may issue up to $271 million either in the
+form of debt securities or common shares without par value. The remaining $250
+million may only be issued in the form of debt securities.
+
+LEGISLATIVE ISSUES
+
+Abbott's primary markets are highly competitive and subject to substantial
+government regulation. Abbott expects debate to continue at both the federal and
+the state levels over the availability, method of delivery, and payment for
+health care products and services. Abbott believes that if legislation is
+enacted, it could have the effect of reducing prices, or reducing the rate of
+price increases for medical products and services. International operations are
+also subject to a significant degree of government regulation. It is not
+possible to predict the extent to which Abbott or the health care industry in
+general might be adversely affected by these factors in the future. A more
+complete discussion of these factors is contained in Item 1, Business, in the
+Annual Report on Form 10-K, which is available upon request.
+
+
+                                       10
+<PAGE>
+
+FINANCIAL REVIEW
+(continued)
+
+RECENTLY ISSUED ACCOUNTING STANDARD
+
+In June 1998, the Financial Accounting Standards Board issued Statement of
+Financial Accounting Standards No. 133, "Accounting for Derivative Instruments
+and Hedging Activities." This statement requires the recognition of the fair
+value of derivatives as either assets or liabilities. The statement is effective
+for fiscal years beginning after June 15, 2000. Adoption of the provisions of
+this statement will not have a material effect on the financial statements of
+Abbott.
+
+PRIVATE SECURITIES LITIGATION REFORM ACT OF 1995 -- A CAUTION CONCERNING
+FORWARD-LOOKING STATEMENTS
+
+Under the safe harbor provisions of the Private Securities Litigation Reform Act
+of 1995, Abbott cautions investors that any forward-looking statements or
+projections made by Abbott, including those made in this document, are subject
+to risks and uncertainties that may cause actual results to differ materially
+from those projected. Economic, competitive, governmental, technological and
+other factors that may affect Abbott's operations are discussed in Exhibit 99.1
+to the Annual Report on Form 10-K.
+
+
+                                       11
+
+<PAGE>
+
+PART II.    OTHER INFORMATION
+
+ITEM 1.  LEGAL PROCEEDINGS
+
+         Abbott is involved in various claims and legal proceedings, including
+those described below.
+
+             In its 1999 Annual Report on Securities and Exchange Commission
+Form 10-K (the "1999 Form 10-K"), Abbott reported that two lawsuits were
+pending involving Abbott's patents for divalproex sodium. Three additional
+lawsuits have been filed. On March 9, 2000, after having been notified that
+Andrx Corporation had filed an abbreviated new drug application to market a
+generic divalproex sodium, Abbott filed a patent infringement lawsuit against
+Andrx Corporation, Andrx Pharmaceutical, and Andrx Pharmaceutical, L.L.C. in
+the United States District Court for the Northern District of Illinois. The
+defendants have filed a motion to dismiss this complaint. On April 14, 2000,
+Abbott filed patent infringement lawsuits against these three Andrx companies
+in the United States District Court for the Southern District of Florida and
+against Andrx L.L.C. in the United States District Court for the Eastern
+District of Virginia.
+
+         As of April 14, 2000, 17 antitrust lawsuits and one antitrust
+investigation involving Abbott's patents for terazosin hydrochloride, a drug
+that Abbott sells under the trademark Hytrin-Registered Trademark-, were
+pending. The final patent infringement lawsuit involving Abbott's patents for
+terazosin hydrochloride was resolved during the first quarter of 2000. As
+previously reported, Abbott sued Mylan Pharmaceuticals, Inc. ("Mylan")
+alleging patent infringement. Mylan contended that Abbott's patent which
+covers their version of terazosin hydrochloride is invalid and unenforceable.
+On October 4, 1999, Mylan's motion in the appellate court for Summary
+Affirmance was granted. In February 2000, the United States Supreme Court
+denied Abbott's petition for a writ of certiorari.
+
+              In its 1999 Form 10-K, Abbott reported that 13 lawsuits were
+pending relating to Abbott's agreements with Geneva Pharmaceuticals, Inc.
+("Geneva") and Zenith Laboratories, Inc. ("Zenith") regarding terazosin
+hydrochloride. During the first quarter of 2000, two of these lawsuits, SCAFANI
+V. ABBOTT and VALENTINE V. ABBOTT, were removed from state court to the United
+States District Court for the Southern District of Florida. In addition, four
+new lawsuits were filed. Three of these new lawsuits are pending in the United
+States District Court for the Southern District of Florida: on January 19, 2000,
+William Mednick filed a lawsuit on behalf of himself and others; on January 27,
+2000, Clarence Reid filed a lawsuit on behalf of himself and others; and, on
+April 7, 2000, Blue Cross and Blue Shield of Alabama filed a lawsuit on behalf
+of itself and others. The plaintiffs in the REID and MEDNICK lawsuits allege
+Abbott violated antitrust and/or consumer protection laws and seek actual
+damages, treble damages, civil penalties and other relief. The plaintiffs in the
+BLUE CROSS case allege Abbott violated federal racketeering statutes and seek
+unspecified damages. The BLUE CROSS case purports to be a class action.
+
+<PAGE>
+
+Finally, on April 10, 2000, Merit Aid Pharmacy filed a lawsuit on behalf of
+itself and others in San Diego Superior Court, San Diego, California, alleging
+Abbott violated antitrust laws and seeking actual damages, treble damages,
+civil penalties and other relief.
+
+         Abbott also reported that the Federal Trade Commission was
+conducting an investigation regarding Abbott's agreements with Geneva and
+Zenith. On March 13, 2000, Abbott and the Federal Trade Commission entered
+into a consent agreement regarding this matter which has been placed in the
+public record for comments.
+
+           In its 1999 Form 10-K, Abbott reported that eighteen lawsuits,
+including five derivative lawsuits, were pending relating to Abbott's alleged
+noncompliance with the Food and Drug Administration's Quality System
+Regulation at Abbott's Diagnostics Division facilities in Lake County,
+Illinois. During the first quarter of 2000, the plaintiff in SEINFELD V.
+ABBOTT filed a lawsuit in the United States District Court for the Northern
+District of Illinois, where it was consolidated with the three other
+shareholder derivative lawsuits that were already pending in that court as IN
+RE ABBOTT LABORATORIES DERIVATIVE SHAREHOLDER LITIGATION and then voluntarily
+dismissed his lawsuit that was pending in Illinois state court. The fifth
+shareholder derivative suit was filed by Craig Heneghan and Marjory Motiaytis
+in the Circuit Court for the Nineteenth Judicial Circuit, Lake County,
+Illinois. On April 6, 2000, the Lake County Circuit Court granted Abbott's
+motion to stay the Heneghan/Motiaytis lawsuit until the shareholder
+derivative suits pending in federal court are decided. One new case relating
+to the alleged regulatory noncompliance was filed in the first quarter of
+2000. On February 7, 2000, Lena Gallagher sued Abbott and Miles White,
+Abbott's Chief Executive Officer, claiming the defendants violated Sections
+10(b) and 20(a) of the Securities and Exchange Act of 1934 by allegedly
+misrepresenting or omitting material information about the alleged regulatory
+noncompliance. The complaint, which was filed in the United States District
+Court for the Eastern District of Illinois, purports to be a class action on
+behalf of purchasers of ALZA Corporation stock between June 22, 1999 and
+November 1, 1999, and seeks unspecified monetary damages and relief.
+
+         The United States Department of Justice is investigating the
+marketing and sales practices of TAP Pharmaceutical Products Inc. for
+leuprolide acetate depot suspension (a drug TAP markets as Lupron
+Depot-Registered Trademark-). Various state and federal agencies including the
+Office of the Inspector General, the United States Department of Justice and
+the Texas Attorney General, are also investigating the pricing practices of
+TAP with respect to Lupron Depot and/or of Abbott with respect to certain
+other Medicare and Medicaid reimbursable products. These investigations seek
+to determine whether these practices resulted in any violations of civil
+and/or criminal laws, including the Federal False Claims Act and the
+Anti-Kickback Act, or fraud in connection with the Medicare and/or Medicaid
+reimbursement paid to third parties. Abbott owns 50 percent of TAP.
+
+         While it is not feasible to predict the outcome of such pending claims,
+proceedings, and investigations with certainty, management is of the opinion
+that their ultimate disposition should not have a material adverse effect on the
+Company's financial position, cash flows, or results of operations.
+
+
+<PAGE>
+
+ITEM 4.  SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS
+
+     The Company held its Annual Meeting of Shareholders on April 28, 2000. The
+following is a summary of the matters voted on at that meeting.
+
+     (a) The shareholders elected the Company's entire Board of Directors. The
+persons elected to the Company's Board of Directors and the number of shares
+cast for and the number of shares withheld, with respect to each of these
+persons, were as follows:
+
+<TABLE>
+<CAPTION>
+     Name                            Votes For                 Votes Withheld
+    ------                          -----------               ----------------
+<S>                                <C>                       <C>
+H. Laurance Fuller                 1,247,829,128             66,669,298
+David A. Jones                     1,244,586,940             69,911,486
+Jeffrey M. Leiden, M.D., Ph.D.     1,247,893,732             66,604,694
+The Lord Owen CH                   1,247,984,397             66,514,029
+Robert L. Parkinson Jr.            1,246,091,752             68,406,674
+Boone Powell Jr.                   1,248,195,317             66,303,109
+Addison Barry Rand                 1,247,589,123             66,909,303
+W. Ann Reynolds, Ph.D.             1,245,426,341             69,072,085
+Roy S. Roberts                     1,247,476,037             67,022,389
+William D. Smithburg               1,245,633,391             68,865,035
+John R. Walter                     1,246,494,483             68,003,943
+Miles D. White                     1,242,324,783             72,173,643
+</TABLE>
+
+     (b) The shareholders approved the amendment of the Abbott Laboratories
+1996 Incentive Stock Program. The number of shares cast in favor of the
+approval of the Abbott Laboratories 1996 Incentive Stock Program, the number
+against, the number abstaining, and the number of broker non-votes were as
+follows:
+
+<TABLE>
+<CAPTION>
+         For                      Against                    Abstain                Broker Non-Vote
+        -----                    ---------                  ---------              -----------------
+<S>                             <C>                         <C>                       <C>
+     850,977,581                254,891,780                 13,839,465                194,789,600
+</TABLE>
+
+
+     (c) The shareholders ratified the appointment of Arthur Andersen LLP as
+Abbott's auditors. The number of shares cast in favor of the ratification of
+Arthur Andersen LLP, the number against, and the number abstaining were as
+follows:
+
+<TABLE>
+<CAPTION>
+         For                      Against                    Abstain
+        -----                    ---------                  ---------
+<S>                             <C>                         <C>
+   1,301,783,279                  7,044,021                  5,671,126
+</TABLE>
+
+
+<PAGE>
+
+     (d) The shareholders rejected a shareholder proposal that Abbott implement
+a policy of price restraint on pharmaceutical products. The number of shares
+cast in favor of the shareholder proposal, the number against, the number
+abstaining, and the number of broker non-votes were as follows:
+
+<TABLE>
+<CAPTION>
+         For                      Against                    Abstain                Broker Non-Vote
+        -----                    ---------                  ---------              -----------------
+<S>                             <C>                         <C>                       <C>
+      51,502,535                1,028,301,673               39,903,871                194,790,347
+</TABLE>
+
+
+Item 6.  Exhibits and Reports on Form 8-K
+
+         a)      Exhibits
+
+                  3.1      By-Laws of Abbott Laboratories, as amended and
+                           effective April 28, 2000 - attached hereto.
+
+                  12.      Statement re: computation of ratio of earnings to
+                           fixed charges - attached hereto.
+
+                  27.      Financial Data Schedule - attached hereto.
+
+         b)      Reports on Form 8-K
+
+                           None
+
+
+SIGNATURE
+
+     Pursuant to the requirements of the Securities and Exchange Act of 1934,
+the registrant has duly caused this report to be signed on its behalf by the
+undersigned thereunto duly authorized.
+
+
+
+ABBOTT LABORATORIES
+
+
+
+/s/ Gary L. Flynn
+- -------------------------------------------------
+Gary L. Flynn, Vice President
+and Controller (Principal Accounting Officer)
+
+Date: May 15, 2000
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-3.1
+<SEQUENCE>2
+<DESCRIPTION>EXHIBIT 3.1
+<TEXT>
+
+<PAGE>
+
+                                                                     Exhibit 3.1
+
+                                     BY-LAWS
+
+                                       OF
+
+                               ABBOTT LABORATORIES
+
+
+
+
+
+
+
+
+
+                        Adopted by the Board of Directors
+                          of Abbott Laboratories at the
+                         Annual Meeting, April 11, 1963
+                as amended and restated, effective April 28, 2000
+
+<PAGE>
+
+                         BY-LAWS OF ABBOTT LABORATORIES
+
+
+                                    ARTICLE I
+
+                                     OFFICES
+
+     The principal office of the Corporation in the State of Illinois shall be
+located at the intersection of State Routes 43 and 137 in the County of Lake.
+The Corporation may have such other offices either within or without the State
+of Illinois as the business of the Corporation may require from time to time.
+
+     The registered office of the Corporation may be, but need not be, identical
+with the principal office in the State of Illinois. The address of the
+registered office may be changed from time to time by the Board of Directors.
+
+
+                                   ARTICLE II
+
+                                  SHAREHOLDERS
+
+     SECTION 1. ANNUAL MEETING; TRANSACTION OF BUSINESS, NOMINATION OF
+DIRECTORS. The annual meeting of the shareholders shall be held in the month of
+April in each year on such date and at such time as the Board of Directors shall
+provide. The meeting shall be held for the purpose of electing Directors and for
+the transaction of such other business as is properly brought before the meeting
+in accordance with these By-Laws. If the election of Directors shall not be held
+on the day designated for any annual meeting, or at any adjournment thereof, the
+Board of Directors shall cause the election to be held at a meeting of the
+shareholders as soon thereafter as conveniently may be.
+
+     To be properly brought before the meeting, business must be either (a)
+specified in the notice of meeting (or any supplement thereto) given by or at
+the direction of the Board of Directors, (b) otherwise properly brought before
+the meeting by or at the direction of the Board of Directors or (c) otherwise
+properly brought before the meeting by a shareholder. In addition to any other
+applicable requirements, for business to be properly brought before an annual
+meeting by a shareholder, the shareholder must have given timely notice thereof
+in writing to the Secretary. To be timely, a shareholder's notice must be
+delivered to or mailed and received at the principal office of the Corporation,
+not earlier than October 1 nor later than the first business day of January
+immediately prior to the date of the meeting; PROVIDED, HOWEVER, that in the
+event that the date of such meeting is not in the month of April and less than
+sixty-five days' notice or prior public disclosure of the date of the meeting is
+given or made to shareholders, notice by the shareholder to be timely must be so
+received not later than the close of business on the fifteenth day following the
+day on which such notice of the date of the annual meeting was mailed or such
+public disclosure was made, whichever first occurs. A shareholder's notice to
+the Secretary shall set forth as to each matter the shareholder proposes to
+bring before the annual meeting (i) a brief
+
+<PAGE>
+
+BY-LAWS
+
+description of the business desired to be brought before the annual meeting and
+the reasons for conducting such business at the annual meeting, (ii) the name
+and record address of the shareholder proposing such business, (iii) the class
+and number of shares of the Corporation which are beneficially owned by the
+shareholder and (iv) any material interest of the shareholder in such business.
+
+     Notwithstanding anything in these By-Laws to the contrary, no business
+shall be conducted at the annual meeting except in accordance with the
+procedures set forth in this Section 1, PROVIDED, HOWEVER, that nothing in this
+Section 1 shall be deemed to preclude discussion by any shareholder of any
+business properly brought before the annual meeting.
+
+     The Chairman of an annual meeting shall, if the facts warrant, determine
+and declare to the meeting that business was not properly brought before the
+meeting in accordance with the provisions of this Section 1, and if he should so
+determine, he shall so declare to the meeting and such business not properly
+brought before the meeting shall not be transacted.
+
+     Only persons who are nominated in accordance with the following procedures
+shall be eligible for election as directors. Nominations of persons for election
+to the Board of Directors of the Corporation at the annual meeting may be made
+at such annual meeting of shareholders by or at the direction of the Board of
+Directors, by any nominating committee or person appointed by the Board of
+Directors, or by any shareholder of the Corporation entitled to vote for the
+election of directors at such meeting who complies with the notice procedures
+set forth in this Section 1. Such nominations, other than those made by or at
+the direction of the Board of Directors or by a committee or person appointed by
+the Board of Directors, shall be made pursuant to timely notice in writing to
+the Secretary. To be timely, a shareholder's notice shall be delivered to or
+mailed and received at the principal office of the Corporation not earlier than
+October 1 nor later than the first business day of January immediately prior to
+the date of the meeting; PROVIDED, HOWEVER, that in the event that the date of
+such meeting is not in the month of April and less than sixty-five days' notice
+or prior public disclosure of the date of the meeting is given or made to
+shareholders, notice by the shareholder to be timely must be so received not
+later than the close of business on the fifteenth day following the day on which
+such notice of the date of the meeting was mailed or such public disclosure was
+made, whichever first occurs. Such shareholder's notice to the Secretary shall
+set forth: (a) as to each person whom the shareholder proposes to nominate for
+election or re-election as a director, (i) the name, age, business address and
+residence address of the person, (ii) the principal occupation or employment of
+the person, (iii) the class and number of shares of capital stock of the
+Corporation which are beneficially owned by the person and (iv) any other
+information relating to the person that is required to be disclosed in
+solicitations for proxies for election of directors pursuant to Regulation 14A
+under the Securities Exchange Act of 1934, as amended; and (b) as to the
+shareholder giving the notice, (i) the name and record address of such
+shareholder and (ii) the class and number of shares of the Corporation which are
+beneficially owned by such shareholder. The Corporation may require any proposed
+nominee to furnish such other information as may reasonably be required by the
+Corporation to determine the eligibility of such proposed nominee to serve as
+
+<PAGE>
+
+BY-LAWS
+
+director of the Corporation. No person shall be eligible for election as a
+director of the Corporation unless nominated in accordance with the procedures
+set forth herein.
+
+     The Chairman of the meeting shall, if the facts warrant, determine and
+declare to the meeting that a nomination was not made in accordance with the
+foregoing procedure, and if he should so determine, he shall so declare to the
+meeting and the defective nomination shall be disregarded.
+
+     SECTION 2. SPECIAL MEETINGS. Special meetings of the shareholders may be
+called by the Chairman of the Board, the Chief Executive Officer, the President,
+the Board of Directors or by the holders of not less than one-fifth of all the
+outstanding shares entitled to vote on the matter for which the meeting is
+called.
+
+     SECTION 3. PLACE OF MEETING. The Board of Directors may designate any
+place, either within or without the State of Illinois, as the place of meeting
+for any annual meeting or for any special meeting called by the Board of
+Directors. If no designation is made, or if a special meeting be otherwise
+called, the place of meeting shall be the principal office of the Corporation in
+the State of Illinois.
+
+     SECTION 4. NOTICE OF MEETINGS. Written notice stating the place, day and
+hour of the meeting and, in the case of a special meeting, the purpose or
+purposes for which the meeting is called, shall be delivered not less than ten
+nor more than sixty days before the date of the meeting, or in the cases of a
+merger, consolidation, share exchange, dissolution or sale, lease or exchange of
+assets not less than twenty nor more than sixty days before the meeting, either
+personally or by mail, by or at the direction of the Chairman of the Board, the
+Chief Executive Officer, the President, or the Secretary or the persons calling
+the meeting, to each shareholder of record entitled to vote at such meeting. If
+mailed, such notice shall be deemed to be delivered when deposited in the United
+States mail, addressed to the shareholder at his or her address as it appears on
+the records of the Corporation, with postage thereon prepaid.
+
+     SECTION 5. FIXING RECORD DATE. For the purpose of determining shareholders
+entitled to notice of or to vote at any meeting of shareholders, or shareholders
+entitled to receive payment of any dividend, or in order to make a determination
+of shareholders for any other proper purpose, the Board of Directors of the
+Corporation may fix in advance a date as the record date for any such
+determination of shareholders, such date in any case to be not more than sixty
+days and, for a meeting of shareholders, not less than ten days, or in the case
+of a merger, consolidation, share exchange, dissolution or sale, lease or
+exchange of assets not less than twenty days, immediately preceding such
+meeting.
+
+     SECTION 6. VOTING LISTS. The Secretary shall make, or cause to have made,
+within twenty days after the record date for a meeting of shareholders or ten
+days before such meeting, whichever is earlier, a complete list of the
+shareholders entitled to vote at such meeting, arranged in alphabetical order,
+with the address of and the number of shares held by each, which list, for a
+period of ten days prior to such meeting, shall be kept on file at the
+registered office of the
+
+<PAGE>
+
+BY-LAWS
+
+Corporation and shall be subject to inspection by any shareholder and to copying
+at the shareholder's expense, at any time during usual business hours. Such list
+shall also be produced and kept open at the time and place of the meeting and
+shall be subject to the inspection of any shareholder during the whole time of
+the meeting. The original share ledger or transfer book, or a duplicate thereof
+kept in this State, shall be prima facie evidence as to who are the shareholders
+entitled to examine such list or share ledger or transfer book or to vote at any
+meeting of shareholders.
+
+     SECTION 7. QUORUM. A majority of the outstanding shares of the Corporation
+entitled to vote on a matter, represented in person or by proxy, shall
+constitute a quorum for consideration of such matter at a meeting of
+shareholders. If a quorum is present, the affirmative vote of the majority of
+the shares represented at the meeting and entitled to vote on a matter shall be
+the act of the shareholders, unless the vote of a greater number or voting by
+classes is required by The Business Corporation Act of 1983 or the Articles of
+Incorporation, as in effect on the date of such determination. If a quorum is
+not present, a majority of the shares of the Corporation entitled to vote on a
+matter and represented in person or by proxy at such meeting may adjourn the
+meeting from time to time without further notice.
+
+     SECTION 8. PROXIES. A shareholder may appoint a proxy to vote or otherwise
+act for the shareholder by delivering a valid appointment to the person so
+appointed or such person's agent; PROVIDED, HOWEVER, no shareholder may name
+more than three persons as proxies to attend and to vote the shareholder's
+shares at any meeting of shareholders. Without limiting the manner in which a
+shareholder may appoint such a proxy pursuant to these By-Laws, the following
+shall constitute valid means by which a shareholder may make such an
+appointment:
+
+     (a)  A shareholder may sign a proxy appointment form. The shareholder's
+          signature may be affixed by any reasonable means, including, but not
+          limited to, by facsimile signature.
+
+     (b)  A shareholder may transmit or authorize the transmission of a
+          telegram, cablegram, or other means of electronic transmission;
+          provided that any such transmission must either set forth or be
+          submitted with information from which it can be determined that the
+          telegram, cablegram, or other electronic transmission was authorized
+          by the shareholder. If it is determined that the telegram, cablegram,
+          or other electronic transmission is valid, the inspectors or, if there
+          are no inspectors, such other persons making that determination shall
+          specify the information upon which they relied.
+
+No proxy shall be valid after the expiration of eleven months from the date
+thereof unless otherwise provided in the proxy. Each proxy continues in full
+force and effect until revoked by the person appointing the proxy prior to the
+vote pursuant thereto, except as otherwise provided by law. Such revocation may
+be effected by a writing delivered to the secretary of the Corporation stating
+that the proxy is revoked or by a subsequent delivery of a valid proxy by, or
+
+<PAGE>
+
+BY-LAWS
+
+by the attendance at the meeting and voting in person by the person appointing
+the proxy. The dates of the proxy shall presumptively determine the order of
+appointment.
+
+     SECTION 9. VOTING OF SHARES. Each outstanding share, regardless of class,
+shall be entitled to one vote in each matter submitted to a vote at a meeting of
+shareholders and, in all elections for Directors, every shareholder shall have
+the right to vote the number of shares owned by such shareholder for as many
+persons as there are Directors to be elected, or to cumulate such votes and give
+one candidate as many votes as shall equal the number of Directors multiplied by
+the number of such shares or to distribute such cumulative votes in any
+proportion among any number of candidates; provided that, vacancies on the Board
+of Directors may be filled as provided in Section 9, Article III of these
+By-Laws. A shareholder may vote either in person or by proxy.
+
+     SECTION 10. VOTING OF SHARES BY CERTAIN HOLDERS. Shares of this Corporation
+held by the Corporation in a fiduciary capacity may be voted and shall be
+counted in determining the total number of outstanding shares entitled to vote
+at any given time.
+
+     Shares registered in the name of another corporation, domestic or foreign,
+may be voted by any officer, agent, proxy or other legal representative
+authorized to vote such shares under the law of incorporation of such
+corporation.
+
+     Shares registered in the name of a deceased person, a minor ward or a
+person under legal disability may be voted by his or her administrator,
+executor, or court appointed guardian, either in person or by proxy without a
+transfer of such shares into the name of such administrator, executor, or court
+appointed guardian. Shares registered in the name of a trustee may be voted by
+him or her, either in person or by proxy.
+
+     Shares registered in the name of a receiver may be voted by such receiver,
+and shares held by or under the control of a receiver may be voted by such
+receiver without the transfer thereof into his or her name if authority so to do
+is contained in an appropriate order of the court by which such receiver was
+appointed.
+
+     A shareholder whose shares are pledged shall be entitled to vote such
+shares until the shares have been transferred into the name of the pledgee, and
+thereafter the pledgee shall be entitled to vote the shares so transferred.
+
+     SECTION 11. VOTING BY BALLOT. Voting on any question or in any election may
+be viva voce unless the presiding officer shall order that voting be by ballot.
+
+     SECTION 12. INSPECTORS OF ELECTION. The Board of Directors in advance of
+any meeting of shareholders may appoint inspectors to act at such meeting or any
+adjournment thereof. If inspectors of election are not so appointed, the officer
+or person acting as chairman at any such meeting may, and on the request of any
+shareholder or his proxy, shall make such appointment. In case any person
+appointed as inspector shall fail to appear or to act, the vacancy
+
+<PAGE>
+
+BY-LAWS
+
+may be filled by appointment made by the Board of Directors in advance of the
+meeting or at the meeting by the officer or person acting as chairman.
+
+     Such inspectors shall ascertain and report the number of shares represented
+at the meeting, based upon their determination of the validity and effect of
+proxies; count all votes and report the results; and do such other acts as are
+proper to conduct the election and voting with impartiality and fairness to all
+the shareholders.
+
+     Each report of an inspector shall be in writing and signed by him or her or
+by a majority of them if there be more than one inspector acting at such
+meeting. If there is more than one inspector, the report of a majority shall be
+the report of the inspectors. The report of the inspector or inspectors on the
+number of shares represented at the meeting and the results of the voting shall
+be prima facie evidence thereof.
+
+                                   ARTICLE III
+
+                                    DIRECTORS
+
+     SECTION 1. GENERAL POWERS. The business and affairs of the Corporation
+shall be managed under the direction of the Board of Directors.
+
+     SECTION 2. NUMBER, TENURE AND QUALIFICATIONS. The number of Directors of
+the Corporation shall be twelve. The terms of all Directors shall expire at the
+next annual meeting of shareholders following their election. Despite the
+expiration of a Director's term, he or she shall continue to serve until the
+next meeting of shareholders at which Directors are elected. Directors need not
+be residents of Illinois or shareholders of the Corporation.
+
+     SECTION 3. REGULAR MEETINGS. A regular annual meeting of the Board of
+Directors shall be held without other notice than this By-Law, immediately
+after, and at the same place as, the annual meeting of shareholders. Other
+regular meetings of the Board of Directors shall be held at the principal office
+of the Corporation on the second Friday of every month at 9:00 a.m. without
+other notice than this By-Law. The Board of Directors may provide, by
+resolution, for the holding of the regular monthly meetings at a different time
+and place, either within or without the State of Illinois, or for the omission
+of the regular monthly meeting altogether. Where the Board of Directors has, by
+resolution, changed or omitted regular meetings, no other notice than such
+resolution shall be given.
+
+     SECTION 4. SPECIAL MEETINGS. Special meetings of the Board of Directors may
+be called by or at the request of the Chairman of the Board, the Chairman of the
+Executive Committee, the Chief Executive Officer, the President, or of any four
+Directors. The persons authorized to call special meetings of the Board of
+Directors may fix any place, either within or without the State of Illinois, as
+the place for holding any special meeting of the Board of Directors.
+
+<PAGE>
+
+BY-LAWS
+
+     SECTION 5. NOTICE. Notice of any special meeting shall be given: (i) at
+least one day prior thereto if the notice is given personally or by an
+electronic transmission, (ii) at least two business days prior thereto if the
+notice is given by having it delivered by a third party entity that provides
+delivery services in the ordinary course of business and guarantees delivery of
+the notice to the Director no later than the following business day, and (iii)
+at least seven days prior thereto if the notice is given by mail. For this
+purpose, the term "electronic transmission" may include, but shall not be
+limited to, a telex, facsimile, or other electronic means. Notice shall be
+delivered to the Director's business address and/or telephone number and shall
+be deemed given upon electronic transmission, upon delivery to the third party
+delivery service, or upon being deposited in the United States mail with postage
+thereon prepaid. Any Director may waive notice of any meeting by signing a
+written waiver of notice either before or after the meeting. Attendance of a
+Director at any meeting shall constitute a waiver of notice of such meeting,
+except where a Director attends a meeting for the express purpose of objecting
+to the transaction of any business because the meeting is not lawfully called or
+convened. Neither the business to be transacted at, nor the purpose of, any
+regular or special meeting of the Board of Directors need to be specified in the
+notice or waiver of notice of such meeting.
+
+     SECTION 6. QUORUM. A majority of the number of Directors fixed by these
+By-Laws shall constitute a quorum for transaction of business at any meeting of
+the Board of Directors; provided, that if less than a majority of such number of
+Directors are present at said meeting, a majority of the Directors present may
+adjourn the meeting from time to time without further notice.
+
+     SECTION 7. MANNER OF VOTING. The act of the majority of the Directors
+present at a meeting at which a quorum is present shall be the act of the Board
+of Directors.
+
+     SECTION 8. INFORMAL ACTION BY DIRECTORS. Any action required to be taken at
+a meeting of the Board of Directors, or any other action which may be taken at a
+meeting of the Board of Directors or a committee thereof, may be taken without a
+meeting if a consent in writing, setting forth the action so taken, shall be
+signed by all of the Directors entitled to vote with respect to the subject
+matter thereof, or by all the members of such committee, as the case may be.
+
+     The consent shall be evidenced by one or more written approvals, each of
+which sets forth the action taken and bears the signature of one or more
+Directors. All the approvals evidencing the consent shall be delivered to the
+Secretary of the Corporation to be filed in the corporate records. The action
+taken shall be effective when all the Directors have approved the consent unless
+the consent specifies a different effective date.
+
+     Any such consent signed by all the Directors or all the members of a
+committee shall have the same effect as a unanimous vote.
+
+     SECTION 9. VACANCIES. Any vacancy occurring in the Board of Directors and
+any directorship to be filled by reason of an increase in the number of
+Directors, may be filled by
+
+<PAGE>
+
+BY-LAWS
+
+election at an annual meeting or at a special meeting of shareholders called for
+that purpose. A Director elected to fill a vacancy shall serve until the next
+annual meeting of shareholders. A majority of Directors then in office may also
+fill one or more vacancies arising between meetings of shareholders by reason of
+an increase in the number of Directors or otherwise, and any Director so
+selected shall serve until the next annual meeting of shareholders, provided
+that at no time may the number of Directors selected to fill vacancies in this
+manner during any interim period between meetings of shareholders exceed 33-1/3
+per cent of the total membership of the Board of Directors.
+
+     SECTION 10. PRESUMPTION OF ASSENT. A Director of the Corporation who is
+present at a meeting of the Board of Directors or any committee thereof at which
+action on any corporate matter is taken is conclusively presumed to have
+assented to the action taken unless his or her dissent is entered in the minutes
+of the meeting or unless he or she files his or her written dissent to such
+action with the person acting as the secretary of the meeting before the
+adjournment thereof or forwards such dissent by registered or certified mail to
+the Secretary of the Corporation immediately after the adjournment of the
+meeting. Such right to dissent shall not apply to a Director who voted in favor
+of such action.
+
+     SECTION 11. APPOINTMENT OF AUDITORS. Upon the recommendation of the Audit
+Committee, the Board of Directors shall appoint annually a firm of independent
+public accountants as auditors of the Corporation. Such appointment shall be
+submitted to the shareholders for ratification at the Annual Meeting next
+following such appointment. Should the holders of a majority of the shares
+represented at the meeting fail to ratify the appointment of any firm as
+auditors of the Corporation, or should the Board of Directors for any reason
+determine that such appointment be terminated, the Board of Directors shall
+appoint another firm of independent public accountants to act as auditors of the
+Corporation and such appointment shall be submitted to the shareholders for
+ratification at the Annual or Special Shareholders Meeting next following such
+appointment.
+
+                                   ARTICLE IV
+
+                                   COMMITTEES
+
+     SECTION 1. APPOINTMENT. A majority of the Board of Directors may create one
+or more committees and appoint members of the Board to serve on the committee or
+committees. Each committee shall have three or more members, who serve at the
+pleasure of the Board. The Board shall designate one member of each committee to
+be chairman of the committee. The Board shall designate a secretary of each
+committee who may be, but need not be, a member of the committee or the Board.
+
+     SECTION 2. COMMITTEE MEETINGS. A majority of any committee shall constitute
+a quorum and a majority of the committee is necessary for committee action. A
+committee may act by unanimous consent in writing without a meeting. Committee
+meetings may be called by the Chairman of the Board, the chairman of the
+committee, or any two of the committee's
+
+<PAGE>
+
+BY-LAWS
+
+members. The time and place of committee meetings shall be designated in the
+notice of such meeting. Notice of each committee meeting shall be given to each
+committee member. Each Committee shall keep minutes of its proceedings and such
+minutes shall be distributed to the Board of Directors.
+
+     SECTION 3. EXECUTIVE COMMITTEE. The Board shall appoint an Executive
+Committee. A majority of the members of the Committee shall be selected from
+those Directors who are not then serving as full-time employees of the
+Corporation or any of its subsidiaries.
+
+     SECTION 4. DUTIES OF THE EXECUTIVE COMMITTEE. The Executive Committee may,
+when the Board of Directors is not in session, exercise the authority of the
+Board in the management of the business and affairs of the Corporation;
+provided, however, the Committee may not:
+
+          (1)  authorize distributions;
+
+          (2)  approve or recommend to shareholders any act the Business
+               Corporation Act of 1983 requires to be approved by shareholders.
+
+          (3)  fill vacancies on the Board or on any of its committees;
+
+          (4)  elect or remove Officers or fix the compensation of any member of
+               the Committee;
+
+          (5)  adopt, amend or repeal the By-Laws;
+
+          (6)  approve a plan of merger not requiring shareholder approval;
+
+          (7)  authorize or approve reacquisition of shares, except according to
+               a general formula or method prescribed by the Board;
+
+          (8)  authorize or approve the issuance or sale, or contract for sale,
+               of shares or determine the designation and relative rights,
+               preferences, and limitations of a series of shares, except that
+               the Board may direct the Committee to fix the specific terms of
+               the issuance or sale or contract for sale or the number of shares
+               to be allocated to particular employees under an employee benefit
+               plan; or
+
+          (9)  amend, alter, repeal, or take action inconsistent with any
+               resolution or action of the Board of Directors when the
+               resolution or action of the Board of Directors provides by its
+               terms that it shall not be amended, altered or repealed by action
+               of the Committee.
+
+<PAGE>
+
+BY-LAWS
+
+     SECTION 5. AUDIT COMMITTEE. The Board of Directors shall appoint an Audit
+Committee. All of the members of the Committee shall be selected from those
+Directors who are not then serving as full-time employees of the Corporation or
+any of its subsidiaries.
+
+     SECTION 6. DUTIES OF THE AUDIT COMMITTEE. The Audit Committee shall:
+
+          (1)  recommend to the Board of Directors annually a firm of
+               independent public accountants to act as auditors of the
+               Corporation;
+
+          (2)  review with the auditors in advance the scope of and fees for
+               their annual audit;
+
+          (3)  review with the auditors and the management, from time to time,
+               the Corporation's accounting principles, policies, and practices
+               and its reporting policies and practices;
+
+          (4)  review with the auditors annually the results of their audit; and
+
+          (5)  review from time to time with the auditors and the Corporation's
+               financial personnel the adequacy of the Corporation's accounting,
+               financial and operating controls.
+
+     SECTION 7. COMPENSATION COMMITTEE. The Board of Directors shall appoint a
+Compensation Committee. The members of the Committee shall be selected from
+those Directors who are not then serving as full-time employees of the
+Corporation or any of its subsidiaries and who are "non-employee directors"
+under Rule 16b-3 promulgated under the Securities Exchange Act of 1934, or any
+similar successor rule.
+
+     SECTION 8. DUTIES OF THE COMPENSATION COMMITTEE. The Compensation Committee
+shall:
+
+          (1)  administer the stock option plans of the Corporation;
+
+          (2)  review, at least annually, the compensation of Directors who are
+               not then serving as full-time employees of the Corporation or any
+               of its subsidiaries and recommend for approval by the Board any
+               change in the compensation of such Directors;
+
+          (3)  review, at least annually, the compensation of all Officers of
+               the Corporation. The committee shall have the authority to
+               approve changes in the base compensation, and any proposed
+               special separation arrangements of Officers, except the Chairman
+               of the Board of Directors, the Chief Executive Officer, and the
+               President, whose base compensation,
+
+<PAGE>
+
+BY-LAWS
+
+               and any special separation arrangements, shall be subject to
+               approval by the Board of Directors.
+
+     SECTION 9. NOMINATIONS AND BOARD AFFAIRS COMMITTEE. The Board of Directors
+shall appoint a Nominations and Board Affairs Committee. A majority of the
+members of the Committee shall be selected from those Directors who are not then
+serving as full-time employees of the Corporation or any of its subsidiaries.
+
+     SECTION 10. DUTIES OF THE NOMINATIONS AND BOARD AFFAIRS COMMITTEE. The
+Nominations and Board Affairs Committee shall:
+
+          (1)  develop general criteria for selection of and qualifications
+               desirable in members of the Board of Directors and Officers of
+               the Corporation and aid the Board in identifying and attracting
+               qualified candidates to stand for election to such positions;
+
+          (2)  recommend to the Board annually a slate of nominees to be
+               proposed by the Board to the shareholders as nominees for
+               election as Directors, and, from time to time, recommend persons
+               to fill any vacancy on the Board;
+
+          (3)  review annually, or more often if appropriate, the performance of
+               individual members of the management of the Corporation and the
+               membership and performance of committees of the Board and make
+               recommendations deemed necessary or appropriate to the Board;
+
+          (4)  recommend to the Board persons to be elected as Officers of the
+               Corporation; and
+
+          (5)  serve in an advisory capacity to the Board of Directors and
+               Chairman of the Board on matters of organization, management
+               succession plans, major changes in the organizational structure
+               of the Corporation, and the conduct of Board activities,
+               including assisting in the evaluation of the Board's own
+               performance.
+
+     SECTION 11. PUBLIC POLICY COMMITTEE. The Board of Directors shall appoint a
+Public Policy Committee. A majority of the members of the Committee shall be
+selected from those Directors who are not then serving as full time employees of
+the Corporation or any of its subsidiaries.
+
+     SECTION 12. DUTIES OF THE PUBLIC POLICY COMMITTEE. The Public Policy
+Committee shall have an advisory role with respect to public policy, regulatory
+and government affairs issues that affect the Corporation.
+
+<PAGE>
+
+BY-LAWS
+
+                                    ARTICLE V
+
+                                    OFFICERS
+
+     SECTION 1. NUMBER. The Officers of the Corporation shall be the Chairman of
+the Board, the Chief Executive Officer, the President, one or more Executive,
+Group or Senior Vice Presidents, one or more Vice Presidents, a Treasurer, a
+Secretary, a Controller, a General Counsel and such Assistant Treasurers and
+Assistant Secretaries as the Board of Directors may elect. Any two or more
+offices may be held by the same person.
+
+     SECTION 2. ELECTION AND TERM OF OFFICE. The Officers of the Corporation
+shall be elected annually by the Board of Directors at the first meeting of the
+Board of Directors held after each annual meeting of shareholders. If the
+election of Officers shall not be held at such meeting, such election shall be
+held as soon thereafter as conveniently may be. Vacancies or new offices may be
+filled at any meeting of the Board of Directors. Each Officer shall hold office
+until his or her successor shall have been duly elected and shall have qualified
+or until his or her death or until he or she shall resign or shall have been
+removed in the manner hereinafter provided.
+
+     SECTION 3. REMOVAL OF OFFICERS. Any Officer may be removed by the Board of
+Directors whenever in its judgment the best interests of the Corporation will be
+served thereby.
+
+     SECTION 4. VACANCIES. A vacancy in any office because of death,
+resignation, removal, disqualification or otherwise, may be filled by the Board
+of Directors for the unexpired portion of the term.
+
+     SECTION 5. CHAIRMAN OF THE BOARD OF DIRECTORS AND CHIEF EXECUTIVE OFFICER.
+The Chairman shall preside at all meetings of the Board of Directors and the
+shareholders. The Chief Executive Officer shall be responsible for the overall
+management of the Corporation subject to the direction of the Board of
+Directors.
+
+     SECTION 6. PRESIDENT. The President shall be the Chief Operating Officer.
+The President shall perform such duties as may be prescribed by the Board of
+Directors or by the Chief Executive Officer.
+
+     SECTION 7. EXECUTIVE, GROUP AND SENIOR VICE PRESIDENTS. Each Executive,
+Group, or Senior Vice President shall be responsible for supervising and
+coordinating a major area of the Corporation's activities subject to the
+direction of the Chief Executive Officer or the President.
+
+     SECTION 8. VICE PRESIDENTS. Each of the Vice Presidents shall be
+responsible for those activities designated by an Executive, Group, or Senior
+Vice President, the President, the Chief Executive Officer or by the Board of
+Directors.
+
+<PAGE>
+
+BY-LAWS
+
+     SECTION 9. TREASURER. The Treasurer shall administer the investment,
+financing, insurance and credit activities of the Corporation.
+
+     SECTION 10. SECRETARY. The Secretary will be the custodian of the corporate
+records and of the seal of the Corporation, will countersign certificates for
+shares of the Corporation, and in general will perform all duties incident to
+the office of the Secretary. The Secretary shall have the authority to certify
+the By-Laws, resolutions of the shareholders and the Board of Directors and
+committees thereof, and other documents of the Corporation as true and correct
+copies hereof.
+
+     SECTION 11. CONTROLLER. The Controller will conduct the accounting
+activities of the Corporation, including the maintenance of the Corporation's
+general and supporting ledgers and books of account, operating budgets, and the
+preparation and consolidation of financial statements.
+
+     SECTION 12. GENERAL COUNSEL. The General Counsel will be the chief
+consultant of the Corporation on legal matters. He or she will supervise all
+matters of legal import concerning the interests of the Corporation.
+
+     SECTION 13. ASSISTANT TREASURER. The Assistant Treasurer shall, in the
+absence or incapacity of the Treasurer, perform the duties and exercise the
+powers of the Treasurer, and shall perform such other duties as shall from time
+to time be given to him or her by the Treasurer.
+
+     SECTION 14. ASSISTANT SECRETARY. The Assistant Secretary shall, in the
+absence or incapacity of the Secretary, perform the duties and exercise the
+powers of the Secretary, and shall perform such other duties as shall from time
+to time be given to him or her by the Secretary. The Assistant Secretary shall
+be, with the Secretary, keeper of the books, records, and the seal of the
+Corporation, and shall have the authority to certify the By-Laws, resolutions
+and other documents of the Corporation.
+
+     SECTION 15. GENERAL POWERS OF OFFICERS. The Chairman of the Board, the
+Chief Executive Officer, the President, and any Executive, Group or Senior Vice
+President, may sign without countersignature any deeds, mortgages, bonds,
+contracts, reports to public agencies, or other instruments whether or not the
+Board of Directors has expressly authorized execution of such instruments,
+except in cases where the signing and execution thereof shall be expressly
+delegated by the Board of Directors or by these By-Laws solely to some other
+Officer or agent of the Corporation, or shall be required by law to be otherwise
+signed or executed. Any other Officer of this Corporation may sign contracts,
+reports to public agencies, or other instruments which are in the regular course
+of business and within the scope of his or her authority, except where the
+signing and execution thereof shall be expressly delegated by the Board of
+Directors or by these By-Laws to some other Officer or agent of the Corporation,
+or shall be required by law to be otherwise signed or executed.
+
+<PAGE>
+
+BY-LAWS
+
+                                   ARTICLE VI
+
+                   CERTIFICATES FOR SHARES AND THEIR TRANSFER
+
+     SECTION 1. CERTIFICATES FOR SHARES. Certificates representing shares of the
+Corporation shall be in such form as may be determined by the Board of
+Directors. Such certificates shall be signed by any one of the Chairman of the
+Board, the Chief Executive Officer, the President or an Executive Vice
+President, and shall be countersigned by the Secretary or an Assistant Secretary
+and shall be sealed with the seal, or a facsimile of the seal, of the
+Corporation. If a certificate is countersigned by a Transfer Agent or Registrar,
+other than the Corporation itself or its employee, any other signatures or
+countersignature on the certificate may be facsimiles. In case any Officer of
+the Corporation, or any officer or employee of the Transfer Agent or Registrar
+who has signed or whose facsimile signature has been placed upon such
+certificate ceases to be an Officer of the Corporation, or an officer or
+employee of the Transfer Agent or Registrar before such certificate is issued,
+the certificate may be issued by the Corporation with the same effect as if the
+Officer of the Corporation, or the officer or employee of the Transfer Agent or
+Registrar had not ceased to be such at the date of its issue. Each certificate
+representing shares shall state: that the Corporation is organized under the
+laws of the State of Illinois; the name of the person to whom issued; the number
+and class of shares; and the designation of the series, if any, which such
+certificate represents. Each certificate shall be consecutively numbered or
+otherwise identified. The name of the person to whom the shares represented
+thereby are issued, with the number of shares and date of issue, shall be
+entered on the books of the Corporation. All certificates surrendered to the
+Corporation for transfer shall be canceled, and no new certificate shall be
+issued in replacement until the former certificate for a like number of shares
+shall have been surrendered and canceled, except in the case of lost, destroyed
+or mutilated certificates.
+
+     SECTION 2. TRANSFER AGENT AND REGISTRAR. The Board of Directors may from
+time to time appoint such Transfer Agents and Registrars in such locations as it
+shall determine, and may, in its discretion, appoint a single entity to act in
+the capacity of both Transfer Agent and Registrar in any one location.
+
+     SECTION 3. TRANSFER OF SHARES. Transfers of shares of the Corporation shall
+be made only on the books of the Corporation at the request of the holder of
+record thereof or of his attorney, lawfully constituted in writing, and on
+surrender for cancellation of the certificate for such shares. The person in
+whose name shares stand on the books of the Corporation shall be deemed the
+owner thereof for all purposes as regards the Corporation.
+
+     SECTION 4. LOST, DESTROYED OR MUTILATED CERTIFICATES. In case of lost,
+destroyed or mutilated certificates, duplicate certificates shall be issued to
+the person claiming the loss, destruction or mutilation, provided:
+
+     (a)  That the claimant furnishes an affidavit stating the facts of such
+          loss, destruction or mutilation so far as known to him or her and
+          further stating that the affidavit is
+
+<PAGE>
+
+BY-LAWS
+
+          made to induce the Corporation to issue a duplicate certificate or
+          certificates; and that issuance of the duplicate certificate or
+          certificates is approved:
+
+          (i)  in a case involving a certificate or certificates for more than
+               1,000 shares, by the Chairman of the Board, the Chief Executive
+               Officer, the President, an Executive Vice President, or the
+               Secretary; or
+
+          (ii) in a case involving a certificate or certificates for 1,000
+               shares or less, by the Transfer Agent appointed by the Board of
+               Directors for the transfer of the shares represented by such
+               certificate or certificates;
+
+          upon receipt of a bond, with one or more sureties, in the amount to be
+          determined by the party giving such approval; or
+
+     (b)  that issuance of the said duplicate certificate or certificates is
+          approved by the Board of Directors upon such terms and conditions as
+          it shall determine.
+
+                                   ARTICLE VII
+
+                                   FISCAL YEAR
+
+     The fiscal year of the Corporation shall begin on the first day of January
+in each year and end on the last day of December in each year.
+
+                                  ARTICLE VIII
+
+                VOTING SHARES OR INTERESTS IN OTHER CORPORATIONS
+
+     The Chairman of the Board, the Chief Executive Officer, the President, an
+Executive, Group, or Senior Vice President and each of them, shall have the
+authority to act for the Corporation by voting any shares or exercising any
+other interest owned by the Corporation in any other corporation or other
+business association, including wholly or partially owned subsidiaries of the
+Corporation, such authority to include, but not be limited to, power to attend
+any meeting of any such corporation or other business association, to vote
+shares in the election of directors and upon any other matter coming before any
+such meeting, to waive notice of any such meeting and to consent to the holding
+thereof without notice, and to appoint a proxy or proxies to represent the
+Corporation at any such meeting with all the powers that the said Officer would
+have under this section if personally present.
+
+<PAGE>
+
+BY-LAWS
+
+                                   ARTICLE IX
+
+                          DISTRIBUTIONS TO SHAREHOLDERS
+
+BY-LAWS
+
+     The Board of Directors may authorize, and the Corporation may make,
+distributions to its shareholders, subject to any restriction in the Articles of
+Incorporation and subject also to the limitations prescribed by law.
+
+                                    ARTICLE X
+
+                                      SEAL
+
+     The Corporate Seal of the Corporation shall be in the form of a circle in
+the center of which is the insignia "1" and shall have inscribed thereon the
+name of the Corporation and the words "an Illinois Corporation."
+
+                                   ARTICLE XI
+
+                                WAIVER OF NOTICE
+
+     Whenever any notice whatever is required to be given under the provisions
+of these By-Laws or under the provisions of the Articles of Incorporation or
+under the provisions of The Business Corporation Act of 1983, a waiver thereof
+in writing, signed by the person or persons entitled to such notice, whether
+before or after the time stated therein, shall be deemed equivalent to the
+giving of such notice. Attendance at any meeting shall constitute waiver of
+notice thereof unless the person at the meeting objects to the holding of the
+meeting because proper notice was not given.
+
+                                   ARTICLE XII
+
+                                   AMENDMENTS
+
+     These By-Laws may be made, altered, amended or repealed by the shareholders
+or the Board of Directors.
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-12
+<SEQUENCE>3
+<DESCRIPTION>EXHIBIT 12
+<TEXT>
+
+<PAGE>
+
+
+                                                                      Exhibit 12
+
+                               Abbott Laboratories
+
+                Computation of Ratio of Earnings to Fixed Charges
+
+                                   (Unaudited)
+
+                       (dollars in millions except ratios)
+
+<TABLE>
+<CAPTION>
+                                                                                Three Months Ended
+                                                                                   March 31, 2000
+                                                                                ------------------
+         <S>                                                                    <C>
+           Net Earnings ......................................................          $693
+           Add (deduct):
+
+                Taxes on earnings ............................................           256
+                Minority interest ............................................             2
+                                                                                      ------
+           Net Earnings as adjusted ..........................................          $951
+                                                                                      ------
+           Fixed Charges:
+
+                Interest on long-term and short-term debt ....................            32
+                Capitalized interest cost ....................................            (1)
+                Rental expense representative of an interest factor ..........            11
+                                                                                      ------
+
+           Total Fixed Charges ...............................................            42
+                                                                                      ------
+           Total adjusted earnings available for payment of fixed charges ....          $993
+                                                                                      ======
+           Ratio of earnings to fixed charges ................................          23.6
+                                                                                      ======
+</TABLE>
+
+NOTE:
+For the purpose of calculating this ratio, (i) earnings have been calculated by
+adjusting net earnings for taxes on earnings; interest expense; capitalized
+interest cost, net of amortization; minority interest; and the portion of
+rentals representative of the interest factor, (ii) Abbott considers one-third
+of rental expense to be the amount representing return on capital, and (iii)
+fixed charges comprise total interest expense, including capitalized interest
+and such portion of rentals.
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>4
+<DESCRIPTION>EXHIBIT 27
+<TEXT>
+
+<TABLE> <S> <C>
+
+<PAGE>
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM THE
+CONDENSED CONSOLIDATED STATEMENT OF EARNINGS FOR THE THREE MONTHS ENDED MARCH
+31, 2000, AND THE CONDENSED CONSOLIDATED BALANCE SHEET AS OF MARCH 31, 2000, AND
+IS QUALIFIED IN ITS ENTIRETY BY REFERENCE TO SUCH FINANCIAL STATEMENTS.
+</LEGEND>
+<MULTIPLIER> 1,000
+<CURRENCY> U.S.DOLLARS
+
+<S>                             <C>
+<PERIOD-TYPE>                   3-MOS
+<FISCAL-YEAR-END>                          DEC-31-2000
+<PERIOD-START>                             JAN-01-2000
+<PERIOD-END>                               MAR-31-2000
+<EXCHANGE-RATE>                                      1
+<CASH>                                         680,894
+<SECURITIES>                                    94,453
+<RECEIVABLES>                                2,176,481
+<ALLOWANCES>                                   235,001
+<INVENTORY>                                  1,622,309
+<CURRENT-ASSETS>                             6,727,906
+<PP&E>                                       9,891,241
+<DEPRECIATION>                               5,110,228
+<TOTAL-ASSETS>                              14,960,923
+<CURRENT-LIABILITIES>                        4,500,645
+<BONDS>                                      1,326,746
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                     2,001,434
+<OTHER-SE>                                   5,872,133
+<TOTAL-LIABILITY-AND-EQUITY>                14,960,923
+<SALES>                                      3,353,178
+<TOTAL-REVENUES>                             3,353,178
+<CGS>                                        1,496,447
+<TOTAL-COSTS>                                1,496,447
+<OTHER-EXPENSES>                              321,367<F1>
+<LOSS-PROVISION>                               (2,256)
+<INTEREST-EXPENSE>                              32,215
+<INCOME-PRETAX>                                949,256
+<INCOME-TAX>                                   256,299
+<INCOME-CONTINUING>                            692,957
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                   692,957
+<EPS-BASIC>                                       0.45
+<EPS-DILUTED>                                     0.44
+<FN>
+<F1>OTHER EXPENSES CONSIST OF RESEARCH AND DEVELOPMENT EXPENSE.
+</FN>
+
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

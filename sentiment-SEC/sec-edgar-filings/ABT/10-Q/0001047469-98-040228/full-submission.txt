@@ -1,0 +1,1502 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ OiQNCK58qqnc1RbOleugpmLxargitzJUoGdFQetdw0nK1NR62jisXC3rPIyWhEko
+ P36Lx4EEeUU0pK3jRqllmw==
+
+<SEC-DOCUMENT>0001047469-98-040228.txt : 19981113
+<SEC-HEADER>0001047469-98-040228.hdr.sgml : 19981113
+ACCESSION NUMBER:		0001047469-98-040228
+CONFORMED SUBMISSION TYPE:	10-Q
+PUBLIC DOCUMENT COUNT:		6
+CONFORMED PERIOD OF REPORT:	19980930
+FILED AS OF DATE:		19981112
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ABBOTT LABORATORIES
+		CENTRAL INDEX KEY:			0000001800
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				360698440
+		STATE OF INCORPORATION:			IL
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		10-Q
+		SEC ACT:		
+		SEC FILE NUMBER:	001-02189
+		FILM NUMBER:		98744594
+
+	BUSINESS ADDRESS:	
+		STREET 1:		100 ABBOTT PARK ROAD
+		STREET 2:		D-322 AP6D
+		CITY:			ABBOTT PARK
+		STATE:			IL
+		ZIP:			60064-3500
+		BUSINESS PHONE:		(708)-937-6100
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>10-Q
+<SEQUENCE>1
+<DESCRIPTION>FORM 10-Q
+<TEXT>
+
+<PAGE>
+                                      FORM 10-Q
+                                          
+                         SECURITIES AND EXCHANGE COMMISSION
+                                          
+                              WASHINGTON, D. C.  20549
+
+
+(Mark One)
+
+/X/  QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+               SECURITIES EXCHANGE ACT OF 1934
+
+For the quarterly period ended September 30, 1998
+
+                                         OR
+
+/ /  TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+          SECURITIES EXCHANGE ACT OF 1934    
+
+
+For the transition period from  ________________________  to _________________
+
+
+
+Commission File No. 1-2189 
+
+
+                                ABBOTT LABORATORIES
+
+An Illinois Corporation                       I.R.S. Employer Identification 
+                                                        No. 36-0698440
+
+
+                                100 Abbott Park Road
+                         Abbott Park, Illinois  60064-3500
+
+                             Telephone:  (847) 937-6l00
+                                          
+
+Indicate by check mark whether the registrant (l) has filed all reports 
+required to be filed by Section l3 or l5(d) of the Securities Exchange Act of 
+l934 during the preceding l2 months (or for such shorter period that the 
+registrant was required to file such reports), and (2) has been subject to 
+such filing requirements for the past 90 days.         Yes  X .  No     .     
+                                                           ----     ----
+
+As of October 31, 1998, the Corporation had 1,517,621,345 common shares 
+without par value outstanding.
+
+<PAGE>
+
+                          PART I. FINANCIAL INFORMATION
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                   CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+
+                                   (UNAUDITED)
+
+
+
+
+<PAGE>
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                  CONDENSED CONSOLIDATED STATEMENT OF EARNINGS
+
+                                   (UNAUDITED)
+
+             (Dollars and shares in thousands except per share data)
+
+<TABLE>
+<CAPTION>
+                                                   THREE MONTHS ENDED                NINE MONTHS ENDED
+                                                      SEPTEMBER 30                      SEPTEMBER 30
+                                             ----------------------------      ----------------------------
+                                                 1998             1997             1998             1997
+                                             -----------      -----------      -----------      -----------
+<S>                                          <C>              <C>              <C>              <C>
+Net Sales ..............................     $ 3,035,767      $ 2,865,184      $ 9,147,433      $ 8,765,406
+                                             -----------      -----------      -----------      -----------
+
+Cost of products sold ..................       1,375,010        1,241,842        3,952,753        3,786,216
+Research and development ...............         292,078          326,797          879,086          927,019
+Selling, general and administrative ....         665,202          675,062        2,029,539        1,982,663
+                                             -----------      -----------      -----------      -----------
+  Total Operating Cost and Expenses ....       2,332,290        2,243,701        6,861,378        6,695,898
+                                             -----------      -----------      -----------      -----------
+
+Operating Earnings .....................         703,477          621,483        2,286,055        2,069,508
+                                             -----------      -----------      -----------      -----------
+
+Interest expense .......................          41,027           33,470          119,388           97,612
+Interest income ........................         (14,654)         (12,146)         (41,042)         (35,537)
+Other (income) expense, net ............         (61,398)         (53,301)        (162,957)        (144,403)
+                                             -----------      -----------      -----------      -----------
+
+Earnings Before Taxes ..................         738,502          653,460        2,370,666        2,151,836
+
+Taxes on earnings ......................         206,780          182,011          663,786          624,032
+                                             -----------      -----------      -----------      -----------
+
+Net Earnings ...........................     $   531,722      $   471,449      $ 1,706,880      $ 1,527,804
+                                             -----------      -----------      -----------      -----------
+                                             -----------      -----------      -----------      -----------
+
+
+Basic Earnings Per Common Share ........     $       .35      $       .31      $      1.12      $       .99
+                                             -----------      -----------      -----------      -----------
+                                             -----------      -----------      -----------      -----------
+
+Diluted Earnings Per Common Share ......     $       .34      $       .30      $      1.10      $       .97
+                                             -----------      -----------      -----------      -----------
+                                             -----------      -----------      -----------      -----------
+
+Cash Dividends Declared
+  Per Common Share .....................     $       .15      $      .135      $       .45      $      .405
+                                             -----------      -----------      -----------      -----------
+                                             -----------      -----------      -----------      -----------
+
+Average Number of Common Shares
+  Outstanding Used for Basic Earnings
+    Per Common Share ...................       1,520,914        1,536,674        1,524,556        1,542,934
+
+Dilutive Common Stock Options ..........          23,766           22,106           22,052           22,197
+                                             -----------      -----------      -----------      -----------
+
+Average Number of Common Shares
+  Outstanding Plus Dilutive Common
+    Stock Options ......................       1,544,680        1,558,780        1,546,608        1,565,131
+                                             -----------      -----------      -----------      -----------
+                                             -----------      -----------      -----------      -----------
+
+Outstanding Common Stock
+  Options Having No Dilutive Effect ....             564              319              564              319
+                                             -----------      -----------      -----------      -----------
+                                             -----------      -----------      -----------      -----------
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+                                        2
+
+<PAGE>
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                      CONDENSED CONSOLIDATED BALANCE SHEET
+
+                             (Dollars in Thousands)
+
+<TABLE>
+<CAPTION>
+                                                                          SEPTEMBER 30      DECEMBER 31
+                                                                              1998              1997
+                                                                          -------------     ------------
+                                                                           (unaudited)
+<S>                                                                       <C>               <C>
+                                     ASSETS
+
+Current Assets:
+     Cash and cash equivalents............................................$   223,470       $   230,024
+     Investment securities................................................     50,563            28,986
+     Trade receivables, less allowances of $183,555 in 1998
+       and $167,406 in 1997...............................................  1,732,647         1,782,326
+     Inventories:
+       Finished products..................................................    680,950           667,355
+       Work in process....................................................    329,138           287,653
+       Materials  ........................................................    384,026           324,892
+                                                                          -----------       -----------
+
+          Total inventories...............................................  1,394,114         1,279,900
+
+     Prepaid expenses, income taxes, and other receivables................  1,665,416         1,716,972
+                                                                          -----------       -----------
+
+          Total Current Assets............................................  5,066,210         5,038,208
+                                                                          -----------       -----------
+
+Investment Securities Maturing after One Year.............................    745,149           630,967
+                                                                          -----------       -----------
+
+Property and Equipment, at Cost...........................................  9,201,129         8,790,157
+     Less: accumulated depreciation and amortization......................  4,555,362         4,220,466
+                                                                          -----------       -----------
+
+          Net Property and Equipment......................................  4,645,767         4,569,691
+Deferred Charges, Intangible and Other Assets.............................  2,145,908         1,822,202
+                                                                          -----------       -----------
+                                                                          $12,603,034       $12,061,068
+                                                                          -----------       -----------
+                                                                          -----------       -----------
+
+                    LIABILITIES AND SHAREHOLDERS' INVESTMENT
+
+Current Liabilities:
+     Short-term borrowings and current portion of long-term debt..........$ 1,419,970       $ 1,781,352
+     Trade accounts payable...............................................    922,341         1,001,058
+     Salaries, income taxes, dividends payable, and other accruals........  2,322,201         2,252,058
+                                                                          -----------       -----------
+
+          Total Current Liabilities.......................................  4,664,512         5,034,468
+                                                                          -----------       -----------
+
+Long-Term Debt    ........................................................  1,340,845           937,983
+                                                                          -----------       -----------
+
+Other Liabilities and Deferrals...........................................  1,223,785         1,089,940
+                                                                          -----------       -----------
+
+Shareholders' Investment:
+     Preferred shares, $1 par value
+       Authorized - 1,000,000 shares, none issued.........................        ...               ...
+     Common shares, without par value
+       Authorized - 2,400,000,000 shares
+       Issued at stated capital amount -
+          Shares: 1998: 1,536,366,561; 1997: 1,546,468,504................  1,114,445           907,106
+
+Earnings employed in the business.........................................  4,643,640         4,395,582
+
+Accumulated other comprehensive income....................................   (307,152)         (230,241)
+                                                                          -----------       -----------
+                                                                            5,450,933         5,072,447
+
+Less:
+Common shares held in treasury, at cost -
+     Shares: 1998: 17,710,838; 1997: 18,280,398 ..........................     46,735            48,238
+Unearned compensation - restricted stock awards...........................     30,306            25,532
+                                                                          -----------       -----------
+
+          Total Shareholders' Investment..................................  5,373,892         4,998,677
+                                                                          -----------       -----------
+                                                                          $12,603,034       $12,061,068
+                                                                          -----------       -----------
+                                                                          -----------       -----------
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+                                        3
+
+<PAGE>
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                 CONDENSED CONSOLIDATED STATEMENT OF CASH FLOWS
+
+                                   (UNAUDITED)
+
+                             (Dollars in Thousands)
+
+<TABLE>
+<CAPTION>
+                                                                 NINE MONTHS ENDED SEPTEMBER 30
+                                                                 -------------------------------
+                                                                     1998                1997
+                                                                 -----------         -----------
+<S>                                                              <C>                 <C>
+Cash Flow From (Used in) Operating Activities:
+
+    Net earnings ...........................................     $ 1,706,880         $ 1,527,804
+    Adjustments to reconcile net earnings to
+      net cash from operating activities -
+    Depreciation and amortization ..........................         591,032             547,044
+    Trade receivables ......................................          14,671            (120,783)
+    Inventories ............................................        (135,017)            (64,723)
+    Other, net .............................................          90,547             120,869
+                                                                 -----------         -----------
+
+         Net Cash From Operating Activities ................       2,268,113           2,010,211
+                                                                 -----------         -----------
+
+Cash Flow From (Used in) Investing Activities:
+
+    Acquisitions of businesses, net of cash acquired .......        (242,713)           (201,030)
+    Acquisitions of property and equipment .................        (703,677)           (732,388)
+    Investment securities transactions .....................        (135,897)             25,515
+    Other ..................................................          11,040             (14,088)
+                                                                 -----------         -----------
+
+         Net Cash (Used in) Investing Activities ...........      (1,071,247)           (921,991)
+                                                                 -----------         -----------
+
+Cash Flow From (Used in) Financing Activities:
+
+      Proceeds from (repayment of) commercial paper, net ...        (301,000)            252,000
+      Proceeds from issuance of long-term debt .............         400,000                   .
+      Other borrowing transactions, net ....................         (51,748)             22,128
+      Common share transactions ............................        (581,419)           (732,687)
+      Dividends paid .......................................        (663,824)           (602,723)
+                                                                 -----------         -----------
+
+         Net Cash (Used in) Financing Activities ...........      (1,197,991)         (1,061,282)
+                                                                 -----------         -----------
+
+Effect of exchange rate changes on cash and
+    cash equivalents .......................................          (5,429)             (7,743)
+                                                                 -----------         -----------
+
+Net Increase (Decrease) in Cash and Cash Equivalents .......          (6,554)             19,195
+
+Cash and Cash Equivalents, Beginning of Year ...............         230,024             110,209
+                                                                 -----------         -----------
+
+Cash and Cash Equivalents, End of Period ...................     $   223,470         $   129,404
+                                                                 -----------         -----------
+                                                                 -----------         -----------
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+                                        4
+
+<PAGE>
+
+                      ABBOTT LABORATORIES AND SUBSIDIARIES
+
+              NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+
+                               SEPTEMBER 30, 1998
+
+                                   (UNAUDITED)
+
+NOTE 1 - BASIS OF PREPARATION:
+
+The accompanying unaudited, condensed consolidated financial statements have 
+been prepared pursuant to rules and regulations of the Securities and 
+Exchange Commission and, therefore, do not include all information and 
+footnote disclosures normally included in audited financial statements. 
+However, in the opinion of management, all adjustments (which include only 
+normal adjustments) necessary to present fairly the results of operations, 
+financial position and cash flows have been made. It is suggested that these 
+statements be read in conjunction with the financial statements included in 
+the Company's Annual Report on Form 10-K for the year ended December 31, 1997.
+
+NOTE 2 - TAXES ON EARNINGS:
+
+Taxes on earnings reflect the estimated annual effective tax rates. The 
+effective tax rates are less than the statutory U. S. Federal income tax rate 
+principally due to tax incentive grants related to subsidiaries operating in 
+Puerto Rico, the Dominican Republic, Ireland, the Netherlands, and Italy.
+
+NOTE 3 - LITIGATION AND ENVIRONMENTAL MATTERS:
+
+The Company is involved in various claims and legal proceedings including 
+numerous antitrust suits and investigations in connection with the pricing of 
+prescription pharmaceuticals. On September 9, 1998 the federal court approved 
+the settlement of the independent retail pharmacy federal class action 
+lawsuit for $57 million.
+
+In addition, the Company has been identified as a potentially responsible 
+party for investigation and cleanup costs at a number of locations in the 
+United States and Puerto Rico under Federal and state remediation laws and is 
+investigating potential contamination at a number of Company-owned locations.
+
+The matters above are discussed more fully in Note 10 to the financial 
+statements included in the Company's Annual Report on Form 10-K, which is 
+available upon request, and in Part II, Item 1, Legal Proceedings, in this 
+Form.
+
+The Company expects that within the next year, progress in the legal 
+proceedings described above may cause a change in the estimated reserves 
+recorded by the Company. While it is not feasible to predict the outcome of 
+such pending claims, proceedings and investigations with certainty, 
+management is of the opinion that their ultimate disposition should not have 
+a material adverse effect on the Company's financial position, cash flows, or 
+results of operations.
+
+                                      5
+
+<PAGE>
+
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+SEPTEMBER 30, 1998
+(Unaudited), Continued
+
+NOTE 4 - ACQUISITIONS:
+
+On April 17, 1998, the Company acquired the common stock of International 
+Murex Technologies Corporation for approximately $234 million in cash. A 
+substantial portion of the purchase price was allocated to intangible assets, 
+including goodwill, which is being amortized over 40 years. Had this 
+acquisition taken place on January 1, 1997, consolidated sales and net income 
+would not have been significantly different from reported amounts.
+
+NOTE 5 - COMPREHENSIVE INCOME:
+         (Dollars in Thousands)
+
+<TABLE>
+<CAPTION>
+                                                THREE MONTHS ENDED                     NINE MONTHS ENDED
+                                                  SEPTEMBER 30                            SEPTEMBER 30
+                                        -------------------------------         -------------------------------
+                                            1998                1997                1998                1997
+                                        -----------         -----------         -----------         -----------
+<S>                                     <C>                 <C>                 <C>                 <C>
+Net Earnings                            $   531,722         $   471,449         $ 1,706,880         $ 1,527,804
+                                        -----------         -----------         -----------         -----------
+Other comprehensive income:
+  Foreign currency translation
+    adjustments                             (30,947)            (63,346)            (66,701)           (171,442)
+  Unrealized (losses) gains on
+    marketable equity securities               (850)             21,908             (16,245)             26,605
+  Tax benefit (expense) related to
+    items of other comprehensive
+      income                                   (123)             (8,763)              6,035             (10,641)
+                                        -----------         -----------         -----------         -----------
+Other comprehensive income
+  (loss), net of tax                        (31,920)            (50,201)            (76,911)           (155,478)
+                                        -----------         -----------         -----------         -----------
+
+Comprehensive Income                    $   499,802         $   421,248         $ 1,629,969         $ 1,372,326
+                                        -----------         -----------         -----------         -----------
+                                        -----------         -----------         -----------         -----------
+</TABLE>
+
+As of September 30, 1998, the cumulative net of tax balances for foreign 
+currency translation loss adjustments and the unrealized (gains) on 
+marketable equity securities were $329,820, and ($22,668), respectively.
+
+NOTE 6 - STOCK SPLIT:
+
+On February 13, 1998, the Board of Directors approved a two-for-one stock 
+split. Shareholders of record on May 1, 1998 were issued an additional share 
+of the Company's common stock on May 29, 1998 for each share owned on the 
+record date. All shares and per share data in the condensed consolidated 
+financial statements and notes have been adjusted to reflect the stock split.
+
+NOTE 7 - RECENTLY ISSUED ACCOUNTING STANDARD:
+
+In June 1998, the Financial Accounting Standards Board issued Statement of 
+Financial Accounting Standards No. 133, "Accounting for Derivative 
+Instruments and Hedging Activities." This statement requires the recognition 
+of derivatives as either assets or liabilities in the statement of financial 
+position at fair value. The statement is effective for fiscal years beginning 
+after June 15, 1999. The Company is assessing the impact this statement will 
+have on its financial statements.
+
+                                       6
+
+<PAGE>
+
+FINANCIAL REVIEW
+
+RESULTS OF OPERATIONS - THIRD QUARTER AND FIRST NINE MONTHS 1998 COMPARED 
+WITH SAME PERIODS IN 1997
+
+Worldwide sales for the third quarter and first nine months increased 6.0 
+percent and 4.4 percent, respectively, over the comparable 1997 periods. 
+Excluding the negative effect of the relatively stronger U.S. dollar, sales 
+increased 9.3 percent and 7.7 percent, respectively, over the comparable 1997 
+periods. Net earnings increased 12.8 percent and 11.7 percent, respectively, 
+in the third quarter and first nine months 1998. Basic earnings per common 
+share increased 12.9 percent and 13.1 percent, respectively, over the prior 
+year periods. Diluted earnings per common share increased 13.3 percent and 
+13.4 percent, respectively, over the prior year periods.
+
+Gross profit margin (sales less cost of products sold, including freight and 
+distribution expenses) was 54.7 percent for the 1998 third quarter, compared 
+to 56.7 percent for the 1997 third quarter, and was negatively affected by 
+the unfavorable effects of the stronger U.S. dollar. First nine months 1998 
+gross profit margin was 56.8 percent, the same as a year earlier.
+
+Research and development expenses were $292.1 million for the third quarter 
+1998 and $879.1 million for the first nine months 1998. Research and 
+development represented 9.6 percent of net sales for both the third quarter 
+and first nine months 1998, compared to 11.4 percent and 10.6 percent, 
+respectively, for the third quarter and the first nine months 1997. The 
+majority of research and development expenditures continues to be 
+concentrated on pharmaceutical and diagnostic products.
+
+Selling, general and administrative expenses for the third quarter and first 
+nine months 1998 decreased 1.5 percent and increased 2.4 percent, 
+respectively, over the comparable prior year periods, net of the favorable 
+effect of the relatively stronger U.S. dollar of 3.3 percent and 3.4 percent, 
+respectively. The net increases, exclusive of exchange impact, reflect 
+inflation, additional selling and marketing support for new and existing 
+products, primarily for pharmaceutical products, and litigation charges.
+
+Other (income) expense, net, includes net foreign exchange losses of $5.6 
+million for the third quarter and $20.6 million for the first nine months 
+1998, compared to net foreign exchange gains of $4.3 million and $11.2 
+million, respectively, for the corresponding prior year periods. Other 
+(income) expense, net, also includes the Company's share of the net income 
+from its joint venture, TAP Holdings, Inc., of $69.3 million for the 
+third quarter and $189.9 million for the first nine months 1998, compared to 
+$51.7 million and $142.3 million for the respective prior year periods.
+
+On July 27, 1998, the Company announced that it was experiencing 
+manufacturing difficulties with the capsule formulation of its protease 
+inhibitor Norvir. The manufacturing difficulties with Norvir will result in 
+shortages and interruption of the supply of capsules. The Company plans to 
+supply Norvir liquid formulation to provide continued Norvir therapy for 
+patients. During the first nine months
+
+                                       7
+
+<PAGE>
+
+FINANCIAL REVIEW
+(Continued)
+
+of 1998, the Company recorded sales of Norvir of $197.0 million. The Company 
+is unable to quantify the effect that the production problems will have on 
+sales in future periods.
+
+INDUSTRY SEGMENTS
+
+Industry segment sales for the third quarter and first nine months 1998 and 
+the related change from the comparable 1997 periods are shown in the table 
+below. The Pharmaceutical and Nutritional Products segment includes a broad 
+line of adult and pediatric pharmaceuticals and nutritionals, which are sold 
+primarily on the prescription or recommendation of physicians or other health 
+care professionals; consumer products; agricultural and chemical products; 
+and bulk pharmaceuticals. The Hospital and Laboratory Products segment 
+includes diagnostic systems for consumers, blood banks, hospitals, commercial 
+laboratories and alternate-care testing sites; intravenous and irrigation 
+fluids and related administration equipment; drugs and drug delivery systems; 
+anesthetics; critical care products; and other medical specialty products for 
+hospitals and alternate-care sites.
+
+Domestic and international sales for the third quarter and first nine months 
+1998 primarily reflect unit growth. Total sales were unfavorably affected 3.3 
+percent and international sales were unfavorably affected 8.7 percent by the 
+relatively stronger U.S. dollar in the third quarter. On a year-to-date 
+basis, total sales were unfavorably affected 3.3 percent and international 
+sales were unfavorably affected 8.6 percent by the relatively stronger U.S. 
+dollar.
+
+<TABLE>
+<CAPTION>
+                                         Third Quarter           Nine Months
+- -------------------------------------------------------------------------------
+SEGMENT SALES                           1998     Percent        1998    Percent
+(in millions of dollars)               Sales     Change        Sales    Change
+- -------------------------------------------------------------------------------
+<S>                                    <C>       <C>           <C>      <C>
+
+Pharmaceutical and Nutritional Products:
+
+Domestic                             $1,131.0        5.1     $3,455.0       2.7
+- -------------------------------------------------------------------------------
+International                           585.2        6.4      1,801.7       2.1
+- -------------------------------------------------------------------------------
+                                      1,716.2        5.5      5,256.7       2.5
+
+Hospital and Laboratory Products:
+
+Domestic                                781.8       10.7      2,274.0      11.5
+- -------------------------------------------------------------------------------
+International                           537.8        0.9      1,616.7       1.1
+- -------------------------------------------------------------------------------
+                                      1,319.6        6.5      3,890.7       7.0
+
+Total All Segments:
+
+Domestic                              1,912.8        7.3      5,729.0       6.0
+- -------------------------------------------------------------------------------
+International                         1,123.0        3.7      3,418.4       1.7
+- -------------------------------------------------------------------------------
+                                     $3,035.8        6.0     $9,147.4       4.4
+- -------------------------------------------------------------------------------
+- -------------------------------------------------------------------------------
+</TABLE>
+
+                                       8
+
+<PAGE>
+
+FINANCIAL REVIEW
+(Continued)
+
+LIQUIDITY AND CAPITAL RESOURCES AT SEPTEMBER 30, 1998
+COMPARED WITH DECEMBER 31, 1997
+
+Net cash from operating activities for the first nine months 1998 totaled 
+$2.268 billion. The Company expects annual cash flow from operating 
+activities to continue to approximate or exceed the Company's capital 
+expenditures and cash dividends. The Company funded the acquisition of Murex 
+through commercial paper borrowings.
+
+The Company has maintained its favorable bond ratings (AAA by Standard & 
+Poor's Corporation and Aa1 by Moody's Investors Service) and continues to 
+have readily available financial resources, including unused domestic lines 
+of credit of $2.505 billion at September 30, 1998. These lines of credit 
+support domestic commercial paper borrowing arrangements.
+
+During the first nine months 1998, the Company issued $400 million of debt 
+securities under a registration statement filed with the Securities and 
+Exchange Commission in 1996. The Company may issue up to $750 million of 
+senior debt securities in the future under a registration statement filed 
+with the Securities and Exchange Commission in September 1998.
+
+During the first nine months 1998, the Company continued its program to 
+purchase its common shares. The Company purchased and retired 17,248,000 
+shares during this period at a cost of $673.7 million. As of September 30, 
+1998, an additional 10,152,000 shares may be purchased in future periods 
+under authorization granted by the Board of Directors in December 1997.
+
+LEGISLATIVE ISSUES
+
+The Company's primary markets are highly competitive and subject to 
+substantial government regulation. The Company expects debate to continue at 
+both the federal and the state levels over the availability, method of 
+delivery, and payment for health care products and services. The Company 
+believes that if legislation is enacted, it could have the effect of reducing 
+prices, or reducing the rate of price increases for medical products and 
+services. International operations are also subject to a significant degree 
+of government regulation. It is not possible to predict the extent to which 
+the Company or the health care industry in general might be adversely 
+affected by these factors in the future. A more complete discussion of these 
+factors is contained in Item 1, Business, in the Annual Report on Form 10-K, 
+which is available upon request.
+
+RECENTLY ISSUED ACCOUNTING STANDARD
+
+In June 1998, the Financial Accounting Standards Board issued Statement of 
+Financial Accounting Standards No. 133, "Accounting for Derivative 
+Instruments and Hedging Activities." This statement requires the recognition 
+of derivatives as either assets or liabilities in the statement of financial 
+position at fair value. The statement is effective for fiscal years beginning 
+after June 15, 1999. The Company is assessing the impact this statement will 
+have on its financial statements.
+
+                                       9
+
+<PAGE>
+
+FINANCIAL REVIEW
+(Continued)
+
+YEAR 2000
+
+The Year 2000 ("Y2K") issue results from the inability of some computer 
+programs to identify the Year 2000 properly, potentially leading to errors or 
+system failure.
+
+The Company has organized its efforts to resolve the Y2K issue as follows: 
+internal information systems; landlord and embedded systems; electronic 
+products currently marketed or in the field; and suppliers providing products 
+and services to the Company. Progress goals have been established in each area.
+
+Internal information systems were inventoried and assessed, and remediation 
+started in 1992. Virtually all remediation is scheduled to be completed by 
+the end of 1998, and testing completed by mid-1999. Current progress is 
+slightly better than plan.
+
+Landlord and embedded systems were inventoried and Y2K assessment completed 
+by May 1998. The Company's goal is to resolve 75 percent of critical systems 
+by year-end 1998, and 100 percent of critical systems by July 1999. Current 
+progress is according to plan.
+
+The Company has assessed the ability of its medical electronic and software 
+products to cope with the Y2K issue. Customers may access the Company's 
+assessment on the Company's internet web page. Most of the Company's products 
+are not affected by the Y2K issue. For those products requiring remediation, 
+the Company's goal is to provide solutions by June 1999. Current progress is 
+according to plan.
+
+Beginning in March 1998 key suppliers were requested to certify that they 
+were Y2K compliant or, if not, to provide their plans to become compliant. 
+Fifty-four percent of suppliers responded; 39 percent of those responding 
+certified compliance currently and 61 percent forwarded action plans.  
+Follow-up with all key suppliers is being conducted according to plan.
+
+Each of the above areas will begin developing contingency plans by the end of 
+1998, and will continue to develop and update those plans throughout 1999.
+
+The Company's policy is to expense Y2K remediation costs as incurred. Future 
+expenditures to remediate the Company's systems for the Y2K issue are not 
+material to the Company's results of operations, financial position or cash 
+flows.
+
+                                      10
+
+<PAGE>
+
+FINANCIAL REVIEW
+(Continued)
+
+EURO CONVERSION
+
+On January 1, 1999, the European Economic and Monetary Union will take
+effect and introduce the euro as the official single currency of the
+eleven participating member countries. On that date the currency exchange
+rates of the participating countries will be fixed against the euro.
+There will be a three year transition to the euro, and at the end of 2001
+the legacy currencies will be eliminated. In 1997 the Company organized
+an internal cross-functional task force to address the euro issues and
+expects to be ready for the conversion to the euro. Costs required to
+prepare for the euro are not material to the Company's financial
+position, results of operations or cash flows. The impact, if any, of the
+euro on the Company's competitive position is unknown.
+
+                                      11
+
+
+<PAGE>
+
+PART II.  OTHER INFORMATION
+
+ITEM 1.   LEGAL PROCEEDINGS
+
+          As reported in the Company's 10-K for the fiscal year ended 
+December 31, 1997, the Company is involved in numerous antitrust suits and 
+two investigations regarding the Company's pricing of pharmaceutical 
+products.  As of September 30, 1998, 117 antitrust suits are pending in the 
+United States District Court for the Northern District of Illinois as "In re: 
+Brand Name Prescription Drug Antitrust Litigation, MDL 997."  A portion of 
+the MDL 997 litigation has been certified as a class action on behalf of 
+certain retail pharmacies.  In July 1998, the Company entered into an 
+agreement to settle the class action portion of the MDL 997 litigation for 
+$57 million.  On September 9, 1998, the United States District Court for the 
+Northern District of Illinois approved that settlement agreement.  In 
+addition, during the third quarter of 1998, three other lawsuits pending in 
+the MDL 997 litigation, ALBERTSON'S V. ABBOTT, AMERICAN DRUG V. ABBOTT, and 
+ECKERD V. ABBOTT, were settled and have now been dismissed.
+
+          As of October 15, 1998, 24 pharmaceutical pricing cases were 
+pending in various state courts and one case was pending in a District of 
+Columbia court.   As reported in the Company's 10-K for the fiscal year ended 
+December 31, 1997, the Company has entered into settlement agreements in 
+twelve consumer lawsuits pending in the following jurisdictions:  Arizona, 
+Florida, Kansas, Maine, Michigan, Minnesota (2), New York, North Carolina, 
+Tennessee, Washington, D.C., and Wisconsin.  The court in each jurisdiction 
+must approve the agreement before it becomes final.  Courts in Michigan and 
+Wisconsin have approved the settlement agreement.
+
+          The Company has previously disclosed that cases are pending in the 
+United States District Court for the Northern District of Illinois between 
+the Company and Geneva Pharmaceuticals, Inc. ("Geneva"), Invamed, Inc. 
+("Invamed"), Novopharm Limited ("Novopharm"), Mylan Pharmaceuticals, Inc. 
+("Mylan"), and Warner Chilcott, Inc. ("Warner") in which the validity of the 
+Company's patent claim covering the form of terazosin hydrochloride used by 
+those companies has been contested.  The Geneva, Invamed, and Novopharm cases 
+are all pending before the same judge, who, on September 1, 1998, entered a 
+judgment in each of those cases ruling that the Company's patent claim is 
+invalid.  The Company has appealed those judgments.  Both Mylan and Warner 
+have filed motions seeking to have the September 1 ruling applied in their 
+cases.
+
+          While it is not feasible to predict the outcome of such pending 
+claims, proceedings, and investigations with certainty, management is of the 
+opinion that their ultimate dispositions should not have a material adverse 
+effect on the Company's results of operations, financial position or cash 
+flows.
+
+<PAGE>
+
+
+Item 5.   NOTICE OF DEADLINES FOR SUBMITTING SHAREHOLDER PROPOSALS.
+
+DATE FOR RECEIPT OF 1999 SHAREHOLDER PROPOSALS
+
+          Shareholder proposals for presentation at the 1999 Annual Meeting 
+must be received by the corporation no later than November 10, 1998 and must 
+otherwise comply with the applicable requirements of the Securities and 
+Exchange Commission to be considered for inclusion in the proxy statement and 
+proxy for the 1999 meeting.
+
+PROCEDURE FOR RECOMMENDATION AND NOMINATION OF DIRECTORS AND TRANSACTION OF 
+BUSINESS AT ANNUAL MEETINGS
+
+          A shareholder may recommend persons as potential nominees for 
+director by submitting the names of such persons in writing to the chairman 
+of the nominations and board affairs committee or the secretary of the 
+corporation.  Recommendations should be accompanied by a statement of 
+qualifications and confirmation of the person's willingness to serve.
+
+          A shareholder may directly nominate persons for director only by 
+complying with the following procedure: the shareholder must submit the names 
+of such persons in writing to the secretary of the corporation not earlier 
+than the October 1 nor later than the first business day of January prior to 
+the date of the Annual Meeting.  The nominations must be accompanied by a 
+statement setting forth the name, age, business address, residence address, 
+principal occupation, qualifications, and number of shares of the corporation 
+owned by the nominee and the name, record address, and number of shares of 
+the corporation owned by the shareholder making the nomination.
+
+          A shareholder may properly bring business before the Annual Meeting 
+of Shareholders only by complying with the following procedure: the 
+shareholder must submit to the secretary of the corporation, not earlier than 
+the October 1 nor later than the first business day of January prior to the 
+date of the Annual Meeting, a written statement describing the business to be 
+discussed, the reasons for conducting such business at the Annual Meeting, 
+the name, record address, and number of shares of the corporation owned by 
+the shareholder making the submission, and a description of any material 
+interest of the shareholder in such business.
+<PAGE>
+
+
+Item 6.   Exhibits and Reports on Form 8-K
+
+          a)  Exhibits
+
+               3.   By-Laws of Abbott Laboratories, as amended effective as 
+                    of October 9, 1998, filed as Exhibit 3.1 to Registration
+                    Statement on Form S-3, file number 333-65601*.
+
+               4.1  Resolution of the Company's Board of Directors relating to
+                    the 5.40% Note filed as Exhibit 4.12 to the 1996 Abbott
+                    Laboratories Annual Report on Form 10-K*.
+
+               4.2  Form of $200,000,000 5.40% Note issued pursuant to 
+                    Indenture - attached hereto.
+
+               4.3  Actions of Authorized Officers with respect to the Company's
+                    5.40% Note - attached hereto.
+
+               4.4  Officers' Certificate and Company Order with respect to the
+                    Company's 5.40% Note - attached hereto.
+
+              12.   Statement re: computation of ratio of earnings to fixed
+                    charges - attached hereto.
+
+              27.   Financial Data Schedule - attached hereto.
+
+               *    Incorporated herein by reference
+
+          b)   Reports on Form 8-K
+
+               None
+
+
+
+                                     SIGNATURE
+
+     Pursuant to the requirements of the Securities and Exchange Act of 1934, 
+the registrant has duly caused this report to be signed on its behalf by the 
+undersigned thereunto duly authorized.
+
+                                 ABBOTT LABORATORIES
+
+                                  /s/ Theodore A. Olson
+                                 --------------------------------------------
+Date: November 11, 1998          Theodore A. Olson, Vice President
+                                 and Controller (Principal Accounting Officer)
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-4.2
+<SEQUENCE>2
+<DESCRIPTION>EXHIBIT 4-2
+<TEXT>
+
+<PAGE>
+
+
+
+
+                              ABBOTT LABORATORIES
+
+                          5.40% NOTE DUE SEPTEMBER 15, 2008
+
+
+
+
+NO. 1001                                                         $200,000,000
+CUSIP NO. 002824 AK6
+
+
+          This Security is a Security in a global form within the meaning of 
+the Indenture hereinafter referred to and is registered in the name of the 
+Depositary or a nominee of a Depositary.  This global Security is 
+exchangeable for Securities registered in the name of a Person other than the 
+Depositary or its nominee only in the limited circumstances described in the 
+Indenture, and no transfer of this Security (other than a transfer of this 
+Security as a whole by the Depositary to a nomine of the Depositary or by a 
+nominee of the Depositary to the Depositary or another nominee of the 
+Depositary) may be registered except in such limited circumstances.
+
+          Unless this Security is presented by an authorized representative 
+of The Depositary Trust Company (55 Water Street, New York, New York) to the 
+issuer or its agent for registration of transfer, exchange or payment, and 
+any Security issued upon registration of transfer of, or in exchange for, or 
+in lieu of, this Security is registered in the name of Cede & Co. or such 
+other name as requested by an authorized representative of The Depository 
+Trust Company and any payment hereon is made to Cede & Co., ANY TRANSFER, 
+PLEDGE OR OTHER USE HEREOF FOR VALUE OR OTHERWISE BY OR TO ANY PERSON IS 
+WRONGFUL since the registered owner hereof, Cede & Co., has an interest 
+herein.
+
+
+<PAGE>
+
+                                 ABBOTT LABORATORIES
+
+          ABBOTT LABORATORIES, a corporation duly organized and existing 
+under the laws of Illinois (herein called the "Company," which term includes 
+any successor Person under the Indenture hereinafter referred to), for value 
+received, hereby promises to pay to Cede & Co., as nominee for The Depository 
+Trust Company, or registered assigns, the principal sum of Two Hundred 
+Million Dollars ($200,000,000) on September 15, 2008 and to pay interest 
+thereon from September 15, 1998 or from the most recent Interest Payment Date 
+to which interest has been paid or duly provided for, semi-annually on 
+March 15 and September 15 in each year, commencing March 15, 1999, at the 
+rate of 5.40% per annum, until the principal hereof is paid or made available 
+for payment.  The interest so payable, and punctually paid or duly provided 
+for, on any Interest Payment Date will, as provided in such Indenture, be paid 
+to the Person in whose name this Security (or one or more Predecessor 
+Securities) is registered at the close of business on the Regular Record Date 
+for such interest, which shall be the March 1 or September 1 (whether or not 
+a Business Day), as the case may be, next preceding such Interest Payment 
+Date.  Any such interest not so punctually paid or duly provided for will 
+forthwith cease to be payable to the Holder on such Regular Record Date and 
+may either be paid to the Person in whose name this Security (or one or more 
+Predecessor Securities) is registered at the close of business on a Special 
+Record Date for the payment of such Defaulted Interest to be fixed by the 
+Trustee, notice whereof shall be given to Holders of Securities of this 
+series not less than 10 days prior to such Special Record Date, or be paid at 
+any time in any other lawful manner not inconsistent with the requirements of 
+any securities exchange on which the Securities of this series may be listed, 
+and upon such notice as may be required by such exchange, all as more fully 
+provided in said Indenture.
+
+          Payment of the principal of (and premium, if any) and any such 
+interest on this Security will be made at the office or agency of the Company 
+maintained for that purpose in Chicago, Illinois, in such coin or currency of 
+the United States of America as at the time of payment is legal tender for 
+payment of public and private debts; PROVIDED, HOWEVER, that at the option of 
+the Company payment of interest may be made by check mailed to the address of 
+the Person entitled thereto as such address shall appear in the Security 
+Register.
+
+          Unless the certificate of authentication hereon has been executed 
+by the Trustee referred to herein by manual signature, this Security shall 
+not be entitled to any benefit under the Indenture or be valid or obligatory 
+for any purpose.
+
+          This Security is one of a duly authorized issue of securities of 
+the Company (herein called the "Securities"), issued and to be issued in one 
+or more series under an Indenture, dated as of October 1, 1993 (herein called 
+the "Indenture"), between the Company and Harris Trust and Savings Bank, as 
+Trustee (herein called the "Trustee," which term includes any successor 
+trustee under the Indenture), to which Indenture and all indentures 
+supplemental thereto reference is hereby made for a statement of the 
+respective rights,
+
+
+                                     -2-
+
+<PAGE>
+
+limitations of rights, duties and immunities thereunder of the Company, the 
+Trustee and the Holders of the Securities and of the terms upon which the 
+Securities are, and are to be, authenticated and delivered.  This Security is 
+one of the series designated on the face hereof, limited in aggregate 
+principal amount to $200,000,000.
+
+          The Securities of this Series are not redeemable prior to maturity 
+and do not provide for a sinking fund.
+
+          If an Event of Default with respect to Securities of this series 
+shall occur and be continuing, the principal of the Securities of this series 
+may be declared due and payable in the manner and with the effect provided in 
+the Indenture.
+
+          The Indenture contains provisions for defeasance at any time of the 
+entire indebtedness of this Security or certain restrictive covenants and 
+Events of Default with respect to this Security, in each case upon compliance 
+with certain conditions set forth therein.
+
+          The Indenture permits, with certain exceptions as therein provided, 
+the amendment thereof and the modification of the rights and obligations of 
+the Company and the rights of the Holders of the Securities of each series to 
+be affected under the Indenture at any time by the Company and the Trustee 
+with the consent of the Holders of a majority in principal amount of the 
+Securities at the time Outstanding of each series to be affected.  The 
+Indenture also contains provisions permitting the Holders of specified 
+percentages in principal amount of the Securities of each series at the time 
+Outstanding, on behalf of the Holders of all Securities of such series, to 
+waive compliance by the Company with certain provisions of the Indenture and 
+certain past defaults under the Indenture and their consequences.  Any such 
+consent or waiver by the Holder of this Security shall be conclusive and 
+binding upon such Holder and upon all future Holders of this Security and of 
+any Security issued upon the registration of transfer hereof or in exchange 
+herefor or in lieu hereof, whether or not notation of such consent or waiver 
+is made upon this Security.
+
+          No reference herein to the Indenture and no provision of this 
+Security or of the Indenture shall alter or impair the obligation of the 
+Company, which is absolute and unconditional, to pay the principal of and any 
+premium and interest on this Security at the times, place and rate, and in 
+the coin or currency, herein prescribed.
+
+          As provided in the Indenture and subject to certain limitations 
+therein set forth, the transfer of this Security is registerable in the 
+Security Register, upon surrender of this Security for registration of 
+transfer at the office or agency of the Company in any place where the 
+principal of and any premium and interest on this Security are payable, duly 
+endorsed by, or accompanied by a written instrument of transfer in form 
+satisfactory to the Company and the Security Registrar duly executed by, the 
+Holder hereof or his attorney duly authorized in writing, and thereupon one 
+or more new Securities of this series and of like
+
+
+                                     -3-
+
+<PAGE>
+
+tenor, of authorized denominations and for the same aggregate principal 
+amount, will be issued to the designated transferee or transferees.
+
+          The Securities of this series are issuable only in registered form 
+without coupons in denominations of $1,000 and any integral multiple thereof. 
+As provided in the Indenture and subject to certain limitations therein set 
+forth, Securities of this series are exchangeable for a like aggregate 
+principal amount of Securities of this series and of like tenor of a 
+different authorized denomination, as requested by the Holder surrendering 
+the same.
+
+          No service charge shall be made for any such registration of 
+transfer or exchange, but the Company may require payment of a sum sufficient 
+to cover any tax or other governmental charge payable in connection therewith.
+
+          Prior to due presentment of this Security for registration of 
+transfer, the Company, the Trustee and any agent of the Company or the 
+Trustee may treat the Person in whose name this Security is registered as the 
+owner hereof for all purposes, whether or not this Security be overdue, and 
+neither the Company, the Trustee nor any such agent shall be affected by 
+notice to the contrary.
+
+          All terms used in this Security which are defined in the Indenture 
+shall have the meanings assigned to them in the Indenture.
+
+                                    *     *     *
+
+
+                                     -4-
+
+<PAGE>
+
+          IN WITNESS WHEREOF, the Company has caused this instrument to be 
+duly executed under its corporate seal.
+
+Dated: September 15, 1998
+
+
+                                   ABBOTT LABORATORIES
+
+
+                                   By: /s/ Thomas C. Freyman
+                                       ---------------------------------
+                                   Name: Thomas C. Freyman
+                                   Title:   Vice President and Treasurer
+
+
+Attest:
+
+
+/s/ Jose M. de Lasa
+- -------------------
+
+
+
+TRUSTEE'S CERTIFICATE OF AUTHENTICATION
+
+HARRIS TRUST AND SAVINGS BANK,
+as Trustee, certifies that this is one of the 
+Securities referred to in the within-mentioned 
+Indenture.
+
+
+By /s/ C. Potter
+- -------------------------
+  Authorized Signature
+
+                                     -5-
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-4.3
+<SEQUENCE>3
+<DESCRIPTION>EXHIBIT 4-3
+<TEXT>
+
+<PAGE>
+
+
+                                 ABBOTT LABORATORIES
+
+                          ACTIONS OF THE AUTHORIZED OFFICERS
+
+
+     Pursuant to the authority granted by the Board of Directors of Abbott 
+Laboratories ("Corporation") in its June 14, 1996 resolutions, the 
+undersigned agree as follows:
+
+     1.   The Corporation shall issue $200,000,000 aggregate principal amount 
+of the Corporation's 5.40% Notes due September 15, 2008 ("Notes").
+
+     2.   The Corporation shall issue and sell Notes to Goldman, Sachs & Co., 
+ABN AMRO Incorporated, BancAmerica Securities, Inc., Morgan Stanley & Co. 
+Incorporated and Salomon Smith Barney Inc. (collectively, "Underwriters") 
+pursuant to an Underwriting Agreement dated December 4, 1996 and a Pricing 
+Agreement dated September 10, 1998 ("Pricing Agreement") between the 
+Corporation and the Underwriters, upon the terms and conditions set forth 
+therein, to be issued under and in accordance with an Indenture dated as of 
+October 1, 1993, between the Corporation and the Harris Trust and Savings 
+Bank, as Trustee ("Trustee"), relating to the Corporation's Notes and other 
+obligations ("Indenture").
+
+     3.   In addition to the other terms provided in the Indenture with 
+respect to securities issued thereunder, all as more particularly described 
+in the Pricing Agreement, the Prospectus and the Prospectus Supplement 
+relating to the Notes and the form of Note referred to below, the Notes shall 
+contain the following terms:
+
+     (a)  The Notes shall be entitled "5.40% Notes due
+     September 15, 2008";
+
+     (b)  The Notes shall be limited in aggregate principal amount to
+     $200,000,000;
+
+     (c)  Interest shall be payable to the persons in whose names the Notes are
+     registered at the close of business on the applicable Regular Record Date
+     (as defined below); 
+
+     (d)  The principal of the Notes is payable on September 15, 2008;
+     
+     (e)  The Notes shall bear interest at the rate of 5.40% per annum beginning
+     September 15, 1998.  Interest on the Notes will be payable semi-annually on
+     the fifteenth day of March and September of each year (each an "Interest
+     Payment Date"), commencing on March 15, 1999.  Interest shall be paid to
+     persons in whose names the Notes are registered on
+
+
+<PAGE>
+
+     the March 1 or September 1 preceding the Interest Payment Date (each a 
+     "Regular Record Date");
+
+     (f)  Payment of the principal of, and any premium and interest on, the
+     Notes will be made at the office or agency of the Corporation maintained
+     for that purpose in Chicago, Illinois;
+     
+     (g)  The Notes shall not be redeemable or repayable prior to maturity;
+  
+     (h)  The Notes shall not provide for any sinking fund;
+
+     (i)  The Notes are issuable only in registered form without coupons in
+     denominations of $1,000 and any integral multiple thereof;
+
+     (j)  The payment of the principal of, and any premium and interest on, the
+     Notes shall be made in such coin or currency of the United States of
+     America as at the time of payment is legal tender for payment of public and
+     private debts;
+
+     (k)  The payment of principal of, and any premium and interest on, the
+     Notes shall not be determined with reference to an index or formula;
+
+     (l)  There shall be no optional currency or currency unit in which the
+     payment of principal of, and any premium and interest on, the Notes shall
+     be payable;
+
+     (m)  Both Section 13.2 and 13.3 of the Indenture shall apply to the Notes;
+
+     (n)  The Notes shall be in the form of Book-Entry Securities as set forth
+     in the Indenture; 
+
+     (o)  The principal amount of the Notes shall be payable upon declaration of
+     acceleration pursuant to Section 5.2 of the Indenture; and 
+
+     (p)  The other terms and conditions of the Notes shall be substantially as
+     set forth in the Indenture and in the Prospectus and the Prospectus
+     Supplement relating to the Notes.
+
+     4.   The form of the Notes shall be substantially as attached hereto as
+EXHIBIT A. 
+
+     5.   The price at which the Notes shall be sold by the Corporation to the
+Underwriters pursuant to the Pricing Agreement
+
+
+                                     -2-
+
+<PAGE>
+
+shall be 99.151% of the principal amount thereof, plus accrued interest, if 
+any, from September 15, 1998 to the time of Delivery;
+
+     6.   The Notes initially will be offered to the public by the Underwriters
+at 99.801% of the principal amount thereof, plus accrued interest, if any, from
+September 15, 1998 to the time of Delivery;
+
+     7.   The execution and delivery of the Pricing Agreement, dated September
+10, 1998, and substantially in the form attached hereto as EXHIBIT B, is hereby
+approved.
+
+     8.   Any officer of this Corporation is hereby authorized and empowered to
+execute the Notes of this Corporation in the form he or she deems appropriate,
+and to deliver such Notes to the Trustee with a written order directing the
+Trustee to have the Notes authenticated and delivered to such persons as such
+officer designates.
+
+     9.   The Harris Trust and Savings Bank is hereby designated and appointed
+as Paying Agent and Securities Registrar with respect to the Notes.
+
+
+                                     -3-
+
+<PAGE>
+
+Dated:    September 10, 1998
+
+                                   Authorized Officers of
+                                   Abbott Laboratories
+
+
+
+                                   By /s/ Thomas C. Freyman
+                                      ----------------------
+                                      Name:  Thomas C. Freyman
+                                      Title: Vice President and
+                                             Treasurer
+
+
+                                   By /s/ Gary P. Coughlan
+                                      --------------------------
+                                      Name:  Gary P. Coughlan
+                                      Title: Senior Vice President,
+                                             Finance and Chief
+                                             Financial Officer
+
+                                     -4-
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-4.4
+<SEQUENCE>4
+<DESCRIPTION>EXHIBIT 4-4
+<TEXT>
+
+<PAGE>
+
+
+                                 ABBOTT LABORATORIES
+
+                                OFFICERS' CERTIFICATE
+
+                                         AND
+
+                                    COMPANY ORDER
+
+     With respect to the issuance by Abbott Laboratories (the "Company") of 
+$200,000,000 in aggregate principal amount of 5.40% Notes due September 15, 
+2008 (the "Notes"), Jose M. de Lasa and Thomas C. Freyman, officers of the 
+Company, certify pursuant to Sections 3.1 and 3.3 of the Indenture, dated as 
+of October 1, 1993 (the "Indenture"), between the Company and Harris Trust 
+and Savings Bank, as Trustee (the "Trustee"), as follows:
+
+     1.   We have read Sections 2.1, 3.1 and 3.3 of the Indenture and the 
+          definitions therein relating hereto, reviewed the resolutions of 
+          the Board of Directors of the Company adopted on June 14, 1996 
+          (attached as Exhibit B to the Secretary's Certificate of even date 
+          herewith), the Action of Authorized Officers of September 10, 1998 
+          (attached as Exhibit C to the Secretary's Certificate of even date 
+          herewith), conferred with executive officers of the Company and, in 
+          our opinion, made such other examinations and investigations as are 
+          necessary to enable us to express an informed opinion as to whether 
+          Sections 2.1, 3.1 and 3.3 of the Indenture have been complied with.
+
+     2.   Based on the above-described examinations and investigations, in 
+          our opinion, all conditions precedent relating to the 
+          authentication and delivery of the Notes, including those 
+          conditions under Sections 2.1, 3.1 and 3.3 of the Indenture, have 
+          been complied with.
+
+     3.   The terms of the Notes are set forth in the Action of Authorized 
+          Officers, dated September 10, 1998 (attached as Exhibit C to the 
+          Secretary's Certificate of even date herewith).
+
+     4.   In accordance with the provisions of Section 3.3 of the Indenture, 
+          the Trustee is hereby authorized and requested to authenticate the 
+          Notes and to deliver the Notes to or at the direction of Goldman, 
+          Sachs & Co., ABN AMRO Incorporated, BancAmerica Securities, Inc., 
+          Morgan Stanley & Co. Incorporated and Salomon Smith Barney Inc.
+
+     Capitalized terms used herein and not otherwise defined herein shall 
+have the respective meanings assigned thereto in the Indenture.
+
+
+<PAGE>
+
+     IN WITNESS WHEREOF, the undersigned have executed this Officers' 
+Certificate as of this 15th day of September, 1998.
+
+                              ABBOTT LABORATORIES
+
+
+                              By:/s/ Jose M. de Lasa
+                                 ----------------------------
+                                 Jose M. de Lasa, Senior Vice
+                                 President, Secretary and 
+                                 General Counsel
+
+                    
+                              By:/s/ Thomas C. Freyman
+                                 ------------------------
+                                 Thomas C. Freyman, Vice 
+                                 President and Treasurer
+
+
+                                      -2-
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-12
+<SEQUENCE>5
+<DESCRIPTION>EXHIBIT 12
+<TEXT>
+
+<PAGE>
+
+
+
+
+                                                                      EXHIBIT 12
+
+                               ABBOTT LABORATORIES
+
+                 COMPUTATION OF RATIO OF EARNINGS TO FIXED CHARGES
+
+                                   (Unaudited)
+
+                              (Millions of Dollars)
+
+<TABLE>
+<CAPTION>
+                                                    NINE MONTHS ENDED
+                                                   SEPTEMBER 30, 1998
+                                                   ------------------
+<S>                                                     <C>
+Net Earnings                                            $1,707
+
+Add (deduct):
+   Income taxes                                            664
+   Minority interest                                         5
+                                                        ------
+   Net earnings as adjusted                             $2,376
+                                                        ------
+
+
+Fixed Charges:
+
+   Interest on long-term and
+      short-term debt                                   $  119
+   Capitalized interest cost                                10
+   Rental expense representative
+      of an interest factor                                 30
+                                                        ------
+
+Total Fixed Charges                                        159
+                                                        ------
+
+Total adjusted earnings available for
+   payment of fixed charges                             $2,535
+                                                        ------
+                                                        ------
+
+Ratio of earnings to fixed charges                        15.9
+                                                        ------
+                                                        ------
+</TABLE>
+
+
+NOTE:    For the purpose of calculating this ratio, (i) earnings have
+         been calculated by adjusting net earnings for taxes on
+         earnings; interest expense; capitalized interest cost, net of
+         amortization; minority interest; and the portion of rentals
+         representative of the interest factor, (ii) the Company
+         considers one-third of rental expense to be the amount
+         representing return on capital, and (iii) fixed charges
+         comprise total interest expense, including capitalized
+         interest and such portion of rentals.
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>6
+<DESCRIPTION>EXHIBIT 27
+<TEXT>
+
+<TABLE> <S> <C>
+
+<PAGE>
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM ABBOTT
+LABORATORIES' 1998 THIRD QUARTER FORM 10-Q AND IS QUALIFIED IN ITS ENTIRETY BY
+REFERENCE TO SUCH FORM 10-Q FILING.
+</LEGEND>
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   9-MOS
+<FISCAL-YEAR-END>                          DEC-31-1998
+<PERIOD-START>                             JAN-01-1998
+<PERIOD-END>                               SEP-30-1998
+<CASH>                                         223,470
+<SECURITIES>                                    50,563
+<RECEIVABLES>                                1,916,202
+<ALLOWANCES>                                   183,555
+<INVENTORY>                                  1,394,114
+<CURRENT-ASSETS>                             5,066,210
+<PP&E>                                       9,201,129
+<DEPRECIATION>                               4,555,362
+<TOTAL-ASSETS>                              12,603,034
+<CURRENT-LIABILITIES>                        4,664,112
+<BONDS>                                      1,340,845
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                     1,114,445
+<OTHER-SE>                                   4,259,447
+<TOTAL-LIABILITY-AND-EQUITY>                12,603,034
+<SALES>                                      9,147,433
+<TOTAL-REVENUES>                             9,147,433
+<CGS>                                        3,952,753
+<TOTAL-COSTS>                                3,952,753
+<OTHER-EXPENSES>                               879,086<F1>
+<LOSS-PROVISION>                                27,294
+<INTEREST-EXPENSE>                             119,388
+<INCOME-PRETAX>                              2,370,666
+<INCOME-TAX>                                   663,786
+<INCOME-CONTINUING>                          1,706,880
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                 1,706,880
+<EPS-PRIMARY>                                     1.12<F2>
+<EPS-DILUTED>                                     1.10<F2>
+<FN>
+<F1>Other expenses consist of research and development expenses.
+<F2>The EPS information in this exhibit has been prepared in accordance with SFAS
+No. 128 and basic and diluted EPS have been entered in place of primary and
+fully diluted EPS, respectively.
+</FN>
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

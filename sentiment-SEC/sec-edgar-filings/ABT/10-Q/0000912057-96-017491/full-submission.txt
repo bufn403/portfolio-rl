@@ -1,0 +1,2696 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ M8rViNCtZT26EucJ7aQc2VaTrhmYbEq02H9rWmjVvlkDAzXYQXYAFqVV4WyW3E3W
+ 3QIJJgiteqte8TLPdgXMSQ==
+
+<SEC-DOCUMENT>0000912057-96-017491.txt : 19960814
+<SEC-HEADER>0000912057-96-017491.hdr.sgml : 19960814
+ACCESSION NUMBER:		0000912057-96-017491
+CONFORMED SUBMISSION TYPE:	10-Q
+PUBLIC DOCUMENT COUNT:		6
+CONFORMED PERIOD OF REPORT:	19960630
+FILED AS OF DATE:		19960813
+SROS:			NYSE
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ABBOTT LABORATORIES
+		CENTRAL INDEX KEY:			0000001800
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				360698440
+		STATE OF INCORPORATION:			IL
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		10-Q
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-02189
+		FILM NUMBER:		96610523
+
+	BUSINESS ADDRESS:	
+		STREET 1:		100 ABBOTT PARK ROAD
+		STREET 2:		D-322 AP6D
+		CITY:			ABBOTT PARK
+		STATE:			IL
+		ZIP:			60064-3500
+		BUSINESS PHONE:		(708)-937-6100
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>10-Q
+<SEQUENCE>1
+<DESCRIPTION>FORM 10-Q
+<TEXT>
+
+<PAGE>
+
+
+                                      FORM 10-Q
+
+                          SECURITIES AND EXCHANGE COMMISSION
+
+                                WASHINGTON, D.C. 20549
+
+(Mark One)
+
+/ X /    QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES
+                   EXCHANGE ACT OF 1934
+
+For the quarterly period ended June 30, 1996
+
+                                          OR
+
+/   /    TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES
+                   EXCHANGE ACT OF 1934
+
+For the transition period from _________ to _________
+
+Commission File No. 1-2189
+
+
+                                 ABBOTT LABORATORIES
+
+An Illinois Corporation                I.R.S. Employer Identification
+                                                 No. 36-0698440
+
+
+                                 100 Abbott Park Road
+                           Abbott Park, Illinois 60064-3500
+
+                              Telephone:  (847) 937-6100
+
+
+Indicate by check mark whether the registrant (1) has filed all reports required
+to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during
+the preceding 12 months (or for such shorter period that the registrant was
+required to file such reports), and (2) has been subject to such filing
+requirements for the past 90 days.          Yes   X  .     No      .
+                                                -----         -----
+
+As of July 31, 1996, the Corporation had 780,545,080 common shares without par
+value outstanding.
+
+
+<PAGE>
+
+
+                           PART  1  FINANCIAL  INFORMATION
+                           -------------------------------
+
+                       ABBOTT  LABORATORIES  AND  SUBSIDIARIES
+                       ---------------------------------------
+
+                    CONDENSED  CONSOLIDATED  FINANCIAL  STATEMENTS
+                    ----------------------------------------------
+
+                                     (UNAUDITED)
+                                     -----------
+<PAGE>
+
+                         ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                     CONDENSED CONSOLIDATED STATEMENT OF EARNINGS
+
+                                     (UNAUDITED)
+
+                     (Dollars in thousands except per share data)
+<TABLE>
+<CAPTION>
+
+
+
+                                         THREE  MONTHS ENDED            SIX MONTHS ENDED
+                                                JUNE 30                       JUNE 30
+                                       -------------------------     -------------------------
+                                          1996           1995           1996           1995
+                                       ----------     ----------     ----------     ----------
+<S>                                    <C>            <C>            <C>            <C>
+Net sales............................. $2,699,240     $2,500,310     $5,371,417     $5,024,707
+                                       ----------     ----------     ----------     ----------
+                                 
+Cost of products sold.................  1,143,947      1,086,023      2,300,164      2,174,934
+Research and development..............    304,846        287,360        573,462        534,535
+Selling, general and administrative...    598,866        532,277      1,171,212      1,131,109
+                                       ----------     ----------     ----------     ----------
+  Total Operating Cost and Expenses...  2,047,659      1,905,660      4,044,838      3,840,578
+                                       ----------     ----------     ----------     ----------
+
+Operating Earnings....................    651,581        594,650      1,326,579      1,184,129
+                                       ----------     ----------     ----------     ----------
+
+Interest expense......................     22,228         17,852         39,835         31,804
+Interest income.......................    (10,186)       (13,202)       (20,676)       (24,212)
+Other (income) expense, net...........    (27,728)       (11,461)       (40,852)       (16,774)
+                                       ----------     ----------     ----------     ----------
+
+Earnings Before Taxes.................    667,267        601,461      1,348,272      1,193,311
+
+Taxes on Earnings.....................    196,844        177,431        397,740        352,027
+                                       ----------     ----------     ----------     ----------
+
+Net Earnings.......................... $  470,423     $  424,030     $  950,532     $  841,284
+                                       ----------     ----------     ----------     ----------
+                                       ----------     ----------     ----------     ----------
+
+Net Earnings Per Common Share.........       $.60           $.53          $1.21          $1.05
+                                       ----------     ----------     ----------     ----------
+                                       ----------     ----------     ----------     ----------
+
+
+Cash Dividends Declared
+  Per Common Share....................       $.24           $.21           $.48           $.42
+                                       ----------     ----------     ----------     ----------
+                                       ----------     ----------     ----------     ----------
+
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+                                          2
+
+<PAGE>
+
+                         ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                         CONDENSED CONSOLIDATED BALANCE SHEET
+
+                                (Dollars in Thousands)
+<TABLE>
+<CAPTION>
+
+                                                                                     JUNE 30      DECEMBER 31
+                                                                                   -----------    -----------
+                                                                                       1996           1995
+                                                                                   -----------    -----------
+                                                                                   (UNAUDITED)
+<S>                                                                                 <C>            <C>
+                                        ASSETS
+
+Current  Assets:
+    Cash and cash equivalents...................................................   $   111,482    $   281,197
+    Investment securities.......................................................        66,189         34,500
+    Trade Receivables, less allowances of $147,550 in 1996
+      and $157,990 in 1995......................................................     1,643,909      1,563,038
+    Inventories:
+      Finished products.........................................................       617,820        560,637
+      Work in process...........................................................       269,727        238,943
+      Materials.................................................................       307,695        311,361
+                                                                                   -----------    -----------
+
+         Total inventories......................................................     1,195,242      1,110,941
+
+    Prepaid income taxes........................................................       647,876        651,436
+
+    Other prepaid expenses and receivables......................................       661,707        585,599
+                                                                                   -----------    -----------
+
+         Total Current Assets...................................................     4,326,405      4,226,711
+                                                                                   -----------    -----------
+
+Investment Securities Maturing after One Year...................................       468,219        422,547
+                                                                                   -----------    -----------
+
+Property and Equipment, at Cost.................................................     8,044,533      7,762,442
+    Less: accumulated depreciation and amortization.............................     3,709,198      3,512,904
+                                                                                   -----------    -----------
+
+         Net Property and Equipment.............................................     4,335,335      4,249,538
+
+Deferred Charges, Goodwill and Other Assets.....................................     1,423,915        513,784
+                                                                                   -----------    -----------
+
+                                                                                   $10,553,874    $ 9,412,580
+                                                                                   -----------    -----------
+                                                                                   -----------    -----------
+
+                                        LIABILITIES AND SHAREHOLDERS' INVESTMENT
+
+Current Liabilities:
+    Short-term borrowings and current portion of long-term debt..................  $ 1,670,537    $ 1,049,863
+    Trade accounts payable.......................................................      806,290        755,921
+    Salaries, income taxes, dividends payable, and other accruals................    2,049,997      1,984,530
+                                                                                   -----------    -----------
+
+         Total Current Liabilities...............................................    4,526,824      3,790,314
+                                                                                   -----------    -----------
+
+Long-Term Debt...................................................................      433,437        435,198
+                                                                                   -----------    -----------
+
+Other Liabilities and Deferrals:
+    Deferred Income Taxes........................................................      176,557         67,993
+    Other .......................................................................      776,560        722,228
+                                                                                   -----------    -----------
+
+         Total Other Liabilities and Deferrals ..................................      953,117        790,221
+                                                                                   -----------    -----------
+
+Shareholders' Investment:
+    Preferred shares, $1 par value
+      Authorized - 1,000,000 shares, none issued                                             -              -
+    Common shares, without par value
+      Authorized - 1,200,000,000 shares
+      Issued at stated capital amount -
+         1996: 791,001,929 shares; 1995: 797,021,211 shares......................      628,216        581,562
+
+Earnings employed in the business................................................    4,158,481      3,926,917
+
+Cumulative Translation Adjustments...............................................      (89,379)       (55,646)
+                                                                                   -----------    -----------
+                                                                                     4,697,318      4,452,833
+Less:
+Common shares held in treasury, at cost -
+    1996: 9,661,672 shares; 1995: 9,714,379 shares...............................       50,990         51,268
+
+Unearned compensation - restricted stock awards..................................        5,832          4,718
+                                                                                   -----------    -----------
+
+         Total Shareholders' Investment..........................................    4,640,496      4,396,847
+                                                                                   -----------    -----------
+                                                                                   $10,553,874    $ 9,412,580
+                                                                                   -----------    -----------
+                                                                                   -----------    -----------
+
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+                                          3
+
+<PAGE>
+
+                         ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                    CONDENSED CONSOLIDATED STATEMENT OF CASH FLOWS
+
+                                     (UNAUDITED)
+
+                                (Dollars in thousands)
+
+<TABLE>
+<CAPTION>
+
+                                                             SIX MONTHS ENDED JUNE 30
+                                                             ------------------------
+                                                               1996           1995
+                                                            ---------      ---------
+<S>                                                          <C>            <C>
+Cash Flow From (Used in) Operating Activities:
+
+    Net earnings.......................................     $ 950,532      $ 841,284
+    Adjustments to reconcile net earnings to
+      Net cash from operating activities -
+    Depreciation and amortization......................       319,262        260,286
+    Trade receivables..................................       (88,477)         3,604
+    Inventories........................................       (83,521)        (8,656)
+    Other, net.........................................        81,214        (61,303)
+                                                            ---------      ---------
+
+         Net Cash From Operating Activities............     1,179,010      1,035,215
+                                                            ---------      ---------
+
+Cash Flow From (Used in) Investing Activities:
+
+    Acquisitions of property and equipment.............      (460,908)      (485,627)
+    Acquisition of MediSense, net of cash acquired.....      (806,738)             -
+    Investment securities transactions.................       (50,757)      (104,105)
+    Other..............................................        13,787         11,092
+                                                            ---------      ---------
+
+         Net Cash (Used in) Investing Activities.......    (1,304,616)      (578,640)
+                                                            ---------      ---------
+
+Cash Flow From (Used in) Financing Activities:
+
+    Borrowing transactions.............................       620,517        184,038
+    Common share transactions..........................      (305,876)      (355,741)
+    Dividends paid.....................................      (353,899)      (320,432)
+                                                            ---------      ---------
+
+         Net Cash (Used in) Financing Activities.......       (39,258)      (492,135)
+                                                            ---------      ---------
+
+Effect of exchange rate changes on cash and
+     cash equivalents...................................       (4,851)          (317)
+                                                            ---------      ---------
+
+Net (Decrease) in Cash and Cash Equivalents............      (169,715)       (35,877)
+
+Cash and Cash Equivalents, Beginning of Year...........       281,197        290,272
+                                                            ---------      ---------
+
+Cash and Cash Equivalents, End of Period...............     $ 111,482      $ 254,395
+                                                            ---------      ---------
+                                                            ---------      ---------
+
+</TABLE>
+
+The accompanying notes to condensed consolidated financial statements are an
+integral part of this statement.
+
+                                          4
+
+<PAGE>
+
+                         ABBOTT LABORATORIES AND SUBSIDIARIES
+
+                 NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+
+                                    JUNE 30, 1996
+
+                                     (UNAUDITED)
+
+
+
+NOTE 1 - BASIS OF PREPARATION:
+
+The accompanying unaudited, condensed consolidated financial statements have
+been prepared pursuant to rules and regulations of the Securities and Exchange
+Commission and, therefore, do not include all information and footnote
+disclosures normally included in audited financial statements.  However, in the
+opinion of management, all adjustments (which include only normal adjustments)
+necessary to present fairly the financial position, cash flows, and results of
+operations have been made.  It is suggested that these statements be read in
+conjunction with the financial statements included in the Company's Annual
+Report on Form 10-K for the year ended December 31, 1995.
+
+
+NOTE 2 - EARNINGS PER COMMON SHARE:
+
+Earnings per common share amounts are computed by using the weighted average
+number of common shares outstanding.  These shares averaged 784,547,000 for the
+six months ended June 30, 1996 and 799,246,000 for the same period in 1995.
+
+
+NOTE 3 - TAXES ON EARNINGS:
+
+Taxes on earnings reflect the estimated annual effective tax rates.  The
+effective tax rates are less than the statutory U.S. Federal Income tax rate
+principally due to tax incentive grants related to subsidiaries operating in
+Puerto Rico, the Dominican Republic, Italy, Ireland, and the Netherlands.
+
+                                          5
+
+<PAGE>
+NOTES  TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+JUNE 30, 1996
+(UNAUDITED), CONTINUED
+
+
+
+NOTE 4 - LITIGATION AND ENVIRONMENTAL MATTERS:
+
+The Company is involved in various claims and legal proceedings including
+numerous antitrust suits and investigations in connection with the sale and
+marketing of infant formula products and the pricing of prescription
+pharmaceuticals.
+
+In addition, the Company has been identified as a potentially responsible party
+for investigation and cleanup costs at a number of locations in the United
+States and Puerto Rico under Federal remediation laws and is voluntarily
+investigating potential contamination at a number of Company-owned locations.
+
+The matters above are discussed more fully in Item 1, Business - Environmental
+Matters, and Item 3, Legal Proceedings, in the Annual Report on Form 10-K, which
+is available upon request, and in Part II, Item 1, Legal Proceedings, in this
+Form.
+
+The Company expects that within the next year, progress in the legal proceedings
+described above may cause a change in the estimated reserves recorded by the
+Company.  While it is not feasible to predict the outcome of such pending
+claims, proceedings, investigations and remediation activities with certainty,
+management is of the opinion that their ultimate disposition should not have a
+material adverse effect on the Company's financial position, cash flows, or
+results of operations.
+
+
+NOTE 5 - ACQUISITION OF MEDISENSE:
+
+In May 1996, the Company acquired, for cash, substantially all of the 
+outstanding shares of MediSense, Inc. (MediSense), a manufacturer of blood 
+glucose self-testing products.  The Company is finalizing the appraisal to 
+determine the purchase price allocation.  However, a substantial portion of 
+the purchase price is expected to be allocated to intangible assets, 
+including goodwill, which will be amortized on a straight-line basis over up 
+to 40 years. In addition, $35.2 million was charged against earnings for 
+in-process research and development.  Had this acquisition occurred on 
+January 1, 1995, consolidated sales and net income would not have been 
+significantly different from reported amounts.
+
+                                          6
+
+<PAGE>
+
+
+FINANCIAL REVIEW
+
+
+RESULTS OF OPERATIONS - SECOND QUARTER AND FIRST SIX MONTHS 1996 COMPARED WITH
+SAME PERIODS IN 1995
+
+Worldwide sales for the second quarter and first six months increased
+8.0 percent and 6.9 percent, respectively, over the comparable 1995 periods.
+Net earnings increased 10.9 percent and 13.0 percent, respectively, in  the
+second quarter and first six months 1996.  Earnings per share increased 13.2
+percent and 15.2 percent, respectively, over the prior year periods.
+
+Gross profit margin (sales less cost of products sold, including freight and
+distribution expenses) was 57.6 percent for the 1996 second quarter, compared to
+56.6 percent for the 1995 second quarter.  First half gross margin was
+57.2 percent, compared to 56.7 percent a year earlier.  These increases are due
+primarily to favorable product mix, especially higher sales of pharmaceuticals,
+and productivity improvements; partially offset by higher project expenses for
+new products and the effects of inflation.
+
+Research and development expenses were $304.8 million and $573.5 million for 
+the second quarter and first six months 1996, respectively, including $35.2 
+million of acquired research and development related to the purchase of 
+MediSense.  The second quarter and six month 1995 results included a similar 
+charge for the acquisition of certain technologies.  Research and development 
+represented 11.3 percent and 10.7 percent of net sales, compared to 11.5 
+percent and 10.6 percent in 1995.  The majority of research and development 
+expenditures continues to be concentrated on pharmaceutical and diagnostic 
+products.
+
+Selling, general and administrative expenses for the second quarter and first 
+six months 1996 increased 12.5 percent and 3.5 percent, respectively, over 
+the comparable prior year periods, net of the favorable effect of the 
+relatively stronger U.S. dollar of 2.4 percent and 1.1 percent, respectively. 
+The net increases reflect additional selling and marketing support for new 
+and existing products, primarily for pharmaceutical and nutritional products, 
+partially offset for the six months 1996 by lower litigation expenses and 
+because no contributions were made to the Company's charitable foundation in 
+1996.
+
+Other (income) expense, net, includes net foreign exchange losses of
+$3.8 million and $13.2 million, respectively, for the second quarter and first
+six months 1996 compared with net foreign exchange losses of $7.1 million and
+$15.5 million for the corresponding prior year periods.
+
+                                          7
+
+<PAGE>
+
+FINANCIAL REVIEW
+(Continued)
+
+
+INDUSTRY SEGMENTS
+
+Industry segment sales for the second quarter and first six months 1996 and the
+related change from the comparable 1995 periods are shown in the table below.
+The Pharmaceutical and Nutritional Products segment includes a broad line of
+adult and pediatric pharmaceuticals and nutritionals, which are sold primarily
+on the prescription or recommendation of physicians or other health care
+professionals; consumer products; agricultural and chemical products; and bulk
+pharmaceuticals.  The Hospital and Laboratory Products segment includes
+diagnostic systems for blood banks, hospitals, commercial laboratories and
+alternate-care testing sites, and consumers; intravenous and irrigation fluids
+and related administration equipment; drugs and drug delivery systems;
+anesthetics; critical care products; and other medical specialty products for
+hospitals and alternate-care sites.
+
+Domestic and international sales for the second quarter and first six months
+1996 primarily reflect unit growth. International sales were unfavorably
+affected 5.3 percent by the relatively stronger dollar in the second quarter.
+On a year-to-date basis, international sales were unfavorably affected 2.8
+percent by the relatively stronger U.S. dollar.
+
+                                          Second Quarter             Six Months
+- -------------------------------------------------------------------------------
+SEGMENT SALES                            1996    Percent         1996   Percent
+(In millions of dollars)                Sales   Increase        Sales  Increase
+- -------------------------------------------------------------------------------
+
+Pharmaceutical and Nutritional Products:
+Domestic                             $  995.3       11.2     $2,035.8       8.6
+- -------------------------------------------------------------------------------
+International                           535.7        7.6      1,094.9      10.2
+- -------------------------------------------------------------------------------
+                                      1,531.0        9.9      3,130.7       9.1
+
+Hospital and Laboratory Products:
+Domestic                                620.1        5.2      1,195.2       2.7
+- -------------------------------------------------------------------------------
+International                           548.1        5.9      1,045.5       5.4
+- -------------------------------------------------------------------------------
+                                      1,168.2        5.5      2,240.7       3.9
+Total All Segments:
+Domestic                              1,615.4        8.8      3,231.0       6.3
+- -------------------------------------------------------------------------------
+International                         1,083.8        6.7      2,140.4       7.8
+- -------------------------------------------------------------------------------
+                                     $2,699.2        8.0     $5,371.4       6.9
+- -------------------------------------------------------------------------------
+- -------------------------------------------------------------------------------
+
+
+                                          8
+
+<PAGE>
+
+FINANCIAL REVIEW
+(Continued)
+
+
+LIQUIDITY AND CAPITAL RESOURCES AT JUNE 30, 1996
+COMPARED WITH DECEMBER 31, 1995
+
+Net cash from operating activities for the first six months 1996 totaled
+$1.179 billion.  The Company expects annual cash flow from operating activities
+to continue to approximate or exceed the company's capital expenditures and cash
+dividends.  The Company funded the acquisition of MediSense through commercial
+paper borrowings.
+
+The Company has maintained its favorable bond ratings (AAA by Standard & Poor's
+Corporation and Aa1 by Moody's Investors Service) and continues to have readily
+available financial resources, including unused domestic lines of credit of
+$1.5 billion at June 30, 1996.  These lines of credit back up domestic
+commercial paper borrowing arrangements.
+
+During the first six months 1996, the Company continued its program to purchase
+its common shares.  The Company purchased and retired 8,415,000 shares during
+this period at a cost of $351 million.  As of June 30, 1996, an additional
+4,955,000 shares may be purchased in future periods under authorization granted
+by the Board of Directors in September 1995.
+
+In June 1996, the Company filed a registration statement with the Securities and
+Exchange Commission.  The Company may issue up to $650 million of debt
+securities in the future under this registration statement.
+
+LEGISLATIVE ISSUES
+
+The Company's primary markets are highly competitive and subject to 
+substantial government regulation.  The Company expects debate to continue at 
+both the federal and the state levels over the availability, method of 
+delivery, and payment for health care products and services.  The Company 
+believes that if legislation is enacted, it could have the effect of reducing 
+prices, or reducing the rate of price increases for medical products and 
+services.  International operations are also subject to a significant degree 
+of government regulation. It is not possible to predict the extent to which 
+the Company or the health care industry in general might be adversely 
+affected by these factors in the future. A more complete discussion of these 
+factors is contained in Item 1, Business, in the Annual Report on Form 10-K, 
+which is available upon request.
+
+                                          9
+
+<PAGE>
+
+                             PART II.   OTHER INFORMATION
+
+ITEM 1.  LEGAL PROCEEDINGS
+
+         The Company's 10-Q for the fiscal quarter ended March 31, 1996 
+described 23 antitrust suits, one shareholder derivative suit, and 5 
+investigations that had been brought in connection with the Company's 
+marketing and sale of infant formula products.  It also reported that the 
+Company had entered into an agreement to settle 20 of these 23 antitrust 
+suits; that one of the 20 cases covered by the agreement had been finally 
+settled; and that the settlement of each of the remaining 19 cases would only 
+become final when it had been approved by the court in the state where it was 
+pending.  On June 7, 1996 the court in Wisconsin gave its final approval to 
+the settlement of the two cases that were pending in that state.  The 
+settlements of the 17 remaining cases have not yet been finalized. On June 
+11, 1996 the Illinois Court of Appeals (First District) dismissed plaintiff's 
+appeal of the previous dismissal of the one shareholder derivative 
+suit that had been pending before it.  As of June 30, 1996, a total of 20 
+antitrust suits and 5 investigations are pending in connection with the 
+Company's marketing and sale of infant formula products.
+
+         The Company's 10-Q for the fiscal quarter ending March 31, 1996
+reported that the Company had entered into a settlement agreement for the class
+action portion of litigation that is pending in federal court in Chicago,
+Illinois and is known as IN RE:  BRAND NAME PRESCRIPTION DRUG ANTITRUST
+LITIGATION, MDL 997; that the settlement agreement had to be approved by the
+federal court before it became final and effective; that on April 4, 1996, the
+federal court disapproved the settlement agreement; and that the Company had
+filed a request for permission to seek an interlocutory appeal of the denial of
+the settlement agreement to the Federal Court of Appeals for the Seventh
+Circuit.  On May 16, 1996 the court denied this request.  As of June 30, 1996,
+139 cases and one Federal Trade Commission investigation are pending in
+connection with the Company's pricing of brand name prescription
+pharmaceuticals.
+
+         The Company's 10-Q for the fiscal quarter ending March 31, 1996
+reported that on March 15, 1996, the North Carolina Department of Environment,
+Health, and Natural Resources ("DEHNR") issued a Notice of Initiation of
+Enforcement Action to the Company alleging that during the period between 1987
+and 1993 the Company violated certain air quality regulations in North Carolina.
+On July 1, 1996 the Company received a civil penalty assessment from the DEHNR
+for $968,763.58 in connection with this enforcement action.  The Company is
+contesting the assessment.
+
+<PAGE>
+
+         While it is not feasible to predict the outcome of such pending 
+claims, proceedings, and investigations with certainty, management is of the 
+opinion that their ultimate disposition should not have a material adverse 
+effect on the Company's financial position, cash flows, or results of 
+operations.
+
+
+Item 6.  Exhibits and Reports on Form 8-K
+
+         (a)  Exhibits
+
+              10.1      Abbott Laboratories 1996 Incentive Stock Program* -
+                        attached hereto.
+
+              10.2      Amended Abbott Laboratories Supplemental Pension 
+                        Plan* - attached hereto.
+
+              11.       Statement re:  computation of per share earnings -
+                        attached hereto.
+
+              12.       Statement re:  computation of ratio of earnings to
+                        fixed charges - attached hereto.
+
+              27.       Financial Data Schedule - attached hereto.
+
+         (b)  Reports on Form 8-K
+
+              No reports on Form 8-K were filed during the quarter ended June
+              30, 1996.
+
+
+*   denotes a management contract or compensatory plan or arrangement required
+    to be filed as an exhibit hereto.
+
+
+                                      SIGNATURE
+
+         Pursuant to the requirements of the Securities Exchange Act of 1934,
+the registrant has duly caused this report to be signed on its behalf by the
+undersigned thereunto duly authorized.
+
+                                  ABBOTT LABORATORIES
+
+
+Dated:  August 13, 1996           /s/ Theodore A. Olson
+                                  ----------------------------------
+                                  Theodore A. Olson, Vice President
+                                  and Controller (Principal
+                                  Accounting Officer)
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-10.1
+<SEQUENCE>2
+<DESCRIPTION>EXHIBIT 10.1
+<TEXT>
+
+<PAGE>
+
+ABBOTT LABORATORIES 1996 INCENTIVE STOCK PROGRAM                    EXHIBIT 10.1
+- ------------------------------------------------------------------
+  1.  PURPOSE.  The  purpose of  the  Abbott Laboratories  1996  Incentive Stock
+Program (the "Program") is to attract and retain outstanding directors, officers
+and other employees of Abbott Laboratories (the "Company") and its subsidiaries,
+and to furnish incentives to such persons by providing opportunities to  acquire
+common  shares of the Company,  or monetary payments based  on the value of such
+shares or the  financial performance of  the Company, or  both, on  advantageous
+terms as herein provided and to further align such persons' interests with those
+of  the Company's other  shareholders through compensation that  is based on the
+value of the Company's common shares.
+ 
+  2. ADMINISTRATION.  The  Program will  be  administered by  a  committee  (the
+"Committee")  of at  least two  persons which  shall be  either the Compensation
+Committee of  the Board  of Directors  of the  Company or  such other  committee
+comprised  entirely  of persons  who are  both:  (i) "disinterested  persons" as
+defined in  Rule 16b-3  of  the Securities  and  Exchange Commission;  and  (ii)
+"outside directors" as defined under Section 162(m) of the Internal Revenue Code
+of  1986, as amended; or any successor  provision, as the Board of Directors may
+from time  to  time  designate.  The  Committee  shall  interpret  the  Program,
+prescribe, amend and rescind rules and regulations relating thereto and make all
+other  determinations  necessary  or  advisable for  the  administration  of the
+Program. A majority of  the members of the  Committee shall constitute a  quorum
+and  all determinations  of the  Committee shall  be made  by a  majority of its
+members. Any  determination of  the  Committee under  the  Program may  be  made
+without  notice of meeting  of the Committee by  a writing signed  by all of the
+Committee members. The Committee may, from time to time, delegate any or all  of
+its  duties, powers  and authority  to any officer  or officers  of the Company,
+except to the extent  such delegation would be  inconsistent with Rule 16b-3  of
+the  Securities  and  Exchange  Commission  or  other  applicable  law,  rule or
+regulation. The Chief  Executive Officer of  the Company may,  on behalf of  the
+Committee,  grant stock options  and restricted stock  awards under the Program,
+other than to persons subject  to Section 16 of  the Securities Exchange Act  of
+1934.  All such grants by  the Chief Executive Officer  must be reported to, and
+ratified by,  the Committee  within twelve  months  of the  grant date  but,  if
+ratified, shall be effective as of the grant date.
+ 
+  3. PARTICIPANTS. Participants in the Program will consist of such officers and
+other employees of the Company and its subsidiaries as the Committee in its sole
+discretion  may designate from  time to time to  receive Benefits hereunder. The
+Committee's designation  of a  participant in  any year  shall not  require  the
+Committee  to designate such person to receive  a Benefit in any other year. The
+Committee shall  consider  such  factors  as it  deems  pertinent  in  selecting
+participants  and  in  determining  the  type  and  amount  of  their respective
+Benefits, including  without  limitation  (i) the  financial  condition  of  the
+Company;  (ii)  anticipated  profits  for the  current  or  future  years; (iii)
+contributions of  participants  to  the profitability  and  development  of  the
+Company;  (iv) prior awards to participants; and (v) other compensation provided
+to participants.  Non-Employee  Directors  shall also  be  participants  in  the
+Program solely for purposes of receiving Restricted Stock Awards under paragraph
+13  and Non-qualified Stock  Options under paragraph  14. The term "Non-Employee
+Director" shall mean a member of the  Board of Directors who is not a  full-time
+employee of the Company or any of its subsidiaries.
+ 
+  4.  TYPES OF BENEFITS. Benefits under the Program may be granted in any one or
+a combination of (a) Incentive  Stock Options; (b) Non-qualified Stock  Options;
+(c)  Stock  Appreciation  Rights;  (d) Limited  Stock  Appreciation  Rights; (e)
+Restricted Stock  Awards;  (f) Performance  Awards;  and (g)  Foreign  Qualified
+Benefits, all as described below.
+ 
+  5.  SHARES RESERVED UNDER  THE PROGRAM. There is  hereby reserved for issuance
+under the Program: (i) an aggregate  of Five Million (5,000,000) common  shares;
+plus  (ii) an authorization for each  calendar year (the "Annual Authorization")
+from and including  1996, of  seven-tenths of one  percent (0.7%)  of the  total
+common  shares of the Company issued and outstanding as of the first day of such
+calendar year; which may be newly  issued or treasury shares. The shares  hereby
+reserved  are in addition to the  shares previously reserved under the Company's
+1981 Incentive Stock Program,  1986 Incentive Stock  Program and 1991  Incentive
+Stock  Program (the "Prior  Programs"). Any common  shares reserved for issuance
+under the Prior Programs in excess of  the number of shares as to which  options
+or  other Benefits have been awarded on the date of shareholder approval of this
+Program, plus any  such shares  as to which  options or  other Benefits  granted
+under  the Prior Programs may lapse, expire, terminate or be canceled after such
+date, shall  also be  reserved and  available for  issuance in  connection  with
+Benefits  under this Program.  Any common shares reserved  under the Program for
+any calendar year  under an Annual  Authorization as to  which options or  other
+Benefits  have not  been awarded as  of the end  of such calendar  year shall be
+available for issuance in connection with Benefits granted in subsequent years.
+ 
+If there is  a lapse,  expiration, termination  or cancellation  of any  Benefit
+granted  hereunder without the issuance of shares or payment of cash thereunder,
+or if shares are issued under any  Benefit and thereafter are reacquired by  the
+Company  pursuant to  rights reserved upon  the issuance thereof,  or shares are
+reacquired pursuant to the payment of  the purchase price of shares under  stock
+options by delivery of other common shares of the Company, the shares subject to
+or  reserved  for such  Benefit, or  so reacquired,  may again  be used  for new
+options, rights or awards of any  sort authorized under this Program;  provided,
+however,  that in  no event may  the number  of common shares  issued under this
+Program, and not
+ 
+- --------------------------------------------------------------------------------
+A-1
+<PAGE>
+- --------------------------------------------------------------------------------
+reacquired by the Company pursuant to rights reserved upon the issuance  thereof
+or  pursuant to the payment of the  purchase price of shares under stock options
+by delivery of other common  shares of the Company,  exceed the total number  of
+shares reserved for issuance hereunder.
+ 
+  6. INCENTIVE STOCK OPTIONS. Incentive Stock Options will consist of options to
+purchase  common shares  at purchase  prices not  less than  One Hundred percent
+(100%) of the Fair Market Value of such  common shares on the date of grant.  An
+Incentive  Stock Option will not be exercisable after the expiration of ten (10)
+years from the  date such  option is  granted. In  the event  of termination  of
+employment  for any reason other than retirement, disability or death, the right
+of the optionee to exercise an  Incentive Stock Option shall terminate upon  the
+earlier  of the end of the original term of the option or three (3) months after
+the optionee's last day  of work for  the Company and  its subsidiaries. In  the
+event  of termination of employment  due to retirement or  disability, or if the
+optionee should die  while employed, the  right of  the optionee or  his or  her
+successor in interest to exercise an Incentive Stock Option shall terminate upon
+the  end of the original  term of the option. If  the optionee should die within
+three (3)  months after  termination of  employment for  any reason  other  than
+retirement  or disability,  the right  of his  or her  successor in  interest to
+exercise an Incentive Stock Option shall  terminate upon the earlier of the  end
+of  the original term of the  option or three (3) months  after the date of such
+death. To the extent the aggregate fair market value (determined as of the  time
+the  Option is granted) of the common shares with respect to which any Incentive
+Stock Option is  exercisable for  the first time  by any  individual during  any
+calendar  year  (under  all  option  plans of  the  Company  and  its subsidiary
+corporations) exceeds $100,000, the excess  shall be treated as a  Non-qualified
+Stock  Option. An Incentive  Stock Option shall be  exercisable as determined by
+the Committee, but in no event earlier than six (6) months from its grant date.
+ 
+  7. NON-QUALIFIED STOCK  OPTIONS. Non-qualified Stock  Options will consist  of
+options  to purchase common shares at purchase  prices not less than One Hundred
+percent (100%) of the  Fair Market Value  of such common shares  on the date  of
+grant. A Non-qualified Stock Option will not be exercisable after the expiration
+of  ten  (10) years  from  the date  such  option is  granted.  In the  event of
+termination of employment for  any reason other  than retirement, disability  or
+death,  the right of the optionee to exercise a Non-qualified Stock Option shall
+terminate upon the  earlier of the  end of the  original term of  the option  or
+three  (3) months after the optionee's last day  of work for the Company and its
+subsidiaries. In the  event of termination  of employment due  to retirement  or
+disability,  or if  the optionee  should die  while employed,  the right  of the
+optionee or his or her successor  in interest to exercise a Non-qualified  Stock
+Option  shall terminate upon the end of the  original term of the option. If the
+optionee should die within three (3) months after termination of employment  for
+any  reason  other  than retirement  or  disability,  the right  of  his  or her
+successor in interest to exercise  a Non-qualified Stock Option shall  terminate
+upon  the earlier of  the end of  the original term  of the option  or three (3)
+months after  the date  of such  death. A  Non-qualified Stock  Option shall  be
+exercisable as determined by the Committee, but in no event earlier than six (6)
+months from its grant date.
+ 
+  8.  STOCK APPRECIATION RIGHTS.  The Committee may, in  its discretion, grant a
+Stock Appreciation Right to the holder of any stock option granted hereunder  or
+under  the Prior  Programs. Such Stock  Appreciation Rights shall  be subject to
+such terms and  conditions consistent with  the Program as  the Committee  shall
+impose from time to time, including the following:
+ 
+    (a) A Stock Appreciation Right may be granted with respect to a stock option
+  at  the time of its grant or at any time thereafter up to six (6) months prior
+  to its expiration.
+ 
+    (b) Stock  Appreciation  Rights will  permit  the holder  to  surrender  any
+  related stock option or portion thereof which is then exercisable and to elect
+  to receive in exchange therefor cash in an amount equal to:
+ 
+      (i)  The excess of the  Fair Market Value on the  date of such election of
+    one common share over the option price multiplied by
+ 
+      (ii) The number of shares covered by such option or portion thereof  which
+    is so surrendered.
+ 
+    (c)  A Stock Appreciation Right  granted to a participant  who is subject to
+  Section 16  of  the  Securities Exchange  Act  of  1934, as  amended,  may  be
+  exercised  only after six (6) months from its grant date (unless such exercise
+  would not affect the exemption under Rule 16b-3 of the Securities and Exchange
+  Commission).
+ 
+    (d) A Stock Appreciation Right may be granted to a participant regardless of
+  whether such participant has been  granted a Limited Stock Appreciation  Right
+  with respect to the same stock option. However, a Stock Appreciation Right may
+  not  be exercised  during any period  that a Limited  Stock Appreciation Right
+  with respect to the same stock option may be exercised.
+ 
+    (e) In the event of the exercise  of a Stock Appreciation Right, the  number
+  of  shares reserved for issuance  hereunder shall be reduced  by the number of
+  shares covered by the stock option or portion thereof surrendered.
+ 
+- --------------------------------------------------------------------------------
+                                                                             A-2
+<PAGE>
+- --------------------------------------------------------------------------------
+ 
+  9. LIMITED STOCK APPRECIATION  RIGHTS. The Committee  may, in its  discretion,
+grant  a Limited  Stock Appreciation  Right to  the holder  of any  stock option
+granted hereunder or under the  Prior Programs. Such Limited Stock  Appreciation
+Rights shall be subject to such terms and conditions consistent with the Program
+as the Committee shall impose from time to time, including the following:
+ 
+    (a)  A Limited  Stock Appreciation  Right may be  granted with  respect to a
+  stock option at the time of its grant or at any time thereafter up to six  (6)
+  months prior to its expiration.
+ 
+    (b)  A Limited Stock Appreciation Right  will permit the holder to surrender
+  any related stock option or portion  thereof which is then exercisable and  to
+  receive in exchange therefor cash in an amount equal to:
+ 
+      (i)  The excess of the  Fair Market Value on the  date of such election of
+    one common share over the option price multiplied by
+ 
+      (ii) The number of shares covered by such option or portion thereof  which
+    is so surrendered.
+ 
+    (c)  A  Limited Stock  Appreciation Right  granted to  a participant  who is
+  subject to Section 16 of the Securities Exchange Act of 1934, as amended,  may
+  be  exercised  only after  six (6)  months  from its  grant date  (unless such
+  exercise would not affect the exemption under Rule 16b-3 of the Securities and
+  Exchange Commission) and only during the  sixty (60) day period commencing  on
+  the  later of: (i) the day following the  date of a Change in Control; or (ii)
+  the first date on which such exercise would be exempt under Rule 16b-3 of  the
+  Securities and Exchange Commission.
+ 
+    (d)  A  Limited Stock  Appreciation Right  may be  granted to  a participant
+  regardless of whether such participant  has been granted a Stock  Appreciation
+  Right with respect to the same stock option.
+ 
+    (e)  In the event of the exercise of a Limited Stock Appreciation Right, the
+  number of  shares reserved  for issuance  hereunder shall  be reduced  by  the
+  number of shares covered by the stock option or portion thereof surrendered.
+ 
+  10.  RESTRICTED STOCK AWARDS.  Restricted Stock Awards  will consist of common
+shares transferred to participants without other payment therefor as  additional
+compensation  for  their services  to the  Company or  any of  its subsidiaries.
+Restricted Stock Awards granted under this paragraph 10 shall be satisfied  from
+the  Company's  available  treasury  shares. Restricted  Stock  Awards  shall be
+subject to such terms  and conditions as  the Committee determines  appropriate,
+including,  without limitation, restrictions on the sale or other disposition of
+such shares and rights of the Company to reacquire such shares upon  termination
+of  the participant's employment within specified periods. Subject to such other
+restrictions as are  imposed by the  Committee, the common  shares covered by  a
+Restricted  Stock Award granted to a participant who is subject to Section 16 of
+the Securities  Exchange Act  of 1934,  as  amended, may  be sold  or  otherwise
+disposed  of only after six (6) months from  the grant date of the award (unless
+such sale would not affect the exemption under Rule 16b-3 of the Securities  and
+Exchange  Commission). No  more than  ten percent (10%)  of the  total number of
+shares available for  grant in  any calendar year  may be  issued as  Restricted
+Stock Awards under paragraphs 10 and 13 in that year.
+ 
+  11. PERFORMANCE AWARDS. Performance Awards in the form of Performance Units or
+Performance Shares may be granted to any participant in the Program. Performance
+Units  shall consist of monetary awards which may  be earned in whole or in part
+if the  Company achieves  certain  goals established  by  the Committee  over  a
+designated  period of time. Performance Shares shall consist of common shares or
+awards denominated in common shares which may  be earned in whole or in part  if
+the  Company  achieves  certain  goals  established  by  the  Committee  over  a
+designated period of time. The goals established by the Committee shall be based
+on any one, or combination of, earnings  per share, return on equity, return  on
+assets,  total shareholder return, net operating  income, cash flow, increase in
+revenue, economic value added,  increase in share price  or cash flow return  on
+investment.  Partial  achievement of  the  goal(s) may  result  in a  payment or
+vesting corresponding to the degree of  achievement. Payment of an award  earned
+may  be in cash or in common shares or in a combination of both, and may be made
+when earned,  or may  be  vested and  deferred, as  the  Committee in  its  sole
+discretion  determines.  The  maximum  amount which  may  be  granted  under all
+Performance Awards  for any  one year  for  any one  participant shall  be  Five
+Million  Dollars ($5,000,000). This limit shall be applied to Performance Shares
+by multiplying the number of Performance Shares granted by the fair market value
+of one common share on the date of  the award. This paragraph 11 is intended  to
+comply with the performance-based compensation requirements of Section 162(m) of
+the  Internal Revenue  Code of  1986, as  amended, and  shall be  interpreted in
+accordance with the rules and regulations thereunder.
+ 
+  12. FOREIGN QUALIFIED BENEFITS. Benefits under  the Program may be granted  to
+such  employees of the Company and its  subsidiaries who are residing in foreign
+jurisdictions as the Committee in its sole discretion may determine from time to
+time. The  Committee  may  adopt such  supplements  to  the Program  as  may  be
+necessary  to comply with the applicable  laws of such foreign jurisdictions and
+to afford participants favorable treatment  under such laws; provided,  however,
+that  no  Benefit shall  be  granted under  any  such supplement  with  terms or
+conditions which are  inconsistent with the  provisions as set  forth under  the
+Program.
+ 
+- --------------------------------------------------------------------------------
+A-3
+<PAGE>
+- --------------------------------------------------------------------------------
+ 
+  13. RESTRICTED STOCK AWARDS FOR NON-EMPLOYEE DIRECTORS.
+ 
+    (a)  Each person elected  a Non-Employee Director  at an annual shareholders
+  meeting in any of the years 1996 through 2005 shall receive a Restricted Stock
+  Award on the dates of their election covering a number of common shares with a
+  fair market value on the date of the  award closest to, but not in excess  of,
+  Twenty-Two  Thousand Dollars ($22,000)  for awards made  in years 1996 through
+  2000 and Twenty-Five Thousand Dollars ($25,000) for awards made in years  2001
+  through 2005.
+ 
+    (b)  ISSUANCE OF CERTIFICATES. As soon  as practicable following the date of
+the  award  the  Company  shall  issue  certificates  ("Certificates")  to   the
+Non-Employee  Director receiving  the award,  representing the  number of common
+shares covered by the award. Each Certificate shall bear a legend describing the
+restrictions on such shares imposed by this paragraph 13.
+ 
+    (c) RIGHTS. Upon issuance of the Certificates, the directors in whose  names
+they  are registered  shall, subject to  the restrictions of  this paragraph 13,
+have all of the rights of a  shareholder with respect to the shares  represented
+by  the Certificates, including the  right to vote such  shares and receive cash
+dividends and other distributions thereon.
+ 
+    (d) RESTRICTED  PERIOD. The  shares  covered by  awards granted  under  this
+paragraph  13 may  not be sold  or otherwise  disposed of within  six (6) months
+following their grant  date (unless  such sale  would not  affect the  exemption
+under  Rule 16b-3  of the  Securities and  Exchange Commission)  and in addition
+shall be subject  to the restrictions  of this  paragraph 13 for  a period  (the
+"Restricted  Period") commencing with  the date of  the award and  ending on the
+earliest of the following events:
+ 
+      (i) The date the director terminates or retires from the Board;
+ 
+      (ii) The date the director dies; or
+ 
+      (iii) The  date  of occurrence  of  a Change  in  Control (as  defined  in
+    paragraph 21(c)).
+ 
+    (e)  RESTRICTIONS. All shares covered by awards granted under this paragraph
+13 shall be subject to the following restrictions during the Restricted Period:
+ 
+      (i)  The  shares  may  not   be  sold,  assigned,  transferred,   pledged,
+    hypothecated or otherwise disposed of.
+ 
+      (ii)  Any additional common  shares of the Company  or other securities or
+    property issued with respect to shares covered by awards granted under  this
+    paragraph   13  as  a   result  of  any  stock   dividend,  stock  split  or
+    reorganization, shall be subject to the restrictions and other provisions of
+    this paragraph 13.
+ 
+      (iii) A director  shall not  be entitled to  receive any  shares prior  to
+    completion  of all actions deemed appropriate  by the Company to comply with
+    federal or state securities laws and stock exchange requirements.
+ 
+    (f) Except in  the event of  conflict, all provisions  of the Program  shall
+  apply  to  this  paragraph  13.  In the  event  of  any  conflict  between the
+  provisions of  the Program  and this  paragraph 13,  this paragraph  13  shall
+  control.  Those provisions  of paragraph 17  which authorize  the Committee to
+  declare outstanding  restricted stock  awards to  be vested  and to  amend  or
+  modify  the terms  of Benefits  shall not apply  to awards  granted under this
+  paragraph 13. Restricted Stock Awards granted under this paragraph 13 shall be
+  satisfied from the Company's available treasury shares.
+ 
+  14. NON-QUALIFIED STOCK OPTIONS FOR NON-EMPLOYEE DIRECTORS.
+ 
+    (a) Each Non-Employee Director may elect to receive any or all of his or her
+  fees earned during the second half  of 1996 and each subsequent calendar  year
+  under  Section 3 of  the Abbott Laboratories  Non-Employee Directors' Fee Plan
+  (the "Directors' Fee Plan") in the  form of Non-qualified Stock Options  under
+  this  Section 14. Each such election shall be irrevocable, and must be made in
+  writing and filed with the Secretary of the Company by December 31, 1995  (for
+  fees  earned in the  second half of  1996) and (for  fees earned in subsequent
+  calendar years) by June 30 of the calendar year preceding the calendar year in
+  which such fees are  earned (or such  later date as  may be permissible  under
+  Rule  16b-3 of the Securities  and Exchange Commission, but  in no event later
+  than December 31 of such preceding calendar year).
+ 
+    (b) A  Non-Employee Director  may file  a new  election each  calendar  year
+  applicable  to fees earned in the  immediately succeeding calendar year. If no
+  new election or revocation of a prior  election is received by June 30 of  any
+  calendar  year (or such later date as may be permissible under paragraph (a)),
+  the election,  if any,  in effect  for such  calendar year  shall continue  in
+  effect  for the immediately succeeding calendar  year. Any election made under
+  this Section 14 shall take precedence  over any election made by the  director
+  for the same period, under the Directors' Fee Plan, to the extent necessary to
+  resolve  any conflict between such elections. If  a director does not elect to
+  receive his or her fees in the  form of Non-qualified Stock Options, the  fees
+  due  such director shall be paid or deferred as provided in the Directors' Fee
+  Plan and any applicable election thereunder by the director.
+ 
+- --------------------------------------------------------------------------------
+                                                                             A-4
+<PAGE>
+- --------------------------------------------------------------------------------
+ 
+    (c) The number of common shares  covered by each Non-qualified Stock  Option
+  granted  in any  year under this  Section 14  shall be determined  based on an
+  independent appraisal for such year of the intrinsic value of options  granted
+  hereunder  and the amount of fees covered  by the director's election for such
+  year. The  number of  common shares  covered by  options granted  in 1996  (as
+  determined  under this procedure) shall be the number of whole shares equal to
+  (i) the product of three (3) times  the amount of fees which the director  has
+  elected  under paragraph  (a) to  receive in  the form  of Non-qualified Stock
+  Options, divided by (ii) One Hundred  percent (100%) of the Fair Market  Value
+  of  one common  share on  the grant  date. Any  fraction of  a share  shall be
+  disregarded, and the remaining amount of the fees corresponding to such option
+  shall be  paid as  provided in  the  Directors' Fee  Plan and  any  applicable
+  election thereunder by the director.
+ 
+    (d)  Each Non-qualified  Stock Option due  a director under  this Section 14
+  shall be  issued as  of the  date  the corresponding  fees otherwise  due  the
+  director  would have been paid under the Directors' Fee Plan and at a purchase
+  price equal to  One Hundred percent  (100%) of  the Fair Market  Value of  the
+  common shares covered by such option on the grant date. Each such option shall
+  be  fully exercisable after six (6) months  from the grant date, and shall not
+  be exercisable after  the expiration of  ten (10) years  from the grant  date.
+  Each  such option  shall contain provisions  allowing payment  of the purchase
+  price, and any taxes due on the  exercise, by delivery of other common  shares
+  of  the  Company (or,  in  the case  of payment  of  taxes, by  withholding of
+  shares).
+ 
+  15. NONTRANSFERABILITY. Except as provided by the Committee, each stock option
+and  stock  appreciation  right  granted   under  this  Program  shall  not   be
+transferable  other than by  will or the  laws of descent  and distribution, and
+shall be exercisable, during the participant's lifetime, only by the participant
+or the participant's guardian or legal representative.
+ 
+  16. OTHER PROVISIONS. The award of any  Benefit under the Program may also  be
+subject to other provisions (whether or not applicable to the Benefit awarded to
+any  other  participant)  as the  Committee  determines  appropriate, including,
+without limitation, provisions  for the  purchase of common  shares under  stock
+options  in installments,  provisions for the  payment of the  purchase price of
+shares under stock  options by delivery  of other common  shares of the  Company
+having  a  then  market  value  equal to  the  purchase  price  of  such shares,
+restrictions  on  resale  or  other  disposition,  such  provisions  as  may  be
+appropriate  to comply with federal or  state securities laws and stock exchange
+requirements and understandings or conditions as to the participant's employment
+in addition to those specifically provided for under the Program.
+ 
+  In the case of a participant who is subject to Section 16(a) and 16(b) of  the
+Securities  Exchange  Act of  1934, the  Committee  may, at  any time,  add such
+conditions and limitations to  any Benefit granted to  such participant, or  any
+feature  of any such  Benefit, as the  Committee, in its  sole discretion, deems
+necessary or desirable to comply with Section  16(a) or 16(b) and the rules  and
+regulations thereunder or to obtain any exemption therefrom.
+ 
+  A  participant may  pay the  purchase price of  shares under  stock options by
+delivery of  a  properly  executed  exercise notice  together  with  a  copy  of
+irrevocable  instructions to  a broker  to deliver  promptly to  the Company the
+amount of sale or  loan proceeds to  pay the purchase  price. To facilitate  the
+foregoing, the Company may enter into agreements for coordinated procedures with
+one or more brokerage firms.
+ 
+  The  Committee may,  in its  discretion and  subject to  such rules  as it may
+adopt, permit or require a participant to  pay all or a portion of the  federal,
+state  and local taxes, including FICA  and medicare withholding tax, arising in
+connection with the following transactions: (a) the exercise of a  Non-qualified
+Stock  Option; (b)  the lapse  of restrictions  on common  shares received  as a
+Restricted Stock Award; or (c) the receipt or exercise of any other Benefit;  by
+(i) having the Company withhold common shares, (ii) tendering back common shares
+received  in connection with  such Benefit or  (iii) delivering other previously
+acquired common shares of the Company  having a fair market value  approximately
+equal to the amount to be withheld.
+ 
+  The  Committee  may grant  stock  options under  the  Program (and,  for stock
+options granted  prior  to  shareholder  approval of  this  Program,  under  the
+Company's   1991  Incentive  Stock  Program)  that  provide  for  the  grant  of
+replacement stock options if all or any  portion of the purchase price or  taxes
+incurred  in connection with the exercise, are paid by delivery (or, in the case
+of payment of taxes,  by withholding of  shares) of other  common shares of  the
+Company.  The replacement stock  option shall cover the  number of common shares
+surrendered to pay the purchase price, plus the number of shares surrendered  or
+withheld  to satisfy  the participant's  tax liability,  shall have  an exercise
+price equal to  One Hundred  percent (100%)  of the  Fair Market  Value of  such
+common  shares on the date such replacement stock option is granted, shall first
+be exercisable six months from the date of grant of the replacement stock option
+and shall have an expiration date equal  to the expiration date of the  original
+stock option.
+ 
+  17.  TERM OF PROGRAM AND AMENDMENT, MODIFICATION, CANCELLATION OR ACCELERATION
+OF BENEFITS. The Program shall continue in effect until terminated by the  Board
+of  Directors of  the Company,  except that no  Incentive Stock  Option shall be
+granted more than ten (10) years after the date of adoption of this Program. The
+terms and conditions applicable to any
+ 
+- --------------------------------------------------------------------------------
+A-5
+<PAGE>
+- --------------------------------------------------------------------------------
+Benefits may at any  time be amended, modified  or canceled by mutual  agreement
+between the Committee and the participant or such other persons as may then have
+an  interest therein, so long as any amendment or modification does not increase
+the number of common shares issuable  under this Program; and provided  further,
+that  the Committee may, at any time and  in its sole discretion, declare any or
+all stock  options and  stock appreciation  rights then  outstanding under  this
+Program  or the Prior Programs to be exercisable and any or all then outstanding
+Restricted Stock Awards  to be vested,  whether or not  such options, rights  or
+awards are then otherwise exercisable or vested.
+ 
+  18. AMENDMENT TO PRIOR PROGRAMS. No options or other Benefits shall be granted
+under  the Prior Programs on  or after the date  of shareholder approval of this
+Program.
+ 
+  19. INDIVIDUAL LIMIT ON OPTIONS AND STOCK APPRECIATION RIGHTS; AGGREGATE LIMIT
+ON INCENTIVE STOCK OPTIONS. The maximum  number of shares with respect to  which
+Incentive  Stock Options, Non-qualified Stock Options, Stock Appreciation Rights
+and Limited Stock Appreciation Rights may be granted to any one participant,  in
+aggregate  in any  one calendar year,  shall be One  Million (1,000,000) shares.
+Incentive Stock  Options  with  respect  to  no more  than  the  lesser  of  (i)
+Seventy-Five  Million  (75,000,000)  shares  (plus any  shares  acquired  by the
+Company pursuant to  payment of  the purchase  price of  shares under  incentive
+stock  options by delivery of  other common shares of  the Company), or (ii) the
+total number of shares reserved under paragraph 5 may be issued under the Plan.
+ 
+  20. TAXES. The Company  shall be entitled  to withhold the  amount of any  tax
+attributable to any amount payable or shares deliverable under the Program after
+giving  the person entitled  to receive such  amount or shares  notice as far in
+advance as practicable, and the Company may defer making payment or delivery  if
+any such tax may be pending unless and until indemnified to its satisfaction.
+ 
+  21. DEFINITIONS.
+ 
+    (a)  FAIR MARKET VALUE. The Fair Market Value of the Company's common shares
+shall be the average of  the highest and lowest sales  prices of such shares  as
+reported  on the New York Stock Exchange Composite Reporting System for the date
+as of which the determination is to be made or in the absence of reported  sales
+on  that date, the average of such  reported highest and lowest sales prices for
+the next preceding date on which reported sales occurred; provided that, in  the
+case  of any Limited Stock Appreciation Right  (other than a right related to an
+Incentive Stock Option), the Fair Market Value shall be the higher of:
+ 
+      (i) The highest daily closing price of the Company's common shares  during
+    the sixty (60) day period following the Change in Control; or
+ 
+      (ii)  The highest gross price paid or  to be paid for the Company's common
+    shares in  any of  the  transactions described  in paragraphs  21(c)(i)  and
+    21(c)(ii).
+ 
+    (b)  SUBSIDIARY.  The  term "subsidiary"  for  all purposes  other  than the
+Incentive Stock Option provisions  in paragraph 6,  shall mean any  corporation,
+partnership, joint venture or business trust, fifty percent (50%) or more of the
+control of which is owned, directly or indirectly, by the Company. For Incentive
+Stock  Option purposes  the term  "subsidiary" shall  be defined  as provided in
+Internal Revenue Code Section 424(f).
+ 
+    (c) CHANGE  IN  CONTROL. A  "Change  in Control"  shall  be deemed  to  have
+occurred on the earliest of the following dates:
+ 
+      (i)  The date  any entity  or person  (including a  "group" as  defined in
+    Section 13(d)(3)  of the  Securities  Exchange Act  of 1934  (the  "Exchange
+    Act"))  shall have  become the beneficial  owner of, or  shall have obtained
+    voting control over, thirty percent (30%) or more of the outstanding  common
+    shares of the Company;
+ 
+      (ii)  The  date  the  shareholders of  the  Company  approve  a definitive
+    agreement (A)  to merge  or consolidate  the Company  with or  into  another
+    corporation,  or to merge another corporation into the Company, in which the
+    Company is not the continuing or surviving corporation or pursuant to  which
+    any common shares of the Company would be converted into cash, securities of
+    another corporation, or other property, other than a merger or consolidation
+    of  the Company in which  holders of common shares  immediately prior to the
+    merger have  the  same  proportionate  ownership  of  common  stock  of  the
+    surviving corporation or its parent corporation immediately after the merger
+    as  immediately before, or (B) to sell or otherwise dispose of substantially
+    all the assets of the Company; or
+ 
+      (iii) The date there shall have been  a change in a majority of the  Board
+    of  Directors of the  Company within a  twelve (12) month  period unless the
+    nomination for election by the  Company's shareholders of each new  director
+    was approved by the vote of two-thirds of the directors then still in office
+    who were in office at the beginning of the twelve (12) month period.
+ 
+    (d)  DISABILITY. The term "disability" for all purposes of the Program shall
+mean the participant's disability as defined in subsection 4.1(a) of the  Abbott
+Laboratories Extended Disability Plan for twelve (12) consecutive months.
+ 
+- --------------------------------------------------------------------------------
+                                                                             A-6
+<PAGE>
+- --------------------------------------------------------------------------------
+ 
+  22. ADJUSTMENT PROVISIONS.
+ 
+    (a)  If the  Company shall at  any time  change the number  of issued common
+  shares without new consideration to the Company (such as by stock dividends or
+  stock splits), the  total number of  shares reserved for  issuance under  this
+  Program,  the individual and  aggregate limits described  in paragraph 19, and
+  the number of shares covered by each outstanding Benefit shall be adjusted  so
+  that  the aggregate consideration payable to the Company and the value of each
+  such Benefit shall not be changed. The Committee shall also have the right  to
+  provide  for the continuation  of Benefits or  for other equitable adjustments
+  after  changes  in  the  Company  or  in  the  common  shares  resulting  from
+  reorganization, sale, merger, consolidation, spin-off or similar occurrence.
+ 
+    (b)  Notwithstanding  any  other  provision  of  this  Program,  and without
+  affecting the number of shares otherwise reserved or available hereunder,  the
+  Committee  may authorize the issuance or  assumption of Benefits in connection
+  with  any  merger,  consolidation,  acquisition  of  property  or  stock,   or
+  reorganization upon such terms and conditions as it may deem appropriate.
+ 
+    (c)  Subject to the six month holding requirements of paragraphs 6, 7, 8(c),
+  9(c), 10 and 13(d) but notwithstanding any other provision of this Program  or
+  the Prior Programs, upon the occurrence of a Change in Control:
+ 
+      (i)  All stock  options then outstanding  under this Program  or the Prior
+    Programs shall become  fully exercisable  as of the  date of  the Change  in
+    Control, whether or not then otherwise exercisable;
+ 
+      (ii)  All Stock Appreciation Rights  and Limited Stock Appreciation Rights
+    then outstanding shall become fully exercisable as of the date of the Change
+    in Control, whether or not then otherwise exercisable;
+ 
+      (iii) All  terms  and  conditions  of all  Restricted  Stock  Awards  then
+    outstanding  shall  be deemed  satisfied as  of  the date  of the  Change in
+    Control; and
+ 
+      (iv) All Performance Awards then outstanding shall be deemed to have  been
+    fully  earned and to be immediately payable, in  cash, as of the date of the
+    Change in Control.
+ 
+  23. AMENDMENT  AND TERMINATION  OF  PROGRAM. The  Board  of Directors  of  the
+Company  may amend the Program from time to time or terminate the Program at any
+time, but  no  such  action  shall  reduce  the  then  existing  amount  of  any
+participant's  Benefit  or adversely  change  the terms  and  conditions thereof
+without the participant's consent.  To the extent  required for compliance  with
+Rule  16b-3  of the  Securities  and Exchange  Commission,  paragraph 13  of the
+Program may not be amended more frequently than once every six months other than
+to comport with changes in the Internal Revenue Code of 1986, as amended, or the
+rules thereunder, and no amendment of the Program shall result in any  Committee
+member  losing his or her status as  a "disinterested person" as defined in Rule
+16b-3 of the  Securities and Exchange  Commission with respect  to any  employee
+benefit plan of the Company or result in the Program or awards thereunder losing
+their exempt status under said Rule 16b-3.
+ 
+  24. SHAREHOLDER APPROVAL. The Program was adopted by the Board of Directors of
+the  Company on October 13, 1995. The Program and any Benefit granted thereunder
+shall be null and void  if shareholder approval is  not obtained by October  12,
+1996.
+ 
+- --------------------------------------------------------------------------------
+A-7
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-10.2
+<SEQUENCE>3
+<DESCRIPTION>EXHIBIT 10.2
+<TEXT>
+
+<PAGE>
+
+                           Adopted by Board of Directors 12/13/85.  Amended by
+                           Board of Review 3/13/86, 12/11/86, 3/11/87,
+                           3/4/88, 12/9/88, 3/9/89, 10/1/89, 12/21/90,
+                           6/1/92, 9/30/93, 9/1/95 and 6/1/96.
+
+
+
+                    ABBOTT LABORATORIES SUPPLEMENTAL PENSION PLAN
+
+                                      SECTION 1
+                                     INTRODUCTION
+
+    1-1.  On September 9, 1977, December 14, 1979 and February 10, 1984 the
+Board of Directors of Abbott Laboratories ("Abbott") adopted certain resolutions
+providing for payment of (i) pension benefits calculated under the Abbott
+Laboratories Annuity Retirement Plan ("Annuity Plan") in excess of those which
+may be paid under that plan under the limits imposed by Section 415 of the U.S.
+Internal Revenue Code, as amended, and the Employee Retirement Income Security
+Act ("ERISA") and (ii) the additional pension benefits that would be payable
+under the Annuity Plan if deferred awards under the Abbott Laboratories
+Management Incentive Plan were included in "final earnings" as defined in the
+Annuity Plan.
+
+    The purpose of this ABBOTT LABORATORIES SUPPLEMENTAL PENSION PLAN (the
+"Supplemental Plan") is to clarify, restate and supersede the prior resolutions.
+
+    1-2.  The Supplemental Plan shall apply to employees of Abbott and its
+subsidiaries and affiliates existing as of the date of adoption of the
+Supplemental Plan or thereafter created or acquired.  (Abbott and each of such
+subsidiaries and affiliates are hereinafter referred to as an "employer" and
+collectively as the "employers").
+
+    1-3.  All benefits provided under the Supplemental Plan shall be provided
+from the general assets of the employers and not from any trust fund or other
+
+<PAGE>
+
+
+                                         -2-
+
+designated asset.  All participants in the Supplemental Plan shall be general
+creditors of the employers with no priority over other creditors.
+
+    1-4.  The Supplemental Plan shall be administered by the Abbott
+Laboratories Employee Benefit Board of Review appointed and acting under the
+Annuity Plan ("Board of Review").  Except as stated below, the Board of Review
+shall perform all powers and duties with respect to the Supplemental Plan,
+including the power to direct payment of benefits, allocate costs among
+employers, adopt amendments and determine questions of interpretation.  The
+Board of Directors of Abbott shall have the sole authority to terminate the
+Supplemental Plan.
+
+                                      SECTION 2
+                       ERISA ANNUITY PLAN SUPPLEMENTAL BENEFIT
+
+    2-1.  The benefits described in this Section 2 shall apply to all
+participants in the Annuity Plan who retire, or terminate with a vested pension
+under that plan, on or after September 9, 1977.
+
+    2-2.  Each Annuity Plan participant whose retirement or vested pension
+under that plan would otherwise be limited by Section 415, Internal Revenue
+Code, shall receive a supplemental pension under this Supplemental Plan in an
+amount, which, when added to his or her Annuity Plan pension, will equal the
+amount the participant would be entitled to under the Annuity Plan as in effect
+from time to time, based on the particular option selected by the participant,
+without regard to the limitations imposed by Section 415, Internal Revenue Code.
+
+                                      SECTION 3
+                       1986 TAX REFORM ACT SUPPLEMENTAL BENEFIT
+
+    3-1.  The benefits described in this Section 3 shall apply to all
+participants in the Annuity Plan who retire, or terminate with a vested pension
+under that plan, after December 31, 1988.
+
+<PAGE>
+
+
+                                         -3-
+
+    3-2.  Each Annuity Plan participant shall receive a supplemental pension
+under this Supplemental Plan in an amount determined as follows:
+
+    (a)  The supplemental pension shall be the difference, if any, between:
+
+         (i)  The monthly benefit payable under the Annuity Plan plus any
+              supplement provided by Section 2; and
+
+         (ii) The monthly benefit which would have been payable under the
+              Annuity Plan (without regard to the limits imposed by Section
+              415, Internal Revenue Code) if the participant's "final
+              earnings", as defined in the Annuity Plan had included
+              compensation in excess of the limits imposed by Section
+              401(a)(17), Internal Revenue Code, and any "pre-tax
+              contributions" made by the participant under the Abbott
+              Laboratories Supplemental 401(k) Plan.
+
+                                      SECTION 4
+                    DEFERRED MIP ANNUITY PLAN SUPPLEMENTAL BENEFIT
+
+    4-1.  The benefits described in this Section 4 shall apply to all
+participants in the Annuity Plan who retire, or terminate with a vested pension,
+under that plan, on or after December 14, 1979 and who were awarded Management
+Incentive Plan awards for any calendar year during the ten consecutive calendar
+years ending with the year of retirement or termination of employment.
+
+    4-2.  Each Annuity Plan participant shall receive a supplemental pension
+under this Supplemental Plan in an amount determined as follows:
+
+    (a)  The supplemental pension shall be the difference, if any, between:
+
+         (i)  The monthly benefit payable under the Annuity Plan plus any
+              supplement provided by Section 2 and Section 3; and
+
+         (ii) the monthly benefit which would have been payable under the
+              Annuity Plan (without regard to the limits imposed by Section
+              415, Internal Revenue Code) if the participant's "final
+              earnings", as defined in the Annuity Plan, were one-sixtieth of
+              the sum of:
+
+              (A)  the participant's total "basic earnings" (excluding any
+                   payments under the Management Incentive Plan or any Division
+                   Incentive Plan) received in the sixty consecutive calendar
+                   months for which his basic earnings (excluding
+
+<PAGE>
+
+
+                                         -4-
+
+                   any payments under the Management Incentive Plan or any
+                   Division Incentive Plan) were highest within the last one
+                   hundred twenty consecutive calendar months immediately
+                   preceding his retirement or termination of employment; and
+
+              (B)  the amount of the participant's total awards under the
+                   Management Incentive Plan and any Division Incentive Plan
+                   (whether paid immediately or deferred) made for the five
+                   consecutive calendar years during the ten consecutive
+                   calendar years ending with the year of retirement or
+                   termination for which such amount is the greatest and (for
+                   participants granted Management Incentive Plan awards for
+                   less than five consecutive calendar years during such ten
+                   year period) which include all Management Incentive Plan
+                   awards granted for consecutive calendar years within such
+                   ten year period.
+
+    (b)  That portion of any Management Incentive Plan award which the
+         Compensation Committee has determined shall be excluded from the
+         participant's "basic earnings" shall be excluded from the calculation
+         of "final earnings" for purposes of this subsection 4-2.  "Final
+         earnings" for purposes of this subsection 4-2 shall include any
+         compensation in excess of the limits imposed by Section 401(a)(17),
+         Internal Revenue Code.
+
+    (c)  In the event the period described in subsection 4-2(a)(ii)(B) is the
+         final five calendar years of employment and a Management Incentive
+         Plan award is made to the participant subsequent to retirement for the
+         participant's final calendar year of employment, the supplemental
+         pension shall be adjusted by adding such new award and subtracting a
+         portion of the earliest Management Incentive Plan award included in
+         the calculation, from the amount determined under subsection
+         4-2(a)(ii)(B).  The portion subtracted shall be equal to that portion
+         of the participant's final calendar year of employment during which
+         the participant was employed by Abbott.  If such adjustment results in
+         a greater supplemental pension, the greater pension shall be paid
+         beginning the first month following the date of such new award.
+
+                                      SECTION 5
+                     RESTRICTED STOCK AWARD SUPPLEMENTAL BENEFIT
+                                           
+    5-1.  The benefits described in this Section 5 shall apply to all
+participants in the Annuity Plan who retire or terminate with a vested pension,
+under that plan, after September 1, 1995.
+
+<PAGE>
+
+
+                                         -5-
+
+    5-2.  For purposes of this Supplemental Plan, the phrase "Eligible
+Restricted Stock Award" shall mean a restricted stock award granted under the
+Abbott Laboratories 1991 Incentive Stock Program, or any successor plan or
+program, (the "Incentive Stock Program"), which is designated by the
+Compensation Committee of the Board of Directors of Abbott, at any time prior to
+retirement or termination of the participant, as includable in "final earnings"
+for purposes of this Supplemental Plan.
+
+    5-3.  Each Annuity Plan participant shall receive a supplemental pension
+under this Supplemental Plan in an amount determined as follows:
+
+    (a)  The supplemental pension shall be the difference, if any, between:
+
+         (i)  The monthly benefit payable under the Annuity Plan plus any
+              supplement provided by Sections 2, 3 and 4;  and
+
+         (ii) The monthly benefit which would have been payable under the
+              Annuity Plan (without regard to the limits imposed by Section
+              415, Internal Revenue Code) if the participant's "final
+              earnings", as defined in the Annuity Plan, were one-sixtieth of
+              the sum of:
+
+              (A)  the participant's earnings described in subsection
+                   4-2(a)(ii)(A); 
+
+              (B)  the participant's awards described in subsection
+                   4-2(a)(ii)(B) (adjusted as provided in subsections 4-2(b)
+                   and (c)); and 
+
+              (C)  the total value of those installments of Eligible Restricted
+                   Stock Awards granted the participant which become 
+                   non-forfeitable during the sixty consecutive calendar 
+                   months for which his basic earnings (as defined in 
+                   subsection 4-2(a)(ii)(A)) are highest within the last one 
+                   hundred twenty consecutive calendar months immediately 
+                   preceding his retirement or termination of employment.
+
+    (b)  For purposes of this subsection 5-3:
+
+         (i)  The value of an Eligible Restricted Stock Award shall be the fair
+              market value of such award (as determined under the Incentive
+              Stock Program) on the date the award is granted;
+
+<PAGE>
+
+
+                                         -6-
+
+         (ii) No more than five installments of Eligible Restricted Stock
+              Awards shall be included in the amount calculated under
+              subsection 5-3(a)(ii)(C); and
+
+         (iii)"Final earnings" shall include compensation in excess of the 
+              limits imposed by Section 401(a)(17), Internal Revenue Code."
+
+    In the event the limitation described in subsection 5-3(b)(ii) would be
+    exceeded for a participant, those installments in excess of five with the
+    lowest fair market value (as defined in subsection 5-3(b)(i)) shall be
+    disregarded in calculating the benefit due under this Section 5.
+
+                                      SECTION 6
+                 CORPORATE OFFICER ANNUITY PLAN SUPPLEMENTAL BENEFIT
+                                           
+    6-1.  The benefits described in this Section 6 shall apply to all
+participants in the Annuity Plan who are corporate officers of Abbott as of
+September 30, 1993 or who become corporate officers thereafter, and who retire,
+or terminate with a vested pension under that plan on or after September 30,
+1993.  The term "corporate officer" for purposes of this Supplemental Plan shall
+mean an individual elected an officer of Abbott by its Board of Directors (or
+designated as such for purposes of this Section 6 by the Compensation Committee
+of the Board of Directors of Abbott), but shall not include assistant officers.
+
+    6-2. Subject to the limitations and adjustments described below, each
+participant described in subsection 6-1 shall receive a monthly supplemental
+pension under this Supplemental Plan commencing on the participant's normal
+retirement date under the Annuity Plan  and payable as a life annuity, equal to
+6/10 of 1 percent (.006) of the participant's final earnings (as that phrase is
+used in subsection 5-3(a)(ii), adjusted as provided in subsections 5-3(b)(ii)
+and (iii)) for each of the first twenty years
+
+<PAGE>
+
+
+                                         -7-
+
+of the participant's benefit service (as defined in the Annuity Plan) occurring
+after the participant's attainment of age 35.
+
+
+    6-3.  In no event shall the sum of (a) the participant's aggregate
+percentage of final earnings calculated under subsection 6-2 and (b) the
+participant's aggregate percentage of final earnings calculated under subsection
+5-1(b)(i) of the Annuity Plan, exceed the maximum aggregate percentage of final
+earnings allowed under subsection 5-1(b)(i) of the Annuity Plan (without regard
+to any limits imposed by the Internal Revenue Code), as in effect on the date of
+the participant's retirement or termination.  In the event the limitation
+described in this subsection 6-3 would be exceeded for any participant, the
+participant's aggregate percentage calculated under subsection 6-2 shall be
+reduced until the limit is not exceeded.
+
+    6-4.  Benefit service occurring between the date a participant ceases to be
+a corporate officer of Abbott and the date the participant again becomes a
+corporate officer of Abbott shall be disregarded in calculating the
+participant's aggregate percentage under subsection 6-2.
+
+    6-5.  Any supplemental pension otherwise due a participant under this
+Section 6 shall be reduced by the amount (if any) by which:
+
+    (a)  the sum of (i) the benefits due such participant under the Annuity
+         Plan and this Supplemental Plan, plus (ii) the actuarially equivalent
+         value of the employer-paid portion of all benefits due such
+         participant under the primary retirement plans of all non-Abbott
+         employers of such participant; exceeds
+
+    (b)  the maximum benefit that would be due under the Annuity Plan (without
+         regard to the limits imposed by Section 415, Internal Revenue Code)
+         based on the participant's final earnings (as that phrase is used in
+         subsection 5-3(a)(ii), adjusted as provided in subsections 5-3(b)(ii)
+         and (iii), if the participant had accrued the maximum benefit service
+         recognized by the Annuity Plan.
+
+<PAGE>
+
+                                         -8-
+
+The term "primary retirement plan" shall mean any pension benefit plan as
+defined in ERISA, whether or not qualified under the Internal Revenue Code,
+which is determined by the Board of Review to be the primary pension plan of its
+sponsoring employer.  The term "non-Abbott employer" shall mean any employer
+other than Abbott or a subsidiary or affiliate of Abbott.  A retirement plan
+maintained by an employer prior to such employer's acquisition by Abbott shall
+be deemed a retirement plan maintained by a non-Abbott employer for purposes of
+this subsection 6-5.
+
+    6-6. Any supplemental pension due a participant under this Section 6 shall
+be actuarially adjusted as provided in the Annuity Plan to reflect the pension
+form selected by the participant and the participant's age at commencement of
+the pension, and shall be paid as provided in subsection 7-2.
+
+                                      SECTION 7
+                            CORPORATE OFFICER ANNUITY PLAN
+                        SUPPLEMENTAL EARLY RETIREMENT BENEFIT
+
+    7-1.  The benefits described in this Section 7 shall apply to all persons
+described in subsection 6-1.
+
+    7-2.  The supplemental pension due under Sections 2, 3, 4, 5 and 6 to 
+each participant described in subsection 7-1 shall be reduced as provided in 
+subsections 5-3 and 5-6 of the Annuity Plan for each month by which its 
+commencement date precedes the last day of the month in which the participant 
+will attain age 60.  No reduction will be made for the period between the 
+last day of the months the participant will attain age 60 and age 62.
+
+    7-3.  Each participant described in subsection 7-1 shall receive a 
+monthly supplemental pension under this Supplemental Plan equal to any 
+reduction made in such participant's Annuity Plan pension under subsections 
+5-3 or 5-6 of the Annuity
+
+
+<PAGE>
+
+                                         -9-
+
+Plan for the period between the last day of the months the participant will 
+attain age 60 and age 62.
+
+                                      SECTION 8
+                                    MISCELLANEOUS
+
+    8-1. For purposes of this Supplemental Plan, the term "Management Incentive
+Plan" shall mean the Abbott Laboratories 1971 Management Incentive Plan, the
+Abbott Laboratories 1981 Management Incentive Plan and all successor plans to
+those plans.
+
+    8-2. The supplemental pension described in Sections 2, 3, 4, 5, 6 and 7
+shall be paid to the participant or his or her beneficiary based on the
+particular pension option elected by the participant, in the same manner, at the
+same time, for the same period and on the same terms and conditions as the
+pension payable to the participant or his beneficiary under the Annuity Plan.
+In the event a participant is paid his or her pension under the Annuity Plan in
+a lump sum, any supplemental pension due under Sections 2, 3, 4, 5, 6 or 7 shall
+likewise be paid in a lump sum.  Notwithstanding the foregoing provision of this
+subsection 8-2: (a) if the present value of the vested supplemental pensions
+described in Sections 2, 3, 4, 5, 6 and 7 of a participant who is actively
+employed by Abbott as a corporate officer exceeds $100,000, then payment of such
+pensions shall be made to the participant under Section 9 below; and (b) if the
+monthly vested supplemental pensions, expressed as a straight life annuity, due
+a participant or his or her beneficiary under Sections 2, 3, 4, 5, 6 and 7 do
+not exceed an aggregate of One Hundred Fifty Dollars ($150.00) as of the
+commencement date of the pension payable such participant or his or her
+beneficiary under the Annuity Plan, and payment of such supplemental pension has
+not previously been made under Section
+
+<PAGE>
+
+                                         -10-
+
+9, the present value of such supplemental pensions shall be paid such
+participant or beneficiary in a lump-sum.
+
+    8-3. Notwithstanding any other provisions of this Supplemental Plan, if
+employment of any participant with Abbott and its subsidiaries and affiliates
+should terminate for any reason within five (5) years after the date of a Change
+in Control:
+
+    (a)  The present value of any supplemental pension due the participant
+         under Section 2 (whether or not then payable) shall be paid to
+         the participant in a lump sum within thirty (30) days following
+         such termination; and
+
+    (b)  The present value of any supplemental pension due the participant
+         under Sections 3 or 4 (whether or not then payable) shall be paid
+         to the participant in a lump sum within thirty (30) days
+         following such termination.
+
+The supplemental pension described in paragraph (a) shall be computed using as
+the applicable limit under Section 415, Internal Revenue Code, such limit as is
+in effect on the termination date and based on the assumption that the
+participant will receive his or her Annuity Plan pension in the form of a
+straight life annuity with no ancillary benefits.  The present values of the
+supplemental pensions described in paragraphs (a) and (b) shall be computed as
+of the date of payment by using an interest rate equal to the Pension Benefit
+Guaranty Corporation interest rate applicable to an immediate annuity, as in
+effect on the date of payment.
+
+    8-4.  For purposes of subsection 8-3, a "Change in Control" shall be deemed
+to have occurred on the earliest of the following dates:
+
+    (a)  The date any entity or person (including a "group" as defined in
+         Section 13(d)(3) of the Securities Exchange Act of 1934 (the
+         "Exchange Act")) shall have become the beneficial owner of, or
+         shall have obtained voting control over thirty percent (30%) or
+         more of the outstanding common shares of the Company;
+
+<PAGE>
+
+                                         -11-
+
+    (b)  The date the shareholders of the Company approve a definitive
+         agreement (A) to merge or consolidate the Company with or into
+         another corporation, in which the Company is not the continuing
+         or surviving corporation or pursuant to which any common shares
+         of the Company would be converted into cash, securities or other
+         property of another corporation, other than a merger of the
+         Company in which holders of common shares immediately prior to
+         the merger have the same proportionate ownership of common
+         stock of the surviving corporation immediately after the merger as
+         immediately before, or (B) to sell or otherwise dispose of
+         substantially all the assets of the Company; or
+
+    (c)  The date there shall have been a change in a majority of the
+         Board of Directors of the Company within a twelve (12) month
+         period unless the nomination for election by the Company's
+         shareholders of each new director was approved by the vote of
+         two-thirds of the directors then still in office who were in
+         office at the beginning of the twelve (12) month period.
+
+    8-5.  The provisions of subsections 8-3, 8-4 and this subsection 8-5 may
+not be amended or deleted, nor superseded by any other provision of this
+Supplemental Plan, during the period beginning on the date of a Change in
+Control and ending on the date five years following such Change in Control.
+
+    8-6.  All benefits due under this Supplement Plan shall be paid by Abbott
+and Abbott shall be reimbursed for such payments by the employee's employer.  In
+the event the employee is employed by more than one employer, each employer
+shall reimburse Abbott in proportion to the period of time the employee was
+employed by such employer, as determined by the Board of Review in its sole
+discretion.
+
+    8-7.  The benefits under the Supplemental Plan are not in any way subject
+to the debts or other obligations of the persons entitled to benefits and may
+not be voluntarily or involuntarily sold, transferred to assigned.
+
+<PAGE>
+
+                                         -12-
+
+    8-8.  Nothing contained in this Supplemental Plan shall confer on any
+employee the right to be retained in the employ of Abbott or any of its
+subsidiaries or affiliates.
+
+    8-9.  Upon adoption of this Supplemental Plan, the prior resolutions shall
+be deemed rescinded.
+
+                                      SECTION 9
+                      ALTERNATE PAYMENT OF SUPPLEMENTAL PENSIONS
+
+    9-1.  If, as of December 31, 1995 or any subsequent December 31, the
+present value of the supplemental pension described in Sections 2, 3, 4, 5, 6
+and 7 of a participant, who is actively employed by Abbott as a corporate
+officer, exceeds $100,000, then payment of such present value shall be made, at
+the direction of the participant, by either of the following methods:  (a)
+current payment in cash directly to the participant, or (b) current payment of a
+portion of such present value (determined as of that December 31) in cash for
+the participant directly to a Grantor Trust established by the participant, and
+current payment of the balance of such present value in cash directly to the
+participant, provided that the payment made directly to the participant shall
+approximate the aggregate federal, state and local individual income taxes
+attributable to the amount paid pursuant to this subparagraph 9-1(b) (as
+determined pursuant to the tax rates set forth in subsection 9-14).
+
+    9-2.  If the present value of a participant's supplemental pension has been
+paid to the participant (including amounts paid to the participant's Grantor
+Trust) pursuant to subsection 9-1 (either as in effect prior to June 1, 1996
+that applied to any participant with a supplemental pension with a present value
+in excess of $100,000 or as currently in effect that requires the participant to
+have a supplemental pension with a present value in excess of $100,000 and to be
+a corporate officer), then as of each
+
+<PAGE>
+
+                                         -13-
+
+subsequent December 31, such participant shall be entitled to a payment in an
+amount equal to:  (i) the present value (as of that December 31) of the
+participant's supplemental pension described in Sections 2, 3, 4, 5, 6 and 7,
+less (ii) the current value (as of that December 31) of the payments previously
+made to the participant under subsections 9-1 and 9-2.  Payments under this
+subsection 9-2 shall be made, at the direction of the participant, by either of
+the following methods:  (a) current payment in cash directly to the participant,
+or (b) current payment of a portion of such amount in cash for the participant
+directly to the Grantor Trust established by the participant; and current
+payment of the balance of such amount in cash directly to the participant,
+provided that the payment made directly to the participant shall approximate the
+aggregate federal, state and local individual income taxes attributable to the
+amount paid pursuant to this subparagraph 9-2(b) (as determined pursuant to the
+tax rates set forth in subsection 9-14).  No payments shall be made under this
+subsection 9-2 as of any December 31 after the calendar year in which the
+participant retires or otherwise terminates employment with Abbott.
+
+    9-3.  Present values for the purposes of subsections 9-1, 9-2, 9-4 and 9-5
+shall be determined using reasonable actuarial assumptions specified for this
+purpose by Abbott and consistently applied.  The "current value" of the payments
+previously made to a participant under subsections 9-1 and 9-2 means the
+aggregate amount of such payments, with interest thereon (at the rate specified
+for this purpose by Abbott).  For purposes of subsections 9-4 and 9-5,
+"Projected Taxes" with respect to any payment of supplemental pension benefits
+under subsections 9-1 or 9-2, shall mean the taxes which Abbott projects will be
+incurred by the participant on the income earned (i) on the payment (net of
+taxes) that is made pursuant to subsections 9-1 or 9-2, (ii) on the
+
+<PAGE>
+
+                                         -14-
+
+corresponding payment(s) for Projected Taxes that are made pursuant to
+subsection 9-4 and, if applicable, 9-5 and (iii) on the accumulated income
+earned on any of the payments covered by parts (i) and (ii) hereof, during the
+life of such participant's Grantor Trust (or during the period that such Grantor
+Trust would have been in existence if the participant had elected to receive all
+of the payments under subsections 9-1 and 9-2 in cash).  In calculating such
+Projected Taxes, Abbott shall use the aggregate of the current federal, state
+and local tax rates specified by subsection 9-14.
+
+    9-4.  Effective as of December 31, 1995, or any subsequent December 31, as
+a result of any payment made to a Qualified Participant for any calendar year
+pursuant to subsection 9-1 or 9-2, Abbott shall also make a corresponding
+payment to such Qualified Participant in the amount of the present value of the
+Projected Taxes.  A "Qualified Participant" is either (i) a participant who as
+of December 31, 1995 was actively employed by Abbott and who had previously
+received, or as of such date was qualified to receive, a payment under
+subsection 9-1; or (ii) a participant who as of any subsequent December 31
+qualifies to receive a payment pursuant to subsection 9-1.  The payment for
+Projected Taxes under this subsection 9-4 shall be made to the Qualified
+Participant in the identical manner that the payment under subsection 9-1 or 9-2
+was made.  For example, (a) if the Qualified Participant elected to receive the
+payment under subsection 9-1 directly in cash, then Abbott shall also pay the
+present value of the Projected Taxes on such payment in cash directly to the
+Qualified Participant, and (b) if the Qualified Participant elected to receive
+the payment under subsection 9-1 into a Grantor Trust established by the
+Qualified Participant, then Abbott shall pay the present value of the Projected
+Taxes on such payment as follows:
+
+<PAGE>
+
+                                         -15-
+
+current payment of a portion of such present value (determined as of that
+December 31) in cash for such Qualified Participant directly to a Grantor Trust
+established by such participant, and current payment of the balance of such
+present value in cash directly to such Qualified Participant, provided that the
+payment made directly to such participant shall approximate the aggregate
+federal, state and local individual income taxes attributable to the amount paid
+pursuant to this subparagraph 9-4(b) (as determined pursuant to the tax rates
+set forth in subsection 9-14).  No payments shall be made under this subsection
+9-4 as of any December 31 after the calendar year in which the participant
+retires or otherwise terminates employment with Abbott.
+
+    9-5.  In the event that Abbott has made any payment for Projected Taxes
+under subsection 9-4 in cash directly to the Qualified Participant and there is
+a subsequent increase in the tax rates for such Qualified Participant, Abbott
+shall make a further cash payment to such Qualified Participant in the amount of
+(a) the present value of the Projected Taxes on the payments that were made
+under subsections 9-1 and 9-2 in cash directly to such Qualified Participant
+using the actual tax rates for previous years and the new tax rates (determined
+in accordance with subsection 9-14) for the current and subsequent years, less
+(b) the amount that would have been in the Qualified Participant's Tax Payment
+Account with respect to the payments made under subsections 9-1 and 9-2 in cash
+directly to the Participant, if such payments had instead been made to the
+Qualified Participant's Grantor Trust.  Such amount shall be paid by Abbott
+directly to the Qualified Participant in cash.  In the event that Abbott has
+made any payment for Projected Taxes under subsection 9-4 to the Qualified
+Participant's Grantor Trust, then Abbott shall as of December 31 of each year,
+make a further payment to the Qualified Participant in the amount of (a) the
+present value (as
+<PAGE>
+
+
+                                        - 16 -
+
+of that December 31) of the Projected Taxes on the payments that were made under
+subsections 9-1 and 9-2 into the Qualified Participant's Grantor Trust less (b)
+the balance of such Qualified Participant's Tax Payment Account (as described in
+subsection 9-8).  Such payment shall be paid by Abbott as follows:  the current
+payment of a portion of such amount in cash directly to the Qualified
+Participant's Grantor Trust and the current payment of the balance of such
+amount in cash directly to such Qualified Participant; provided, that the
+payments made directly to such Qualified Participant shall approximate the
+aggregate federal, state and local individual income taxes attributable to the
+amount paid pursuant to this subsection 9-5. No payments shall be made under
+this subsection 9-5 for any year following the participant's death.  In the
+event that the calculation required by this subsection 9-5 for a Grantor Trust
+demonstrates that there has been an overpayment of projected taxes, such
+overpayment shall be held within the Grantor Trust in an Excess Tax Account and
+may be used by Abbott as a credit against any payments due hereunder or as
+specified in subsection 9-12.
+
+    9-6.  For each Qualified Participant whose Grantor Trust has received a 
+payment pursuant to subsection 9-4, Abbott, as the administrator of such 
+Grantor Trust, shall direct the trustee to distribute to the participant from 
+the income of such Grantor Trust, a sum of money sufficient to pay the taxes 
+on trust earnings for such year.  The taxes shall be calculated by 
+multiplying the income of the Grantor Trust by the aggregate of the federal, 
+state, and local tax rates (determined in accordance with subsection 9-14).
+
+    9-7.  A participant shall be deemed to have irrevocably waived and shall be
+foreclosed from any right to receive any supplemental pension benefits on that
+portion
+
+<PAGE>
+
+                                        - 17 -
+
+of the supplemental pension that the participant elects to be paid in cash under
+subsection 9-1 or 9-2.  A participant, who has elected to receive a payment
+under subsection 9-1 or 9-2 to a Grantor Trust, must establish such trust in a
+form which Abbott determines to be substantially similar to the trust attached
+to this Supplemental Plan as Exhibit A.  If a participant fails to make an
+election under subsection 9-1 or 9-2, or if a participant makes an election
+under subsection 9-1 or 9-2 to receive payment in a Grantor Trust but fails to
+establish a Grantor Trust, then payment shall be made in cash directly to the
+participant.   Each payment required under subsections 9-1, 9-2, 9-4 and 9-5
+shall be made as soon as practicable after the amount thereof can be ascertained
+by Abbott, but in no event later than the last day of the calendar year
+following the December 31 as of which such payment becomes due. 
+
+    9-8.  Abbott will establish and maintain a separate Supplemental Pension
+Account in the name of each participant, a separate After-Tax Supplemental
+Pension Account in the name of each participant, and a separate Tax Payment
+Account in the name of each participant.  The Supplemental Pension Account shall
+reflect any amounts:  (i)  paid to a participant (including amounts paid to a
+participant's Grantor Trust) pursuant to subsections 9-1, and 9-2; (ii) credited
+to such Account pursuant to subsection 9-9; and (iii) disbursed to a participant
+for supplemental pension benefits (or which would have been disbursed to a
+participant if the participant had not elected to receive a cash disbursement
+pursuant to subsections 9-1 and 9-2).  The After-Tax Supplemental Pension
+Account shall also reflect such amounts but shall be maintained on an after-tax
+basis.  The Tax Payment Account shall reflect any amounts (i) paid to a
+Qualified Participant (net of taxes) pursuant to subsections 9-4 and 9-5 and
+(ii) disbursed to a participant for the payment of taxes pursuant to subsection
+9-6.
+
+<PAGE>
+
+
+                                        - 18 -
+
+The accounts established pursuant to this subsection 9-8 are for the convenience
+of the administration of the Plan and no trust relationship with respect to such
+accounts is intended or should be implied.
+
+    9-9.  As of the end of each calendar year, a participant's Supplemental 
+Pension Account shall be credited with interest calculated at a reasonable 
+rate of interest specified for this purpose by Abbott and consistently 
+applied.  Any amount so credited shall be referred to as a participant's 
+"Interest Accrual". The calculation of the Interest Accrual shall be based on 
+the balance of the payments made pursuant to subsections 9-1 and 9-2 and any 
+Interest Accrual thereon from previous years.  As of the end of each calendar 
+year a participant's After-Tax Supplemental Pension Account shall be credited 
+with interest which shall be referred to as the After-Tax Interest Accrual.  
+The "After-Tax Interest Accrual" shall be an amount equal to (a) the Interest 
+Accrual credit to the participant's Supplemental Pension Account for such 
+year less (b) the product of (i) the amount of such Interest Accrual 
+multiplied by (ii) the aggregate of the federal, state and local income tax 
+rates (determined in accordance with subsection 9-14).  The Excess Interest 
+Account shall be the cumulative amount, if any, by which the net income 
+earned by the Grantor Trust on the payments made pursuant to Sections 9-1, 
+9-2, 9-4, 9-5 and 9-10 (and interest earned thereon) for all years that the 
+Grantor Trust has been in existence exceeds the After-Tax Interest Accrual 
+for such years.
+
+    9-10.  In addition to any payment made to a participant for any calendar
+year pursuant to subsections 9-1, 9-2, 9-4 and 9-5, Abbott shall also make a
+payment to a participant's Grantor Trust (a "Guaranteed Rate Payment"), for any
+year in which the net income of such trust does not equal or exceed the
+participant's After-Tax Interest Accrual for that year.  The Guaranteed Rate
+Payment shall equal the difference
+
+<PAGE>
+
+                                        - 19 -
+
+between the participant's After-Tax Interest Accrual and such net income of the
+participant's Grantor Trust for the year, and shall be paid within 180 days of
+the end of that year.  Any funds in a participant's Excess Interest Account may
+be used by Abbott as a credit against any Guaranteed Rate Payment due to the
+participant under this subsection 9-10 or as specified in subsection 9-12.  No
+payments shall be made under this subsection 9-10 for any year following the
+year of the participant's death.
+
+    9-11.  If at any time after a participant's retirement or other termination
+of employment with Abbott, there is no longer a balance in his or her Grantor
+Trust, then such participant (or his or her surviving spouse if such spouse is
+entitled to periodic payments from the Grantor Trust) shall be entitled to a
+"Continuation Payment" under this subsection 9-11.  The amount of the
+Continuation Payment shall be equal to the amount of the supplemental pension
+that would have been payable to the participant (or surviving spouse) had no
+payments been made to or for the participant's Grantor Trust under subsections
+9-1 and 9-2.  Continuation Payments shall be made monthly, beginning with the
+month in which there is no longer a sufficient balance in the participant's
+Grantor Trust and ending with the month of the participant's (or surviving
+spouse's) death.  Payments under this subsection 9-11 shall be made by the
+employers (in such proportions as Abbott shall designate) directly from their
+general corporate assets.  Appropriate adjustments to the Continuation Payments
+shall be made in the event distributions have been made from a participant's
+Grantor Trust for reasons other than benefit payments to the participant or
+surviving spouse.
+
+    9-12.  To the extent that Abbott is obligated to make a payment to a
+participant under subsections 9-1, 9-2, 9-4, 9-5 or 9-10, Abbott shall have the
+right to offset such payment with any funds in the participant's Excess Interest
+Account or Excess Tax
+
+<PAGE>
+
+
+                                        - 20 -
+
+Account.  In addition, any funds in a participant's Excess Tax Account may be
+used by Abbott as a credit against any future Guaranteed Rate Payment due to the
+participant under subsection 9-10.
+
+    9-13.  For participants who are not Qualified Participants that received
+any payment pursuant to subsection 9-4, in addition to the payments provided
+under subsections 9-1 and 9-2, each participant shall also be entitled to a Tax
+Gross Up payment for each year there is a balance in his or her Supplemental
+Pension Account.  The "Tax Gross Up" shall approximate:  (a) the product of (i)
+the participant's After-Tax Interest Accrual for the year (calculated using the
+greater of the rate of return of the Grantor Trusts or the rate specified in
+subsection 9-9), multiplied by (ii) the aggregate of the federal, state and
+local tax rates (determined in accordance with subsection 9-14) plus (b) an
+amount equal to the product of (i) any payment made pursuant to this subsection
+9-13, multiplied by (ii) the aggregate tax rate determined under subparagraph
+9-13(a)(ii) above, such that the participant is fully compensated for taxes on
+payments made hereunder.  Payment of the Tax Gross Up shall be made by the
+employers (in such proportions as Abbott shall designate) directly from their
+general corporate assets.  The Tax Gross Up for a year shall be paid to the
+participant as soon as practicable after the amount of the Tax Gross Up can be
+ascertained by Abbott, but in no event later than the last day of the calendar
+year following the calendar year to which the Tax Gross Up relates.  No payments
+shall be made under this subsection 9-13 for any year following the year of the
+participant's death.
+
+    9-14.  For purposes of this Supplemental Plan, a participant's federal
+income tax rate shall be deemed to be the highest marginal rate of federal
+individual income tax in effect in the calendar year in which a calculation
+under this Supplemental Plan
+
+<PAGE>
+
+                                        - 21 -
+
+is to be made, and state and local tax rates shall be deemed to be the highest
+marginal rates of individual income tax in effect in the state and locality of
+the participant's residence in the calendar year for which such a calculation is
+to be made, net of any federal tax benefits.
+
+<PAGE>
+
+                             ----------------------------
+                                 SUPPLEMENTAL BENEFIT
+                                    GRANTOR TRUST
+
+
+    THIS AGREEMENT, made this           day of                               , 
+                              ---------        ------------------------------
+19    , by and between                                                        , 
+  ----                -------------------------------------------------------
+(the "grantor"), and The Northern Trust Company, located at Chicago, Illinois,
+as trustee (the "trustee"),
+
+                                   WITNESSETH THAT:
+
+    WHEREAS, the grantor desires to establish and maintain a trust to hold
+certain benefits received by the grantor under the Abbott Laboratories
+Supplemental Pension Plan, as it may be amended from time to time;
+
+    NOW, THEREFORE, IT IS AGREED as follows:
+
+
+                                      ARTICLE I
+                                     INTRODUCTION
+
+    I-1.  NAME.  This agreement and the trust hereby evidenced (the "trust")
+may be referred to as the "                                                 
+                          ------------------------------------------------
+Supplemental Benefit Grantor Trust."
+
+    I-2.  THE TRUST FUND.  The "trust fund" as at any date means all property
+then held by the trustee under this agreement.
+
+    I-3.  STATUS OF THE TRUST.  The trust shall be irrevocable.  The trust is
+intended to constitute a grantor trust under Sections 671-678 of the Internal
+Revenue Code, as amended, and shall be construed accordingly.
+
+    I-4.  THE ADMINISTRATOR.  Abbott Laboratories ("Abbott") shall act as the
+"administrator" of the trust, and as such shall have certain powers, rights and
+duties under this agreement as described below.  Abbott will certify to the
+trustee from time to time the person or persons authorized to act on behalf of
+Abbott as the administrator.  The trustee may rely on the latest certificate
+received without further inquiry or verification.
+
+    I-5.  ACCEPTANCE.  The trustee accepts the duties and obligations of the
+"trustee" hereunder, agrees to accept funds delivered to it by the grantor or
+the administrator, and agrees to hold such funds (and any proceeds from the
+investment of such funds) in trust in accordance with this agreement.
+
+<PAGE>
+
+
+                                        - 2 -
+
+
+                                      ARTICLE II
+                            DISTRIBUTION OF THE TRUST FUND
+
+     II-1.  SUPPLEMENTAL PENSION ACCOUNT.  The administrator shall maintain a
+"supplemental pension account" under the trust. As of the end of each calendar
+year, the administrator shall charge the account with all distributions made
+from the account during that year; and credit the account with its share of
+trust income and realized gains and charge the account with its share of trust
+expenses and realized losses for the year.
+
+     II-2.  DISTRIBUTIONS PRIOR TO THE GRANTOR'S DEATH. Principal and
+accumulated income shall not be distributed from the trust prior to the
+grantor's retirement or other termination of employment with Abbott or a
+subsidiary of Abbott (the grantor's "settlement date"); provided that, each year
+the administrator may direct the trustee to distribute to the grantor a portion
+of the income of the trust fund for that year, with the balance of such income
+to be accumulated in the trust.  The administrator shall inform the trustee of
+the grantor's settlement date.  Thereafter, the trustee shall distribute the
+amounts from time to time credited to the supplemental pension account to the
+grantor, if then living, in the same manner, at the same time and over the same
+period as the pension payable to the grantor under Abbott Laboratories Annuity
+Retirement Plan.
+
+     II-3.  DISTRIBUTIONS AFTER THE GRANTOR'S DEATH.  The grantor, from time to
+time may name any person or persons (who may be named contingently or
+successively and who may be natural persons or fiduciaries) to whom the
+principal of the trust fund and all accrued or undistributed income thereof
+shall be distributed upon the grantor's death.  The grantor may direct that such
+amounts be distributed in a lump-sum or, if the beneficiary is the grantor's
+spouse (or a trust for which the grantor's spouse is the sole income
+beneficiary), in the same manner, at the same time and over the same period as
+the pension payable to the grantor's surviving spouse under the Abbott
+Laboratories Annuity Retirement Plan.  If the grantor directs the same method of
+distribution as the pension payable to the surviving spouse under the Abbott
+Laboratories Annuity Retirement Plan, any amounts remaining at the death of the
+spouse beneficiary shall be distributed in a lump sum to the executor or
+administrator of the spouse beneficiary's estate.  Each designation shall revoke
+all prior designations, shall be in writing and shall be effective only when
+filed by the grantor with the administrator during the grantor's lifetime.  If
+the grantor fails to direct a method of distribution, the distribution shall be
+made in a lump sum.  If the grantor fails to designate a beneficiary as provided
+above, then on the grantor's death, the trustee shall distribute the balance of
+the trust fund in a lump sum to the executor or administrator of the grantor's
+estate.
+
+     II-4.  FACILITY OF PAYMENT.  When a person entitled to a distribution
+hereunder is under legal disability, or, in the trustee's opinion, is in any way
+incapacitated so as to be unable to manage his or her financial affairs, the
+trustee may make such distribution to such person's legal representative, or to
+a relative or friend of such person for such person's benefit.  Any distribution
+made in accordance with the
+
+
+<PAGE>
+
+                                        - 3 -
+
+
+preceding sentence shall be a full and complete discharge of any liability for
+such distribution hereunder.
+
+     II-5.  PERPETUITIES.  Notwithstanding any other provisions of this
+agreement, on the day next preceding the end of 21 years after the death of the
+last to die of the grantor and the grantor's descendants living on the date of
+this instrument, the trustee shall immediately distribute any remaining balance
+in the trust to the beneficiaries then entitled to distributions hereunder.
+
+
+                                     ARTICLE III
+                             MANAGEMENT OF THE TRUST FUND
+
+    III-1.  GENERAL POWERS.  The trustee shall, with respect to the trust fund,
+have the following powers, rights and duties in addition to those provided
+elsewhere in this agreement or by law:
+
+            (a)  Subject to the limitations of subparagraph (b) next below, to
+                 sell, contract to sell, purchase, grant or exercise options to
+                 purchase, and otherwise deal with all assets of the trust
+                 fund, in such way, for such considerations, and on such terms
+                 and conditions as the trustee decides.
+
+            (b)  To invest and reinvest the trust fund, without distinction
+                 between principal and income, in obligations of the United
+                 States Government and its agencies or which are backed by the
+                 full faith and credit of the United States Government and in
+                 any mutual funds, common trust funds or collective investment
+                 funds which invest solely in such obligations, provided that
+                 to the extent practicable no more than Ten Thousand Dollars
+                 ($10,000) shall be invested in such mutual funds, common trust
+                 funds or collective investment funds at any time; and any such
+                 investment made or retained by the trustee in good faith shall
+                 be proper despite any resulting risk or lack of
+                 diversification or marketability.
+
+            (c)  To deposit cash in any depositary (including the banking
+                 department of the bank acting as trustee) without liability
+                 for interest, in amounts not in excess of those reasonably
+                 necessary to make distributions from the trust.
+
+            (d)  To borrow from anyone, with the administrator's approval, such
+                 sum or sums from time to time as the trustee considers
+                 desirable to carry out this trust, and to mortgage or pledge
+                 all or part of the trust fund as security.
+
+            (e)  To retain any funds or property subject to any dispute without
+                 liability for interest and to decline to make payment or
+                 delivery
+
+
+<PAGE>
+
+                                        - 4 -
+
+
+                 thereof until final adjudication by a court of competent
+                 jurisdiction or until an appropriate release is obtained.
+
+            (f)  To begin, maintain or defend any litigation necessary in
+                 connection with the administration of this trust, except that
+                 the trustee shall not be obliged or required to do so unless
+                 indemnified to the trustee's satisfaction.
+
+            (g)  To compromise, contest, settle or abandon claims or demands.
+
+            (h)  To give proxies to vote stocks and other voting securities, to
+                 join in or oppose (alone or jointly with others) voting
+                 trusts, mergers, consolidations, foreclosures,
+                 reorganizations, liquidations, or other changes in the
+                 financial structure of any corporation, and to exercise or
+                 sell stock subscription or conversion rights.
+
+            (i)  To hold securities or other property in the name of a nominee,
+                 in a depositary, or in any other way, with or without
+                 disclosing the trust relationship.
+
+            (j)  To divide or distribute the trust fund in undivided interests
+                 or wholly or partly in kind.
+
+            (k)  To pay any tax imposed on or with respect to the trust; to
+                 defer making payment of any such tax if it is indemnified to
+                 its satisfaction in the premises; and to require before making
+                 any payment such release or other document from any lawful
+                 taxing authority and such indemnity from the intended payee as
+                 the trustee considers necessary for its protection.
+
+            (l)  To deal without restriction with the legal representative of
+                 the grantor's estate or the trustee or other legal
+                 representative of any trust created by the grantor or a trust
+                 or estate in which a beneficiary has an interest, even though
+                 the trustee, individually, shall be acting in such other
+                 capacity, without liability for any loss that may result.
+
+            (m)  Upon the prior written consent of the administrator, to
+                 appoint or remove by written instrument any bank or
+                 corporation qualified to act as successor trustee, wherever
+                 located, as special trustee as to part or all of the trust
+                 fund, including property as to which the trustee does not act,
+                 and such special trustee, except as specifically limited or
+                 provided by this or the appointing instrument, shall have all
+                 of the rights, titles, powers, duties, discretions and
+                 immunities of the trustee, without liability for any action
+                 taken or omitted to be taken under this or the appointing
+                 instrument.
+
+
+<PAGE>
+
+                                        - 5 -
+
+
+            (n)  To appoint or remove by written instrument any bank, wherever
+                 located, as custodian of part or all of the trust fund, and
+                 each such custodian shall have such rights, powers, duties and
+                 discretions as are delegated to it by the trustee.
+
+            (o)  To employ agents, attorneys, accountants or other persons, and
+                 to delegate to them such powers as the trustee considers
+                 desirable, and the trustee shall be protected in acting or
+                 refraining from acting on the advice of persons so employed
+                 without court action.
+
+            (p)  To perform any and all other acts which in the trustee's
+                 judgment are appropriate for the proper management, investment
+                 and distribution of the trust fund.
+
+    III-2.  PRINCIPAL AND INCOME.  Any income earned on the trust fund which is
+not distributed as provided in Article II shall be accumulated and from time to
+time added to the principal of the trust.  The grantor's interest in the trust
+shall include all assets or other property held by the trustee hereunder,
+including principal and accumulated income.
+
+    III-3.  STATEMENTS.  The trustee shall prepare and deliver monthly to the
+administrator and annually to the grantor, if then living, otherwise to each
+beneficiary then entitled to distributions under this agreement, a statement (or
+series of statements) setting forth (or which taken together set forth) all
+investments, receipts, disbursements and other transactions effected by the
+trustee during the reporting period; and showing the trust fund and the value
+thereof at the end of such period.
+
+    III-4.  COMPENSATION AND EXPENSES.  All reasonable costs, charges and
+expenses incurred in the administration of this trust, including compensation to
+the trustee, any compensation to agents, attorneys, accountants and other
+persons employed by the trustee, and expenses incurred in connection with the
+sale, investment and reinvestment of the trust fund shall be paid from the trust
+fund.
+
+
+                                      ARTICLE IV
+                                  GENERAL PROVISIONS
+
+     IV-1.  INTERESTS NOT TRANSFERABLE.  The interests of the grantor or other
+persons entitled to distributions hereunder are not subject to their debts or
+other obligations and may not be voluntarily or involuntarily sold, transferred,
+alienated, assigned or encumbered.
+
+     IV-2.  DISAGREEMENT AS TO ACTS.  If there is a disagreement between the
+trustee and anyone as to any act or transaction reported in any accounting, the
+trustee shall have the right to a settlement of its account by any proper court.
+
+
+<PAGE>
+
+                                        - 6 -
+
+
+     IV-3.  TRUSTEE'S OBLIGATIONS.  No power, duty or responsibility is imposed
+on the trustee except as set forth in this agreement.  The trustee is not
+obliged to determine whether funds delivered to or distributions from the trust
+are proper under the trust, or whether any tax is due or payable as a result of
+any such delivery or distribution.  The trustee shall be protected in making any
+distribution from the trust as directed pursuant to Article II without inquiring
+as to whether the distributee is entitled thereto; the trustee shall not be
+liable for any distribution made in good faith without written notice or
+knowledge that the distribution is not proper under the terms of this agreement;
+and the trustee shall not be liable for any action taken because of the specific
+direction of the administrator.
+
+     IV-4.  GOOD FAITH ACTIONS.  The trustee's exercise or non-exercise of its
+powers and discretions in good faith shall be conclusive on all persons.  No one
+shall be obliged to see to the application of any money paid or property
+delivered to the trustee.  The certificate of the trustee that it is acting
+according to this agreement will fully protect all persons dealing with the
+trustee.
+
+     IV-5.  WAIVER OF NOTICE.  Any notice required under this agreement may be
+waived by the person entitled to such notice.
+
+     IV-6.  CONTROLLING LAW.  The laws of the State of Illinois shall govern
+the interpretation and validity of the provisions of this agreement and all
+questions relating to the management, administration, investment and
+distribution of the trust hereby created.
+
+     IV-7.  SUCCESSORS.  This agreement shall be binding on all persons
+entitled to distributions hereunder and their respective heirs and legal
+representatives, and on the trustee and its successors.
+
+
+                                      ARTICLE V
+                                  CHANGES IN TRUSTEE
+
+      V-1.  RESIGNATION OR REMOVAL OF TRUSTEE.  The trustee may resign at any
+time by giving thirty days' advance written notice to the administrator and the
+grantor.  The administrator may remove a trustee by written notice to the
+trustee and the grantor.
+
+      V-2.  APPOINTMENT OF SUCCESSOR TRUSTEE.  The administrator shall fill any
+vacancy in the office of trustee as soon as practicable by written notice to the
+successor trustee; and shall give prompt written notice thereof to the grantor,
+if then living, otherwise to each beneficiary then entitled to payments or
+distributions under this agreement.  A successor trustee shall be a bank (as
+defined in Section 581 of the Internal Revenue Code, as amended).
+
+
+<PAGE>
+
+                                        - 7 -
+
+
+      V-3.  DUTIES OF RESIGNING OR REMOVED TRUSTEE AND OF SUCCESSOR TRUSTEE.  A
+trustee that resigns or is removed shall furnish promptly to the administrator
+and the successor trustee an account of its administration of the trust from the
+date of its last account.  Each successor trustee shall succeed to the title to
+the trust fund vested in its predecessor without the signing or filing of any
+instrument, but each predecessor trustee shall execute all documents and do all
+acts necessary to vest such title of record in the successor trustee.  Each
+successor trustee shall have all the powers conferred by this agreement as if
+originally named trustee.  No successor trustee shall be personally liable for
+any act or failure to act of a predecessor trustee.  With the approval of the
+administrator, a successor trustee may accept the account furnished and the
+property delivered by a predecessor trustee without incurring any liability for
+so doing, and such acceptance will be complete discharge to the predecessor
+trustee.
+
+
+                                      ARTICLE VI
+                              AMENDMENT AND TERMINATION
+
+     VI-1.  AMENDMENT.  With the consent of the administrator, this trust may
+be amended from time to time by the grantor, if then living, otherwise by a
+majority of the beneficiaries then entitled to payments or distributions
+hereunder, except as follows:
+
+            (a)  The duties and liabilities of the trustee cannot be changed
+                 substantially without its consent.
+
+            (b)  This trust may not be amended so as to make the trust
+                 revocable.
+
+     VI-2.  TERMINATION.  This trust shall not terminate, and all rights,
+titles, powers, duties, discretions and immunities imposed on or reserved to the
+trustee, the administrator, the grantor and the beneficiaries shall continue in
+effect, until all assets of the trust have been distributed by the trustee as
+provided in Article II.
+
+                                    *     *     *
+
+IN WITNESS WHEREOF, the grantor and the trustee have executed this agreement as
+of the day and year first above written.
+
+
+                                       -----------------------------------
+                                                 Grantor
+
+                                       The Northern Trust Company, as Trustee
+
+
+                                       By
+                                         ---------------------------------
+
+                                         Its
+                                            ------------------------------
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-11
+<SEQUENCE>4
+<DESCRIPTION>EXHIBIT 11
+<TEXT>
+
+<PAGE>
+
+                                                                    EXHIBIT 11
+
+
+                         ABBOTT LABORATORIES AND SUBSIDIARIES
+                         ------------------------------------
+
+                   CALCULATION OF FULLY DILUTED EARNINGS PER SHARE
+                   -----------------------------------------------
+
+              (Dollars and Shares in Millions Except Per Share Amounts)
+
+
+                                                    SIX MONTHS ENDED JUNE 30
+                                                  ---------------------------
+                                                     1996              1995
+                                                  ---------         ---------
+
+1.   Net earnings                                 $   950.5         $   841.3
+                                                  ---------         ---------
+
+2.   Average number of shares outstanding             784.5             799.2
+                                                  ---------         ---------
+
+3.   Earnings per share based upon average
+     outstanding shares (1 divided by 2)          $    1.21         $    1.05
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+4.   Fully diluted earnings per share:
+
+     a.  Stock options granted and outstanding for
+         which the market price at quarter-end
+         exceeds the option price                      26.9              31.1
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+     b.  Aggregate proceeds to the Company from
+         the exercise of options in 4.a.          $   771.7         $   847.9
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+     c.  Market price of the Company's common
+         stock at quarter-end                     $   43.50         $   40.50
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+     d.  Shares which could be repurchased
+         under the treasury stock
+         method (4.b. divided by 4.c.)                 17.7              20.9
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+     e.  Addition to average outstanding shares
+         (4.a. - 4.d.)                                  9.2              10.2
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+     f.  Shares for fully diluted earnings per
+         share calculation (2. + 4.e.)                793.7             809.4
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+     g.  Fully diluted earnings per share
+         (1. divided by 4.f.)                     $    1.20         $    1.04
+                                                  ---------         ---------
+                                                  ---------         ---------
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-12
+<SEQUENCE>5
+<DESCRIPTION>EXHIBIT 12
+<TEXT>
+
+<PAGE>
+
+                                                                    EXHIBIT 12
+
+
+                                 ABBOTT LABORATORIES
+
+                  CALCULATION OF RATIO OF EARNINGS TO FIXED CHARGES
+
+                                     (Unaudited)
+
+                                (Millions of Dollars)
+
+
+                                                              SIX MONTHS ENDED
+                                                                JUNE 30, 1996
+                                                               ----------------
+
+Net Earnings                                                          $    951
+
+Add (deduct):
+   Income taxes                                                            398
+   Minority interest                                                         8
+                                                                      --------
+
+   Net earnings as adjusted                                           $  1,357
+                                                                      --------
+
+
+Fixed Charges:
+   Interest on long-term and
+      short-term debt                                                       40
+   Capitalized interest cost                                                 6
+   Rental expense representative
+      of an interest factor                                                 13
+                                                                      --------
+
+Total Fixed Charges                                                         59
+                                                                      --------
+
+Total adjusted earnings available for
+   payment of fixed charges                                           $  1,416
+                                                                      --------
+                                                                      --------
+
+Ratio of earnings to fixed charges                                        24.0
+                                                                      --------
+                                                                      --------
+
+
+NOTE:    For the purpose of calculating this ratio, (i) earnings have been
+         calculated by adjusting net earnings for taxes on earnings; interest
+         expense; capitalized interest cost, net of amortization; minority
+         interest; and the portion of rentals representative of the interest
+         factor, (ii) the Company considers one-third of rental expense to be
+         the amount representing return on capital, and (iii) fixed charges
+         comprise total interest expense, including capitalized interest and
+         such portion of rentals.
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>6
+<DESCRIPTION>FINANCIAL DATA SCHEDULE
+<TEXT>
+
+<TABLE> <S> <C>
+
+<PAGE>
+<ARTICLE> 5
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   6-MOS
+<FISCAL-YEAR-END>                          JUN-30-1996
+<PERIOD-END>                               JUN-30-1996
+<CASH>                                         111,482
+<SECURITIES>                                    66,189
+<RECEIVABLES>                                1,791,459
+<ALLOWANCES>                                   147,550
+<INVENTORY>                                  1,195,242
+<CURRENT-ASSETS>                             4,326,405
+<PP&E>                                       8,044,533
+<DEPRECIATION>                               3,709,198
+<TOTAL-ASSETS>                              10,553,874
+<CURRENT-LIABILITIES>                        4,526,824
+<BONDS>                                        433,437
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                       628,216
+<OTHER-SE>                                   4,012,280
+<TOTAL-LIABILITY-AND-EQUITY>                10,533,874
+<SALES>                                      5,371,417
+<TOTAL-REVENUES>                             5,371,417
+<CGS>                                        2,300,164
+<TOTAL-COSTS>                                2,300,164
+<OTHER-EXPENSES>                               573,462
+<LOSS-PROVISION>                                 4,465
+<INTEREST-EXPENSE>                              39,835
+<INCOME-PRETAX>                              1,348,272
+<INCOME-TAX>                                   397,740
+<INCOME-CONTINUING>                            950,532
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                   950,532
+<EPS-PRIMARY>                                     1.21
+<EPS-DILUTED>                                     1.20
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

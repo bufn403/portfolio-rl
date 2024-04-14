@@ -1,0 +1,2083 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: keymaster@town.hall.org
+Originator-Key-Asymmetric:
+ MFkwCgYEVQgBAQICAgADSwAwSAJBALeWW4xDV4i7+b6+UyPn5RtObb1cJ7VkACDq
+ pKb9/DClgTKIm08lCfoilvi9Wl4SODbR1+1waHhiGmeZO8OdgLUCAwEAAQ==
+MIC-Info: RSA-MD5,RSA,
+ oKF9cyQyvmT49UByCswgtzj4M2Yqn252QRv0N0mB0fidGYYJ9KdYMF1KLD5E7B4p
+ uY/BqQkueCVUwg/+aFp+aQ==
+
+<IMS-DOCUMENT>0000320193-95-000008.txt : 19950516
+<IMS-HEADER>0000320193-95-000008.hdr.sgml : 19950516
+ACCESSION NUMBER:		0000320193-95-000008
+CONFORMED SUBMISSION TYPE:	10-Q
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	19950331
+FILED AS OF DATE:		19950515
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			APPLE COMPUTER INC
+		CENTRAL INDEX KEY:			0000320193
+		STANDARD INDUSTRIAL CLASSIFICATION:	ELECTRONIC COMPUTERS [3571]
+		IRS NUMBER:				942404110
+		STATE OF INCORPORATION:			CA
+		FISCAL YEAR END:			0930
+
+	FILING VALUES:
+		FORM TYPE:		10-Q
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-10030
+		FILM NUMBER:		95539148
+
+	BUSINESS ADDRESS:	
+		STREET 1:		20525 MARIANI AVE
+		CITY:			CUPERTINO
+		STATE:			CA
+		ZIP:			95014
+		BUSINESS PHONE:		4089961010
+</IMS-HEADER>
+<DOCUMENT>
+<TYPE>10-Q
+<SEQUENCE>1
+<TEXT>
+
+                                        
+   ___________________________________________________________________________
+                                        
+                                        
+                                        
+                                        
+                                  UNITED STATES
+                       SECURITIES AND EXCHANGE COMMISSION
+                             Washington, D. C. 20549
+                                        
+                                        
+                                    Form 10-Q
+                                        
+          (Mark One)
+          
+          [X]  Quarterly  report pursuant to Section 13  or  15(d)  of  the
+               Securities  Exchange Act of 1934
+
+          For the quarterly period ended March 31, 1995 or
+
+          [   ]      Transition report pursuant to Section 13 or  15(d)  of
+               the Securities Exchange Act of 1934
+
+          For the transition period from __________ to __________
+
+                         Commission file number 0-10030
+                                        
+                              APPLE COMPUTER, INC.
+             (Exact name of Registrant as specified in its charter)
+                                        
+                                        
+ (CALIFORNIA,[State or other       (94-2404110,[I.R.S. Employer
+         jurisdiction)                  Identification No.])
+      of incorporation or
+         organization]
+
+
+        1 Infinite Loop                           
+          Cupertino                    (95014,[Zip Code])
+    California,[Address of
+ principal executive offices]
+                                        
+      Registrant's telephone number, including area code:  (408)  996-1010
+                                        
+                                        
+Indicate  by  check mark whether the Registrant (1) has filed  all  reports
+required to be filed by Section 13 or 15(d) of the Securities Exchange  Act
+of 1934 during the preceding 12 months (or for such shorter period that the
+Registrant was required to file such reports),  and (2) has been subject to
+such filing requirements for the past 90 days.
+
+Yes  [X]  No   []
+                                        
+                                        
+121,158,498 shares of Common Stock Issued and Outstanding as of May 5, 1995
+                                        
+                                        
+                                        
+                                        
+   ___________________________________________________________________________
+<PAGE>
+
+PART I.  FINANCIAL INFORMATION
+
+Item 1. Financial Statements
+                                        
+                                        
+                              APPLE COMPUTER, INC.
+                                        
+                  CONSOLIDATED STATEMENTS OF INCOME (Unaudited)
+                 (Dollars in millions, except per share amounts)
+
+
+
+<TABLE>                                                        
+<CAPTION>
+                            THREE MONTHS ENDED        SIX MONTHS ENDED
+                                                                    
+                                                                    
+                            March 31,    April 1,    March 31,    April 1,
+                                 1995        1994         1995        1994
+                                                               
+<S>                        <C>         <C>          <C>         <C>
+Net sales                    $  2,652    $  2,077     $  5,484    $  4,546
+                                                                          
+Costs and expenses:                                                       
+                                                                          
+Cost of sales                   1,957       1,578        3,975       3,455
+Research and development          143         134          275         286
+Selling, general and              386         330          801         705
+administrative
+Restructuring costs                --          --         (17)          --
+                                                                          
+                                2,486       2,042        5,034       4,446
+                                                                          
+Operating income                  166          35          450         100
+Interest and other income                                                  
+   (expense), net                 (50)         (7)         (35)         (7)
+                                                                          
+Income before provision           116          28          415          93
+for income taxes
+Provision for income               43          11          154          36
+taxes
+                                                                          
+Net income                 $       73 $        17    $     261   $      57
+                                                                          
+Earnings per common and                                                    
+common equivalent share    $      .59 $       .15    $    2.14   $     .49
+                                                                           
+Cash dividends paid per                                                    
+common share               $      .12 $       .12   $      .24   $     .24
+                                                                          
+Common and common                                                          
+equivalent shares used in                                                 
+the calculations of           
+earnings per share (in
+thousands)		      122,644     118,944      122,122     117,950
+</TABLE>                                                                  
+
+                             See accompanying notes.
+                                        
+                                        2
+<PAGE>
+                                        
+                              APPLE COMPUTER, INC.
+                                        
+                           CONSOLIDATED BALANCE SHEETS
+                                        
+                                     ASSETS
+                                  (In millions)
+
+
+<TABLE>                                                     
+<CAPTION>
+                                                 March 31,   September 30,
+                                                      1995            1994
+                                               (Unaudited)
+           
+<S>                                              <C>            <C>
+Current assets:                                             
+                                                            
+Cash and cash equivalents                         $  1,375       $  1,203
+Short-term investments                                 611             55
+Accounts receivable, net of allowance for                                
+doubtful accounts of $97 ($91 at September           1,633          1,581
+30, 1994)
+Inventories:                                                             
+  Purchased parts                                      429            469
+  Work in process                                      161            207
+  Finished goods                                       394            412
+                                                       984          1,088
+                                                                         
+Deferred tax assets                                    350            293
+Other current assets                                   208            256
+                                                                         
+  Total current assets                               5,161          4,476
+                                                                         
+Property, plant, and equipment:                                          
+                                                                         
+Land and buildings                                     481            484
+Machinery and equipment                                605            573
+Office furniture and equipment                         152            158
+Leasehold improvements                                 216            237
+                                                     1,454          1,452
+                                                                         
+Accumulated depreciation and amortization            (791)          (785)
+                                                                         
+  Net property, plant, and equipment                   663            667
+                                                                         
+Other assets                                           226            160
+                                                                         
+                                                  $  6,050       $  5,303
+                                                                         
+</TABLE>                                                    
+                                        
+                                        
+
+
+
+
+                             See accompanying notes.
+                                        
+                                        3
+<PAGE>
+                                        
+                              APPLE COMPUTER, INC.
+                                        
+                     CONSOLIDATED BALANCE SHEETS (Continued)
+                                        
+                      LIABILITIES AND SHAREHOLDERS' EQUITY
+                                 (In millions)
+
+<TABLE>                                                     
+<CAPTION>
+                                                            
+                                                 March 31,   September 30,
+                                                      1995            1994
+                                               (Unaudited)
+         
+<S>                                              <C>          <C>
+Current liabilities:                                        
+                                                            
+Short-term borrowings                             $    627     $    292
+Accounts payable                                       854          882
+Accrued compensation and employee benefits             138          137
+Accrued marketing and distribution                     182          178
+Accrued restructuring costs                             26           58
+Other current liabilities                              416          397
+                                                                       
+  Total current liabilities                          2,243        1,944
+                                                                       
+                                                                       
+Long-term debt                                         304          305
+Deferred tax liabilities                               789          671
+                                                                       
+Shareholders' equity:                                                  
+                                                                       
+Common stock, no par value; 320,000,000                                 
+shares authorized; 121,093,059 shares issued                           
+and outstanding at March 31, 1995                      
+(119,542,527 shares at September 30, 1994)             339          298
+Retained earnings                                    2,331        2,096
+Accumulated translation adjustment                      44         (11)
+                                                                       
+  Total shareholders' equity                         2,714        2,383
+                                                                       
+                                                                       
+                                                  $  6,050     $  5,303
+</TABLE>                                                               
+                                                                 
+                                        
+                                        
+                                        
+                             See accompanying notes.
+                                        
+                                        4
+<PAGE>
+                                        
+                              APPLE COMPUTER, INC.
+                                        
+               CONSOLIDATED STATEMENTS OF CASH FLOWS  (Unaudited)
+                                  (In millions)
+<TABLE>                                                                                           
+<CAPTION>                                                                            
+                                                         
+                                                   SIX MONTHS ENDED
+                                               March 31,      April 1,
+                                                    1995          1994
+                                                                
+<S>                                            <C>           <C>
+Cash and cash equivalents, beginning of the     
+period                                          $  1,203      $    676
+                                                                      
+Operations:                                                           
+                                                                      
+Net income                                           261            57
+Adjustments to reconcile net income to cash                           
+    generated by operations:                                          
+    Depreciation and amortization                     67            81
+    Net book value of property, plant, and             
+      equipment retirements                            1            10
+Changes in assets and liabilities:                                    
+   Accounts receivable                              (52)            39
+   Inventories                                       104           220
+   Other current assets                              (9)         (128)
+   Accounts payable                                 (28)            19
+   Accrued restructuring costs                      (32)          (80)
+   Other current liabilities                          30            65
+   Deferred tax liabilities                          118            70
+
+         Cash generated by operations                460           353
+                                                                      
+Investments:                                                          
+                                                                      
+Purchase of short-term investments                 (928)         (171)
+Proceeds from sale of short-term investments         372           367
+Purchase of property, plant, and equipment          (52)          (99)
+Other                                               (23)          (25)
+
+         Cash generated by (used for)           
+           investment activities                   (631)            72
+                                                                      
+Financing:                                                            
+                                                                      
+Increase (decrease) in short-term borrowings         335         (332)
+Increase (decrease) in long-term borrowings          (1)           298
+Increases in common stock, net of related                             
+   tax benefits and changes in notes receivable 
+   from shareholders                                  38            48
+Cash dividends                                      (29)          (28)
+            
+         Cash generated by (used for)              
+           financing activities                      343          (14)
+                                                                      
+Total cash generated                                 172           411
+                                                                      
+Cash and cash equivalents, end of the period    $  1,375      $  1,087
+</TABLE>                                                              
+                             See accompanying notes.
+                                        
+                                        5
+<PAGE>
+                                        
+                              APPLE COMPUTER, INC.
+             NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Unaudited)
+
+1. Interim  information  is  unaudited; however,  in  the  opinion  of  the
+   Company's management, all adjustments necessary for a fair statement  of
+   interim  results have been included.  All adjustments are  of  a  normal
+   recurring nature unless specified in a separate note included  in  these
+   Notes  to  Consolidated Financial Statements.  The results  for  interim
+   periods  are  not necessarily indicative of results to be  expected  for
+   the  entire year.  These financial statements and notes should  be  read
+   in   conjunction  with  the  Company's  annual  consolidated   financial
+   statements  and  the notes thereto for the fiscal year  ended  September
+   30,  1994, included in its Annual Report on Form 10-K for the year ended
+   September 30, 1994 (the "1994 Form 10-K").
+
+2. In  the first quarter of 1995, the Company lowered its estimates of  the
+   total  remaining costs associated with its restructuring plan  initiated
+   in  the  third quarter of 1993 and recorded an adjustment that increased
+   income  by  $17 million ($11 million, or $0.09 per share, after  taxes).
+   This  adjustment primarily reflected favorable cancellation  settlements
+   of   certain  R&D  project  commitments  and  facility  leases  and  the
+   completion of other actions at lower costs than originally estimated.
+
+   At  March 31, 1995, the Company had $26 million of accrued restructuring
+   costs  for  actions  that  are currently under way.   Approximately  $20
+   million  in  charges to the accrual are expected to be  incurred  during
+   1995 with the remaining $6 million incurred beyond 1995.  Charges to  be
+   incurred  beyond  1995  relate  primarily to  recurring  payments  under
+   certain noncancelable operating leases.
+
+   The  following  table  depicts  a  roll-forward  reconciliation  of  the
+   activity  in the restructuring accrual balance from September  30,  1994
+   to March 31, 1995:
+<TABLE>                                                                                           
+<CAPTION>
+
+                                                           (In millions)
+  
+                              Balance at                     Balance at
+                            September 30,           Adjust-  March 31,
+Category                             1994  Charges   ments       1995 
+<S>                                <C>     <C>       <C>      <C>                                                                  
+Employee  termination      
+  payments (C)                      $ 11    $  4      $  5     $  2
+Provisions relating to                                    
+  employees who will not be        
+  terminated (C)                       4       *         1        3
+Termination payments for leases       
+  and other contracts (C)             20       6         1       13
+Write-down of operating  assets        
+  to be sold (N)                       1       *         1       --
+Provisions for litigation (C)          2       1        --        1
+R&D project cancellations (C)          6       1         5       --
+Other   provisions  and  write-       
+  downs (B)                           13       2         4        7
+1991    accrued   restructuring        
+  costs (B)                            1       1        --       --
+
+                                    $ 58    $ 15      $ 17     $ 26
+
+</TABLE>  
+     
+C: Cash; N: Noncash; B: Both cash and noncash
+*:  Less than $1 million
+
+3. Interest and other income (expense), net, consists of the
+   following:                                         
+<TABLE>                                                                                           
+<CAPTION>                                              (In millions)
+                                           Three           Six
+                                       Months Ended    Months Ended 
+
+                                       March  April    March  April
+                                         31,     1,      31,     1,
+                                        1995   1994     1995   1994
+                                          
+<S>                                    <C>    <C>     <C>   <C>                         
+Interest income                         $ 26   $  8     $ 44  $  18
+Interest expense                        (10)    (8)     (17)   (18)
+Gain (loss) on foreign exchange         
+   instruments                          (52)      5     (44)     10
+Net premiums and discounts earned                                   
+  (paid) on forward and option foreign    
+  exchange instruments                  (16)   (11)     (17)   (17)
+Other income (expense), net                2    (1)      (1)     --
+                                       $(50)   $(7)    $(35)   $(7)
+                                        
+</TABLE>
+                                        6
+<PAGE>
+
+4. Effective October 1, 1994, the Company adopted Financial  Accounting
+   Standard No. 115 (FAS 115), "Accounting for Certain Investments in  Debt
+   and  Equity  Securities".   In accordance with  FAS  115,  prior  period
+   financial  statements have not been restated to reflect  the  change  in
+   accounting  principle.   The cumulative effect of  the  change  was  not
+   material to shareholders' equity as of October 1, 1994.  Under FAS  115,
+   debt  securities that a company has both the positive intent and ability
+   to  hold  to  maturity are carried at amortized cost.   Debt  securities
+   that a company does not have the positive intent and ability to hold  to
+   maturity  and all marketable equity securities are classified as  either
+   available-for-sale   or  trading  and  are  carried   at   fair   value.
+   Generally,  unrealized holding gains and losses on securities classified
+   as  available-for-sale  are  reported as a  component  of  shareholders'
+   equity.   Unrealized  holding gains and losses on securities  classified
+   as trading are included in earnings.
+
+   The  Company's  cash  equivalents consist primarily of  certificates  of
+   deposit,  time  deposits and commercial paper with maturities  of  three
+   months  or less at the date of purchase.  Short-term investments consist
+   principally  of  commercial  paper with  maturities  between  three  and
+   twelve  months.  The Company's marketable equity securities  consist  of
+   securities  issued  by  U. S. corporations and are  included  in  "Other
+   assets"  on the accompanying balance sheet.  As of March 31, 1995,   the
+   Company's   cash  equivalents,  short-term  investments  and  marketable
+   equity securities are classified as available-for-sale.
+
+   The  adjustments recorded to shareholders' equity for unrealized holding
+   gains  (losses)  on available-for-sale cash equivalents and  short  term
+   investments  were not material either individually or in the  aggregate,
+   at  March 31, 1995.  The net adjustment recorded to shareholders' equity
+   for  unrealized  holding  gains (losses) related  to  marketable  equity
+   securities was an unrealized gain of approximately $40 million at  March
+   31, 1995.  The realized gains (losses) recorded to earnings on sales  of
+   available-for-sale securities, either individually or in the  aggregate,
+   were not material for the three and six months ended March 31, 1995.
+
+5. U.S.  income taxes have not been provided on a cumulative total of  $372
+   million   of   undistributed   earnings   of   the   Company's   foreign
+   subsidiaries.   It is intended that these earnings will be  indefinitely
+   invested   in  operations  outside  the  United  States.   It   is   not
+   practicable  to  determine  the  income  tax  liability  that  might  be
+   incurred  if  these earnings were to be distributed.   Except  for  such
+   indefinitely  invested earnings, the Company provides  for  federal  and
+   state  income  taxes  currently  on undistributed  earnings  of  foreign
+   subsidiaries.
+
+   The   Internal   Revenue  Service  has  proposed  federal   income   tax
+   deficiencies for the years 1984 through 1988, and the Company  has  made
+   prepayments   thereon.    The  Company  has  contested   these   alleged
+   deficiencies  and  is  pursuing administrative  and  judicial  remedies.
+   Management  believes  that adequate provision  has  been  made  for  any
+   adjustments that may result from these tax examinations.
+
+6. Earnings  per  share is computed using the weighted  average  number  of
+   common  and  dilutive  common equivalent shares  attributable  to  stock
+   options outstanding during the period.
+
+7. Certain prior year amounts on the consolidated statements of cash  flows
+   have been reclassified to conform to the current period presentation.
+
+8. On  January 25, 1995, the Board of Directors declared a cash dividend of
+   $0.12  per  share  related to the Company's first fiscal  quarter  ended
+   December  30, 1994.  The dividend was distributed on March 10, 1995,  to
+   shareholders of record as of February 17, 1995.  On April 27,  1995, the
+   Board  of Directors declared a cash dividend of $0.12 per share for  the
+   Company's  second fiscal quarter ended March 31, 1995.  The dividend  is
+   payable on June 23, 1995, to shareholders of record as of June 2, 1995.
+
+9. The  information  set  forth  in Item 1 of  Part  II  hereof  is  hereby
+   incorporated by reference.
+
+
+
+                                        7
+<PAGE>
+
+Item  2.  Management's Discussion and Analysis of Financial Condition and
+Results of Operations
+ 
+The   following  information  should  be  read  in  conjunction  with   the
+consolidated  financial statements and notes thereto.  All  information  is
+based on Apple's fiscal calendar.
+(Tabular information: Dollars in millions, except per share amounts)
+
+Results of Operations
+
+<TABLE>                                                                                           
+<CAPTION>  
+                        Second Quarter                Six Months
+                      1995     1994   Change       1995    1994   Change
+                                                                 
+<S>                <C>      <C>       <C>       <C>     <C>        <C> 
+                                                          
+Net sales          $ 2,652  $ 2,077    27.7%    $ 5,484 $ 4,546    20.6%
+Gross margin       $   695  $   499    39.3%    $ 1,509 $ 1,091    38.3%
+  Percentage of net  26.2%    24.0%               27.5%   24.0%         
+  sales
+Operating expenses                                                      
+  (excluding               
+  restructuring          
+  costs)           $   529  $   464    14.0%    $ 1,076 $   992     8.5%
+Percentage of net             
+  sales              19.9%    22.4%               19.6%   21.8%
+Restructuring costs     --       --       --    $  (17)      --       --
+  Percentage of                  
+  net sales             --       --               -0.3%      --
+Interest and other                                                       
+  income     
+  (expense),net    $  (50)   $  (7)   661.1%    $  (35)   $ (7)   422.4%
+Net income         $    73   $   17   329.4%    $   261   $  57   357.9%
+Earnings per share $  0.59   $ 0.15   293.3%    $  2.14   $0.49   336.7%
+
+</TABLE>
+                                               
+                                                                 
+Net  sales  for  the second quarter and first six months of 1995  increased
+over the comparable periods of 1994, primarily resulting from a combination
+of  unit growth and higher average selling prices.  The increase in average
+selling  prices  was driven by a shift in mix towards the  Company's  newer
+products  and products with multi-media configurations.  Specifically,  the
+Company recorded strong sales of its Performa (registered trademark) 630, 
+and of products  within the   Power  Macintosh(registered trademark) family
+and  PowerBook (registered trademark)  500  series  of  personal
+computers.  Increased sales of these products contributed to an increase in
+the average aggregate revenue per Macintosh (registered trademark) computer
+unit of approximately 10%  and  17%  in  the  second  quarter  and  first  
+six  months  of  1995, respectively,  over  the  comparable periods  of  
+1994.   Total  Macintosh computer  unit sales increased 21% and 9% in the 
+second quarter  and  first six months of 1995, respectively, over the 
+comparable periods of 1994. This unit  sales growth principally resulted 
+from strong sales of the  Company's Power  Macintosh products, PowerBook 
+500 series of personal computers and newer  product  offerings within the 
+Performa family  of  desktop  personal computers.  This unit growth was 
+partially offset by declining unit sales of certain of the Company's 
+older product offerings.
+
+International  net sales grew 34% and 26% in the second quarter  and  first
+six  months  of  1995, respectively, over the comparable periods  of  1994,
+primarily  reflecting  strong  net sales  growth  in  the  Pacific  region,
+particularly Japan.  Net sales for the second quarter and first six  months
+of  1995  grew  moderately in Europe over the comparable periods  of  1994.
+International net sales represented 54% and 51% of total net sales for  the
+second  quarter and first six months of 1995, respectively,  compared  with
+52%  and  48%,  respectively,   for  the  corresponding  periods  of  1994.
+Domestic  net  sales grew 21% and 15% in the second quarter and  first  six
+months  of  1995,  respectively,  over  the  comparable  periods  of  1994,
+primarily  resulting  from  strong growth in the  education,  consumer  and
+business markets.
+
+In  general, the Company's resellers typically purchase products on an  as-
+needed  basis due to the Company's distribution strategy, which is designed
+to  expedite  the filling of orders.  Resellers frequently change  delivery
+schedules   and  order  rates  depending  on  changing  market  conditions.
+Unfilled  orders ("backlog") can be, and often are, canceled at will.   The
+Company  attempts  to  fill  orders on the  requested  delivery  schedules.
+However, products may be in relatively short supply from time to time until
+production  volumes have reached a level sufficient to meet  demand  or  if
+other  production or fulfillment constraints exist.  The Company's  backlog
+increased to  approximately  $795  million  at  May  5,  1995,  from
+approximately $670 million at February 3, 1995, primarily due to backlog of
+the Company's Power Macintosh products.
+
+In  the  Company's experience, the actual amount of product backlog at  any
+particular  time  is  not a meaningful indication of  its  future  business
+prospects.   In particular, backlog often increases in anticipation  of  or
+immediately following introduction of new products because of over-ordering
+by  dealers anticipating shortages.  Backlog often is reduced sharply  once
+dealers  and customers believe they can obtain sufficient supply.   Because
+of the foregoing, as well as other factors affecting the Company's backlog,
+backlog should not
+                                        
+                                        8
+<PAGE>
+
+be  considered  a  reliable indicator of the Company's  future  revenue  or
+financial performance.  Further information regarding the Company's backlog
+may  be  found  under Part I, Item 2 of this Form 10-Q  under  the  heading
+"Factors that May Affect Future Results
+and  Financial  Condition",  which information is  hereby  incorporated  by
+reference.
+
+Gross Margin
+
+Gross margin represents the difference between the Company's net sales  and
+its  cost  of goods sold.  The amount of revenue generated by the  sale  of
+products is influenced principally by the price set by the Company for  its
+products relative to competitive products.  The cost of goods sold is based
+primarily  on  the cost of components and to a lesser extent, direct  labor
+costs.    The   type  and  cost  of  components  included   in   particular
+configurations of the Company's products (such as memory and  disk  drives)
+is  often directly related to the need to market products in configurations
+competitive  with  other producers.  Competition in the  personal  computer
+industry is intense, and in the short term, frequent changes in pricing and
+product  configuration are often necessary in order to remain  competitive.
+Accordingly, gross margin as a percentage of net sales can be significantly
+influenced  in  the  short term by actions undertaken  by  the  Company  in
+response to industry-wide competitive pressures.
+
+Gross  margin  increased both in amount and as a percentage  of  net  sales
+during the second quarter and first six months of 1995, respectively,  over
+the  comparable  periods  of  1994.  The increase  in  gross  margin  as  a
+percentage  of net sales was primarily a result of a shift in  product  mix
+towards  the  Company's  newer  high margin products  within  each  product
+category which included strong sales of the Company's entry level Macintosh
+Performa  630,  and of products within its Power Macintosh family  and  its
+PowerBook 500 series of personal computers.
+
+The  increase  in  gross margin levels was affected somewhat  favorably  by
+changes  in  foreign currency exchange rates as a result of a  weaker  U.S.
+dollar  relative to certain foreign currencies during both  the  first  and
+second  quarters of 1995 compared with the corresponding  periods of  1994.
+The  Company's operating strategy and pricing take into account changes  in
+exchange rates over time; however, the Company's results of operations  can
+be  significantly  affected in the short term by  fluctuations  in  foreign
+currency exchange rates.
+
+The  Company's  gross margin percentage declined from 28.7%  in  the  first
+quarter of 1995 to 26.2% in the second quarter of 1995, resulting primarily
+from   the   Company's   pricing    strategies,    particularly  on   entry
+level and PowerBook notebook personal computers, and to a lesser extent  on
+Power Macintosh products.  It is anticipated that gross margins will remain
+under pressure and could fall below prior years' levels worldwide due to  a
+variety  of  factors, including continued industry-wide pricing  pressures,
+increased competition, and compressed product life cycles.
+<TABLE>                                                          
+<CAPTION>
+
+Research and              Second Quarter                Six Months
+Development
+                        1995    1994   Change      1995     1994   Change
+<S>                    <C>      <C>     <C>       <C>      <C>     <C>
+                                                                     
+Research and            
+  development           $143    $134     6.7%      $275     $286    -3.8%
+Percentage of net                
+  sales                 5.4%    6.5%               5.0%     6.3%
+</TABLE>      
+                                                   
+Research  and  development expenditures increased in amount in  the  second
+quarter of 1995 when compared with the corresponding period of 1994, due to
+higher  project-  and headcount- related spending.  During  the  first  six
+months  of  1995,  research  and development  expenditures  decreased  when
+compared with the corresponding period of 1994, primarily reflecting  lower
+product  development expenditures during the first quarter  of  1995  as  a
+result  of the Company's restructuring actions aimed at reducing  costs  as
+well  as  fewer  new  product introductions in the first  quarter  of  1995
+compared with the corresponding period of 1994.
+
+As  a  percentage  of  net  sales, research  and  development  expenditures
+decreased in the second quarter and first six months of 1995 compared  with
+the  corresponding periods of 1994, primarily due to the  increase  in  the
+level of net sales.
+
+
+                                        9
+<PAGE>
+
+
+<TABLE>                                                          
+<CAPTION>
+
+Selling, General         Second Quarter                Six Months
+and Administrative      1995    1994   Change      1995     1994   Change
+<S>                   <C>      <C>     <C>        <C>     <C>      <C>
+                                                                         
+Selling, general                                                         
+  and administrative    $386    $330    17.0%      $801     $705    13.6%
+Percentage of net               
+  sales                14.6%   15.9%              14.6%    15.5%
+</TABLE>   
+                                                      
+Selling,  general and administrative expenses increased in  amount  in  the
+second  quarter  and  first  six months of  1995  when  compared  with  the
+corresponding  periods of 1994.  This increase was primarily  a  result  of
+increased advertising and channel marketing program spending as the Company
+continued its efforts to expand its market share.  Despite this increase in
+expenditures, selling, general and administrative expenses decreased  as  a
+percentage of net sales in the second quarter and first six months of  1995
+when compared with the corresponding periods of 1994, primarily as a result
+of  the  increase  in  the level of net sales combined with  the  Company's
+ongoing efforts to manage operating expense growth.
+
+The  Company  will  continue  to face the challenge  of  managing  selling,
+general  and  administrative  expenses relative  to  gross  margin  levels,
+particularly in light of the Company's expectation of continued pressure on
+gross  margins, and continued competitive pressures worldwide.  The Company
+anticipates that selling, general and administrative expenses will increase
+in amount during the remaining quarters of 1995, but will remain relatively
+flat as a percentage of net sales.
+
+<TABLE>                                                          
+<CAPTION>
+Restructuring costs        Second Quarter                Six Months
+                        1995    1994   Change      1995     1994   Change
+<S>                      <C>     <C>     <C>      <C>       <C>     <C>
+                                                                 
+Restructuring costs       --      --       --     $(17)       --      --
+Percentage of net            
+  sales   Net                --      --             (0.3%)       --      
+</TABLE>                                                         
+For  information  regarding the Company's restructuring actions,  refer  to
+Note  2  of  the Notes to Consolidated Financial Statements (Unaudited)  in
+Part I, Item 1 of this Quarterly Report on Form 10-Q, which information  is
+hereby incorporated by reference.
+<TABLE>                                                          
+<CAPTION>
+Interest and Other       Second Quarter                Six Months
+Income (Expense),Net    1995    1994   Change      1995     1994   Change
+
+<S>                    <C>      <C>    <C>        <C>        <C>     <C>
+Interest and other                                               
+  income (expense),      
+  net                  $(50)    $(7)   614.3%     $(35)     $(7)     400%
+</TABLE>   
+                                                      
+Interest  and  other income (expense), net, increased by approximately  $43
+million  in  expense in the second quarter of 1995 compared with  the  same
+period in 1994.  The increase in expense was primarily driven by net losses
+recorded   for  the  mark-to-market  valuation  of  outstanding  currency
+forwards  and sold currency options undertaken for currency risk management
+purposes, and to a lesser extent, higher overall hedging costs as a  result
+of  the  increased volatility in the exchange markets as the value  of  the
+U.S.  dollar  declined  dramatically relative to other  foreign  currencies
+during  March of 1995.  The increase in expense was slightly offset  by  an
+increase in net interest income resulting from higher cash balances coupled
+with  higher  investment interest rates.  As of May 1, 1995, the  Company's
+net  mark-to-market valuation of outstanding currency forwards  and  sold
+currency  options  undertaken for currency risk  management  purposes  has
+remained  consistent  with the net mark-to-market valuation  recorded  at
+March 31, 1995.
+
+Interest  and  other income (expense), net, increased by approximately  $28
+million in expense for the first six months of 1995 when compared with  the
+corresponding period of 1994, reflecting the $43 million increase in mark-
+to-market losses, and expense related
+
+                                       10
+<PAGE>
+
+to  foreign exchange risk management activity during the second quarter  of
+1995 as discussed above.  This increase in expense was partially offset  by
+a  $15 million increase in interest and other income, net, during the first
+quarter  of 1995 when compared with the corresponding period of 1994  which
+reflected  increased interest income of $8 million, net gains from  foreign
+currency risk management activity, and a decrease in interest expense.
+
+Notional  principal  amounts on certain of the Company's  foreign  exchange
+instruments increased significantly compared with the balances at September
+30,  1994,  in  accordance  with  the Company's  currency  risk  management
+strategies.  Specifically, notional principal amounts on purchased and sold
+foreign   exchange   options  not  accounted  for   as   hedges   increased
+approximately $4.7 billion and $3.8 billion respectively, compared with the
+balances  at September 30. 1994.  The notional principal amounts  for  off-
+balance-sheet  instruments provide one measure of  the  transaction  volume
+outstanding at a particular point in time, and do not necessarily represent
+the  amount  of  the Company's exposure to credit or market risk.  The  net
+impact   of  the  mark-to-market  valuation  on  these  foreign  exchange
+instruments is discussed in the preceding paragraphs.
+
+Further  information  regarding  the  Company's  foreign  exchange  hedging
+programs  may  be  found  in Part I, Item 2 of this  Form  10-Q  under  the
+subheading  "Global Market Risks" included under the heading "Factors  that
+May Affect Future Results and Financial Condition."
+
+<TABLE>                                                           
+<CAPTION>
+Provision for Income      Second Quarter                Six Months
+Taxes                  1995     1994  Change       1995     1994  Change
+<S>                    <C>       <C>  <C>         <C>       <C>   <C>
+Provision for income      
+  taxes                 $43      $11  290.9%       $154      $36  327.8%
+Effective tax rate      37%      38%                37%      38%        
+</TABLE>  
+                                                        
+The  information contained in Note 4 of the Notes to Consolidated Financial
+Statements (Unaudited) in Part I, Item 1 of this Quarterly Report  on  Form
+10-Q is incorporated by reference into this discussion.
+
+Factors That May Affect Future Results and Financial Condition
+
+The   Company's  future  operating  results  and  financial  condition  are
+dependent  on  the Company's ability to successfully develop,  manufacture,
+and  market  technologically innovative products in order to  meet  dynamic
+customer demand patterns.  Inherent in this process are a number of factors
+that  the  Company  must successfully manage in order to achieve  favorable
+future operating results and financial condition.
+
+Product Introductions and Transitions
+
+Due  to the highly volatile nature of the personal computer industry, which
+is   characterized   by  dynamic  customer  demand   patterns   and   rapid
+technological advances, the Company frequently introduces new products  and
+product  enhancements.   The  success  of  new  product  introductions   is
+dependent  on  a  number  of  factors,  including  market  acceptance,  the
+Company's  ability to manage the risks associated with product transitions,
+the  availability of application software for new products,  the  effective
+management of inventory levels in line with anticipated product demand, and
+the manufacturing of products in appropriate quantities to meet anticipated
+demand.  Accordingly, the Company cannot determine the ultimate effect that
+new products will have on its sales or results of operations.
+
+In  1994,  the Company introduced Power Macintosh, a new line of  Macintosh
+computers  based  on  a  new PowerPC family of RISC  microprocessors.   The
+Company's  results of operations and financial condition may  be  adversely
+affected  if  it is unable to successfully complete the transition  of  its
+lines  of personal computers and servers from the Motorola 68000 series  of
+microprocessors  to  the  PowerPC (registered trademark) microprocessor.
+The  success  of  this ongoing transition will depend on the Company's 
+ability to continue to sell products  based  on  the  Motorola 68000 series
+of  microprocessors  while gaining  market acceptance of the new PowerPC 
+processor-based products, to successfully  manage inventory levels of both
+product lines simultaneously, and  to  continue to coordinate the timely 
+development and distribution  by independent   software  vendors  of  new
+"native"  software applications specifically designed for the PowerPC 
+processor-based products.
+
+                                       11
+<PAGE>
+
+The  rate of product shipments immediately following introduction of a  new
+product  is  not necessarily an indication of the future rate of  shipments
+for  that  product, which depends on many factors, some of  which  are  not
+under  the control of the Company.  These factors may include initial large
+purchases by a small segment of the user population that tends to  purchase
+new  technology  prior to its acceptance by the majority of  users  ("early
+adopters");  purchases  in  satisfaction of pent-up  demand  by  users  who
+anticipated  new  technology and as a result deferred  purchases  of  other
+products; and over-ordering by dealers who anticipate shortages due to  the
+aforementioned factors.  The preceding may also be offset by other factors,
+such  as  the  deferral of purchases by many users until new technology  is
+accepted  as  "proven"  and for which commonly used software  products  are
+available;  and the reduction of orders by dealers once they  believe  they
+can obtain sufficient supply of product previously in backlog.
+
+Backlog  is  often  volatile after new product  introductions  due  to  the
+aforementioned  demand  factors, often increasing sharply  coincident  with
+introduction, and then reducing sharply once dealers and customers  believe
+they can obtain sufficient supply of product.
+
+The  measurement  of  demand  for  newly  introduced  products  is  further
+complicated by the availability of different product configurations,  which
+may   include   various  types  of  built-in  peripherals   and   software.
+Configurations may also require certain localization (such as language) for
+various markets and, as a result, demand in different geographic areas  may
+be  a  function  of  the  availability of  third-party  software  in  those
+localized  versions.   For example, the availability  of  European-language
+versions of software products manufactured by U.S. producers may lag behind
+the availability of U.S. versions by a quarter or more. This may result  in
+lower  initial  demand for the Company's new products  outside  the  United
+States,  even though  localized  versions of the  Company's  products  may
+be available.
+
+Competition
+
+The  personal computer industry is highly competitive and continues  to  be
+characterized  by  consolidations in the hardware and software  industries,
+aggressive pricing practices, and downward pressure on gross margins.   The
+Company's  results of operations and financial condition could be adversely
+affected  should the Company be unable to effectively manage the impact  of
+industry-wide  pricing  pressures. 
+
+The Company's future operating results and financial condition may also  be
+affected   by   the  Company's  ability  to  offer  customers   competitive
+technologies while effectively managing the impact on inventory levels  and
+the potential for customer confusion created by product proliferation.
+
+On  November  7, 1994, the Company reached an agreement with  International
+Business  Machines Corporation (IBM) and Motorola, Inc. on a  new  hardware
+reference  platform  for the PowerPC microprocessor  that  is  intended  to
+deliver a much wider range of operating system and application choices  for
+computer customers.  As a result of this agreement, the Company intends  to
+make  the  Macintosh  operating system available on  the  common  platform.
+Accordingly,    the  Company's  future  operating  results  and   financial
+condition  may  be  affected by its ability to implement this  and  certain
+other  collaboration agreements entered into, and to manage the  associated
+competitive risk.
+
+The Company's future operating results and financial condition may also  be
+affected  by the Company's ability to increase market share in its personal
+computer  business.  The Company recently announced the  licensing  of  the
+Macintosh operating system to other personal computer vendors in January of
+1995,  and  one  vendor  is currently selling product  which  utilizes  the
+Macintosh operating system.  However, the Company is currently the  primary
+maker  of hardware that uses the Macintosh operating system, and it  has  a
+minority  market share in the personal computer market, which is  dominated
+by  makers  of  computers  that  run the  MS-DOS(registered trademark)  
+and  Microsoft  Windows (trademark) operating systems.  Certain of the 
+Company's personal computer products are capable  of running application 
+software designed for the MS-DOS or Windows operating   systems,  through
+software  emulation  of  Intel   Corporation microprocessor  chips  by  use 
+of software specifically  designed  for  the Company's  products,  either 
+those based on the Motorola  68000  series  of microprocessors or those 
+based on the PowerPC microprocessor.  The  Company also recently introduced 
+products which include both the RISC-based PowerPC 601 microprocessor and 
+the 486 DX2/66 microprocessor which enable users  to switch between 
+Macintosh and DOS computing environments.  In addition, as a result of the 
+collaboration agreement noted in the preceding paragraph, the Company  
+believes it may have the opportunity to increase its market  share
+in the personal computer business as the Macintosh operating system becomes
+available on computers based on the new hardware reference platform.
+
+Decisions  by  customers to purchase the Company's personal  computers,  as
+opposed to MS-DOS or Windows-based systems, are often
+                                        
+                                       12
+<PAGE>
+
+based   on   the  availability  of  third-party  software  for   particular
+applications.   The Company believes that the availability  of  third-party
+application software for the Company's hardware products depends in part on
+the  third-party  developers'  perception  and  analysis  of  the  relative
+benefits  of  developing  such software for the Company's  products  versus
+software for the larger MS-DOS and Windows market.  This analysis is  based
+on factors such as the relative market share of the Company's products, the
+anticipated  potential  revenue  that may  be  earned,  and  the  costs  of
+developing such software products.
+
+In  an  effort to increase overall market share, the Company has  commenced
+licensing  the  Macintosh  operating  system  to  other  personal  computer
+vendors.  The Company anticipates that the licensing activities will result
+in  a  variety of these vendors bringing to market personal computers  that
+will run application software based on the Macintosh operating system.  The
+Company  also  believes  that  licensing the operating  system  will  offer
+software  vendors a broader installed base on which they  can  develop  and
+provide  technical innovations for the Macintosh platform.  However,  there
+can  be  no  assurance on the number of application software titles or the
+rate at which  vendors  will bring  to  market  application software based
+on  the  Macintosh  operating system.  The Company's efforts to increase 
+its overall market share through licensing  of  the  Macintosh operating 
+system is  also  dependent  on  the Company's  ability to manage the risks
+associated with competing  companies producing  Macintosh OS-based computer
+systems.  Accordingly,  the  Company cannot  determine  the  ultimate 
+effect that  licensing  of  the  Macintosh operating system will have on
+its sales or results of operations.
+
+Microsoft  Corporation is the developer of the MS-DOS and Windows operating
+systems,  which  are  the  principal competing  operating  systems  to  the
+Company's  Macintosh  operating system.  Microsoft  is  also  an  important
+developer of application software for the Company's products.  Accordingly,
+Microsoft's  interest in producing application software for  the  Company's
+products may be influenced by Microsoft's perception of its interests as an
+operating system vendor.
+
+The  Company's ability to produce and market competitive products  is  also
+dependent  on the ability of IBM and Motorola, Inc., the suppliers  of  the
+new  PowerPC RISC microprocessor for certain of the Company's products,  to
+continue  to  supply to the Company microprocessors which produce  superior
+price/performance  results compared with those supplied  to  the  Company's
+competitors  by  Intel  Corporation, the  developer  and  producer  of  the
+microprocessors  used  by  most personal computers  using  the  MS-DOS  and
+Windows  operating systems.  IBM produces personal computers based  on  the
+Intel microprocessors as well as on the PowerPC microprocessor, and is also
+the  developer  of  OS/2,  a competing operating system  to  the  Company's
+Macintosh  operating system.  Accordingly, IBM's interest in supplying  the
+Company  with  improved  versions  of  microprocessors  for  the  Company's
+products  may  be  influenced by IBM's perception of  its  interests  as  a
+competing  manufacturer of personal computers and as a competing  operating
+system vendor.
+
+The Company's future operating results and financial condition may also  be
+affected  by  the  Company's   ability  to  successfully  expand  its   new
+businesses  and product offerings into other markets, such as  the  markets
+for on-line services and personal digital assistant (PDA) products.
+
+Global Market Risks
+
+A  large portion of the Company's revenue is derived from its international
+operations.   As  a result, the Company's operations and financial  results
+could  be significantly affected by international factors, such as  changes
+in  foreign  currency  exchange rates or weak economic  conditions  in  the
+foreign  markets in which the Company distributes its products.   When  the
+U.S. dollar strengthens against other currencies, the U.S. dollar value  of
+non-U.S.  dollar-based sales decreases.  When the U.S. dollar weakens,  the
+U.S.    dollar   value   of   non-U.S.   dollar-based   sales    increases.
+Correspondingly,  the  U.S.  dollar value of  non-U.S.  dollar-based  costs
+increases  when the U.S. dollar weakens and decreases when the U.S.  dollar
+strengthens.   Overall, the Company is a net receiver of  currencies  other
+than  the  U.S. dollar and, as such, benefits from a weaker dollar  and  is
+adversely  affected  by  a  stronger dollar relative  to  major  currencies
+worldwide.   Accordingly, changes in exchange rates may  negatively  affect
+the  Company's consolidated sales and gross margins (as expressed  in  U.S.
+dollars).
+
+To mitigate the short-term impact of fluctuating currency exchange rates on
+the   Company's  non-U.S.  dollar-based  sales,  product  procurement,  and
+operating  expenses, the Company regularly hedges its non-U.S. dollar-based
+exposures.  Specifically, the Company enters into foreign exchange  forward
+and  option  contracts to hedge firmly committed transactions.   Currently,
+hedges of firmly committed transactions do not extend beyond one year.  The
+Company  also purchases foreign exchange option contracts to hedge  certain
+other probable, but not firmly committed transactions.  Hedges of probable,
+but  not  firmly committed transactions do not extend beyond one year.   To
+reduce  the  costs  associated with these ongoing foreign exchange  hedging
+programs,  the  Company  also  regularly  sells  foreign  exchange   option
+contracts and enters into certain other foreign exchange transactions.  All
+foreign exchange
+                                        
+                                       13
+<PAGE>
+
+forward  and  option contracts not accounted for as hedges,  including  all
+transactions  intended to reduce the costs associated  with  the  Company's
+foreign  exchange  hedging programs, are carried  at  fair  value  and  are
+adjusted on each balance sheet date for changes in exchange rates.
+
+While  the Company is exposed with respect to fluctuations in the  interest
+rates  of  many  of  the  world's  leading  industrialized  countries,  the
+Company's interest income and expense is most sensitive to fluctuations  in
+the  general level of U.S. interest rates.  In this regard, changes in U.S.
+interest  rates  affect  the interest earned on the  Company's  cash,  cash
+equivalents,  and short-term investments as well as interest  paid  on  its
+short-term  borrowings  and  long-term debt.  To  mitigate  the  impact  of
+fluctuations in U.S. interest rates, the Company has entered into  interest
+rate swap and option transactions.  Certain of these swaps are intended  to
+better match the Company's floating-rate interest income on its cash,  cash
+equivalents,  and  short-term  investments  with  the  fixed-rate  interest
+expense on its long-term debt.  The Company also enters into interest  rate
+swap,  swaption, and option transactions in order to extend  the  effective
+duration  of  a  portion  of  its  cash, cash  equivalent,  and  short-term
+investment portfolios. These swaps may extend the Company's cash investment
+horizon up to a maximum effective duration of three years.
+
+To  ensure the adequacy and effectiveness of the Company's foreign exchange
+and  interest  rate hedge positions, as well as to monitor  the  risks  and
+opportunities of the non hedge portfolios, the Company continually monitors
+its  foreign  exchange forward and option positions, and its interest  rate
+swap,  swaption,  and  option  positions on  a  stand-alone  basis  and  in
+conjunction  with  its  underlying foreign  currency-  and  interest  rate-
+related  exposures, respectively, from both an accounting and  an  economic
+perspective.   However, given the effective horizons of the Company's  risk
+management  activities, there can be no assurance that  the  aforementioned
+programs  will  offset more than a portion of the adverse financial  impact
+resulting from unfavorable movements in either foreign exchange or interest
+rates.  In addition, the timing of the accounting for recognition of  gains
+and losses related to  marked-to-market instruments for any given period
+may  not  coincide  with  the timing of gains and  losses  related  to  the
+underlying  economic  exposures,  and as such,  may  adversely  affect  the
+Company's operating results and financial position.
+
+Inventory and Supply
+
+The  Company's  products  include  certain  components,  such  as  specific
+microprocessors  manufactured  by  Motorola,  Inc.,  that   are   currently
+available   only  from  single  sources.   Any  availability   limitations,
+interruptions in supplies, or price increases of these and other components
+could  adversely affect the Company's business and financial results.
+Continued growth in the personal computer industry may create demand for
+certain components that exceeds the present manufacturing capacity of 
+component suppliers.  If the Company cannot obtain an adequate supply of 
+either custom-made or commonly-used components due to competitive factors
+in the personal computer industry, the Company's future operating results
+and financial condition may be adversely affected by product constraints 
+and increased costs.  The Company's  future  operating results and financial
+condition may also be adversely affected by the Company's ability to manage
+inventory levels  and lead times required to obtain components in order to 
+be more responsive to short-term shifts in customer demand patterns.  In 
+addition, if anticipated unit  sales  growth for new and current product 
+offerings is not  realized, inventory  valuation reserves may be necessary 
+that would adversely  affect the Company's results of operations and 
+financial condition.
+
+Marketing and Distribution
+
+A number of uncertainties exist regarding the marketing and distribution of
+the  Company's  products.   Currently,  the  Company's  primary  means   of
+distribution  is  through  third-party  computer  resellers.   However,  in
+response  to  changing  industry practices and  customer  preferences,  the
+Company is continuing its expansion into various consumer channels, such as
+mass-merchandise  stores  (for  example,  Sears  and  Wal-Mart),   consumer
+electronics outlets, and computer superstores.  The Company's business  and
+financial results could be adversely affected if the financial condition of
+these sellers weakens or if sellers within consumer channels decide not  to
+continue to distribute the Company's products.
+
+Other Factors
+
+The  majority  of  the Company's research and development  activities,  its
+corporate headquarters, and other critical business operations are  located
+near  major  seismic faults. The Company's operating results and  financial
+condition  could be materially adversely affected in the event of  a  major
+earthquake.
+
+The Company plans to replace its current transaction systems (which include
+order  management, distribution, manufacturing, and finance) with a  single
+integrated  system  as  part of its ongoing effort to increase  operational
+efficiency.  The Company's future operating results and financial condition
+could  be  adversely affected by its ability to implement  and  effectively
+manage the transition to this new integrated system.
+
+
+                                       14
+<PAGE>
+
+In April 1995, the Company announced a company-wide reorganization designed
+to  more  closely  align the Company's organizational  structure  with  the
+Company's  business strategy of placing increased focus on  customer  needs
+and  expanding  its presence in the home, education, and business  markets.
+Although the Company does not anticipate any downsizing as a result of  the
+organizational  changes,  the  Company's  future  operating   results   and
+financial  condition  could  be  adversely  affected  by  its  ability   to
+effectively manage the transition to this new organizational structure.
+
+Because  of  the foregoing factors, as well as other factors affecting  the
+Company's   operating  results  and  financial  condition,  past  financial
+performance should not be considered to be a reliable indicator  of  future
+performance,  and investors should not use historical trends to  anticipate
+results   or  trends  in  future  periods.   In  addition,  the   Company's
+participation  in  a highly dynamic industry often results  in  significant
+volatility of the Company's common stock price.
+
+
+Liquidity and Capital Resources         
+                                      Six Months
+                                            1995
+<TABLE>                                                           
+<CAPTION>
+<S>                                     <C>                     
+Cash, cash equivalents and short-term          
+  investments, net of short-term   
+  borrowings                             $ 1,359
+                                                
+Cash generated by operations             $   460
+                                                
+Cash used for investment activities,             
+  excluding short-term investments       $    75
+                                                
+Cash generated by financing activities   $   343
+                                        
+The Company's financial position with respect to cash, cash equivalents and
+short-term  investments, net of short-term borrowings increased  to  $1,359
+million  at  March 31, 1995 from $966 million at September 30, 1994.   This
+increase  was primarily attributable to the Company's continued efforts  to
+increase profit levels and to manage working capital, particularly  in  the
+areas of inventory and accounts receivable.
+
+Cash  generated by operations during the first six months of  1995  totaled
+$460  million.  Cash was generated primarily by higher sales levels related
+to  a  shift in product mix towards higher-margin products which  typically
+have higher average selling prices.
+
+Net  cash  used  for the purchase of property, plant and equipment  totaled
+approximately  $52  million during the first six  months  of  1995.   These
+purchases  primarily included manufacturing machinery and  equipment.   The
+Company  anticipates that capital expenditures in 1995 will  be  relatively
+consistent with 1994 expenditures of $160 million.
+
+Short-term  borrowings  at March 31, 1995 were approximately  $335  million
+higher than at September 30, 1994.  These borrowings were primarily made to
+fund  expected  working  capital growth in certain markets  worldwide.   In
+general,  the Company's short-term borrowings typically reflect  borrowings
+made under its commercial paper program and short-term uncommitted bid-line
+arrangements  with certain commercial banks.  In particular,  Apple  Japan,
+Inc.,  and  Apple Computer BV, (Netherlands), wholly owned subsidiaries  of
+the  Company,  incurred short-term borrowings from several banks,  totaling
+approximately  $457  million and $170 million, respectively, at  March  31,
+1995.
+
+Long-term  borrowings of $304 million at March 31, 1995 remained consistent
+with the balance at September 30, 1994.  Substantially the entire amount of
+long-term borrowings represents $300 million aggregate principal amount  of
+6.5%  unsecured notes issued under an omnibus shelf registration  statement
+filed  with  the  Securities and Exchange Commission in 1994.   This  shelf
+registration covers the
+registration  of debt and other securities for an aggregate offering  price
+of  up  to  $500 million.  The notes were sold at 99.925% of  par,  for  an
+effective yield to maturity of 6.51%.  The notes pay interest semi-annually
+and mature on February 15, 2004.
+
+The  Company  expects that it will continue to incur short-  and  long-term
+borrowings  from  time  to time generally to finance U.S.  working  capital
+needs  and  capital  expenditures, because a  substantial  portion  of  the
+Company's  cash, cash equivalents, and short-term investments  is  held  by
+foreign   subsidiaries,  generally  in  U.S.  dollar-denominated  holdings.
+Amounts  held  by  foreign subsidiaries would be  subject  to  U.S.  income
+taxation  upon  repatriation to the United States; the Company's  financial
+statements fully provide for
+
+                                       15
+<PAGE>
+
+any related tax liability on amounts that may be repatriated.
+
+The  Internal  Revenue Service has proposed federal income tax deficiencies
+for  the  years  1984  through 1988, and the Company has  made  prepayments
+thereon.   The  Company  has contested these alleged  deficiencies  and  is
+pursuing  administrative  and judicial remedies. Management  believes  that
+adequate  provision has been made for any adjustments that may result  from
+these tax examinations.
+
+The Company believes that its balances of cash, cash equivalents, and short-
+term  investments, together with funds generated from operations and short-
+and  long-term  borrowing  capabilities, will be  sufficient  to  meet  its
+operating cash requirements on a short- and long-term basis.
+
+
+PART II. OTHER INFORMATION
+
+Item 1. Legal Proceedings
+
+Reference is made to page 39 of the Company's 1994 Annual Report on Form 10-
+K  under the subheading "Litigation" for a discussion of certain litigation
+involving  Microsoft  Corporation  and  Hewlett-Packard  Company  and  1993
+Securities and State Court Shareholders Action Litigation.
+
+In  the  case of Apple Computer, Inc. v. Microsoft Corporation and Hewlett-
+Packard  Company,  the  Company's petition for a writ  of  certiorari   was
+denied  by  the  Supreme Court of the United States on February  21,  1995.
+Accordingly, the decision of the appellate court affirming the dismissal of
+the Company's copyright infringement case against Microsoft Corporation and
+Hewlett-Packard is now final.  The remaining outstanding matter in the case
+is  Microsoft's  and  Hewlett-Packard's requests  for  an  award  of  their
+attorneys'  fees  under the Copyright Act.  The trial court  has  scheduled
+preliminary proceedings on these requests, looking toward a hearing in July
+1995 to resolve them.
+
+With respect to the 1993 Securities and State Court Shareholders Action
+Litigation, the Company announced on May 9, 1995, that all of the 
+complaints filed in those cases have been voluntarily dismissed by the 
+plaintiffs.  No payment or consideration of any kind was paid by the
+defendants, including the Company.
+
+The Company continues to believe the pending suits cited above in which the
+Company  is  a  defendant, to be without merit and  intends  to  vigorously
+defend  against these actions.  The Company believes the resolution of  all
+of  these  matters will not have a material adverse effect on its financial
+condition  and  results  of  operations as  reported  in  the  accompanying
+financial  statements.  However, depending on the amount and timing  of  an
+unfavorable resolution of these lawsuits, it is possible that the Company's
+future results of operations or cash flows could be materially affected  in
+a particular period.
+
+
+Item 4.  Submission of Matters to a Vote of Security Holders
+
+a) The annual meeting of shareholders was held on January 24, 1995.
+
+b) The  following directors were elected at the meeting to serve two-year
+  terms as Class I directors:
+
+         Gilbert F. Amelio
+         Joseph A. Graziano
+         B. Jurgen Hintz
+         Katherine M. Hudson
+         Michael H. Spindler
+
+   The  following  directors are continuing to serve their  terms  as  Class  II
+   directors which will expire at the next annual meeting.
+
+         Peter O. Crisp      
+         Bernard Goldstein
+         Delano E. Lewis
+         A. C. Markkula, Jr.
+
+
+
+
+                                       16
+<PAGE>
+
+c)  The matters voted upon at the meeting and results of the voting with
+    respect to those matters were as follows:
+
+</TABLE>
+<TABLE>                                                          
+<CAPTION>
+                                 For         Withheld
+  (1)  Election of Class I                             
+       Directors:
+<S>   <C>                    <C>           <C>         <C>      <C>
+       Gilbert F. Amelio     101,441,845     938,584              
+       Joseph A. Graziano    101,765,074     615,355              
+       B. Jurgen Hintz       101,961,508     418,921
+       Katherine M. Hudson   101,684,692     695,737
+       Michael H. Spindler   101,764,683     615,746
+                                                                 Broker
+                                 For         Against   Abstain   Non-
+                                                                 Votes
+                                                                 
+  (2)  Ratification of       101,898,239    203,676    278,514      --
+       Ernst &  Young
+       LLP as the
+       Company's
+       independent
+       auditors for
+       fiscal year
+       1995.
+</TABLE>                                                         
+The   foregoing  matters  are  described  in  detail  in  the  Registrant's
+definitive proxy statement dated December 12, 1994, for the Annual  Meeting
+of Shareholders held on January 24, 1995.
+
+Item 6.  Exhibits and Reports on Form 8-K
+
+a) Exhibits
+
+       Exhibit
+        Number        Description
+
+        10.A.20      Separation  Agreement dated April 19,1995,  between
+                     the Registrant and Ian Diery.
+
+            11       Computation of per share earnings
+
+            27       Financial Data Schedule
+
+b) Reports on Form 8-K
+
+   None.
+
+                                       17
+<PAGE>
+
+
+
+
+
+
+
+
+                                        
+                                    SIGNATURE
+                                        
+Pursuant  to the requirements of the Securities Exchange Act of  1934,  the
+Registrant  has duly caused this report to be signed on its behalf  by  the
+undersigned, thereunto duly authorized.
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                               APPLE COMPUTER, INC.
+                                  (Registrant)
+
+
+
+
+
+
+
+
+DATE:   May 15, 1995           BY /s/ Joseph A. Graziano
+
+                                 Joseph A. Graziano
+                                 Executive Vice President and
+                                 Chief Financial Officer
+
+
+
+
+
+
+                                       18
+<PAGE>
+
+
+                                        
+                              APPLE COMPUTER, INC.
+                                        
+                                INDEX TO EXHIBITS
+                                        
+                                                              
+  Exhibit    Description                                 Page Number
+   Index
+                                                       
+  10.A.20    Separation Agreement dated April  19,            
+             1995, between the Registrant and  Ian           20
+             Diery.
+                                                       
+                                        
+    11       Computation of per Share Earnings               26    
+                                        
+                                                       
+    27       Financial Data Schedule                         27
+                                                              
+                                                              
+                            
+            
+                                       
+                                       19
+<PAGE>
+
+
+</TEXT>
+
+</DOCUMENT>
+
+<DOCUMENT>
+<TYPE>EX-10.
+<SEQUENCE>2
+<TEXT>
+
+
+EXHIBIT 10.A.20
+                              Separation Agreement
+
+      In  consideration of the mutual agreements set forth below, Ian Diery
+("Diery")  and Apple Computer, Inc. ("Apple") agree to the following  terms
+and conditions of this Separation Agreement (the "Agreement"):
+
+      1.    Nature  of  Business.  Apple is in the business  of  designing,
+developing,  producing,  selling and marketing  computer  systems,  related
+products  and  services.  The business practices of Apple  and  the  market
+conditions  in which Apple operates change rapidly and these  changes  have
+necessitated    prompt    changes   in   management,    and/or    managers'
+responsibilities.  These changes are needed from time to time in  the  high
+level management positions such as those for which Diery has been employed.
+
+      2.    Resignation  from  Office.  Employee hereby  resigns  from  his
+position as Executive Vice President and General Manager, Personal Computer
+Division,  effective as the date of this Agreement.  Diery  hereby  resigns
+from all other positions he holds on behalf of Apple, its subsidiaries  and
+affiliates,  which  positions are set forth at  Exhibit  A  hereto.   Diery
+agrees  to  sign  all  appropriate  documentation  prepared  by  Apple   to
+facilitate these resignations.
+
+      3.     Employment Status/Termination.  Subject to paragraph 11 below,
+from  the  date  of  this Agreement through October 15, 1995  ("Termination
+Date")  or  such earlier date as a result of an event under  paragraph  11,
+Diery will continue to devote his best efforts to Apple and will remain  an
+employee  of  and fiduciary to Apple reporting to Edward B.  Stead.   Until
+Termination  Date,  Diery  shall continue to receive  his  regular  salary,
+participate  in  the Apple's FY '95 Senior/Executive Incentive  Bonus  Plan
+("Bonus  Plan") and receive medical insurance benefits and agrees  that  he
+will  use  his  accrued  vacation and sabbatical before  Termination  Date.
+Apple  will designate Diery as a participant in Apple's Executive Severance
+Plan  ("Plan")  on  or  about August 15, 1995,  or  such  earlier  date  as
+determined  between the parties, and Diery will become eligible to  receive
+the appropriate compensation and benefits under that Plan.
+
+     4.   Compensation and Benefits Upon Termination.  Subject to paragraph
+11 below, at Termination Date, Apple will pay the following:
+
+           a.   Severance Payments.  Under the Plan, on Termination Date as
+defined  above,  Diery is eligible to receive a lump sum severance  payment
+equal  to  7  months'  pay  and a proration  of  his  FY  '96  bonus,  less
+deductions.   Subject  to paragraph 11 below, Apple will  pay  Diery  eight
+hundred  eighty  seven thousand, four hundred eighty-five thousand  dollars
+($887,485),   less  deductions,  in  full  satisfaction  of   all   Apple's
+obligations under the Plan, Bonus Plan and otherwise.  Diery shall be  paid
+on or about Termination Date and such payment constitutes full compensation
+under  the  Plan  ,  Bonus Plan and otherwise.  There  shall  be  no  other
+payments  to Diery except as stated in this paragraph 4(a) and in paragraph
+3 above and the amount of such payments shall be subject to paragraph 11.
+
+          b.   Satisfaction of Repayment Obligations.  At Termination Date,
+Diery  shall  have  satisfied any and all repayment  obligations  to  Apple
+including  specifically his obligation to satisfy his  promissory  note  to
+Apple relating to a down payment loan.  A copy of the promissory note  date
+December  6,  1989 is attached hereto as Exhibit B.  Diery and Apple  agree
+that the principal and interest due and owing as of October 15, 1995 is two
+hundred  sixty-one  thousand, seven hundred ninety dollar  and  seventy-one
+cents  ($261,790.71).   If this amount (or adjusted  amount  in  the  event
+Diery's  Termination Date is prior to October 15, 1995) remains  unpaid  on
+Termination Date, Diery agrees that the entire sum may be withheld from the
+amounts otherwise payable to him under this Agreement.
+
+           c.   Stock Options.  The Board or Apple's Stock Option Committee
+(the  "Committee") previously granted Diery options to purchase  shares  of
+Apple  Common  Stock under Apple's 1981 and 1990 Stock  Option  Plans  (the
+"1981  and  1990  Plans") and options to purchase  shares  of  stock  under
+Apple's  1987  Executive  Long  Term Stock Option  Plan  ("ELTSOP").   Such
+options  shall continue to vest and be exercisable in accordance  with  the
+terms  of  the grant agreement issued to Diery with respect to such grants,
+and  the  terms  of  the 1981 and 1990 Stock Option Plans  and  the  ELTSOP
+administered by the Board or the Committee.
+
+
+
+
+
+
+
+
+                                       20
+<PAGE>
+
+
+          d.   Receipt of Documentation.  Diery acknowledges that he has
+previously  received  from Apple copies of pertinent  portions  of  Apple's
+Senior/  Executive  Bonus Program, the 1981 and 1990  Stock  Option  Plans,
+Apple's  ELTSOP,  the  Vacation and Holiday Policies, and  Apple's  Benefit
+Plans  relating  to  health  care,  life insurance,  accidental  death  and
+disability,  short  and  long term disability  and  Savings  Plans.   Diery
+understands  and agrees to be bound by the written terms and conditions  of
+these  various  plans,  policies or programs, and  agrees  that  Apple  has
+reserved  the  right  and  option,  in  its  sole  discretion,  to  change,
+interpret,  modify  or  terminate these and all other  plans,  policies  or
+programs at any time without Diery's consent.
+
+           e.    No  Other Benefits.  Diery will not be entitled to receive
+any other compensation, bonus or benefits provided by, through or on behalf
+of  Apple,  its  affiliates or subsidiaries, other than benefits  that  are
+vested  as of the date of this Agreement and that are payable in accordance
+with  the  terms of any applicable Benefit Plan, or otherwise provided  for
+herein.
+
+      5.    Confidentiality.  The terms of this Agreement are confidential.
+Neither  Diery nor Apple will at any time disclose to any third  party  the
+fact or terms of this Agreement, except as authorized by this agreement  or
+as required by law.  Diery may also make such disclosure to his spouse, tax
+advisor  or lawyer, all of whom shall be instructed to keep the information
+disclosed to them confidential; any disclosure by any such party  shall  be
+deemed  a  disclosure by Diery. Apple and Diery shall  not  disparage  each
+other  in their communications in response to all inquiries from the press,
+public media or any other third parties regarding this Agreement or Diery's
+employment termination.
+
+      6.    Trade Secrets, Proprietary and Confidential Information.  Diery
+agrees   to   comply  with  Apple's  "Proprietary  Rights  and  Information
+Agreement" which is attached hereto as Exhibit C to this Agreement
+
+      In  addition, Diery agrees to continue to abide by the principles and
+guidelines  in  Apple's  Global Ethics brochure, the  terms  of  which  are
+incorporated herein.
+
+      On  or  before Termination Date, Diery agrees to promptly return  all
+proprietary and confidential information, including but not limited to  all
+inventions,   discoveries,   improvements,  computer   programs,   designs,
+documentation, notes, plans, drawings and copies thereof to Apple.
+
+      Diery  and  Apple  agree that this section regarding  Trade  Secrets,
+Proprietary  and Confidential Information shall survive the termination  of
+this Agreement.
+
+     7.   Fiduciary Duties/Non-Competition/Non-Solicitation.  Diery further
+recognizes  that  Apple's work force constitutes  an  important  and  vital
+aspect  of  its  business.  Diery agrees, therefore, that both  during  his
+employment with Apple,and  for  a  period of six months following 
+Termination Date, he shall  notsolicit, or assist others to become employed
+by any firm, company or  other business enterprise.  Diery further 
+represents that he has no time prior to this Agreement solicited or 
+encouraged any employee to leave Apple.
+
+      Diery  will  retain his fiduciary responsibilities to  Apple  to  the
+extent  provided by law.  For six months following Termination Date,  Diery
+will  not, without the prior express written consent of Apple, compete with
+Apple  by engaging in or assisting others to develop or market products  or
+services that are in competition with Apple products or services.   Diery's
+agreement  not  to compete is limited to the states of California  and  New
+York only.
+
+      Diery  and  Apple  also  agree, that upon a breach  or  violation  or
+threatened breach or violation of any confidentiality, trade secrets,  non-
+competition or non-solicitation agreement by Diery contained herein, or  if
+any  provision of Sections 5, 6, or 7 of this Agreement, Apple, in addition
+to  all other remedies which might be available to it, shall be entitled as
+a   matter  of  right  to  equitable  relief  in  any  court  of  competent
+jurisdiction, including the right to obtain injunctive relief  or  specific
+performance.  Diery and Apple agree that the remedies at law for  any  such
+breach  or violation are not fully adequate and that the injuries to  Apple
+as a result of the continuation of any breach or violation are incapable of
+full  calculation  in  monetary terms and therefore constitute  irreparable
+harm.  This paragraph 7 shall survive the termination of this Agreement.
+
+
+
+
+
+                                       21
+<PAGE>
+
+
+      8.    Indemnification.   All  rights  of  indemnification  previously
+provided by Apple to Diery by Apple's By-Laws and/or by the Indemnification
+Agreement  dated October 16, 1989, shall continue in full force and  effect
+in  accordance with their terms, following the date of this  Agreement.   A
+copy  of Diery's Indemnification Agreement is attached hereto as Exhibit  D
+to this Agreement.
+
+      9.   Successors.  Apple will require any successor (whether direct or
+indirect,  by  purchase,  merger, consolidation or  otherwise)  to  all  or
+substantially  all  of  the business and/or assets of  Apple  to  expressly
+assume  and agree to perform this Agreement in the manner and to  the  same
+extent that Apple would be required to perform it if no such succession had
+taken  place.   Failure  of Apple to obtain such assumption  and  agreement
+prior  to  the effectiveness of any such succession shall entitle Diery  to
+the  benefits listed in paragraph 4 of this Agreement, subject to the terms
+and conditions therein.
+
+      10.   Governing  Law.   The  validity,  interpretation,  effect,  and
+enforcement of this Agreement shall be governed by the laws of the State of
+California without regard to its choice of law principles.
+
+      11.  Entire Agreement.  This Agreement, and Exhibits A, B, C and D to
+this  Agreement,  set forth the entire Agreement and understanding  between
+Diery   and  Apple,  and  supersede  any  other  negotiations,  agreements,
+understandings,  oral  agreements,  representations  or  past   or   future
+practices,  whether  written  or oral, by Apple.   This  Agreement  may  be
+amended only by written agreement, signed by the parties to be bound by the
+amendment.   Parol evidence will be inadmissible to show agreement  by  and
+between the parties to any term or condition contrary to or in addition  to
+the terms and conditions contained in this Agreement.
+
+      Each  Apple  plan  or  policy  referred  to  herein  directly  or  by
+implication (except the 1981 and 1990 Stock Option Plans and the ELTSOP) is
+incorporated herein only insofar as it does not contradict this  Agreement.
+If  any  inconsistencies exist between this Agreement and any such plan  or
+policy, this Agreement shall control.  If any inconsistencies exist between
+this Agreement and any such plan or policy, this Agreement and the 1981 and
+1990 Stock Option Plans or the ELTSOP, those stock plans shall control.
+
+      Nothing in any such plan, policy, or this Agreement shall change  the
+At  Will  nature of Diery's employment under this Agreement and  under  his
+employment  agreement dated September 15, 1989, by which either  party  can
+terminate  Diery's  employment without regard to cause.  Diery  understands
+and  agrees  that  Apple  is  obligated to make the  payments  outlined  in
+paragraph  3  and  4  of  this Agreement in the  event  Diery's  employment
+terminates before Termination Date for any reason other than:
+          a.   by Apple for "Business Reasons" as defined below;
+     
+           b.    by  Diery for any reason, except if Diery's employment  is
+terminated  for any material  breach by Apple of this Agreement.   In  this
+event, Diery will be entitled to the payments outlined in paragraph 3 and 4
+adjusted  according  to  the  actual,  accelerated  Termination  Date   and
+offsetting  any  payments  made to him prior  to  the  actual,  accelerated
+Termination Date;
+
+For purposes of this Agreement only, "Business Reasons" shall mean that you
+are terminated for the following reasons:
+
+               (i)  you have engaged in unfair competition with Apple; or
+
+                (ii)  you have induced any customer of Apple to breach  any
+contract with Apple;
+
+                (iii)     you have made any unauthorized disclosure  of  or
+otherwise  misused any of the secrets  or confidential information of Apple;
+
+                (iv)  you have committed any act of embezzlement, fraud  or
+theft with respect to any Apple property;
+
+                (v)  you have violated any Apple policy or guideline or the
+terms of this Agreement;
+
+
+
+
+
+
+
+                                       22
+<PAGE>
+
+                (vi) you have caused material loss, damage or injury to  or
+otherwise   endangered  the  property, reputation   or employees of Apple;
+
+                (vii)      you  have engaged in malfeasance, negligence  or
+misconduct,  or  failed  to perform reasonable duties  and responsibilities
+consistent with your fiduciary duties and responsibilities to Apple; or
+
+                (viii)     you  have  failed  to  act  in  accordance  with
+specific,    reasonable    and    lawful    instructions    from    Apple's
+Chief Executive Officer, or his delegate.
+
+      12.   Right to Advice of Counsel.  Diery understands that he has  the
+right  to have this Agreement reviewed by his lawyer and acknowledges  that
+Apple  has  encouraged him to consult with his lawyer so that he  is  fully
+aware   of  his  rights  and  obligations  under  this  Agreement.    Diery
+acknowledges that he has done so.
+
+      13.   Modification.   This Agreement may not  be  amended,  modified,
+changed or discharged in any respect except as agreed in writing and signed
+by Diery and the Chief Executive Officer of Apple Computer, Inc.
+
+     14.  Severability and Interpretation.  In the event that any provision
+or  any  portion  of this Agreement is held invalid or unenforceable  by  a
+court of competent jurisdiction, such provision or portion thereof shall be
+considered separate and apart from the remainder of this Agreement and  the
+other  provisions shall remain fully valid and enforceable, provided  that,
+if paragraphs 5, 6, 7, 19 and 21 are held to be invalid or unenforceable in
+response  to a motion, argument or other act by Diery, then Apple,  at  its
+sole  discretion,  may rescind the Agreement and recover all  consideration
+paid to Diery under the Agreement.
+
+      15.   Notices.  All notices required by this Agreement shall by given
+in  writing  either  by personal delivery or by first  class  mail,  return
+receipt requested.  Notices shall be addressed as follows:
+
+     To Apple: Apple Computer, Inc.
+               1 Infinite Loop, Mail Stop 38-I
+               Cupertino, California 95014
+               Attention:  General Counsel
+
+     To Diery : 4175 Woodside Road
+                Woodside, California 94062
+
+
+or  in  each case to such other address as Diery or Apple shall notify  the
+other.   Notice given by mail shall be deemed given five (5) days following
+the date of mailing.
+
+      16.   Miscellaneous.  The rights and obligations of Apple under  this
+Agreement  shall  inure to the benefit of and shall  be  binding  upon  the
+present  and  future subsidiaries of Apple, any and all subsidiaries  of  a
+subsidiary,  all  affiliated corporations, and successors  and  assigns  of
+Apple.  No assignment of this Agreement by Apple will relieve Apple of  its
+obligations.   Diery shall not assign any of his rights and/or  obligations
+under this Agreement and any such attempted assignment will be void.   This
+Agreement shall be binding upon Diery heirs, executors, administrators,  or
+other legal representatives and their legal assigns.
+
+      17.   Damage  Limitation.  At Termination Date, Diery  shall  not  be
+entitled  to  recover  any  compensation, benefits  or  damages  except  as
+specifically described in this Agreement.  This damage waiver provides that
+no  damages (including without limitation, special, consequential, general,
+liquidated or punitive damages) shall be sought or due from Apple.
+
+      18.   Waiver.   A  waiver by either party of  any  of  the  terms  or
+conditions  of  this  Agreement in any instance  shall  not  be  deemed  or
+construed  to be a waiver of such term or condition for the future,  or  of
+any   subsequent  breach  thereof.   All  remedies,  rights,  undertakings,
+obligations, and agreements contained in this Agreement shall be cumulative
+and  none  of  them  shall  be in limitation of any  other  remedy,  right,
+undertaking, obligation or agreement of either party.
+
+
+
+
+
+                                       23
+<PAGE>
+
+
+     19.  Release.  Diery hereby completely releases and forever discharges
+Michael  Spindler,  Apple,  its  officers,  directors,  agents,  employees,
+attorneys,  insurers, subsidiaries and affiliates ("Apple  Parties")  from,
+and  covenants  not  to sue any Apple Party with respect  to,  all  claims,
+rights,  demands,  actions,  obligations, debts,  sums  of  money,  damages
+(including  but  not limited to general, special, punitive, liquidated  and
+compensatory  damages)  and  causes of action of  every  kind,  nature  and
+character,  known  and  unknown, in law or equity, connected  with  Diery's
+employment  relationship  with  the Apple Parties,  or  any  other  act  or
+omission of any Apple Party which may have occurred prior to the date  this
+Agreement  is  signed.   Diery further agrees that by  his  acceptance  and
+negotiation of the payment provided for in paragraph (4) of this Agreement,
+he   thereby  completely releases and forever discharges the Apple  Parties
+from, and covenants not to sue any Apple Party with respect to, all claims,
+rights,  demands,  actions,  obligations, debts,  sums  of  money,  damages
+(including  but  not limited to general, special, punitive, liquidated  and
+compensatory  damages)  and  causes of action of  every  kind,  nature  and
+character,  known  and  unknown, in law or equity, connected  with  Diery's
+employment relationship with the Apple Parties, or the termination of  such
+relationship,  or any other act or omission of any Apple  Party  which  may
+have  occurred  prior  to  Termination Date.  This  release  and  discharge
+includes,  but  is  not  limited to, all "wrongful discharge"  claims;  all
+claims  relating  to any contracts of employment express  or  implied;  any
+covenant of good faith and fair dealing express or implied; any tort of any
+nature:  any federal, state, or municipal statute or ordinance; any  claims
+under  the  California Fair Employment and Housing Act, Title  VII  of  the
+Civil  Rights Act of 1964, 42 U.S.C. Section 1981, and any other  laws  and
+regulations  relating to employment discrimination and any and  all  claims
+for  attorney's fees and costs.  Diery specifically acknowledges  that  the
+foregoing  release includes a complete release and discharge of  all  Apple
+Parties  from  any  and  all claims, damages of any kind,  and  claims  for
+attorneys fees and costs, under the Age Discrimination in Employment Act of
+1967  ("ADEA")  as  amended  by  the Older Worker  Benefit  Protection  Act
+("OWBPA").  Diery and Apple agree that part of the consideration payable to
+Diery  under this Agreement is consideration that Diery would not otherwise
+be  entitled to and is in consideration for Diery's release of claims under
+the ADEA as amended by the OWBPA.
+
+     Diery acknowledges that he understands the protections provided by the
+OWBPA  and that the provisions of the OWBPA have been met by the  terms  of
+this Agreement.  Diery states that he knowingly and voluntarily enters into
+this  Agreement.  Diery acknowledges that this Agreement is  written  in  a
+manner calculated to be understood by him. Diery further acknowledges  that
+this   Agreement  refers  without  limitation  to  rights  under  the   Age
+Discrimination  in  Employment  Act.   Diery  understands  that   by   this
+Agreement, he does not waive rights or claims that may arise after the date
+the  Agreement  is executed.  Diery acknowledges that he is  entering  this
+Agreement in exchange for consideration in addition to anything of value to
+which  he  already is entitled due to his employment with Apple.   Further,
+Diery  acknowledges  that this release of claims under  the  OWBPA  is  not
+requested  in connection with an exit incentive program or other employment
+termination  program  offered to a group or class of employees  within  the
+meaning  of  OWBPA. Diery acknowledges that he has been allowed  up  to  21
+(twenty-one) days from the date that he received this Agreement  to  accept
+its  terms.  Diery acknowledges he has consulted with an attorney about the
+Agreement.  Diery acknowledges that after he signs the Agreement,  he  will
+then  be  given  seven (7) days following the date on which  he  signs  the
+Agreement  to revoke it and that this Agreement will only become  effective
+after this seven (7) day period has lapsed.  Any such revocation must be in
+writing  signed  by  Diery  and immediately delivered  to  Apple's  General
+Counsel.
+
+      Diery  has  read and expressly waives Section 1542 of the  California
+Civil Code, which provides as follows:
+
+      A  GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR  DOES
+NOT  KNOW  OR  SUSPECT TO EXIST IN HIS FAVOR AT THE TIME OF  EXECUTING  THE
+RELEASE,  WHICH  IF  KNOWN  BY HIM  MUST HAVE  MATERIALLY  AFFECTED  HIS
+SETTLEMENT WITH THE DEBTOR.
+
+     This waiver is not a mere recital, but is a known waiver of rights and
+benefits.   This  is  a bargained-for provision of this  Agreement  and  is
+further consideration for the covenants and conditions contained herein.
+
+      The  Apple  Parties hereby release and forever discharge  Diery,  his
+agents  and  attorneys from, and covenant not to sue Diery, his agents  and
+attorneys   with   respect  to,  all  claims,  rights,  demands,   actions,
+obligations, debts, sums of money, damages, and causes of action ("claims")
+arising from his employment relationship with Apple to the extent permitted
+by  law  and  public  policy,  except  for  any  claims  arising  from  any
+intentional  acts of misconduct, or any other act taken  in  bad  faith  or
+without a reasonable belief that it was in the best interests of the  Apple
+Parties.
+
+
+
+
+
+                                       24
+<PAGE>
+
+
+     20.  Cooperation.  Diery agrees that at all times he will make himself
+available,  for  such  amounts  of time as Apple's  General  Counsel  shall
+reasonably deem necessary, to participate in the conduct of and preparation
+for any pending or future litigation to which Apple is a party and in which
+his experience or knowledge may be relevant.  Diery shall be reimbursed for
+reasonable  travel and out-of-pocket expenses incurred  by  virtue  of  his
+cooperation  as  described in this paragraph.  In  no  respect  shall  this
+provision  be  deemed to pertain to or affect the nature  or  substance  of
+Diery  testimony at deposition or trial or in any other truthful  testimony
+at deposition or trial or in any other circumstances.
+
+     21.  Remedies in Event of Future Dispute.
+
+           a.    Except as provided in subparagraph (b) below, in the event
+of  any  future  dispute, controversy or claim between the parties  arising
+from  or  relating to this Agreement, its breach, any matter  addressed  by
+this  Agreement,  and/or Diery's employment with Apple through  Termination
+Date,  the  parties  will  first attempt to  resolve  the  dispute  through
+confidential mediation to be conducted in San Francisco by a member of  the
+firm  of  Gregoria,  Haldeman & Piazza, Mediated Negotiations,  625  Market
+Street,  Suite  400,  San  Francisco, California 94105.   If  the  parties'
+dispute  is  not  resolved through mediation, it will be  resolved  through
+binding   confidential  arbitration  to  be  conducted  by  the    American
+Arbitration  Association  in  San Francisco,  pursuant  to  its  Commercial
+Arbitration   Rules,  and  judgment  upon  the  award   rendered   by   the
+Arbitrator(s)  may  be  entered by any court  having  jurisdiction  of  the
+matter.   The  prevailing party in such arbitration shall  be  entitled  to
+recover  from the losing party, not only the amount of any judgment awarded
+in  its  favor,  but  also  any and all costs  and  expenses,  incurred  in
+arbitrating the dispute or in preparing for such arbitration.
+
+           b.    In  the  event that a dispute arises concerning compliance
+with  this Agreement, either party will be entitled to obtain from a  court
+with  jurisdiction  over the parties preliminary and  permanent  injunctive
+relief  to enjoin or restrict the other party from such breach or to enjoin
+or  restrict  a  third  party  from inducing any  such  breach,  and  other
+appropriate  relief, including money damages.  In seeking any such  relief,
+however,  the  moving  party will retain the right to  have  any  remaining
+portion of the controversy resolved by binding confidential arbitration  in
+accordance with subparagraph (a) above.
+
+     By signing the below, the parties agree to the terms hereof, including
+the  Exhibits hereto, and agree that this document, and Exhibits A,  B,  C,
+and D hereto, sets forth their entire agreement.
+
+                                   APPLE COMPUTER, INC.
+
+
+                                   By
+     Date                          Edward B. Stead
+                                   Vice President and General Counsel
+                                   Apple Computer, Inc.
+
+
+I have read, understand, and agree to the foregoing:
+
+
+
+Date                               Ian Diery
+
+
+APPROVED AS TO FORM:
+
+
+
+
+                                        By
+  Date                                  Attorney for Ian Diery
+
+                                       25
+<PAGE>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-11
+<SEQUENCE>3
+<TEXT>
+
+                                   EXHIBIT  11
+                                        
+                              APPLE COMPUTER, INC.
+                                        
+                    COMPUTATION OF EARNINGS PER COMMON SHARE
+                                        
+                    (In thousands, except per share amounts)
+                                        
+
+<TABLE>                                                     
+<CAPTION>
+                               Three Months Ended   Six Months Ended
+                                    
+                               March 31,   April 1,  March 31,   April 1,
+                                    1995       1994       1995       1994
+                                  
+<S>                           <C>         <C>        <C>       <C>                
+Primary Earnings Per  Share                                     
+                                                                
+Earnings                                                      
+  Net  income applicable       $  72,917  $  17,404  $ 261,103  $  57,422
+  to common stock                  
+                                                                    
+Shares                                                            
+  Weighted average number                                        
+  of common shares         
+  outstanding                    120,860    117,591    120,333    116,929
+                                                                    
+  Adjustment for dilutive                                        
+  effect of outstanding stock      1,784      1,353      1,789      1,021
+  options
+                                                                    
+  Weighted average number of                                        
+  common and common equivalent   
+  shares used for primary 
+  earnings per share             122,644   118,944     122,122    117,950
+                                                                    
+  Primary   earnings   per      $   0.59  $   0.15    $   2.14   $   0.49
+  common share                      
+                                                                    
+Fully  Diluted Earnings  Per                                        
+Share
+                                                                    
+Earnings  
+                                                    
+  Net income applicable         $ 72,917  $ 17,404    $261,103   $ 57,422
+  to common stock                  
+                                                                    
+Shares                                                            
+     
+  Weighted average number                                        
+  of common shares               120,860   117,591     120,333    116,929
+  outstanding
+                                                                    
+  Adjustment for dilutive                                        
+  effect of  outstanding           
+  stock options                    1,788     1,365       1,819      1,059
+                                                                    
+  Weighted average number of                                        
+  common and common equivalent   
+  shares used for fully diluted 
+  earnings per share             122,648   118,956     122,152    117,988
+                                                                    
+  Fully diluted earnings per    
+  common share                  $   0.59  $   0.15    $   2.14   $   0.49       
+                                                                    
+</TABLE>                                                        
+                                       26
+<PAGE>
+THIS  SCHEDULE  CONTAINS  SUMMARY  FINANCIAL  INFORMATION  EXTRACTED  FROM   THE
+CONSOLIDATED BALANCE SHEETS AND CONDENSED CONSOLIDATED STATEMENTS OF  INCOME  OF
+APPLE  COMPUTER,  INC.  AND IS QUALIFIED IN ITS ENTIRETY BY  REFERENCE  TO  SUCH
+FINANCIAL STATEMENTS
+
+
+</TEXT>
+
+</DOCUMENT>
+
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>4
+<DESCRIPTION>ART. 5 FDS FOR THE SECOND QUARTER OF FY95 FORM 10-Q
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE>           5       
+
+<MULTIPLIER>                            1,000,000
+                                        
+<S>                                     <C>             <C>
+<PERIOD-TYPE>                           6-MOS         
+<FISCAL-YEAR-END>                                        SEP-29-1995
+<PERIOD-END>                                             MAR-31-1995
+                                        
+<CASH>                                                         1,375
+<SECURITIES>                                                     611
+<RECEIVABLES>                                                  1,730
+<ALLOWANCES>                                                      97
+<INVENTORY>                                                      984
+<CURRENT-ASSETS>                                               5,161
+<PP&E>                                                         1,454
+<DEPRECIATION>                                                   791
+<TOTAL-ASSETS>                                                 6,050
+<CURRENT-LIABILITIES>                                          2,243
+<BONDS>                                                          304
+<COMMON>                                                         339
+<PREFERRED-MANDATORY>                                              0
+<PREFERRED>                                                        0
+<OTHER-SE>                                                     2,375
+<TOTAL-LIABILITY-AND-EQUITY>                                   6,050
+                                                                    
+<SALES>                                                        5,484
+<TOTAL-REVENUES>                                               5,484
+<CGS>                                                          3,975
+<TOTAL-COSTS>                                                  3,975
+<OTHER-EXPENSES>                                               1,059
+<LOSS-PROVISION>                                                   0
+<INTEREST-EXPENSE>                                                17
+<INCOME-PRETAX>                                                  415
+<INCOME-TAX>                                                     154
+<INCOME-CONTINUING>                                              261
+<DISCONTINUED>                                                     0
+<EXTRAORDINARY>                                                    0
+<CHANGES>                                                          0
+<NET-INCOME>                                                     261
+<EPS-PRIMARY>                                                   2.14
+<EPS-DILUTED>                                                   2.14
+        
+                                       
+<PAGE>                          
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</IMS-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----
