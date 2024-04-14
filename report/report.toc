@@ -25,5 +25,8 @@
 \contentsline {section}{\numberline {2.3}Transaction Costs}{10}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Documentation}{12}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Gym Environments}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}AbstractPortfolioEnvWithTCost}{12}{section.3.2}%
-\contentsline {chapter}{Bibliography}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.2}RL Framework}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}AbstractRewardManager}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}AbstractDataManager}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}PortfolioEnvWithTCost}{13}{subsection.3.2.3}%
+\contentsline {chapter}{Bibliography}{16}{subsection.3.2.3}%
