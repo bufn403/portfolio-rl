@@ -2,7 +2,37 @@
 
 \section{Gym Environments}
 
-WIP
+Gymnasium is an open-source reinforcement learning environment.
+Its goal is to standardize the interface between reinforcement learning algorithms
+and their environments.
+
+Much of the information for this section is taken from their documentation: https://gymnasium.farama.org/
+
+The extendable base class for the gym environment is \texttt{gym.Env}. A subclass must define the following two methods:
+\begin{itemize}
+  \item \texttt{reset()} initializes the environment. Its return type is \texttt{tuple[ObsType, dist[str, Any]]}.
+  The first element is the initial state, and the dictionary is for intitial logging information.
+  \item \texttt{step(a: ActType)} performs one update of the environment where the agent takes action \texttt{a}.
+  Its return type is \texttt{tuple[ObsType, float, bool, bool, dist[str, Any]]}. In order, the elements are:
+  (1) the next state provided to the agent, (2) the reward value for that step, (3) whether the environment has terminated,
+  (4) whether the environment has truncated, and (5) a dictionary of logging information.
+\end{itemize}
+
+\texttt{ObsType} and \texttt{ActType} are the types of the observation (state) space and action spaces, respectively,
+which must set within the environment initialization. There are a few standard types of spaces supported by Gymnasium:
+
+\begin{itemize}
+  \item \texttt{gym.spaces.Discrete(n)}: A set of \texttt{n} distinct discrete values.
+  \item \texttt{gym.spaces.Box(low, high, shape, dtype)}: A generalized rectangle. The dimensions are
+  specified by the \texttt{shape} parameter, and all entries have \texttt{dtype} type (generally \texttt{np.float64}). Each component
+  can have its own upper and lower bound if they are tuples (if a single float is provided, that bound is used for all components).
+  \item \texttt{gym.spaces.Tuple(spaces)}: A space that is a tuple (cartesian product) of other spaces.
+\end{itemize}
+
+It is possible to define custom spaces, but standard RL training algorithms and models
+generally only support select compositions of the standard spaces.
+
+
 
 \section{RL Framework}
 
@@ -150,6 +180,7 @@ class PortfolioEnvWithTCost(gym.Env):
     Uses the iterative technique to find mu for the given old weights
     (after returns), new weights, and the transaction cost commision rates.
     """
+    pass
 
 def step(self, action: npt.NDArray[np.float64]) -> tuple:
   """
@@ -168,6 +199,7 @@ def step(self, action: npt.NDArray[np.float64]) -> tuple:
   # obtain the new state using the data manager
   # update all instance variables
   # if logging enabled, return the portfolio value in addition to
+  pass
 
 def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
   """
@@ -177,17 +209,5 @@ def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
   # reset portfolio weights
   # initialize reward manager
   # obtain initial state and prices from data manager
-    # portfolio weights (final is cash weight)
-    self.w = np.zeros(self.universe_size + 1, dtype=float)
-    self.w[-1] = 1.0
-
-    self.port_val = 1.0
-
-    self.rm.initialize_reward()
-
-    # compute and return initial state
-    self.t = 0
-    self.state = self.dm.get_state(self.t, self.w, self.port_val)
-    self.v = self.dm.get_prices(self.t)
-    return self.state.copy(), {}
+  pass
 \end{minted}
