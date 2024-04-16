@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -52,6 +52,14 @@ Jinho Lee, Raehyun Kim, Seok-Won Yi, and Jaewoo Kang.
 \newblock \doi{10.24963/ijcai.2020/623}.
 \newblock URL \url{http://arxiv.org/abs/2007.05402}.
 \newblock arXiv:2007.05402 [cs].
+
+\bibitem[François-Lavet et~al.(2018)François-Lavet, Henderson, Islam, Bellemare, and Pineau]{introtodeeprl}
+Vincent François-Lavet, Peter Henderson, Riashat Islam, Marc~G. Bellemare, and Joelle Pineau.
+\newblock An introduction to deep reinforcement learning.
+\newblock \emph{Foundations and Trends® in Machine Learning}, 11\penalty0 (3–4):\penalty0 219–354, 2018.
+\newblock ISSN 1935-8245.
+\newblock \doi{10.1561/2200000071}.
+\newblock URL \url{http://dx.doi.org/10.1561/2200000071}.
 
 \bibitem[Moody and Wu()]{diff_sharpe_ratio_paper}
 J.~Moody and Lizhong Wu.

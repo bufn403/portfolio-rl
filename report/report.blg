@@ -13,45 +13,45 @@ Warning--empty year in diff_sharpe_ratio_paper
 Warning--empty year in diff_sharpe_ratio_paper
 Warning--empty year in diff_sharpe_ratio_book
 Warning--empty year in diff_sharpe_ratio_book
-You've used 9 entries,
+You've used 10 entries,
             2481 wiz_defined-function locations,
-            627 strings with 7420 characters,
-and the built_in function-call counts, 4459 in all, are:
-= -- 398
-> -- 242
+            639 strings with 7726 characters,
+and the built_in function-call counts, 4969 in all, are:
+= -- 441
+> -- 275
 < -- 6
-+ -- 89
-- -- 71
-* -- 363
-:= -- 694
-add.period$ -- 47
-call.type$ -- 9
-change.case$ -- 18
-chr.to.int$ -- 9
-cite$ -- 16
-duplicate$ -- 211
-empty$ -- 366
-format.name$ -- 84
-if$ -- 967
++ -- 101
+- -- 81
+* -- 414
+:= -- 781
+add.period$ -- 53
+call.type$ -- 10
+change.case$ -- 20
+chr.to.int$ -- 10
+cite$ -- 17
+duplicate$ -- 230
+empty$ -- 406
+format.name$ -- 95
+if$ -- 1072
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 7
-newline$ -- 71
-num.names$ -- 29
-pop$ -- 86
+int.to.str$ -- 11
+missing$ -- 8
+newline$ -- 79
+num.names$ -- 32
+pop$ -- 90
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 10
 quote$ -- 0
-skip$ -- 135
+skip$ -- 145
 stack$ -- 0
-substring$ -- 191
-swap$ -- 63
+substring$ -- 220
+swap$ -- 65
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 63
+type$ -- 70
 warning$ -- 7
-while$ -- 34
+while$ -- 37
 width$ -- 0
-write$ -- 158
+write$ -- 177
 (There were 7 warnings)
