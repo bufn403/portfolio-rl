@@ -1,0 +1,77 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k+kn}{from} \PYG{n+nn}{abc} \PYG{k+kn}{import} \PYG{n}{ABC}\PYG{p}{,} \PYG{n}{abstractmethod}
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{import} \PYG{n+nn}{numpy}\PYG{n+nn}{.}\PYG{n+nn}{typing} \PYG{k}{as} \PYG{n+nn}{npt}
+\PYG{k+kn}{import} \PYG{n+nn}{gymnasium} \PYG{k}{as} \PYG{n+nn}{gym}
+
+\PYG{k}{class} \PYG{n+nc}{PortfolioEnvWithTCost}\PYG{p}{(}\PYG{n}{gym}\PYG{o}{.}\PYG{n}{Env}\PYG{p}{)}\PYG{p}{:}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}
+    \PYG{n+nb+bp}{self}\PYG{p}{,}
+    \PYG{n}{dm}\PYG{p}{:} \PYG{n}{AbstractDataManager}\PYG{p}{,}
+    \PYG{n}{rm}\PYG{p}{:} \PYG{n}{AbstractRewardManager}\PYG{p}{,}
+    \PYG{n}{w\PYGZus{}lb}\PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{w\PYGZus{}ub}\PYG{o}{=}\PYG{l+m+mf}{1.0}\PYG{p}{,}
+    \PYG{n}{cp}\PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{cs}\PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{,}
+    \PYG{n}{logging}\PYG{o}{=}\PYG{k+kc}{True}
+  \PYG{p}{)}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Initializes the environment with the given managers and constants.}
+\PYG{l+s+sd}{    w\PYGZus{}lb and w\PYGZus{}ub are the lower and upper bounds for the portfolio weights.}
+\PYG{l+s+sd}{    cp and cs are commision weights for purchasing and selling assets.}
+\PYG{l+s+sd}{    If logging is enabled, step() will return the portfolio value.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{c+c1}{\PYGZsh{} register managers}
+    \PYG{c+c1}{\PYGZsh{} set constants from given arguments}
+
+    \PYG{c+c1}{\PYGZsh{} get data from manager}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{num\PYGZus{}time\PYGZus{}periods}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{universe\PYGZus{}size} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{dm}\PYG{o}{.}\PYG{n}{get\PYGZus{}data}\PYG{p}{(}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} set environment observation and action spaces}
+    \PYG{k}{assert} \PYG{n}{w\PYGZus{}lb} \PYG{o}{\PYGZlt{}}\PYG{o}{=} \PYG{n}{w\PYGZus{}ub}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{observation\PYGZus{}space} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{dm}\PYG{o}{.}\PYG{n}{get\PYGZus{}obs\PYGZus{}space}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{action\PYGZus{}space} \PYG{o}{=} \PYG{n}{gym}\PYG{o}{.}\PYG{n}{spaces}\PYG{o}{.}\PYG{n}{Box}\PYG{p}{(}
+      \PYG{n}{low}\PYG{o}{=}\PYG{n}{w\PYGZus{}lb}\PYG{p}{,}
+      \PYG{n}{high}\PYG{o}{=}\PYG{n}{w\PYGZus{}ub}\PYG{p}{,}
+      \PYG{n}{shape}\PYG{o}{=}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{universe\PYGZus{}size} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,}\PYG{p}{)}\PYG{p}{,}
+      \PYG{n}{dtype}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{float64}
+    \PYG{p}{)}
+
+  \PYG{k}{def} \PYG{n+nf}{find\PYGZus{}mu}\PYG{p}{(}
+    \PYG{n+nb+bp}{self}\PYG{p}{,}
+    \PYG{n}{w\PYGZus{}old}\PYG{p}{:} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{float64}\PYG{p}{]}\PYG{p}{,}
+    \PYG{n}{w\PYGZus{}new} \PYG{o}{=} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{float64}\PYG{p}{]}
+  \PYG{p}{)} \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{n+nb}{float}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Uses the iterative technique to find mu for the given old weights}
+\PYG{l+s+sd}{    (after returns), new weights, and the transaction cost commision rates.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{pass}
+
+\PYG{k}{def} \PYG{n+nf}{step}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{action}\PYG{p}{:} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{float64}\PYG{p}{]}\PYG{p}{)} \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{n+nb}{tuple}\PYG{p}{:}
+\PYG{+w}{  }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{  Performs one time step update using the agent\PYGZsq{}s action.}
+\PYG{l+s+sd}{  Returns: a tuple of}
+\PYG{l+s+sd}{    \PYGZhy{} copy of the new state}
+\PYG{l+s+sd}{    \PYGZhy{} reward for the action}
+\PYG{l+s+sd}{    \PYGZhy{} whether the environment has terminated (reached end of data)}
+\PYG{l+s+sd}{    \PYGZhy{} whether the environment has truncated (always False)}
+\PYG{l+s+sd}{    \PYGZhy{} information dictionary (possibly containing portfolio value)}
+\PYG{l+s+sd}{  \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+  \PYG{c+c1}{\PYGZsh{} check that the action is normalized}
+  \PYG{c+c1}{\PYGZsh{} find the value of mu using the helper function}
+  \PYG{c+c1}{\PYGZsh{} perform the weight and portfolio value updates}
+  \PYG{c+c1}{\PYGZsh{} obtain the reward uding the reward manager}
+  \PYG{c+c1}{\PYGZsh{} obtain the new state using the data manager}
+  \PYG{c+c1}{\PYGZsh{} update all instance variables}
+  \PYG{c+c1}{\PYGZsh{} if logging enabled, return the portfolio value in addition to}
+  \PYG{k}{pass}
+
+\PYG{k}{def} \PYG{n+nf}{reset}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{*}\PYG{n}{args}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)} \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{n+nb}{tuple}\PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{ndarray}\PYG{p}{,} \PYG{n+nb}{dict}\PYG{p}{]}\PYG{p}{:}
+\PYG{+w}{  }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{  Resets the environment to an initial state.}
+\PYG{l+s+sd}{  Returns: the initial state and an empty dictionary (required by gym).}
+\PYG{l+s+sd}{  \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+  \PYG{c+c1}{\PYGZsh{} reset portfolio weights}
+  \PYG{c+c1}{\PYGZsh{} initialize reward manager}
+  \PYG{c+c1}{\PYGZsh{} obtain initial state and prices from data manager}
+  \PYG{k}{pass}
+\end{Verbatim}
