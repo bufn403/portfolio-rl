@@ -1,0 +1,123 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{class} \PYG{n+nc}{AbstractPortfolioEnvWithTCost}\PYG{p}{(}\PYG{n}{gym}\PYG{o}{.}\PYG{n}{Env}\PYG{p}{):}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{w\PYGZus{}lb}\PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{w\PYGZus{}ub}\PYG{o}{=}\PYG{l+m+mf}{1.0}\PYG{p}{,} \PYG{n}{cp}\PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{cs}\PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{logging}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{):}
+    \PYG{c+c1}{\PYGZsh{} set constants}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eta} \PYG{o}{=} \PYG{l+m+mi}{1} \PYG{o}{/} \PYG{l+m+mi}{252}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cp}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cs} \PYG{o}{=} \PYG{n}{cp}\PYG{p}{,} \PYG{n}{cs}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{logging} \PYG{o}{=} \PYG{n}{logging}
+
+    \PYG{c+c1}{\PYGZsh{} get data, set problem size}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{num\PYGZus{}time\PYGZus{}periods}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{universe\PYGZus{}size} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}data}\PYG{p}{()}
+
+    \PYG{c+c1}{\PYGZsh{} set spaces}
+    \PYG{k}{assert} \PYG{n}{w\PYGZus{}lb} \PYG{o}{\PYGZlt{}=} \PYG{n}{w\PYGZus{}ub}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{observation\PYGZus{}space} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}obs\PYGZus{}space}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{action\PYGZus{}space} \PYG{o}{=} \PYG{n}{gym}\PYG{o}{.}\PYG{n}{spaces}\PYG{o}{.}\PYG{n}{Box}\PYG{p}{(}
+      \PYG{n}{low}\PYG{o}{=}\PYG{n}{w\PYGZus{}lb}\PYG{p}{,}
+      \PYG{n}{high}\PYG{o}{=}\PYG{n}{w\PYGZus{}ub}\PYG{p}{,}
+      \PYG{n}{shape}\PYG{o}{=}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{universe\PYGZus{}size} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,),}
+      \PYG{n}{dtype}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{float32}
+    \PYG{p}{)}
+
+  \PYG{n+nd}{@abstractmethod}
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}obs\PYGZus{}space}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{gym}\PYG{o}{.}\PYG{n}{spaces}\PYG{o}{.}\PYG{n}{Box}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Result is assigned to ``self.observation\PYGZus{}space``\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{pass}
+
+  \PYG{n+nd}{@abstractmethod}
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}data}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{tuple}\PYG{p}{[}\PYG{n+nb}{int}\PYG{p}{,} \PYG{n+nb}{int}\PYG{p}{]:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    This abstract function loads/fetches state data and stores it on the environment.}
+\PYG{l+s+sd}{    This will be called during initialization. The properties assigned here should be}
+\PYG{l+s+sd}{    accessed into the \PYGZus{}\PYGZus{}compute\PYGZus{}state() method. Note that the data should provide for}
+\PYG{l+s+sd}{    one more than the number of time periods desired (for the initial state).}
+\PYG{l+s+sd}{    :return: (number of time periods, number of stock tickers)}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{pass}
+
+  \PYG{n+nd}{@abstractmethod}
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}state}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n+nb}{float}\PYG{p}{]:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Computes and returns the new state at time ``self.t`` (to be used for}
+\PYG{l+s+sd}{    calculating weights at the start of time period ``self.t+1``).}
+\PYG{l+s+sd}{    When ``self.t == 0``, it should output the initial state.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{pass}
+
+  \PYG{n+nd}{@abstractmethod}
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}prices}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n+nb}{float}\PYG{p}{]:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Obtains the security prices at time ``self.t`` (at the}
+\PYG{l+s+sd}{    beginning of time period ``self.t+1``). When ``self.t == 0``, it}
+\PYG{l+s+sd}{    should output the initial prices.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{pass}
+
+  \PYG{k}{def} \PYG{n+nf}{initialize\PYGZus{}reward}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{A}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{B} \PYG{o}{=} \PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{l+m+mf}{0.0}
+
+  \PYG{k}{def} \PYG{n+nf}{compute\PYGZus{}reward}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{float}\PYG{p}{:}
+    \PYG{n}{R} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{log}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{new\PYGZus{}port\PYGZus{}val} \PYG{o}{/} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{port\PYGZus{}val}\PYG{p}{)}
+    \PYG{n}{dA} \PYG{o}{=} \PYG{n}{R} \PYG{o}{\PYGZhy{}} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{A}
+    \PYG{n}{dB} \PYG{o}{=} \PYG{n}{R} \PYG{o}{**} \PYG{l+m+mi}{2} \PYG{o}{\PYGZhy{}} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{B}
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{B} \PYG{o}{\PYGZhy{}} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{A} \PYG{o}{**} \PYG{l+m+mi}{2} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{n}{D} \PYG{o}{=} \PYG{l+m+mi}{0}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{n}{D} \PYG{o}{=} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{B} \PYG{o}{*} \PYG{n}{dA} \PYG{o}{\PYGZhy{}} \PYG{l+m+mf}{0.5} \PYG{o}{*} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{A} \PYG{o}{*} \PYG{n}{dB}\PYG{p}{)} \PYG{o}{/} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{B} \PYG{o}{\PYGZhy{}} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{A} \PYG{o}{**} \PYG{l+m+mi}{2}\PYG{p}{)} \PYG{o}{**} \PYG{p}{(}\PYG{l+m+mi}{3} \PYG{o}{/} \PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{A} \PYG{o}{+=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eta} \PYG{o}{*} \PYG{n}{dA}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{B} \PYG{o}{+=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eta} \PYG{o}{*} \PYG{n}{dB}
+    \PYG{k}{return} \PYG{n}{D}
+
+  \PYG{k}{def} \PYG{n+nf}{find\PYGZus{}mu}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{w\PYGZus{}old}\PYG{p}{:} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n+nb}{float}\PYG{p}{],} \PYG{n}{w\PYGZus{}new} \PYG{o}{=} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n+nb}{float}\PYG{p}{])} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{float}\PYG{p}{:}
+    \PYG{n}{cp}\PYG{p}{,} \PYG{n}{cs} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cp}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cs}
+
+    \PYG{k}{def} \PYG{n+nf}{f}\PYG{p}{(}\PYG{n}{mu}\PYG{p}{:} \PYG{n+nb}{float}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{float}\PYG{p}{:}
+        \PYG{k}{return} \PYG{p}{((}\PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}} \PYG{n}{cp} \PYG{o}{*} \PYG{n}{w\PYGZus{}new}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{p}{(}\PYG{n}{cs} \PYG{o}{+} \PYG{n}{cs} \PYG{o}{\PYGZhy{}} \PYG{n}{cs}\PYG{o}{*}\PYG{n}{cp}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{w\PYGZus{}new}\PYG{p}{[:}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{mu} \PYG{o}{*} \PYG{n}{w\PYGZus{}old}\PYG{p}{[:}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{])}\PYG{o}{.}\PYG{n}{clip}\PYG{p}{(}\PYG{n+nb}{min}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{o}{.}\PYG{n}{sum}\PYG{p}{())} \PYG{o}{/}
+                \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}} \PYG{n}{cp} \PYG{o}{*} \PYG{n}{w\PYGZus{}old}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]))}
+
+    \PYG{n}{mu} \PYG{o}{=} \PYG{l+m+mf}{0.0}
+    \PYG{k}{for} \PYG{n}{\PYGZus{}} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{30}\PYG{p}{):}
+        \PYG{n}{mu} \PYG{o}{=} \PYG{n}{f}\PYG{p}{(}\PYG{n}{mu}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{mu}
+
+  \PYG{k}{def} \PYG{n+nf}{step}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{action}\PYG{p}{:} \PYG{n}{npt}\PYG{o}{.}\PYG{n}{NDArray}\PYG{p}{[}\PYG{n+nb}{float}\PYG{p}{])} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{tuple}\PYG{p}{:}
+    \PYG{n}{action} \PYG{o}{=} \PYG{n}{action} \PYG{o}{/} \PYG{n}{action}\PYG{o}{.}\PYG{n}{sum}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w\PYGZus{}new} \PYG{o}{=} \PYG{n}{action}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{t} \PYG{o}{+=} \PYG{l+m+mi}{1}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{v\PYGZus{}new} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}prices}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{v\PYGZus{}new} \PYG{o}{/} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{v}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{mu} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{find\PYGZus{}mu}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{*} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w} \PYG{o}{/} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{*} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w}\PYG{p}{)}\PYG{o}{.}\PYG{n}{sum}\PYG{p}{(),} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w\PYGZus{}new}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{new\PYGZus{}port\PYGZus{}val} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{port\PYGZus{}val} \PYG{o}{*} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{mu} \PYG{o}{*} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{@} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w}\PYG{p}{)}
+
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{reward} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{compute\PYGZus{}reward}\PYG{p}{()}
+
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{state} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}state}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w\PYGZus{}new}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{v} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{v\PYGZus{}new}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{port\PYGZus{}val} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{new\PYGZus{}port\PYGZus{}val}
+
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{logging}\PYG{p}{:}
+      \PYG{n}{info} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+        \PYG{l+s+s1}{\PYGZsq{}port\PYGZus{}val\PYGZsq{}}\PYG{p}{:} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{port\PYGZus{}val}
+      \PYG{p}{\PYGZcb{}}
+    \PYG{k}{else}\PYG{p}{:}
+      \PYG{n}{info} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+
+    \PYG{n}{finished} \PYG{o}{=} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{t} \PYG{o}{==} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{num\PYGZus{}time\PYGZus{}periods}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{state}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(),} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{reward}\PYG{p}{,} \PYG{n}{finished}\PYG{p}{,} \PYG{k+kc}{False}\PYG{p}{,} \PYG{n}{info}
+
+  \PYG{k}{def} \PYG{n+nf}{reset}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{*}\PYG{n}{args}\PYG{p}{,} \PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{tuple}\PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{ndarray}\PYG{p}{,} \PYG{n+nb}{dict}\PYG{p}{]:}
+    \PYG{c+c1}{\PYGZsh{} portfolio weights (final is cash weight)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{zeros}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{universe\PYGZus{}size} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{dtype}\PYG{o}{=}\PYG{n+nb}{float}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{w}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mf}{1.0}
+
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{port\PYGZus{}val} \PYG{o}{=} \PYG{l+m+mf}{1.0}
+
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{initialize\PYGZus{}reward}\PYG{p}{()}
+
+    \PYG{c+c1}{\PYGZsh{} compute and return initial state}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{0}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{state} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}state}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{v} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}prices}\PYG{p}{()}
+    \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{state}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(),} \PYG{p}{\PYGZob{}\PYGZcb{}}
+\end{Verbatim}

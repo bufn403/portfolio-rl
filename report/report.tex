@@ -1,6 +1,8 @@
 \documentclass{report}
 
 \PassOptionsToPackage{square, numbers}{natbib}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \usepackage[preprint]{neurips_2022}
 
 \usepackage[utf8]{inputenc} % allow utf-8 input
@@ -13,7 +15,7 @@
 \usepackage{microtype}      % microtypography
 \usepackage{xcolor}         % colors
 \usepackage{graphicx}
-
+\usepackage{minted}
 
 % % Sumit's package list
 \usepackage{amsmath}
@@ -80,6 +82,8 @@
 \include{overview}
 
 \include{literature}
+
+\include{documentation}
 
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{unsrtnat}

@@ -1,8 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: report.aux
 A level-1 auxiliary file: overview.aux
 A level-1 auxiliary file: literature.aux
+A level-1 auxiliary file: documentation.aux
 The style file: unsrtnat.bst
 Database file #1: papers.bib
 Warning--empty journal in drl_mvo
@@ -14,7 +15,7 @@ Warning--empty year in diff_sharpe_ratio_book
 Warning--empty year in diff_sharpe_ratio_book
 You've used 9 entries,
             2481 wiz_defined-function locations,
-            626 strings with 7403 characters,
+            627 strings with 7420 characters,
 and the built_in function-call counts, 4459 in all, are:
 = -- 398
 > -- 242
