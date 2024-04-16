@@ -4,3 +4,4 @@ numpy
 nltk
 pysentiment2
 bs4
+google-cloud-storage
