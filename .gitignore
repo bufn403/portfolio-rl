@@ -4,7 +4,6 @@ __pycache__/
 *.zip
 report/*.aux
 report/*.log
-report/*.pdf
 report/*.gz
 report/*.out
 report/*.toc
