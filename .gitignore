@@ -3,3 +3,7 @@
 __pycache__/
 *.zip
 **/.DS_Store
+report/*.aux
+report/*.log
+report/*.pdf
+report/*.gz
