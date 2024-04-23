@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.9)  16 APR 2024 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.9)  23 APR 2024 16:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1110,13 +1110,13 @@ Underfull \vbox (badness 2626) has occurred while \output is active []
 
 
 
-] [9] [10]
-<transaction_cost_time_updates.png, id=248, 832.3095pt x 132.495pt>
+] [9] [10] [11]
+<transaction_cost_time_updates.png, id=268, 832.3095pt x 132.495pt>
 File: transaction_cost_time_updates.png Graphic file (type png)
 <use transaction_cost_time_updates.png>
-Package pdftex.def Info: transaction_cost_time_updates.png  used on input line 176.
+Package pdftex.def Info: transaction_cost_time_updates.png  used on input line 253.
 (pdftex.def)             Requested size: 369.88582pt x 58.88223pt.
-) [11 <./transaction_cost_time_updates.png>]
+ [12 <./transaction_cost_time_updates.png>]) [13]
 \openout2 = `documentation.aux'.
 
  (./documentation.tex
@@ -1126,7 +1126,7 @@ Chapter 3.
 (./_minted-report/default.pygstyle) (./_minted-report/B5D319C10B4F124E84E7A395214E9E6BBE416292090AFBAC88287A82C261531A.pygtex
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
- [12
+ [14
 
 
 
@@ -1143,44 +1143,44 @@ Package microtype Info: Loading generic protrusion settings for font family
 )
 \openout4 = `report.pyg'.
 
- (./_minted-report/9CB795FE1E6431CEE2460F8A19A95B03BE416292090AFBAC88287A82C261531A.pygtex [13{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+ (./_minted-report/9CB795FE1E6431CEE2460F8A19A95B03BE416292090AFBAC88287A82C261531A.pygtex [15{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
 \openout4 = `report.pyg'.
 
- (./_minted-report/9BF84EF6E8493A31B3FB5254F4AA9067BE416292090AFBAC88287A82C261531A.pygtex [14]) [15]
+ (./_minted-report/9BF84EF6E8493A31B3FB5254F4AA9067BE416292090AFBAC88287A82C261531A.pygtex [16]) [17]
 \openout4 = `report.pyg'.
 
- (./_minted-report/7B6018E8F873C6B3A8B9A9AF2A1C5D0BBE416292090AFBAC88287A82C261531A.pygtex [16])
+ (./_minted-report/7B6018E8F873C6B3A8B9A9AF2A1C5D0BBE416292090AFBAC88287A82C261531A.pygtex [18])
 Underfull \vbox (badness 3179) has occurred while \output is active []
 
- [17]
+ [19]
 \openout4 = `report.pyg'.
 
- (./_minted-report/1AAE934D9703DF41DD53D742A9F03EA0BE416292090AFBAC88287A82C261531A.pygtex [18]
+ (./_minted-report/1AAE934D9703DF41DD53D742A9F03EA0BE416292090AFBAC88287A82C261531A.pygtex [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19])) [20] (./report.bbl [21
+ [21])) [22] (./report.bbl [23
 
 
 
-]) [22] (./report.aux (./overview.aux) (./literature.aux) (./documentation.aux))
+]) [24] (./report.aux (./overview.aux) (./literature.aux) (./documentation.aux))
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 28B80092513568A7A661AA158C5D44B2;4270.
 runsystem(rm report.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 50371 strings out of 476025
- 1196012 string characters out of 5790017
- 1869388 words of memory out of 5000000
- 69705 multiletter control sequences out of 15000+600000
- 563282 words of font info for 216 fonts, out of 8000000 for 9000
+ 50403 strings out of 476025
+ 1196365 string characters out of 5790017
+ 1870388 words of memory out of 5000000
+ 69720 multiletter control sequences out of 15000+600000
+ 563957 words of font info for 222 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,1668b,886s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (22 pages, 904566 bytes).
+Output written on report.pdf (24 pages, 919442 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 359 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
  61679 words of extra memory for PDF output out of 61914 (max. 10000000)
 

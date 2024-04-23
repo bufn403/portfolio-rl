@@ -372,7 +372,7 @@ Using these price and technical indicator matrices, construct tensors
 \end{align*}
 For indicator $i$ and asset $n$, the authors use the following trasnformation to fuse the properties 
 into one tensor. 
-\[F_{t(i, n) = V_{t(i, n)}} Cor^T_{t(i, n)}, F_{t(i, n)} \in R^{m \times n}\]
+\[F_{t(i, n)} = V_{t(i, n)} Cor^T_{t(i, n)}, F_{t(i, n)} \in R^{m \times n}\]
 Now for all indicators and assets, we can efficiently compute the transformed tensor to be $F_t \in R^{4 \times n \times m \times n}$.
 This transformed tensor then goes through a convolution layer with 32 feature maps and a $(1, 3, 1)$ kernel and then ReLU activation try 
 try and capture spacial features.

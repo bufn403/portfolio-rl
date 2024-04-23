@@ -161,3 +161,81 @@ version: 2},
    pages={219–354} 
 }
 
+@misc{ppo,
+      title={Proximal Policy Optimization Algorithms}, 
+      author={John Schulman and Filip Wolski and Prafulla Dhariwal and Alec Radford and Oleg Klimov},
+      year={2017},
+      eprint={1707.06347},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{ddpg,
+      title={Continuous control with deep reinforcement learning}, 
+      author={Timothy P. Lillicrap and Jonathan J. Hunt and Alexander Pritzel and Nicolas Heess and Tom Erez and Yuval Tassa and David Silver and Daan Wierstra},
+      year={2019},
+      eprint={1509.02971},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+
+@InProceedings{trpo,
+  title = 	 {Trust Region Policy Optimization},
+  author = 	 {Schulman, John and Levine, Sergey and Abbeel, Pieter and Jordan, Michael and Moritz, Philipp},
+  booktitle = 	 {Proceedings of the 32nd International Conference on Machine Learning},
+  pages = 	 {1889--1897},
+  year = 	 {2015},
+  editor = 	 {Bach, Francis and Blei, David},
+  volume = 	 {37},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Lille, France},
+  month = 	 {07--09 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v37/schulman15.pdf},
+  url = 	 {https://proceedings.mlr.press/v37/schulman15.html},
+  abstract = 	 {In this article, we describe a method for optimizing control policies, with guaranteed monotonic improvement. By making several approximations to the theoretically-justified scheme, we develop a practical algorithm, called Trust Region Policy Optimization (TRPO). This algorithm is effective for optimizing large nonlinear policies such as neural networks. Our experiments demonstrate its robust performance on a wide variety of tasks: learning simulated robotic swimming, hopping, and walking gaits; and playing Atari games using images of the screen as input. Despite its approximations that deviate from the theory, TRPO tends to give monotonic improvement, with little tuning of hyperparameters.}
+}
+
+@article{q-learning,
+  abstract = {Q-learning (Watkins, 1989) is a simple way for agents to learn how to act optimally in controlled Markovian domains. It amounts to an incremental method for dynamic programming which imposes limited computational demands. It works by successively improving its evaluations of the quality of particular actions at particular states.},
+  added-at = {2020-01-01T20:16:30.000+0100},
+  author = {Watkins, Christopher J. C. H. and Dayan, Peter},
+  biburl = {https://www.bibsonomy.org/bibtex/2416ac9f845c6ccea5a7eacee4dedead8/lanteunis},
+  day = 01,
+  doi = {10.1007/BF00992698},
+  interhash = {a4436f9e14335d677f156049cb798253},
+  intrahash = {416ac9f845c6ccea5a7eacee4dedead8},
+  issn = {1573-0565},
+  journal = {Machine Learning},
+  keywords = {DRLAlgoComparison q-learning reinforcement_learning},
+  month = may,
+  number = 3,
+  pages = {279--292},
+  timestamp = {2020-01-01T20:16:30.000+0100},
+  title = {Q-learning},
+  url = {https://doi.org/10.1007/BF00992698},
+  volume = 8,
+  year = 1992
+}
+
+
+@InProceedings{dpg,
+  title = 	 {Deterministic Policy Gradient Algorithms},
+  author = 	 {Silver, David and Lever, Guy and Heess, Nicolas and Degris, Thomas and Wierstra, Daan and Riedmiller, Martin},
+  booktitle = 	 {Proceedings of the 31st International Conference on Machine Learning},
+  pages = 	 {387--395},
+  year = 	 {2014},
+  editor = 	 {Xing, Eric P. and Jebara, Tony},
+  volume = 	 {32},
+  number =       {1},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Bejing, China},
+  month = 	 {22--24 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v32/silver14.pdf},
+  url = 	 {https://proceedings.mlr.press/v32/silver14.html},
+  abstract = 	 {In this paper we consider deterministic policy gradient algorithms for reinforcement learning with continuous actions. The deterministic policy gradient has a particularly appealing form: it is the expected gradient of the action-value function. This simple form means that the deterministic policy gradient can be estimated much more efficiently than the usual stochastic policy gradient. To ensure adequate exploration, we introduce an off-policy actor-critic algorithm that learns a deterministic target policy from an exploratory behaviour policy. Deterministic policy gradient algorithms outperformed their stochastic counterparts in several benchmark problems, particularly in high-dimensional action spaces.}
+}
+
+

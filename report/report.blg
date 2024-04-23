@@ -9,49 +9,50 @@ Database file #1: papers.bib
 Warning--empty journal in drl_mvo
 Warning--empty year in drl_mvo
 Warning--empty year in drl_mvo
+Warning--can't use both volume and number fields in dpg
 Warning--empty year in diff_sharpe_ratio_paper
 Warning--empty year in diff_sharpe_ratio_paper
 Warning--empty year in diff_sharpe_ratio_book
 Warning--empty year in diff_sharpe_ratio_book
-You've used 10 entries,
+You've used 15 entries,
             2481 wiz_defined-function locations,
-            639 strings with 7726 characters,
-and the built_in function-call counts, 4969 in all, are:
-= -- 441
-> -- 275
-< -- 6
-+ -- 101
-- -- 81
-* -- 414
-:= -- 781
-add.period$ -- 53
-call.type$ -- 10
-change.case$ -- 20
-chr.to.int$ -- 10
-cite$ -- 17
-duplicate$ -- 230
-empty$ -- 406
-format.name$ -- 95
-if$ -- 1072
+            680 strings with 8903 characters,
+and the built_in function-call counts, 7601 in all, are:
+= -- 652
+> -- 462
+< -- 11
++ -- 167
+- -- 137
+* -- 653
+:= -- 1198
+add.period$ -- 73
+call.type$ -- 15
+change.case$ -- 30
+chr.to.int$ -- 15
+cite$ -- 23
+duplicate$ -- 343
+empty$ -- 609
+format.name$ -- 158
+if$ -- 1633
 int.to.chr$ -- 1
-int.to.str$ -- 11
-missing$ -- 8
-newline$ -- 79
-num.names$ -- 32
-pop$ -- 90
+int.to.str$ -- 16
+missing$ -- 11
+newline$ -- 107
+num.names$ -- 51
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 15
 quote$ -- 0
-skip$ -- 145
+skip$ -- 223
 stack$ -- 0
-substring$ -- 220
-swap$ -- 65
-text.length$ -- 4
+substring$ -- 327
+swap$ -- 103
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
-warning$ -- 7
-while$ -- 37
+type$ -- 105
+warning$ -- 8
+while$ -- 57
 width$ -- 0
-write$ -- 177
-(There were 7 warnings)
+write$ -- 252
+(There were 8 warnings)

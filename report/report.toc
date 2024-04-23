@@ -21,17 +21,18 @@
 \contentsline {subsection}{\numberline {2.1.1}Markov Decision Process}{8}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}RL Terminology}{8}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Policy Gradient Methods}{9}{subsection.2.1.3}%
-\contentsline {subsubsection}{Deterministic Policy Gradients (DDPG)}{9}{section*.10}%
-\contentsline {subsubsection}{Trust Region Optimization (PPO)}{9}{section*.11}%
-\contentsline {subsection}{\numberline {2.1.4}Specialization to Our Application}{9}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Differential Sharpe Ratio}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Transaction Costs}{11}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Documentation}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Gym Environments}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}RL Framework}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}AbstractRewardManager}{12}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}AbstractDataManager}{13}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}PortfolioEnvWithTCost}{14}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}BasicPortfolioWithTCost}{15}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}MPTWithTCost}{17}{subsection.3.2.5}%
-\contentsline {chapter}{Bibliography}{21}{subsection.3.2.5}%
+\contentsline {subsubsection}{Deep Deterministic Policy Gradients}{9}{section*.10}%
+\contentsline {subsubsection}{Trust Region Policy Optimization}{10}{section*.11}%
+\contentsline {subsubsection}{Proximal Policy Optimization}{11}{section*.12}%
+\contentsline {subsection}{\numberline {2.1.4}Specialization to Our Application}{11}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Differential Sharpe Ratio}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Transaction Costs}{12}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Documentation}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Gym Environments}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}RL Framework}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}AbstractRewardManager}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}AbstractDataManager}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}PortfolioEnvWithTCost}{16}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}BasicPortfolioWithTCost}{17}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}MPTWithTCost}{19}{subsection.3.2.5}%
+\contentsline {chapter}{Bibliography}{23}{subsection.3.2.5}%
