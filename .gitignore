@@ -2,3 +2,7 @@
 .ipynb_checkpoints/
 __pycache__/
 *.zip
+report/*.aux
+report/*.log
+report/*.pdf
+report/*.gz
