@@ -6,3 +6,10 @@ report/*.aux
 report/*.log
 report/*.pdf
 report/*.gz
+report/*.out
+report/*.toc
+report/*.fdb_latexmk
+report/*.fls
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
