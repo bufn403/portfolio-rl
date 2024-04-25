@@ -2,133 +2,212 @@
 
 \section{Gym Environments}
 
-WIP
+Gymnasium is an open-source reinforcement learning environment.
+Its goal is to standardize the interface between reinforcement learning algorithms
+and their environments.
 
-\section{AbstractPortfolioEnvWithTCost}
+Much of the information for this section is taken from their documentation: https://gymnasium.farama.org/
 
-WIP
+The extendable base class for the gym environment is \texttt{gym.Env}. A subclass must define the following two methods:
+\begin{itemize}
+  \item \texttt{reset()} initializes the environment. Its return type is \texttt{tuple[ObsType, dist[str, Any]]}.
+  The first element is the initial state, and the dictionary is for intitial logging information.
+  \item \texttt{step(a: ActType)} performs one update of the environment where the agent takes action \texttt{a}.
+  Its return type is \texttt{tuple[ObsType, float, bool, bool, dist[str, Any]]}. In order, the elements are:
+  (1) the next state provided to the agent, (2) the reward value for that step, (3) whether the environment has terminated,
+  (4) whether the environment has truncated, and (5) a dictionary of logging information.
+\end{itemize}
 
-\begin{minted}{python3}
-  class AbstractPortfolioEnvWithTCost(gym.Env):
-  def __init__(self, w_lb=0.0, w_ub=1.0, cp=0.0, cs=0.0, logging=True):
-    # set constants
-    self.eta = 1 / 252
-    self.cp, self.cs = cp, cs
-    self.logging = logging
+\texttt{ObsType} and \texttt{ActType} are the types of the observation (state) space and action spaces, respectively,
+which must set within the environment initialization. There are a few standard types of spaces supported by Gymnasium:
 
-    # get data, set problem size
-    self.num_time_periods, self.universe_size = self.get_data()
+\begin{itemize}
+  \item \texttt{gym.spaces.Discrete(n)}: A set of \texttt{n} distinct discrete values.
+  \item \texttt{gym.spaces.Box(low, high, shape, dtype)}: A generalized rectangle. The dimensions are
+  specified by the \texttt{shape} parameter, and all entries have \texttt{dtype} type (generally \texttt{np.float64}). Each component
+  can have its own upper and lower bound if they are tuples (if a single float is provided, that bound is used for all components).
+  \item \texttt{gym.spaces.Tuple(spaces)}: A space that is a tuple (cartesian product) of other spaces.
+\end{itemize}
 
-    # set spaces
-    assert w_lb <= w_ub
-    self.observation_space = self.get_obs_space()
-    self.action_space = gym.spaces.Box(
-      low=w_lb,
-      high=w_ub,
-      shape=(self.universe_size + 1,),
-      dtype=np.float32
-    )
+It is possible to define custom spaces, but standard RL training algorithms and models
+generally only support select compositions of the standard spaces.
+
+
+
+\section{RL Framework}
+
+In order to ensure consistency and modularity, we have created a framework of classes
+that allows us to easily swap components of our RL environment to test various data
+and reward strategies.
+
+\subsection{AbstractRewardManager}
+
+This abstract class manages the calculation of rewards for the RL agent.
+Its interface is minimal. Subclasses can optionally have a constructor.
+
+\begin{minted}[escapeinside=||,mathescape=true,linenos,xleftmargin=20pt]{python3}
+from abc import ABC, abstractmethod
+
+class AbstractRewardManager(ABC):
+  @abstractmethod
+  def initialize_reward(self):
+    """
+    Initializes all constants used in the reward calculation.
+    Must be called at least once before compute_reward() is called.
+    Should be called in the environment's reset() method.
+    """
+    pass
 
   @abstractmethod
+  def compute_reward(self, old_pval: float, new_pval: float) -> float:
+    """
+    Computes the reward based on the old and new portfolio values.
+    Should be called in the environment's step() method.
+    """
+    pass
+\end{minted}
+
+
+\subsection{AbstractDataManager}
+
+This abstract class manages reading and iterating through the state and price data for the environment.
+
+\begin{minted}[escapeinside=||,mathescape=true,linenos,xleftmargin=20pt]{python3}
+from abc import ABC, abstractmethod
+import numpy as np
+import numpy.typing as npt
+import gymnasium as gym
+
+class AbstractDataManager(ABC):
+  @abstractmethod
   def get_obs_space(self) -> gym.spaces.Box:
-    """Result is assigned to ``self.observation_space``"""
+    """Result is assigned to the environment's observation space"""
     pass
 
   @abstractmethod
   def get_data(self) -> tuple[int, int]:
     """
-    This abstract function loads/fetches state data and stores it on the environment.
-    This will be called during initialization. The properties assigned here should be
-    accessed into the __compute_state() method. Note that the data should provide for
-    one more than the number of time periods desired (for the initial state).
-    :return: (number of time periods, number of stock tickers)
+    This function loads/fetches state data from files and stores it.
+    Should be called in the environment's reset() method.
+    The properties assigned here should be accessed in get_state().
+    Note that the data should provide for one more than the number
+      of time periods desired (for the initial state).
+    Returns: (number of time periods, number of stock tickers)
     """
     pass
 
   @abstractmethod
-  def get_state(self) -> npt.NDArray[float]:
+  def get_state(
+    self,
+    t: int,
+    w: npt.NDArray[np.float64],
+    port_val: np.float64
+  ) -> npt.NDArray[np.float64]:
     """
-    Computes and returns the new state at time ``self.t`` (to be used for
-    calculating weights at the start of time period ``self.t+1``).
-    When ``self.t == 0``, it should output the initial state.
+    Computes and returns the new state at time t.
+    State can include the current portfolio weight and value,
+      provided as additional parameters.
+    This state will be used by the agent for calculating weights
+      at the start time time period t+1.
+    When t=0, it should output the initial state.
     """
     pass
 
   @abstractmethod
-  def get_prices(self) -> npt.NDArray[float]:
+  def get_prices(self, t: int) -> npt.NDArray[np.float64]:
     """
-    Obtains the security prices at time ``self.t`` (at the
-    beginning of time period ``self.t+1``). When ``self.t == 0``, it
-    should output the initial prices.
+    Returns the security prices at time t (at the beginning
+      of time period t+1).
+    When t=0, it should output the initial prices.
+    """
+    pass
+  \end{minted}
+
+\subsection{PortfolioEnvWithTCost}
+
+This class is the main gym environment.
+It iterates through the data and rewards using the \texttt{AbstractDataManager} and \texttt{AbstractRewardManager} provided as arguments.
+To compute the portfolio updates, it employs the transaction costs-cognizant approach described in section \ref{transaction_costs_section}.
+
+Let \texttt{w} be the portfolio weights. We use the convention that \texttt{w[-1]} is the weight for the risk-free asset,
+and \texttt{w[:-1]} are the weights for the risky assets. (Note that this is a different convention than the one used in \cite{drl_framework}.)
+
+We omit much of the actual code and instead provide pseudocode or equations where relevant.
+
+\begin{minted}[escapeinside=||,mathescape=true,linenos,xleftmargin=20pt]{python3}
+from abc import ABC, abstractmethod
+import numpy as np
+import numpy.typing as npt
+import gymnasium as gym
+
+class PortfolioEnvWithTCost(gym.Env):
+  def __init__(
+    self,
+    dm: AbstractDataManager,
+    rm: AbstractRewardManager,
+    w_lb=0.0, w_ub=1.0,
+    cp=0.0, cs=0.0,
+    logging=True
+  ):
+    """
+    Initializes the environment with the given managers and constants.
+    w_lb and w_ub are the lower and upper bounds for the portfolio weights.
+    cp and cs are commision weights for purchasing and selling assets.
+    If logging is enabled, step() will return the portfolio value.
+    """
+    # register managers
+    # set constants from given arguments
+
+    # get data from manager
+    self.num_time_periods, self.universe_size = self.dm.get_data()
+
+    # set environment observation and action spaces
+    assert w_lb <= w_ub
+    self.observation_space = self.dm.get_obs_space()
+    self.action_space = gym.spaces.Box(
+      low=w_lb,
+      high=w_ub,
+      shape=(self.universe_size + 1,),
+      dtype=np.float64
+    )
+
+  def find_mu(
+    self,
+    w_old: npt.NDArray[np.float64],
+    w_new = npt.NDArray[np.float64]
+  ) -> float:
+    """
+    Uses the iterative technique to find mu for the given old weights
+    (after returns), new weights, and the transaction cost commision rates.
     """
     pass
 
-  def initialize_reward(self):
-    self.A, self.B = 0.0, 0.0
+def step(self, action: npt.NDArray[np.float64]) -> tuple:
+  """
+  Performs one time step update using the agent's action.
+  Returns: a tuple of
+    - copy of the new state
+    - reward for the action
+    - whether the environment has terminated (reached end of data)
+    - whether the environment has truncated (always False)
+    - information dictionary (possibly containing portfolio value)
+  """
+  # check that the action is normalized
+  # find the value of mu using the helper function
+  # perform the weight and portfolio value updates
+  # obtain the reward uding the reward manager
+  # obtain the new state using the data manager
+  # update all instance variables
+  # if logging enabled, return the portfolio value in addition to
+  pass
 
-  def compute_reward(self) -> float:
-    R = np.log(self.new_port_val / self.port_val)
-    dA = R - self.A
-    dB = R ** 2 - self.B
-    if self.B - self.A ** 2 == 0:
-        D = 0
-    else:
-        D = (self.B * dA - 0.5 * self.A * dB) / (self.B - self.A ** 2) ** (3 / 2)
-    self.A += self.eta * dA
-    self.B += self.eta * dB
-    return D
-
-  def find_mu(self, w_old: npt.NDArray[float], w_new = npt.NDArray[float]) -> float:
-    cp, cs = self.cp, self.cs
-
-    def f(mu: float) -> float:
-        return ((1 - cp * w_new[-1] - (cs + cs - cs*cp) * (w_new[:-1] - mu * w_old[:-1]).clip(min=0).sum()) /
-                (1 - cp * w_old[-1]))
-
-    mu = 0.0
-    for _ in range(30):
-        mu = f(mu)
-    return mu
-
-  def step(self, action: npt.NDArray[float]) -> tuple:
-    action = action / action.sum()
-    self.w_new = action
-    self.t += 1
-    self.v_new = self.get_prices()
-    self.y = self.v_new / self.v
-    self.mu = self.find_mu(self.y * self.w / (self.y * self.w).sum(), self.w_new)
-    self.new_port_val = self.port_val * self.mu * (self.y @ self.w)
-
-    self.reward = self.compute_reward()
-
-    self.state = self.get_state()
-    self.w = self.w_new
-    self.v = self.v_new
-    self.port_val = self.new_port_val
-
-    if self.logging:
-      info = {
-        'port_val': self.port_val
-      }
-    else:
-      info = {}
-
-    finished = (self.t == self.num_time_periods)
-    return self.state.copy(), self.reward, finished, False, info
-
-  def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
-    # portfolio weights (final is cash weight)
-    self.w = np.zeros(self.universe_size + 1, dtype=float)
-    self.w[-1] = 1.0
-
-    self.port_val = 1.0
-
-    self.initialize_reward()
-
-    # compute and return initial state
-    self.t = 0
-    self.state = self.get_state()
-    self.v = self.get_prices()
-    return self.state.copy(), {}
+def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
+  """
+  Resets the environment to an initial state.
+  Returns: the initial state and an empty dictionary (required by gym).
+  """
+  # reset portfolio weights
+  # initialize reward manager
+  # obtain initial state and prices from data manager
+  pass
 \end{minted}
-
