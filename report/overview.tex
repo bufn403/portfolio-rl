@@ -15,66 +15,41 @@ follows:
     \item Given that a reinforcement learning agent’s decisions are modeled by a Markov Decision Process, we can easily provide different reward functions to account for a variety of investor preferences or restrictions.
 \end{enumerate}
 
-A potential advisor for our project is Yada Zhu, a member of the finance research team 
-at IBM. She was an author on one of the key papers we are referencing for our RL model 
-implementation. Her experience with finance-related machine learning, time-series 
-analysis, and alternative data sources would be very valuable in guiding us throughout 
-our process.
-
-Within our team, Sashwat and Ravi are working on dataset scraping, creation, curation, 
-and cleaning; each is testing different APIs (described in the following section). 
-Sumit and James are working on the RL algorithms; they are taking turns implementing 
-papers described in that section and iterating on the architectures.
-
 
 
 
 \section{Dataset Creation}
 
-Creating a combined dataset encompassing a textual corpus sufficient for us to build 
-a robust reinforcement learning agent will require pulling data from a wide variety 
-of sources. We aim to use two primary types of data: stock and news data.
+Creating a multimodal dataset of tabular and language data to train a robust reinforcement learning agent
+will require pulling data from a wide variety of sources. We aim to use three primary types of data:
+historical stock data, news headlines, and SEC filings.
 
 \subsection{Stock Data}
 
-For now, since our project will likely be focused on building an agent that can perform 
-well on historical data, we aim to use data from the Wharton Research Data Services 
-(WRDS). WRDS is a pre-eminent source of financial data that we have experience 
-utilizing in the Computational Finance program’s other courses that has expansive 
-data on stocks. Specifically, we aim to use data from the Center for Research in 
+For historical price data, we will use data from from the Wharton Research Data Services 
+(WRDS). Specifically, we aim to use data from the Center for Research in 
 Security Prices (CRSP), which has security price, return, and volume data for the 
-NYSE, AMEX and NASDAQ stock markets. 
-
-We will begin by creating a universe with just the S$\&$P 100 stocks, but we aim to 
-expand to the S$\&$P 500 and/or stocks on all publicly-listed exchanges available through WRDS.
+NYSE, AMEX and NASDAQ stock markets.  We will begin by creating a universe with just the S$\&$P 100 stocks.
+If time permits, we hope to expand to the S$\&$P 500 and/or stocks on all publicly-listed exchanges available through WRDS.
 
 \subsection{News Data}
 
-We believe that the inclusion of news data into our reinforcement learning agent’s 
-state is important because it could integrate an external understanding of how 
-well a given stock is performing at a given time and how it is specifically 
-exposed to certain market or sector risks. This could provide our agent a better 
+The inclusion of news data into the reinforcement learning agent’s 
+state is important to integrate an external understanding of how 
+well a given stock is performing at a given time and how it is
+exposed to certain market or sector risks. This can provide our agent a better 
 view of the environment and knowledge of our ticker companies in context, which 
-can help it make better decisions to maximize our chosen reward function. To that 
-end, we have a few proposed sources for pulling such data as well as a brief insight 
-into our current progress towards that goal.
+can help it make better decisions to maximize our chosen reward function.
 
 
 \subsubsection{Scraping Financial News Sources}
 
-We want to focus on a few sites more committed to broadly reporting about a wide 
-variety of companies to limit information asymmetry amongst stocks in our universe. 
-News sources like Morningstar, Benzinga, and YFinance all allow users to filter their 
-news searches by ticker. This will not only make it easier to scrape data, but also 
-ensure that we actually have data for all of the companies in our universe. We plan
-to collect at least a few years of data on each ticker, but one year of historical 
-news articles for each ticker is a good starting point. Note that it is not essential 
-for every ticker to have a news article for every day in our methodology. 
-
-In scraping this data, we will be mindful of news organizations’ terms of 
-services and ensure we are scraping ethically. Since the content is publicly 
-available on these sites we will scrape at a reasonable frequency to avoid getting 
-rate limited and/or IP blocked.
+While attempts have been made to scrape news data from financial sources including Yfinance and Benzinga,
+we have primarily been rate limited/and or IP blocked for scraping at too high of a frequency.
+From Kaggle, we have found a source of pre-scraped news data from Benzinga — a financial news source — with daily news
+headline data spanning from 2014-2020 for over 6000 companies. From this dataset,
+we plan to start with using headline data companies in the S\&P 100.
+However, we could expand the dataset if time and data storage capacity permits.
 
 \subsubsection{Utilizing Paid News APIs}
 
@@ -83,8 +58,8 @@ use, many companies have created paid news APIs that allow institutions to query
 wide range of news sites for current event information including financial news. 
 Many of these APIs such as Event Registry, newsapi.ai, and Alpha Vantage provide 
 this data. However, in examining most of these APIs there are a few significant 
-issues. First, many of them require a significant payment to get data at a velocity 
-that we would need. And for many, historical data is even more expensive. 
+issues. Many of them require a significant payment to get data at a velocity 
+that we would need, and historical data is often even more expensive. 
 
 However, within the free tier of these services we can make some API calls to 
 query information for some tickers that could be additive to our analysis. It would
@@ -92,18 +67,16 @@ be difficult to rely on this as a long term solution for data though.
 
 \subsubsection{SEC Filings}
 
-To enrich our dataset, we are considering utilizing SEC filings data for all 
+To enrich our dataset, we are considering utilizing SEC (10-K and 10-Q) filings data for all 
 NYSE/NASDAQ companies (available through WRDS) that we plan to pull data for. 
 These filings contain essential information regarding a company's financial 
 performance, governance, and compliance that could enhance our measure of 
-company outlook. Specifically we aim to use data from 10-K and 10-Q filings. 
+company outlook. Specifically we aim to use data from 10-K (annual) and 10-Q (quarterly) filings. 
 10-K’s are an annual report on a company’s performance, and include information. 
-They are divided into items that show a company’s financial statements, 
-stock projections, and pertinent information for shareholders in sections that 
-are denoted as items. For our project, the textual data that is most likely to 
+For our project, the textual data that is most likely to 
 capture a company’s sentiment is Item 1A, Risk Factors. This item is a company 
 issued statement on the risk factors that could affect the operations of the 
-business for the next fiscal year. We will extract this data from 10-K statements 
+business for the next fiscal year. We will extract this data from 10-Q statements 
 for every company in our trading universe to create sentiment indicators for our 
 RL agent to use. 
 
@@ -118,8 +91,8 @@ create embeddings for us \cite{finbert}.
 
 \subsubsection{FinBERT Sentiment Scores}
 
-For each time period, we will query headlines from articles about the individual 
-stocks. Note that if we use a source like Benzinga, articles are already tagged 
+We query article headlines for all stocks in our universe over our entire dataset time period.
+Note that if we use a source like Benzinga, articles are already tagged 
 with relevant stock tickers. We will feed headline data to pre-trained FinBERT. 
 The model then will preprocess the text and generate probabilities of the content 
 being positive, negative, or neutral. From there, we can assign each headline a 
@@ -148,7 +121,15 @@ relatively infrequent basis compared to news and price data. Preliminarily, we w
 assume that there is no decay in the sentiment between reports. That means, 
 the sentiment embeddings for each company will only be updated on dates where a
 new filing was reported. On non-reporting dates, the embeddings will be filled 
-forward from the last filing date. 
+forward from the last filing date.
+
+Alternatively, we intend to use a logistic decay function to generate a multiplier that represents the decaying effect of sentiment over time from a document like a 10-K or 10-Q, which is not reported every day. The function we've designed is:
+
+\begin{equation*}
+Multiplier = 2\left(\frac{-1}{1+e^{-0.25 x}}+1\right)
+\end{equation*}
+
+Generating a multiplier, then combining this multiplier with the sentiment score generated by FinBERT will allow us to show that some $x$ days after a 10-K or 10-Q filing is published, the actual effective sentiment wanes as the news becomes older. At 12 days, the sentiment is modeled to be roughly 10 percent as "effective" as it was on day 0. At day 0, the multiplier will always be 1, to indicate that news is most impactful on the day that it is published.
 
 \subsubsection{Topic Modeling}
 
@@ -165,8 +146,8 @@ each ticker on each day to the states matrix.
 
 \section{Algorithmic and Analytical Challenge}
 
-Our primary model technique is deep reinforcement learning, which is a 
-branch of machine learning that operates in a game-theoretic-like system. 
+Our primary algorithmic technique is deep reinforcement learning, which uses deep neural networks to learn
+an optimal policy to interact with an environment and optimize performance towards a goal.
 Formally, a reinforcement learning problem is an instance of a Markov 
 Decision Process, which is a 4-tuple $(S, A, T, R)$: $S$ the state space 
 (matrix of selected historical stock price and news data available to 
@@ -264,11 +245,19 @@ and (2) numerical features extracted from recent news data pertinent to that com
 in the Dataset section). (The straightforward concatenation of price data and news embeddings did not 
 affect the ability of the neural network-based agent to learn.)
 
-Regarding the reward function R, we plan to experiment with both the profit reward function used in \cite{rl_augmented_states}, 
-as well as the Differential Sharpe Ratio developed in paper \cite{drl_mvo}.
+Regarding the reward function $R$, we plan to experiment with both the profit reward function used
+in paper \cite{rl_augmented_states}, as well as the Differential Sharpe Ratio developed in paper \cite{drl_mvo}.
+The former is simply the change in the portfolio value over the last time period based on the weights (action)
+provided by the agent; the latter attempts to make the cumulative reward approximate the Sharpe ratio over the entire time period.
+
+In all of the papers, the action space $A$ is a length $m+1$ vector such that the sum of all element is $1$,
+where there are $m$ stocks in our universe (the other weight is for the risk-free asset).
+Each action represents the agent’s desired portfolio for the next time period, and is computed based on the
+state at the end of the previous time period. We will experiment with short-selling and leverage restrictions
+(which put lower and upper bounds on the weight components, respectively).
 
 In summary, our project aims to implement and replicate the approach used in \cite{rl_augmented_states}, with 
-some modifications to S and R as previously described. We will conduct experiments alternative data 
+some modifications to $S$ and $R$ as previously described. We will conduct experiments alternative data 
 sources, feature extraction methods, and reward functions (both custom and from other papers listed) 
 to find a good combination that allows this approach to work well on S$\&$P100 stocks; this comprises our 
 novel extension/contribution.

@@ -278,4 +278,50 @@ Moving terms around and simplifying the ReLU expressions, we find that $\mu_t$ i
   \mu_t = f(\mu_t) = \frac{1}{1 - c_p w_{0,t}}\left[ 1 - c_p w_{0,t}' - (c_s + c_p - c_s c_p) \sum_{i=1}^m (w_{i,t}' - \mu_t w_{i,t})^+ \right]
 \end{align*}
 The function $f$ is a nonlinear. However, for reasonable values of $c_s$ and $c_p$, $f$ is both monotone increasing and a contraction, so its unique fixed point
+<<<<<<< HEAD
 can be found by iteratively computing values of $f$. This procedure is fairly efficient and easy to implement.
+=======
+can be found by iteratively computing values of $f$. This procedure is fairly efficient and easy to implement.
+
+
+
+\section{EIIE Policies}
+The second main contribution of \cite{drl_framework} is to create the framework of
+Ensemble of Identical Independent Evaluators (EIIE) for a policy.
+The principle is to have a single evaluation function that, given the price history and other data for a single asset,
+produces a scores representing potential growth for the immediate future. This same function is
+applied to all assets independently, and the softmax of the resulting scores become the weights of the portfolio.
+
+Written mathematially: let $X_{i,t}$ be the historical price information for asset $i$ at time $t$, and
+let $w_{i,t}$ represent the portfolio weights for asset $i$ at time $t$.
+Let $\alpha$, $\beta$, and $\gamma$ be trainable parameters.
+First, we define a function $f_\alpha$ to extract features from each asset's price data $X_{\times, t}$. This function is applied to each asset individually.
+The agent also needs to incorporate the previous portfolio weights into its action, in order to deal with the transaction costs as in section \ref{transaction_costs_section}.
+We define a second function $g_\beta$ that takes the features produced by $f_{\theta_1}$, as well as the previous portfolio weights, to produce new weights.
+Then the portfolio weights for the next time period are
+\begin{align*}
+  w_{t+1} = \mathop{\mathrm{Softmax}}(g_\beta(f_\alpha(X_{1,t}), w_{1,t}), \ldots, g_\beta(f_\alpha(X_{m,t}), w_{m,t}), g_\beta(\gamma, w_{m+1,t}))
+\end{align*}
+
+(Note that there are $m$ tradeable assets in our universe, and that $w_{m+1, t}$ is the weight for the risk-free asset).
+
+The form of $g_\beta$ is fairly arbitrary; the authors take it to be an MLP neural network.
+The form of $f_\alpha$ is more interesting. The authors of \cite{drl_framework} suggest two forms: a CNN and an RNN/LSTM.
+
+For the CNN they provide the following diagram of the EIIE system:
+
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{cnn_eiie_diagram.png}
+\end{center}
+
+For the RNN they provide a similar diagram:
+
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{rnn_eiie_diagram.png}
+\end{center}
+
+The three channels in the state matrix on the left are the high, low, and closing price for each asset on each day in the historical sliding window.
+
+The authors claim that this framework beats all of their benchmark strategies in the cryptocurrency market.
+The architecture remains essentially the same in our implementation. Due to the use of multiple channels in the state tensor, it makes it easy to
+add additional channels for alternative data sources, such as news sentiment.
