@@ -1,5 +1,8 @@
 *.zip
+*.csv
+*.txt
 config.py
 archive/
 __pycache__/
 .DS_Store
+BatchedTensors/

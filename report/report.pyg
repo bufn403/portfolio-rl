@@ -1,0 +1,85 @@
+from abc import ABC, abstractmethod
+import numpy as np
+import numpy.typing as npt
+import gymnasium as gym
+
+class PortfolioEnvWithTCost(gym.Env):
+  def __init__(
+    self,
+    dm: AbstractDataManager,
+    rm: AbstractRewardManager,
+    w_lb=0.0, w_ub=1.0,
+    cp=0.0, cs=0.0,
+    logging=True
+  ):
+    """
+    Initializes the environment with the given managers and constants.
+    w_lb and w_ub are the lower and upper bounds for the portfolio weights.
+    cp and cs are commision weights for purchasing and selling assets.
+    If logging is enabled, step() will return the portfolio value.
+    """
+    # register managers
+    # set constants from given arguments
+
+    # get data from manager
+    self.num_time_periods, self.universe_size = self.dm.get_data()
+
+    # set environment observation and action spaces
+    assert w_lb <= w_ub
+    self.observation_space = self.dm.get_obs_space()
+    self.action_space = gym.spaces.Box(
+      low=w_lb,
+      high=w_ub,
+      shape=(self.universe_size + 1,),
+      dtype=np.float64
+    )
+
+  def find_mu(
+    self,
+    w_old: npt.NDArray[np.float64],
+    w_new = npt.NDArray[np.float64]
+  ) -> float:
+    """
+    Uses the iterative technique to find mu for the given old weights
+    (after returns), new weights, and the transaction cost commision rates.
+    """
+
+def step(self, action: npt.NDArray[np.float64]) -> tuple:
+  """
+  Performs one time step update using the agent's action.
+  Returns: a tuple of
+    - copy of the new state
+    - reward for the action
+    - whether the environment has terminated (reached end of data)
+    - whether the environment has truncated (always False)
+    - information dictionary (possibly containing portfolio value)
+  """
+  # check that the action is normalized
+  # find the value of mu using the helper function
+  # perform the weight and portfolio value updates
+  # obtain the reward uding the reward manager
+  # obtain the new state using the data manager
+  # update all instance variables
+  # if logging enabled, return the portfolio value in addition to
+
+def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
+  """
+  Resets the environment to an initial state.
+  Returns: the initial state and an empty dictionary (required by gym).
+  """
+  # reset portfolio weights
+  # initialize reward manager
+  # obtain initial state and prices from data manager
+    # portfolio weights (final is cash weight)
+    self.w = np.zeros(self.universe_size + 1, dtype=float)
+    self.w[-1] = 1.0
+
+    self.port_val = 1.0
+
+    self.rm.initialize_reward()
+
+    # compute and return initial state
+    self.t = 0
+    self.state = self.dm.get_state(self.t, self.w, self.port_val)
+    self.v = self.dm.get_prices(self.t)
+    return self.state.copy(), {}

@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k+kn}{from} \PYG{n+nn}{abc} \PYG{k+kn}{import} \PYG{n}{ABC}\PYG{p}{,} \PYG{n}{abstractmethod}
+
+\PYG{k}{class} \PYG{n+nc}{AbstractRewardManager}\PYG{p}{(}\PYG{n}{ABC}\PYG{p}{)}\PYG{p}{:}
+  \PYG{n+nd}{@abstractmethod}
+  \PYG{k}{def} \PYG{n+nf}{initialize\PYGZus{}reward}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Initializes all constants used in the reward calculation.}
+\PYG{l+s+sd}{    Must be called at least once before compute\PYGZus{}reward() is called.}
+\PYG{l+s+sd}{    Should be called in the environment\PYGZsq{}s reset() method.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{pass}
+
+  \PYG{n+nd}{@abstractmethod}
+  \PYG{k}{def} \PYG{n+nf}{compute\PYGZus{}reward}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{old\PYGZus{}pval}\PYG{p}{:} \PYG{n+nb}{float}\PYG{p}{,} \PYG{n}{new\PYGZus{}pval}\PYG{p}{:} \PYG{n+nb}{float}\PYG{p}{)} \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{n+nb}{float}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Computes the reward based on the old and new portfolio values.}
+\PYG{l+s+sd}{    Should be called in the environment\PYGZsq{}s step() method.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{pass}
+\end{Verbatim}
