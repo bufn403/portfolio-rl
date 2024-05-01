@@ -5,7 +5,6 @@
 Gymnasium is an open-source reinforcement learning environment.
 Its goal is to standardize the interface between reinforcement learning algorithms
 and their environments.
-
 Much of the information for this section is taken from their documentation: https://gymnasium.farama.org/
 
 The extendable base class for the gym environment is \texttt{gym.Env}. A subclass must define the following two methods:
@@ -31,8 +30,6 @@ which must set within the environment initialization. There are a few standard t
 
 It is possible to define custom spaces, but standard RL training algorithms and models
 generally only support select compositions of the standard spaces.
-
-
 
 \section{RL Framework}
 
@@ -211,3 +208,299 @@ def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
   # obtain initial state and prices from data manager
   pass
 \end{minted}
+
+\subsection{BasicPortfolioWithTCost}
+
+\cite{drl_mvo} provides a simple yet effective state space setup augmented with 
+volatility indicators that characterize market trends. We provide a brief description here.
+
+Let asset $i$'s price at time $t$ be denoted $P_{i, t}$. Then the one-period simple return of the asset 
+is $R_{i, t} = \frac{P_{i, t} - P_{i, t-1}}{P_{i, t-1}}$ and the one-period gross return is $\frac{P_{i, t}}{P_{i, t-1}} = R_{i, t} + 1$. 
+Thus, one-period log returns can be denoted $r_{i, t} = \log(R_{i, t} + 1)$. Given a universe of 
+$n$ assets and cash denoted by $c$, the authors form the subsequent $[(n + 1) \times T]$ state matrix:
+\begin{align*}
+  S_t = \begin{bmatrix}
+    w_1 & r_{1, t-1} & \cdots & r_{1, t - T + 1}\\
+    w_2 & r_{2, t-1} & \cdots & r_{2, t - T + 1}\\
+    \vdots & \vdots & \ddots & \vdots\\
+    w_n & r_{n, t-1} & \hdots & r_{n, t - T + 1}\\
+    w_c & vol_{20} & \frac{vol_{20}}{vol_{60}} & VIX_t \ldots
+  \end{bmatrix}
+\end{align*}
+where the first column is the portfolio weights of each asset at the beginning of time $t$, which 
+can differ slightly from the portfolio weights at the end of time $t-1$. The last row features three
+market volatility indicators --- $vol_{20}, \frac{vol_{20}}{vol_{60}}$, and $VIX_t$ --- which are 
+particularly important given the authors' imposed long-only and no-leverage constraints.
+\begin{align*}
+  w_c \geq 0, \ w_i \geq 0 \:|\: \forall \ i&&
+  w_c + \sum_{i=1}^n w_i = 1
+\end{align*}
+The first indicator, $vol_{20}$, is the $20$-day rolling window standard deviation of daily S$\&$P500 returns. 
+Similarly, $vol_{20}$ is the $60$-day rolling window standard deviation of daily S$\&$P500 returns. Thus, their ratio 
+is given by $\frac{vol_{20}}{vol_{60}}$. If $\frac{vol_{20}}{vol_{60}} < 1$, then the
+last $20$ days have been less volatile than the last $60$ days, which suggests a shift from a high volatility 
+market trend to a lower volatility market trend. Finally, the last indicator $VIX$ is a measure 
+of the stock market's expected volatility.
+
+\begin{minted}[escapeinside=||,mathescape=true,linenos,xleftmargin=20pt]{python3}
+  import numpy as np
+  import pandas as pd
+  import gymnasium as gym
+  from portfolio_env_with_tcost import PortfolioEnvWithTCost
+  import numpy.typing as npt
+  import gymnasium as gym
+
+  class PortfolioEnvWithTCost(PortfolioEnvWithTCost):
+    def get_obs_space(self) -> gym.spaces.Box:
+        return gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size+1, 
+        100+1), dtype=np.float32)
+
+    def get_data(self) -> tuple[int, int]:
+        # read SNP data
+        df = pd.read_csv('crsp_snp100_2010_to_2024.csv', dtype='string')
+    
+        # convert datatypes
+        df = df[['date', 'TICKER', 'PRC', 'VOL', 'ASKHI', 'BIDLO', 'FACPR']]
+        df.date = pd.to_datetime(df.date)
+        df.FACPR = df.FACPR.fillna('0.0')
+        df.astype({
+            'PRC': float,
+            'VOL': float,
+            'ASKHI': float,
+            'BIDLO': float,
+            'FACPR': float
+        })
+    
+        # drop duplicates and nans
+        df = df.drop_duplicates(subset=['date', 'TICKER'])
+        df.dropna(inplace=True)
+    
+        # only include stocks that are present in all dates
+        ticker_ok = df.TICKER.value_counts() == df.TICKER.value_counts().max()
+        def is_max_val_count(ticker: str) -> bool:
+          return ticker_ok[ticker]
+        ok = df.apply(lambda row: is_max_val_count(row['TICKER']), axis=1)
+        df = df[ok]
+        df = df[(df.date.dt.year >= 2010) & (df.date.dt.year <= 2019)]
+    
+        # create stock array
+        self.stock_df = df.pivot(index='date', columns='TICKER', values='PRC').astype(float)
+        
+        # adjust for stock splits
+        facpr_df = df.pivot(index='date', columns='TICKER', values='FACPR').astype(float)
+        self.stock_df = self.stock_df * (1+facpr_df).cumprod(axis=0)
+        # assert np.all(self.stock_df.pct_change().iloc[1:, :] > -1), 
+        f"{(self.stock_df.pct_change().iloc[1:, :] <= -1).sum().sum()=}, 
+        {np.any(pd.isna(self.stock_df.pct_change().iloc[1:, :]))}"
+        self.ret = np.log(self.stock_df.pct_change().iloc[1:, :] + 1)
+    
+        # get times and dickers
+        self.times = df.date.unique()[1:]
+        self.tickers = df.TICKER.unique()
+    
+        # read index data and compute volatilities
+        idx_df = pd.read_csv('crsp_snpidx_2010_to_2024.csv', dtype={
+          'DATE': 'string',
+          'vwretd': float
+        })
+        idx_df.DATE = pd.to_datetime(idx_df.DATE)
+        idx_df['vol_20'] = idx_df.vwretd.rolling(20).std()
+        idx_df['vol_60'] = idx_df.vwretd.rolling(60).std()
+        idx_df.set_index('DATE', inplace=True)
+        self.vol_20 = idx_df.vol_20
+        self.vol_60 = idx_df.vol_60
+    
+        # get vix data
+        vix_df = pd.read_csv('crsp_vix_2010_to_2024.csv', dtype={
+          'Date': 'string',
+          'vix': float
+        })
+        vix_df.Date = pd.to_datetime(vix_df.Date)
+        vix_df.set_index('Date', inplace=True)
+        self.vix_df = vix_df.vix
+        
+        return len(self.times)-100-1, len(self.tickers)
+    
+    def get_state(self) -> npt.NDArray[np.float64]:
+        # today is self.times[self.t+100]
+        s = np.zeros((self.universe_size+1, 100+1))
+        s[:, 0] = self.w
+        # s[1:, :-1] = self.ret[self.t:self.t+100, :].T
+        # 100 past returns, up to yesterday
+        s[1:, :-1] = self.ret.loc[self.times[self.t:self.t+100], :].to_numpy().T
+        s[-1, 1] = self.vol_20[self.times[self.t+100-1]] # yesterday's vol_20
+        s[-1, 2] = self.vol_20[self.times[self.t+100-1]] / 
+                    self.vol_60[self.times[self.t+100-1]] # yesterday's vol ratio
+        s[-1, 3] = self.vix_df[self.times[self.t+100-1]] # yesterday's vix
+        return s
+
+    def get_prices(self) -> npt.NDArray[np.float64]:
+        # today is self.times[self.t+100]
+        return np.append(self.stock_df.loc[self.times[self.t+100], :].to_numpy()
+        .flatten(), 1.0)
+  
+\end{minted}
+
+\subsection{MPTWithTCost}
+
+Covariance and correlation matrices of historical stocks returns are the core of modern portfolio theory; 
+indeed the investor 
+who incorporates the covariance matrix can effectively minimize portfolio variance. 
+\cite{drl_modern_portfolio_theory} integrates correlation matrices and price-based technical 
+indicators into an RL-setting, effectly combining RL with modern portfolio theory. We provide a brief overview 
+of their methodology and infrastructure.
+
+Technical indicators are pattern-based signals used to describe the current state 
+of an asset's price based on previous trends. The authors use asset price and three technical indicators to construct 
+tensors: moving average (MA), relative strength index (RSI), and moving avarage convergence divergence (MACD).
+
+MA computes the average price over a rolling window. Let $P_{i,t}$ be the close 
+price for asset $i$ at time $t$ and let $w = 28$ be the window. 
+\[MA_w(t) = \frac{\sum_{t=0}^{w-1}P_{i, t}}{w}\] 
+RSI describes the upward or downward pressure on an asset's close price.
+Let $w=14$ and consider an exponential moving average 
+\[EMA_w(t) = \alpha P(t) + (1-\alpha) * EMA_w(t-1), \alpha = \frac{2}{1 + w}\]
+Then RSI is computed as 
+\[RSI_t(w) = 100 * \Bigl(1 - \frac{1}{1 + \frac{EMA_w(\max(P_t - P_{t-1}, 0))}{EMA_w(\min(P_t - P_{t-1}, 0))}}\Bigr)\]
+Finally, MACD describes the relationship between two EMAs. Let $k = 26, d=12, w=9$
+\[MACD_w(t) = \sum_{i=1}^n EMA_k(i) - \sum_{i=1}^w EMA_d(i)\]
+
+Using these price and technical indicator matrices, construct tensors 
+\begin{align*}
+  V_t = [V_{\text{t, close}}, V_{\text{t, MA}}, V_{\text{t, RSI}}, V_{\text{t, MACD}}] \in \mathbb{R}^{4 \times m \times n}\\
+  Cor_t = [Cor_{\text{t, close}}, Cor_{\text{t, MA}}, Cor_{\text{t, RSI}}, Cor_{\text{t, MACD}}] \in \mathbb{R}^{4 \times n \times n}
+\end{align*}
+For indicator $i$ and asset $n$, the authors use the following trasnformation to fuse the properties 
+into one tensor. 
+\[F_{t(i, n)} = V_{t(i, n)} Cor^T_{t(i, n)}, F_{t(i, n)} \in R^{m \times n}\]
+Now for all indicators and assets, we can efficiently compute the transformed tensor to be $F_t \in R^{4 \times n \times m \times n}$.
+This transformed tensor then goes through a convolution layer with 32 feature maps and a $(1, 3, 1)$ kernel and then ReLU activation try 
+try and capture spacial features.
+\[F_t' = \text{Conv3D}(F_t), F_t' \in \mathbb{R}^{32 \times n \times m \times n}\]
+where the equal shape of $F_t$ and $F_t'$ can be achieved using "equal" padding. Finally, the Tucker Decomposition is used
+to decompose $F_t'$ into a core tensor $C$ and a list of factor matrices $M$. Tucker Decomposition is also recognized as a higher order Singular Value Decomposition. 
+\[C, M = \text{Tucker Decomposition}(F_t'), C \in \mathbb{R}^{1 \times 1 \times n \times m} \implies C \in \mathbb{R}^{n \times m}\]
+Setting $C = \mathcal{S}$ the new state space at time, the agent proceeds with the learing process
+using the DDPG algorithm, which we have aforementioned.
+
+\begin{minted}[escapeinside=||,mathescape=true,linenos,xleftmargin=20pt]{python3}
+
+  import numpy as np
+  import pandas as pd
+  import gymnasium as gym
+  import pandas_ta as ta
+  from tensorly.decomposition import Tucker
+  tensorly.set_backend('pytorch')
+  import torch
+  from portfolio_env_with_tcost import PortfolioEnvWithTCost
+  from typing import Tuple, Optional
+  import numpy.typing as npt
+
+  class MPTWithTCost(PortfolioEnvWithTCost):
+
+    def get_obs_space(self) -> gym.spaces.Box:
+        self.state_shape = (1, 1, 28, self.universe_size)
+        self.t = 0
+        self.get_indicators()
+        return gym.spaces.Box(low=-np.inf, high=np.inf, shape=self.state_shape, 
+        dtype=np.float64)
+    
+    def get_data(self) -> Tuple[int, int]:
+        # read SNP data
+        df = pd.read_csv('crsp_snp100_2010_to_2024.csv', dtype='string')
+    
+        # convert datatypes
+        df = df[['date', 'TICKER', 'PRC', 'VOL', 'ASKHI', 'BIDLO', 'FACPR']]
+        df.date = pd.to_datetime(df.date)
+        df.FACPR = df.FACPR.fillna('0.0')
+        df.astype({
+            'PRC': float,
+            'VOL': float,
+            'ASKHI': float,
+            'BIDLO': float,
+            'FACPR': float
+        })
+    
+        # drop duplicates and nans
+        df = df.drop_duplicates(subset=['date', 'TICKER'])
+        df.dropna(inplace=True)
+    
+        # only include stocks that are present in all dates
+        ticker_ok = df.TICKER.value_counts() == df.TICKER.value_counts().max()
+
+        def is_max_val_count(ticker: str) -> bool:
+          return ticker_ok[ticker]
+        
+        ok = df.apply(lambda row: is_max_val_count(row['TICKER']), axis=1)
+        df = df[ok]
+        df = df[(df.date.dt.year >= 2010) & (df.date.dt.year <= 2019)]
+    
+        # create stock array
+        self.stock_df = df.pivot(index='date', columns='TICKER', values='PRC').astype(float)
+        
+        idx_df = pd.read_csv('crsp_snpidx_2010_to_2024.csv', dtype={
+          'DATE': 'string',
+          'vwretd': float
+        })
+        idx_df.DATE = pd.to_datetime(idx_df.DATE)
+        idx_df['vol_20'] = idx_df.vwretd.rolling(20).std()
+        idx_df['vol_60'] = idx_df.vwretd.rolling(60).std()
+        idx_df.set_index('DATE', inplace=True)
+        self.idx_df = idx_df
+
+        # adjust for stock splits
+        facpr_df = df.pivot(index='date', columns='TICKER', values='FACPR').astype(float)
+        self.stock_df = self.stock_df * (1+facpr_df).cumprod(axis=0)
+        self.ret = np.log(self.stock_df.pct_change().iloc[1:, :] + 1)
+        self.times = df.date.unique()[1:]
+        self.tickers = df.TICKER.unique()
+
+        return len(self.times)-28-1, len(self.tickers)
+
+    def get_indicators(self):
+        self.conv3d = torch.nn.Conv3d(in_channels=4, out_channels=32,
+        kernel_size=(1, 3, 1), padding="same").to('cuda')
+        self.relu = torch.nn.ReLU()
+        self.tucker = Tucker(rank=self.state_shape, init="random")
+        self.m = 28
+        self.w1, self.w2, self.w3 = 28, 14, 9
+        
+        df = (pd.DataFrame(self.stock_df, columns=self.tickers))
+        df = df.dropna()
+        mp = {ticker: pd.DataFrame(df[ticker]).rename(columns={ticker: "close"})
+         for ticker in self.tickers}
+        # SMA df
+        sma = {ticker: pd.DataFrame(mp[ticker].ta.sma(self.w1)).rename(
+          columns={"SMA_28": ticker}) for ticker in self.tickers}
+        sma_df = pd.concat(sma.values(), axis=1).fillna(0)
+        # RSI df
+        rsi = {ticker: pd.DataFrame(mp[ticker].ta.rsi(self.w2)).rename(
+          columns={"RSI_14": ticker}) for ticker in self.tickers}
+        rsi_df = pd.concat(rsi.values(), axis=1).fillna(0)
+        # MACD df
+        macd = {ticker: pd.DataFrame(mp[ticker].ta.macd(self.w3, 26, 12)["MACD_9_26_12"])
+        .rename(columns={"MACD_9_26_12": ticker}) for ticker in self.tickers}
+        macd_df = pd.concat(macd.values(), axis=1).fillna(0)
+
+        # Compute F = V @ Corr
+        V = np.array([np.array(x.T) for x in [df, sma_df, rsi_df, macd_df]])
+        Corr = np.array([np.corrcoef(x) for x in V])
+        self.F = torch.from_numpy(np.einsum('aki,akj->akij', V, Corr)).to('cuda').float()
+
+
+    def get_state(self) -> npt.NDArray[np.float64]:
+        f = self.F[:, :, self.t + 28 - self.m : self.t + 28, :].clone().detach()      
+        f = torch.unsqueeze(f, dim=0) 
+        f = self.conv3d(f)
+        f = self.relu(f)
+        f = torch.squeeze(f, dim=0)
+        f = f.cpu()
+        core, _ = self.tucker.fit_transform(f)
+        return core.detach().numpy()
+
+    def get_prices(self) -> npt.NDArray[np.float64]:
+        return np.append(self.stock_df.loc[self.times[self.t+28], :].to_numpy().
+        flatten(), 1.0)
+\end{minted}
+
+

@@ -1,0 +1,107 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gössi et~al.(2023)Gössi, Chen, Kim, Bermeitinger, and Handschuh]{finbert}
+Sandro Gössi, Ziwei Chen, Wonseong Kim, Bernhard Bermeitinger, and Siegfried Handschuh.
+\newblock {FinBERT}-{FOMC}: {Fine}-{Tuned} {FinBERT} {Model} with {Sentiment} {Focus} {Method} for {Enhancing} {Sentiment} {Analysis} of {FOMC} {Minutes}.
+\newblock In \emph{Proceedings of the {Fourth} {ACM} {International} {Conference} on {AI} in {Finance}}, {ICAIF} '23, pages 357--364, New York, NY, USA, November 2023. Association for Computing Machinery.
+\newblock ISBN 9798400702402.
+\newblock \doi{10.1145/3604237.3626843}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/3604237.3626843}.
+
+\bibitem[Sood et~al.()Sood, Papasotiriou, Vaiciulis, and Balch]{drl_mvo}
+Srijan Sood, Kassiani Papasotiriou, Marius Vaiciulis, and Tucker Balch.
+\newblock Deep {Reinforcement} {Learning} for {Optimal} {Portfolio} {Allocation}: {A} {Comparative} {Study} with {Mean}-{Variance} {Optimization}.
+
+\bibitem[Jang and Seong(2023)]{drl_modern_portfolio_theory}
+Junkyu Jang and NohYoon Seong.
+\newblock Deep reinforcement learning for stock portfolio optimization by connecting with modern portfolio theory.
+\newblock \emph{Expert Systems with Applications}, 218:\penalty0 119556, May 2023.
+\newblock ISSN 0957-4174.
+\newblock \doi{10.1016/j.eswa.2023.119556}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S095741742300057X}.
+
+\bibitem[Ye et~al.(2020)Ye, Pei, Wang, Chen, Zhu, Xiao, and Li]{rl_augmented_states}
+Yunan Ye, Hengzhi Pei, Boxin Wang, Pin-Yu Chen, Yada Zhu, Jun Xiao, and Bo~Li.
+\newblock Reinforcement-{Learning} based {Portfolio} {Management} with {Augmented} {Asset} {Movement} {Prediction} {States}, February 2020.
+\newblock URL \url{http://arxiv.org/abs/2002.05780}.
+\newblock arXiv:2002.05780 [cs, q-fin, stat].
+
+\bibitem[Jiang et~al.(2017)Jiang, Xu, and Liang]{drl_framework}
+Zhengyao Jiang, Dixing Xu, and Jinjun Liang.
+\newblock A {Deep} {Reinforcement} {Learning} {Framework} for the {Financial} {Portfolio} {Management} {Problem}, July 2017.
+\newblock URL \url{http://arxiv.org/abs/1706.10059}.
+\newblock arXiv:1706.10059 [cs, q-fin] version: 2.
+
+\bibitem[Song et~al.(2017)Song, Liu, and Yang]{learn_to_rank}
+Qiang Song, Anqi Liu, and Steve~Y. Yang.
+\newblock Stock portfolio selection using learning-to-rank algorithms with news sentiment.
+\newblock \emph{Neurocomputing}, 264:\penalty0 20--28, November 2017.
+\newblock ISSN 0925-2312.
+\newblock \doi{10.1016/j.neucom.2017.02.097}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0925231217311098}.
+
+\bibitem[Lee et~al.(2020)Lee, Kim, Yi, and Kang]{maps}
+Jinho Lee, Raehyun Kim, Seok-Won Yi, and Jaewoo Kang.
+\newblock {MAPS}: {Multi}-agent {Reinforcement} {Learning}-based {Portfolio} {Management} {System}.
+\newblock In \emph{Proceedings of the {Twenty}-{Ninth} {International} {Joint} {Conference} on {Artificial} {Intelligence}}, pages 4520--4526, July 2020.
+\newblock \doi{10.24963/ijcai.2020/623}.
+\newblock URL \url{http://arxiv.org/abs/2007.05402}.
+\newblock arXiv:2007.05402 [cs].
+
+\bibitem[François-Lavet et~al.(2018)François-Lavet, Henderson, Islam, Bellemare, and Pineau]{introtodeeprl}
+Vincent François-Lavet, Peter Henderson, Riashat Islam, Marc~G. Bellemare, and Joelle Pineau.
+\newblock An introduction to deep reinforcement learning.
+\newblock \emph{Foundations and Trends® in Machine Learning}, 11\penalty0 (3–4):\penalty0 219–354, 2018.
+\newblock ISSN 1935-8245.
+\newblock \doi{10.1561/2200000071}.
+\newblock URL \url{http://dx.doi.org/10.1561/2200000071}.
+
+\bibitem[Lillicrap et~al.(2019)Lillicrap, Hunt, Pritzel, Heess, Erez, Tassa, Silver, and Wierstra]{ddpg}
+Timothy~P. Lillicrap, Jonathan~J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra.
+\newblock Continuous control with deep reinforcement learning, 2019.
+
+\bibitem[Watkins and Dayan(1992)]{q-learning}
+Christopher J. C.~H. Watkins and Peter Dayan.
+\newblock Q-learning.
+\newblock \emph{Machine Learning}, 8\penalty0 (3):\penalty0 279--292, May 1992.
+\newblock ISSN 1573-0565.
+\newblock \doi{10.1007/BF00992698}.
+\newblock URL \url{https://doi.org/10.1007/BF00992698}.
+
+\bibitem[Silver et~al.(2014)Silver, Lever, Heess, Degris, Wierstra, and Riedmiller]{dpg}
+David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, and Martin Riedmiller.
+\newblock Deterministic policy gradient algorithms.
+\newblock In Eric~P. Xing and Tony Jebara, editors, \emph{Proceedings of the 31st International Conference on Machine Learning}, volume~32 of \emph{Proceedings of Machine Learning Research}, pages 387--395, Bejing, China, 22--24 Jun 2014. PMLR.
+\newblock URL \url{https://proceedings.mlr.press/v32/silver14.html}.
+
+\bibitem[Schulman et~al.(2015)Schulman, Levine, Abbeel, Jordan, and Moritz]{trpo}
+John Schulman, Sergey Levine, Pieter Abbeel, Michael Jordan, and Philipp Moritz.
+\newblock Trust region policy optimization.
+\newblock In Francis Bach and David Blei, editors, \emph{Proceedings of the 32nd International Conference on Machine Learning}, volume~37 of \emph{Proceedings of Machine Learning Research}, pages 1889--1897, Lille, France, 07--09 Jul 2015. PMLR.
+\newblock URL \url{https://proceedings.mlr.press/v37/schulman15.html}.
+
+\bibitem[Schulman et~al.(2017)Schulman, Wolski, Dhariwal, Radford, and Klimov]{ppo}
+John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov.
+\newblock Proximal policy optimization algorithms, 2017.
+
+\bibitem[Moody and Wu()]{diff_sharpe_ratio_paper}
+J.~Moody and Lizhong Wu.
+\newblock Optimization of trading systems and portfolios.
+\newblock In \emph{Proceedings of the {IEEE}/{IAFE} 1997 Computational Intelligence for Financial Engineering ({CIFEr})}, pages 300--307.
+\newblock \doi{10.1109/CIFER.1997.618952}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/618952}.
+
+\bibitem[Moody et~al.()Moody, Saffell, Liao, and Wu]{diff_sharpe_ratio_book}
+John Moody, Matthew Saffell, Yuansong Liao, and Lizhong Wu.
+\newblock Reinforcement learning for trading systems and portfolios: Immediate vs future rewards.
+\newblock In Apostolos-Paul~N. Refenes, Andrew~N. Burgess, and John~E. Moody, editors, \emph{Decision Technologies for Computational Finance: Proceedings of the fifth International Conference Computational Finance}, pages 129--140. Springer {US}.
+\newblock ISBN 978-1-4615-5625-1.
+\newblock \doi{10.1007/978-1-4615-5625-1_10}.
+\newblock URL \url{https://doi.org/10.1007/978-1-4615-5625-1_10}.
+
+\end{thebibliography}

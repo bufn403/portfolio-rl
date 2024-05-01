@@ -1,0 +1,16 @@
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+*.zip
+report/*.aux
+report/*.log
+report/*.gz
+report/*.out
+report/*.toc
+report/*.fdb_latexmk
+report/*.fls
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
+**/.DS_Store
+report/_minted-report/*
