@@ -125,3 +125,40 @@ class AbstractPortfolioEnvWithTCost(gym.Env):
         self.state = self.get_state()
         self.v = self.get_prices()
         return self.state.copy(), {}
+
+class PortfolioEnvWithTCostNews(AbstractPortfolioEnvWithTCost):
+    def get_obs_space(self) -> gym.spaces.Box:
+        """Result is assigned to ``self.observation_space``"""
+        return gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.universe_size+1, 100+2), dtype=np.float32)
+    
+    @abstractmethod
+    def get_data(self) -> tuple[int, int]:
+        """
+        This abstract function loads/fetches state data and stores it on the environment.
+        This will be called during initialization. The properties assigned here should be
+        accessed into the __compute_state() method. Note that the data should provide for
+        one more than the number of time periods desired (for the initial state).
+        :return: (number of time periods, number of stock tickers)
+        """
+        pass
+
+    def get_state(self, t, w, port_val ) -> npt.NDArray[np.float64]:
+        # today is self.times[self.t+100]
+        
+        s = np.zeros((self.universe_size+1, 100+2))
+        s[:, 0] = w
+        s[:-1, 1:-1] = self.ret[t:t+100, :].T
+        s[:-1, -1] = self.news_sentiment_array.loc[self.times[t+100-1]].values
+        s[-1, 1] = self.vol_20[t]
+        s[-1, 2] = self.vol_20[t] / self.vol_60[t]
+        s[-1, 3] = self.vix[t]
+        
+        return s
+
+    def get_prices(self, t) -> npt.NDArray[np.float64]:
+        # today is self.times[self.t+100]
+        return np.append(self.stock_array[t+100, :].flatten(), 1.0)
+    
+
+    
+
