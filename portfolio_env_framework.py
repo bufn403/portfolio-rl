@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 import numpy as np
 import numpy.typing as npt
 import gymnasium as gym
+import torch.nn as nn
+import scipy.special
+import torch
 
 class AbstractRewardManager(ABC):
     @abstractmethod
@@ -54,7 +57,7 @@ class PortfolioEnvWithTCost(gym.Env):
         self,
         dm: AbstractDataManager,
         rm: AbstractRewardManager,
-        w_lb=0.0, w_ub=1.0,
+        w_lb=0, w_ub=1,
         cp=0.0, cs=0.0,
         logging=True
     ):
@@ -65,6 +68,7 @@ class PortfolioEnvWithTCost(gym.Env):
         # set constants
         self.cp, self.cs = cp, cs
         self.logging = logging
+        self.w_lb, self.w_ub = w_lb, w_ub
 
         # get data, set problem size
         self.num_time_periods, self.universe_size = self.dm.get_data()
@@ -73,8 +77,8 @@ class PortfolioEnvWithTCost(gym.Env):
         assert w_lb <= w_ub
         self.observation_space = self.dm.get_obs_space()
         self.action_space = gym.spaces.Box(
-            low=w_lb,
-            high=w_ub,
+            low=-1,
+            high=1,
             shape=(self.universe_size + 1,),
             dtype=np.float64
         )
@@ -92,7 +96,37 @@ class PortfolioEnvWithTCost(gym.Env):
         return mu
 
     def step(self, action: npt.NDArray[np.float64]) -> tuple:
-        action = action / action.sum()
+        # print(f"env raw {action.mean()=}, {action.std()=}")
+        self.reward = 0
+        # print(f"env {self.reward=}")
+        # print(f"raw {action.mean()=}, {action.std()=}, {action.min()=}, {action.max()=}")
+        # print(f"{action=}")
+        # print(f"{action.shape=}")
+        # print(f"{action.sum()=}")
+        # action = action.flatten() / action.sum()
+        # print(f"raw action mean={action.mean()}, median={np.median(action)}, std={action.std()}")
+        # action = scipy.special.softmax(action.flatten())
+        # action = np.clip(action + np.random.normal(0, 0.05, action.shape), -1, 1)
+        # print(f"in env initial {action=}")
+
+        rescaled_action = (self.w_ub - self.w_lb) * (action + 1) / 2.0 + self.w_lb
+        self.reward += -1 * (rescaled_action.sum() - 1)**2
+        # print(f"in env {rescaled_action=}")
+        terminated = False
+        # if rescaled_action.sum() == 0:
+        #     rescaled_action[-1] = 1.0
+        #     self.reward -= 10**12
+        #     terminated = True
+        # action = rescaled_action.flatten() / rescaled_action.sum()
+        # self.reward += -((action - 1/len(action))**2).sum()
+        # t = np.linspace(0, 1, len(action))
+        # t = np.ones_like(action)
+        t = np.linspace(0, 1, self.universe_size+1)
+        t = t / t.sum()
+        self.reward += - 100*((rescaled_action - t)**2).sum()
+        # print(f"in env {self.reward=}, rescaled {len(action)=}, {action.min()=}, {action.max()=}, {action.mean()=}, {action.std()=}")
+        # print(f"{action[-5:]=}, {t[-5:]}")
+
         self.w_new = action
         self.t += 1
         self.v_new = self.dm.get_prices(self.t)
@@ -100,12 +134,12 @@ class PortfolioEnvWithTCost(gym.Env):
         self.mu = self.find_mu(self.y * self.w / (self.y * self.w).sum(), self.w_new)
         self.new_port_val = self.port_val * self.mu * (self.y @ self.w)
 
-        self.reward = self.rm.compute_reward(self.port_val, self.new_port_val)
+        # self.reward += self.rm.compute_reward(self.port_val, self.new_port_val)
 
-        self.state = self.dm.get_state(self.t, self.w, self.new_port_val)
         self.w = self.w_new
         self.v = self.v_new
         self.port_val = self.new_port_val
+        self.state = self.dm.get_state(self.t, self.w, self.new_port_val)
 
         if self.logging:
             info = {
@@ -115,7 +149,8 @@ class PortfolioEnvWithTCost(gym.Env):
             info = {}
 
         finished = (self.t == self.num_time_periods)
-        return self.state.copy(), self.reward, finished, False, info
+        # self.reward = nn.functional.kl_div(torch.tensor(action), torch.ones_like(torch.tensor(action)) / len(action), reduction='sum')
+        return self.state.copy(), self.reward, finished, terminated, info
 
     def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
         # portfolio weights (final is cash weight)
