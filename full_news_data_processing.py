@@ -18,7 +18,7 @@ partner_headlines = pd.read_csv('./archive/raw_partner_headlines.csv')
 benzinga_headlines = pd.read_csv('./archive/raw_analyst_ratings.csv')
 headlines = pd.concat([partner_headlines, benzinga_headlines]).drop('Unnamed: 0', axis = 1)
 five_yr_hls = headlines.loc[(headlines['date'] >= "2010-01-01") & (headlines['date'] < "2015-01-01")]
-
+five_yr_hls_batch_2 = headlines.loc[(headlines['date'] >= "2015-01-01") & (headlines['date'] < "2020-01-01")]
 
 tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert", token = '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')
 model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert", token = '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').to("mps")
@@ -72,6 +72,7 @@ def get_batch_logits(batch, model):
     return probabilities
 
 dataset = NewsHeadlines(five_yr_hls['headline'].to_list(), tokenizer)
+dataset = NewsHeadlines(five_yr_hls_batch_2['headline'].to_list(), tokenizer)
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=32, shuffle=False)
 
 # Perform inference in batches
@@ -80,7 +81,7 @@ logging.info("Dataset Loaded")
 for batch in dataloader:
     try:
         probabilities = get_batch_logits(batch, model)
-        torch.save(probabilities, f"../../Desktop/FullNewsBatchedTensors/tensor{i}.pt")
+        torch.save(probabilities, f"../../Desktop/FullNewsBatchedTensors2/tensor{i}.pt")
         logging.info(f"Batch {i} completed")
     except TimeoutError:
         logging.into(f"Batch {i} timed out")
