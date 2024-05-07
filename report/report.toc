@@ -2,19 +2,16 @@
 \contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Dataset Creation}{3}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Stock Data}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}News Data}{4}{subsection.1.2.2}%
-\contentsline {subsubsection}{Scraping Financial News Sources}{4}{section*.2}%
-\contentsline {subsubsection}{SEC Filings}{4}{section*.3}%
+\contentsline {subsection}{\numberline {1.2.2}News Data}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{SEC Filings}{4}{section*.2}%
 \contentsline {subsection}{\numberline {1.2.3}Sentiment Analysis}{4}{subsection.1.2.3}%
-\contentsline {subsubsection}{FinBERT Sentiment Scores}{4}{section*.4}%
-\contentsline {subsubsection}{Topic Modeling}{5}{section*.5}%
+\contentsline {subsubsection}{FinBERT Sentiment Scores}{4}{section*.3}%
 \contentsline {section}{\numberline {1.3}Algorithmic and Analytical Challenge}{5}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Existing Literature}{5}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Methodology}{6}{subsection.1.3.2}%
-\contentsline {subsubsection}{Markov Decision Process Problem Formulation}{6}{section*.6}%
-\contentsline {subsubsection}{Use of Libraries}{7}{section*.7}%
-\contentsline {subsubsection}{Strategy Benchmarking}{7}{section*.8}%
-\contentsline {section}{\numberline {1.4}User Interface and Visual Analytics}{7}{section.1.4}%
+\contentsline {subsubsection}{Markov Decision Process Problem Formulation}{6}{section*.4}%
+\contentsline {subsubsection}{Use of Libraries}{7}{section*.5}%
+\contentsline {subsubsection}{Strategy Benchmarking}{7}{section*.6}%
 \contentsline {chapter}{\numberline {2}Literature Notes and Commentary}{8}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Reinforcement Learning Overview}{8}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Markov Decision Process}{8}{subsection.2.1.1}%

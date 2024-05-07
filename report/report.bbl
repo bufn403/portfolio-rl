@@ -68,4 +68,9 @@ John Moody, Matthew Saffell, Yuansong Liao, and Lizhong Wu.
 \newblock \doi{10.1007/978-1-4615-5625-1_10}.
 \newblock URL \url{https://doi.org/10.1007/978-1-4615-5625-1_10}.
 
+\bibitem[Aenille, Miguel(2020)]{financial_news}
+Miguel, Aenille
+\newblock Daily Financial News for 6000+ Stocks
+\newblock URL \url{https://www.kaggle.com/datasets/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests/data}.
+
 \end{thebibliography}

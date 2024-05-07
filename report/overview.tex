@@ -15,18 +15,6 @@ follows:
     \item Given that a reinforcement learning agent’s decisions are modeled by a Markov Decision Process, we can easily provide different reward functions to account for a variety of investor preferences or restrictions.
 \end{enumerate}
 
-A potential advisor for our project is Yada Zhu, a member of the finance research team 
-at IBM. She was an author on one of the key papers we are referencing for our RL model 
-implementation. Her experience with finance-related machine learning, time-series 
-analysis, and alternative data sources would be very valuable in guiding us throughout 
-our process.
-
-Within our team, Sashwat and Ravi are working on dataset scraping, creation, curation, 
-and cleaning; each is testing different APIs (described in the following section). 
-Sumit and James are working on the RL algorithms; they are taking turns implementing 
-papers described in that section and iterating on the architectures.
-
-
 
 
 \section{Dataset Creation}
@@ -37,59 +25,42 @@ of sources. We aim to use two primary types of data: stock and news data.
 
 \subsection{Stock Data}
 
-For now, since our project will likely be focused on building an agent that can perform 
-well on historical data, we aim to use data from the Wharton Research Data Services 
+We retrieve data from Wharton Research Data Services 
 (WRDS). WRDS is a pre-eminent source of financial data that we have experience 
 utilizing in the Computational Finance program’s other courses that has expansive 
-data on stocks. Specifically, we aim to use data from the Center for Research in 
-Security Prices (CRSP), which has security price, return, and volume data for the 
-NYSE, AMEX and NASDAQ stock markets. 
-
-We will begin by creating a universe with just the S$\&$P 100 stocks, but we aim to 
-expand to the S$\&$P 500 and/or stocks on all publicly-listed exchanges available through WRDS.
+data on stocks. Specifically, we want to utilize data from the Center for Research in 
+Security Prices (CRSP), which has security price, return, and volume data for stocks listed in the 
+NYSE, AMEX and NASDAQ exchanges. We created a our trading universe with the S$\&$P 100 stocks.
 
 \subsection{News Data}
 
-An important aspect of the novelty of our research is to explore how the performance 
-of our reinforcement learning agent is influenced by news data.
+An important direction of our research is to explore how the performance 
+of reinforcement learning trading agents are influenced by news data.
 We believe that news data will impart an external understanding of how 
-well a given stock is performing at a given time and how it is specifically 
-exposed to certain market or sector risks. This could provide our agent a better 
-view of the environment and knowledge of our ticker companies in context, which 
-can help it make better decisions to maximize our chosen reward function. 
+well a given stock is performing at a given time and its exposure market or sector risks. 
+This could provide our agent a better view of the trading environment, which 
+can help it make better decisions to maximize the reward. 
 
-
-\subsubsection{Scraping Financial News Sources}
-
-The dataset that we use in this project is th
-
-We want to focus on a few sites more committed to broadly reporting about a wide 
-variety of companies to limit information asymmetry amongst stocks in our universe. 
-News sources like Morningstar, Benzinga, and YFinance all allow users to filter their 
-news searches by ticker. This will not only make it easier to scrape data, but also 
-ensure that we actually have data for all of the companies in our universe. We plan
-to collect at least a few years of data on each ticker, but one year of historical 
-news articles for each ticker is a good starting point. Note that it is not essential 
-for every ticker to have a news article for every day in our methodology. 
-
-In scraping this data, we will be mindful of news organizations’ terms of 
-services and ensure we are scraping ethically. Since the content is publicly 
-available on these sites we will scrape at a reasonable frequency to avoid getting 
-rate limited and/or IP blocked.
-
+The dataset we use in this project is Daily Financial News for 6000+ Stocks that was downloaded via kaggle \cite{financial_news}.
+This dataset contains scraped headline data for over 6000 stocks listed on the NYSE exchange from 2009-2020. 
+There are two main files within this dataset that we use. The first is \texttt{raw\_analyst\_ratings.csv}, which only contains scraped data from a prominent finacial news publisher Benzinga.
+The other file \texttt{raw\_partner\_headlines.csv} contains scraped headline data from other smaller publishers that partner with Benzinga. Each row of the file contains a headline, the base article URL, the date and time of publication, and the stock ticker symbol.
+The \texttt{raw\_analyst\_ratings.csv} file does not contain publisher information, as it is already implied that Benzinga is the publisher. Meanwhile, the table in \texttt{raw\_partner\_headlines.csv} has a column indicating the publisher of each article. 
+We concatenate the headline data from each file into one unified dataset that contains all headlines for each stock in our universe.
 
 
 \subsubsection{SEC Filings}
 
-To enrich our dataset, we are considering utilizing SEC filings data for all 
-NYSE/NASDAQ companies (available through WRDS) that we plan to pull data for. 
+To enrich our dataset, we utilize SEC filings data for each of the S$\&$P100 companies. 
 These filings contain essential information regarding a company's financial 
 performance, governance, and compliance that could enhance our measure of 
 company outlook. Specifically we aim to use data from 10-K and 10-Q filings. 
 10-K’s are an annual report on a company’s performance, and include information. 
 They are divided into items that show a company’s financial statements, 
 stock projections, and pertinent information for shareholders in sections that 
-are denoted as items. For our project, the textual data that is most likely to 
+are denoted as items. 
+
+For the 10-k reports for For our project, the textual data that is most likely to 
 capture a company’s sentiment is Item 1A, Risk Factors. This item is a company 
 issued statement on the risk factors that could affect the operations of the 
 business for the next fiscal year. We will extract this data from 10-K statements 
@@ -100,57 +71,45 @@ RL agent to use.
 
 Using the news sources and SEC filings data described above, we wish to 
 generate embeddings from which we can extract sentiment related features 
-to provide to our reinforcement learning agent. Our initial approach, which 
-we have conducted some basic testing on, is to utilize the pre-trained 
+to provide to our reinforcement learning agent. Our approach, which is to utilize the pre-trained 
 FinBERT model, fine-tuned to recognize the sentiment of financial text to 
 create embeddings for us \cite{finbert}. 
 
 \subsubsection{FinBERT Sentiment Scores}
 
-For each time period, we will query headlines from articles about the individual 
-stocks. Note that if we use a source like Benzinga, articles are already tagged 
-with relevant stock tickers. We will feed headline data to pre-trained FinBERT. 
+Over the full trading period (2010-2015), we will feed all of the headlines to pre-trained FinBERT. 
 The model then will preprocess the text and generate probabilities of the content 
 being positive, negative, or neutral. From there, we can assign each headline a 
 numerical score based on its maximum probability class. The numerical map could 
 look something like the following:  {positive: 1, neutral: 0, negative: -1} 
-Over a trading period, we can take some aggregate of these class labels for 
+Over each day (our trading period), we can take some aggregate of these class labels for 
 each stock and feed these class labels to our agent’s states matrix; at each 
 time step, this value will be appended to the row corresponding to the stocks’ 
 price data. (The state matrix will be defined in greater detail in the Algorithmic 
-and Analytical Challenges section.) We will experiment to find an optimal 
-aggregate function; potential options include providing all logits, 
-taking the mean, or designing a custom function to extract value heuristically. 
-One such function could be
+and Analytical Challenges section.) We ran experiments using different aggregation functions
+aggregate function which include taking the mean of the sentiment mappings for each day, and designing a custom function to extract value heuristically. 
+The function that we created is:
 \[\texttt{Value}_{\texttt{Embedding}} = \tanh\Biggl( \frac{\frac{\texttt{positive sentiment probability}}{\texttt{negative sentiment probability}}}{\texttt{neutral sentiment probability}} \Biggr)\]
 This approach combines the “log likelihood” (ratio of probabilities of positive and 
 negative sentiment) along with a penalty for high neutral sentiment (a measure of 
 uncertainty), using the tanh for normalization. This approach would allow us to 
-adequately detect strong positive/negative sentiment. We will compare this against 
-other aggregate functions in training experiments.
+adequately detect strong positive/negative sentiment. 
 
 We will test the exact same preprocessing pipeline on the SEC 10-K and 10-Q filings 
-for each company in our universe and integrate them into our states matrix. We will 
-experiment with the same options mentioned previously for the optimal aggregation 
-function. An issue that incorporates SEC filings is that they are recorded on a 
-relatively infrequent basis compared to news and price data. Preliminarily, we will 
-assume that there is no decay in the sentiment between reports. That means, 
-the sentiment embeddings for each company will only be updated on dates where a
+for each company in our universe and integrate them into our states matrix. An issue that incorporates SEC filings is that they are recorded on a 
+relatively infrequent basis compared to news and price data. Thus, we have also experimented with functions that model the decay of the sentiment.
+The experiment that we run is using exponential decay, that is we assume that the weight of our news sentiment signal decays by some constant rate $\lambda$ over time. Formally,
+
+$$
+\frac{dN}{dt} = -\lambda N
+$$
+
+Where $N$ represents the company's sentiment score for the day, $t$ represents time (in days), and $\lambda$ is a positive constant representing the daily rate of decay. We test $\lambda = 0.1, 0.5, 0.9$ in our models to see what performs optimally. Note that we test such a wide range of $\lambda$ values because we are unsure of how fast the trading signal from news sentiment scores decays.
+ 
+We also compare this strategy against a baseline assumption that there is no information carried forward for headline data. That means sentiment embeddings for each company will only be updated on dates where a
 new filing was reported. On non-reporting dates, the embeddings will be filled 
 forward from the last filing date. 
 
-\subsubsection{Topic Modeling}
-
-In a similar manner to the Financial Statement Analysis assignment from 
-Andy Chakraborty’s lecture, we can also utilize FinBERT to categorize news 
-headlines and content into financial-related topics. As demonstrated in that 
-assignment, the correlations between such scores and the performance of 
-companies can be useful to our RL agent by similarly incorporating such 
-embeddings as a tensor. For every news headline and SEC filing related to 
-each stock ticker, we will use the same pre-trained topic classification model 
-as we did in our assignment to give us a numeric mapping of each text’s most 
-probable topic. Using this, we will append a column of topic embeddings for 
-each ticker on each day to the states matrix.
 
 \section{Algorithmic and Analytical Challenge}
 
@@ -279,11 +238,3 @@ in-sample and out-of-sample plots, as well as our relative performance on portfo
 including cumulative return, Sharpe Ratio, Sortino Ratio, drawdown, etc. The experiment sections 
 in the above papers provide a strong reference for our methodological comparison.
 
-\section{User Interface and Visual Analytics}
-
-As our project is primarily oriented towards data curation and algorithms, we will not directly have a 
-user interface for a final end-user. However, in order to experiment with and visualize the performance 
-of our various models, we will create a small suite of visualizations in an interactive manner that 
-allows a researcher to choose methods and hyperparameters for our architecture. We will also create a 
-notebook to demonstrate the infrastructure and usage of our deep reinforcement learning model, 
-similar to those on TensorFlow and Huggingface.
