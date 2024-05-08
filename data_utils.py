@@ -4,7 +4,6 @@ import pandas as pd
 
 def exp_ffill(arr: pd.Series, gamma: float) -> pd.Series:
   assert 0 < gamma <= 1, f"{gamma=} is invalid; must be in (0, 1]"
-  print(arr)
   groups = pd.notna(arr).cumsum()
   exp = arr.isna().groupby(groups).cumsum()
   return arr.ffill().mul(gamma ** exp).fillna(0.0)
