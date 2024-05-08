@@ -60,7 +60,7 @@ They are divided into items that show a company’s financial statements,
 stock projections, and pertinent information for shareholders in sections that 
 are denoted as items. 
 
-For the 10-k reports for For our project, the textual data that is most likely to 
+Withing the 10-K reports, the item that we pulled data for from each company  For our project, the textual data that is most likely to 
 capture a company’s sentiment is Item 1A, Risk Factors. This item is a company 
 issued statement on the risk factors that could affect the operations of the 
 business for the next fiscal year. We will extract this data from 10-K statements 
@@ -77,9 +77,9 @@ create embeddings for us \cite{finbert}.
 
 \subsubsection{FinBERT Sentiment Scores}
 
-Over the full trading period (2010-2015), we will feed all of the headlines to pre-trained FinBERT. 
+Over the full trading period (2010-2015), we will feed all of the headlines and SEC filings items to pre-trained FinBERT. 
 The model then will preprocess the text and generate probabilities of the content 
-being positive, negative, or neutral. From there, we can assign each headline a 
+being positive, negative, or neutral. From there, we can assign each textual sample a 
 numerical score based on its maximum probability class. The numerical map could 
 look something like the following:  {positive: 1, neutral: 0, negative: -1} 
 Over each day (our trading period), we can take some aggregate of these class labels for 
@@ -95,20 +95,15 @@ negative sentiment) along with a penalty for high neutral sentiment (a measure o
 uncertainty), using the tanh for normalization. This approach would allow us to 
 adequately detect strong positive/negative sentiment. 
 
-We will test the exact same preprocessing pipeline on the SEC 10-K and 10-Q filings 
-for each company in our universe and integrate them into our states matrix. An issue that incorporates SEC filings is that they are recorded on a 
-relatively infrequent basis compared to news and price data. Thus, we have also experimented with functions that model the decay of the sentiment.
-The experiment that we run is using exponential decay, that is we assume that the weight of our news sentiment signal decays by some constant rate $\lambda$ over time. Formally,
+An issue that we run into when incorporating SEC filings data is that they are recorded on a annual or quarterly basis, which is far more infrequent than our samples for price and news data.
+Thus, to fill the gaps between SEC filings dates, we apply exponential decay to the sentiment scores on report dates. That is we assume that the weight of our SEC sentiment embedding decays by some constant rate $\lambda$ over time. Formally,
 
 $$
 \frac{dN}{dt} = -\lambda N
 $$
 
-Where $N$ represents the company's sentiment score for the day, $t$ represents time (in days), and $\lambda$ is a positive constant representing the daily rate of decay. We test $\lambda = 0.1, 0.5, 0.9$ in our models to see what performs optimally. Note that we test such a wide range of $\lambda$ values because we are unsure of how fast the trading signal from news sentiment scores decays.
+Where $N$ represents the company's sentiment score for the day, $t$ represents time (in days), and $\lambda$ is a positive constant representing the daily rate of decay. We test $\lambda = 0.1, 0.5, 0.9$ in our models to see what performs optimally. Note that we test a wide range of $\lambda$ values because we are unsure of how fast the signal from SEC filings decay.
  
-We also compare this strategy against a baseline assumption that there is no information carried forward for headline data. That means sentiment embeddings for each company will only be updated on dates where a
-new filing was reported. On non-reporting dates, the embeddings will be filled 
-forward from the last filing date. 
 
 
 \section{Algorithmic and Analytical Challenge}
