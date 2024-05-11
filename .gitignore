@@ -14,3 +14,10 @@ report/*.bbl
 report/*.blg
 **/.DS_Store
 report/_minted-report/*
+BatchedTensors/
+archive/
+crsp_full_2010_2024.csv
+1000_random_sample_tickers.csv
+200_random_sample_tickers.csv
+2014_news_sentiment_data.csv
+500_random_sample_tickers.csv
