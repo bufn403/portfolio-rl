@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 import numpy as np
 import numpy.typing as npt
 import gymnasium as gym
+import torch.nn as nn
+import scipy.special
+import torch
 
 class AbstractRewardManager(ABC):
     @abstractmethod
@@ -54,7 +57,7 @@ class PortfolioEnvWithTCost(gym.Env):
         self,
         dm: AbstractDataManager,
         rm: AbstractRewardManager,
-        w_lb=0.0, w_ub=1.0,
+        w_lb=0, w_ub=1,
         cp=0.0, cs=0.0,
         logging=True
     ):
@@ -65,6 +68,7 @@ class PortfolioEnvWithTCost(gym.Env):
         # set constants
         self.cp, self.cs = cp, cs
         self.logging = logging
+        self.w_lb, self.w_ub = w_lb, w_ub
 
         # get data, set problem size
         self.num_time_periods, self.universe_size = self.dm.get_data()
@@ -72,12 +76,7 @@ class PortfolioEnvWithTCost(gym.Env):
         # set spaces
         assert w_lb <= w_ub
         self.observation_space = self.dm.get_obs_space()
-        self.action_space = gym.spaces.Box(
-            low=w_lb,
-            high=w_ub,
-            shape=(self.universe_size + 1,),
-            dtype=np.float64
-        )
+        self.action_space = gym.spaces.Box(low=-1, high=1, shape=(self.universe_size + 1,), dtype=np.float64)
 
     def find_mu(self, w_old: npt.NDArray[np.float64], w_new = npt.NDArray[np.float64]) -> float:
         cp, cs = self.cp, self.cs
@@ -92,20 +91,32 @@ class PortfolioEnvWithTCost(gym.Env):
         return mu
 
     def step(self, action: npt.NDArray[np.float64]) -> tuple:
-        action = action / action.sum()
+        # print(f"step 1")
+        self.reward = 0
+
+        action = (self.w_ub - self.w_lb) * (action + 1) / 2.0 + self.w_lb
+        action = action.flatten() / action.sum()
+        # self.reward += -1 * (action.sum() - 1)**2
+        assert np.all((0 <= action) & (action <= 1)), f"Action out of bounds. {action=}"
+        # print(f"step 2")
+
         self.w_new = action
         self.t += 1
         self.v_new = self.dm.get_prices(self.t)
         self.y = self.v_new / self.v
         self.mu = self.find_mu(self.y * self.w / (self.y * self.w).sum(), self.w_new)
         self.new_port_val = self.port_val * self.mu * (self.y @ self.w)
+        # print(f"step 3")
 
-        self.reward = self.rm.compute_reward(self.port_val, self.new_port_val)
+        self.reward += self.rm.compute_reward(self.port_val, self.new_port_val)
+        # print(f"step 4")
 
-        self.state = self.dm.get_state(self.t, self.w, self.new_port_val)
         self.w = self.w_new
         self.v = self.v_new
         self.port_val = self.new_port_val
+        assert self.port_val > 0, "Portfolio value non-positive."
+        self.state = self.dm.get_state(self.t, self.w, self.port_val)
+        # print(f"step 5")
 
         if self.logging:
             info = {
@@ -115,6 +126,7 @@ class PortfolioEnvWithTCost(gym.Env):
             info = {}
 
         finished = (self.t == self.num_time_periods)
+        # print(f"step 6")
         return self.state.copy(), self.reward, finished, False, info
 
     def reset(self, *args, **kwargs) -> tuple[np.ndarray, dict]:
