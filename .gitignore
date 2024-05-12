@@ -14,3 +14,9 @@ report/*.bbl
 report/*.blg
 **/.DS_Store
 report/_minted-report/*
+*_tickers.csv
+/BatchedTensors
+/FullNewsBatchedTensors
+*sentiment_data*
+crsp_full_2010_2024.csv
+/archive
