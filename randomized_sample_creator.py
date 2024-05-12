@@ -1,5 +1,4 @@
 import pandas as pd
-
 df = pd.read_csv('crsp_full_2010_2024.csv', dtype='string')
     
 # convert datatypes
