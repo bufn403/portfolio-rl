@@ -41,12 +41,14 @@ well a given stock is performing at a given time and its exposure market or sect
 This could provide our agent a better view of the trading environment, which 
 can help it make better decisions to maximize the reward. 
 
+We initially attempted to query data from news APIs to get a more expansive news corpus. However, we found that due to the cost of obtaining the data, the computational power needed to process the headlines, and the storage needed to manage all of the data, that this would not be a feasible pursuit.
+
 The dataset we use in this project is Daily Financial News for 6000+ Stocks that was downloaded via kaggle \cite{financial_news}.
 This dataset contains scraped headline data for over 6000 stocks listed on the NYSE exchange from 2009-2020. 
 There are two main files within this dataset that we use. The first is \texttt{raw\_analyst\_ratings.csv}, which only contains scraped data from a prominent finacial news publisher Benzinga.
-The other file \texttt{raw\_partner\_headlines.csv} contains scraped headline data from other smaller publishers that partner with Benzinga. Each row of the file contains a headline, the base article URL, the date and time of publication, and the stock ticker symbol.
+The other file \texttt{raw\_partner\_headlines.csv} contains scraped headline data from other smaller publishers that partner with Benzinga. Each row of the datasets contains a headline, the base article URL, the date and time of publication, and the stock ticker symbol.
 The \texttt{raw\_analyst\_ratings.csv} file does not contain publisher information, as it is already implied that Benzinga is the publisher. Meanwhile, the table in \texttt{raw\_partner\_headlines.csv} has a column indicating the publisher of each article. 
-We concatenate the headline data from each file into one unified dataset that contains all headlines for each stock in our universe.
+We concatenate the headline data from each file to create a single unified dataset that contains all headlines for each stock in our universe.
 
 
 \subsubsection{SEC Filings}
@@ -77,33 +79,77 @@ create embeddings for us \cite{finbert}.
 
 \subsubsection{FinBERT Sentiment Scores}
 
-Over the full trading period (2010-2015), we will feed all of the headlines and SEC filings items to pre-trained FinBERT. 
-The model then will preprocess the text and generate probabilities of the content 
-being positive, negative, or neutral. From there, we can assign each textual sample a 
-numerical score based on its maximum probability class. The numerical map could 
-look something like the following:  {positive: 1, neutral: 0, negative: -1} 
-Over each day (our trading period), we can take some aggregate of these class labels for 
-each stock and feed these class labels to our agent’s states matrix; at each 
-time step, this value will be appended to the row corresponding to the stocks’ 
-price data. (The state matrix will be defined in greater detail in the Algorithmic 
-and Analytical Challenges section.) We ran experiments using different aggregation functions
-aggregate function which include taking the mean of the sentiment mappings for each day, and designing a custom function to extract value heuristically. 
+Over the full trading period (2010-2020), we will feed all of the headlines and SEC filings text for S$\&P$ 100 companies to pre-trained FinBERT. 
+The model then generates probabilities of the content having a positive, negative, or neutral sentiment. For the news headlines, we developed a novel function to extract a single embedding for a stock on a given day. 
+
 The function that we created is:
 \[\texttt{Value}_{\texttt{Embedding}} = \tanh\Biggl( \frac{\frac{\texttt{positive sentiment probability}}{\texttt{negative sentiment probability}}}{\texttt{neutral sentiment probability}} \Biggr)\]
 This approach combines the “log likelihood” (ratio of probabilities of positive and 
 negative sentiment) along with a penalty for high neutral sentiment (a measure of 
 uncertainty), using the tanh for normalization. This approach would allow us to 
-adequately detect strong positive/negative sentiment. 
+adequately detect strong positive/negative sentiment. Thus, a sentiment score close to 1 can be interpreted as a positive sentiment, a score close to 0 can be interpreted as neutral, and a score close to -1 can be intepreted as negative.
 
 An issue that we run into when incorporating SEC filings data is that they are recorded on a annual or quarterly basis, which is far more infrequent than our samples for price and news data.
-Thus, to fill the gaps between SEC filings dates, we apply exponential decay to the sentiment scores on report dates. That is we assume that the weight of our SEC sentiment embedding decays by some constant rate $\lambda$ over time. Formally,
+Thus, to fill the gaps between SEC filings dates, we apply exponential decay to the sentiment scores on report dates. Formally,
 
 $$
-\frac{dN}{dt} = -\lambda N
+y = a(1 - \gamma)^t
 $$
 
-Where $N$ represents the company's sentiment score for the day, $t$ represents time (in days), and $\lambda$ is a positive constant representing the daily rate of decay. We test $\lambda = 0.1, 0.5, 0.9$ in our models to see what performs optimally. Note that we test a wide range of $\lambda$ values because we are unsure of how fast the signal from SEC filings decay.
+Where $a$ represents the company's sentiment score on the reporting date, $t$ represents time (in days) between the last report date and the current day, and $\gamma$ is a constant between 0 and 1 representing the daily decay factor. We test $\lambda = 0.1, 0.5, 0.9$ in our models to see what performs optimally. Note that we test a wide range of $\gamma$ values because we are unsure of how fast the signal from SEC filings decay. We also run experimented with using this same routine to fill some gaps between news data.
  
+\subsection{Finalized Data Processing Pipeline}
+We dedicate this section of the paper to outline the pre-processing pipeline for both our SEC filings and news data.
+
+\subsubsection{Creating News Tensors}
+
+From the concatenated dataset of news headline data from each publisher as described in the "News Data" section, we feed the dataset (loaded into a pandas dataframe) through a multi-stage pipeline. 
+The first step is to scrape the current $S\&P$ 100 companies and then filter the dataset down to only include headlines from companies in the $S\&P$ 100. 
+We introduce a custom dataset class called "NewsHeadlines," implemented in PyTorch framework, designed for efficiently handling news headline data. 
+The class takes a dataset and a user-defined tokenizer which will pre-process headlines in batches to be fed into FinBERT. 
+In the class, we implement an iterator function \texttt{\_getitem}, which takes the raw headline data as input and returns an encoding for the batch of headlines after tokenization. 
+Then given the large size of the dataset, we use a create a "Dataloader" object, implemented in PyTorch, which feeds our dataset into the model in small batches. 
+
+To obtain the output tensors corresponding to the sentiment probabilities, we iterate over the batches, applying FinBERT to classify each headline and from the raw logits using the softmax activation function to a vector of probabilities.
+Then for each batch, we save off the tensors to separate files. A finalized version of this process is available in \texttt{utilities\\news\_data\_processing.py}
+Then in the \texttt{tensor\_data\_loading.ipynb} script, we merge the tensors with the original concatenated dataset and create our the sentiment embedding as described in the "FinBERT Sentiment Scores" section. 
+This finalized dataset is then written to \texttt{news\_sentiment\_data.csv}
+
+\subsubsection{News Dataset Statistics}
+
+Our dataset contains data for 84 out of the total 100 tickers in the $S\&P$ 100, and it contains 70,872 entries containing the sentiment embedding of news for a company on a given day. Below are some reported summary statistics on the distribution of news reports across the tickers:
+
+\begin{table}[htbp]
+    \centering
+    \caption{Company News Reporting Date Distribution}
+    \begin{tabular}{l c}
+        \toprule
+        \textbf{Statistic} & \textbf{Value} \\
+        \midrule
+        Count & 84 \\
+        Mean No. of Reporting Dates & 843.714 \\
+        Standard Deviation & 508.209 \\
+        Minimum Observations & 1 \\
+        25th Percentile & 393.250 \\
+        Median & 905.000 \\
+        75th Percentile & 1198.500 \\
+        Maximum & 1829 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Note that given our median ticker only has news reports on 905 of the total trading dates and because there are 16 tickers for which we have no sentiment data, our dataset is still suboptimal for developing an agent. Our forward filling process, does address some of the gaps in our data, however our coverage is still not complete.
+This is an important consideration when examining the results of our work.
+
+Now, we will examine the distribution of sentiment scores across the articles to examine key facts about their distribution.
+
+\begin{figure}
+\includegraphics[width=.9\textwidth]{news_sent_dist}
+\end{figure}
+
+The figure highlights that news sentiment has a bimodal distribution. Much of the headlines are interpreted as either negative or positive, but news headlines that are relatively neutral, or closer to 0, or more evenly distriubuted. 
+This indicates that the headlines that display strong enough sentiment that they could inform and change the actions of our reinforcement learning agents.
+
 
 
 \section{Algorithmic and Analytical Challenge}

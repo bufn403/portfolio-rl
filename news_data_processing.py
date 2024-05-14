@@ -21,7 +21,6 @@ headlines = pd.concat([partner_headlines, benzinga_headlines]).drop('Unnamed: 0'
 sp_100_data = pd.read_html('https://en.wikipedia.org/wiki/S%26P_100')
 sp_100_cmpys = sp_100_data[2]
 sp_100 = sp_100_cmpys['Symbol'].to_list()
-sp_100[]
 
 tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert", token = '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')
 model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert", token = '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').to("mps")
