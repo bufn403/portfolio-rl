@@ -45,29 +45,26 @@ We initially attempted to query data from news APIs to get a more expansive news
 
 The dataset we use in this project is Daily Financial News for 6000+ Stocks that was downloaded via kaggle \cite{financial_news}.
 This dataset contains scraped headline data for over 6000 stocks listed on the NYSE exchange from 2009-2020. 
-There are two main files within this dataset that we use. The first is \texttt{raw\_analyst\_ratings.csv}, which only contains scraped data from a prominent finacial news publisher Benzinga.
+There are two main files within this dataset that we use. The first is \texttt{raw\_analyst\_ratings.csv}, which only contains scraped data from a prominent financial news publisher Benzinga.
 The other file \texttt{raw\_partner\_headlines.csv} contains scraped headline data from other smaller publishers that partner with Benzinga. Each row of the datasets contains a headline, the base article URL, the date and time of publication, and the stock ticker symbol.
 The \texttt{raw\_analyst\_ratings.csv} file does not contain publisher information, as it is already implied that Benzinga is the publisher. Meanwhile, the table in \texttt{raw\_partner\_headlines.csv} has a column indicating the publisher of each article. 
 We concatenate the headline data from each file to create a single unified dataset that contains all headlines for each stock in our universe.
 
 
-\subsubsection{SEC Filings}
+\subsubsection{SEC Filings}\label{filings}
 
 To enrich our dataset, we utilize SEC filings data for each of the S$\&$P100 companies. 
 These filings contain essential information regarding a company's financial 
 performance, governance, and compliance that could enhance our measure of 
 company outlook. Specifically we aim to use data from 10-K and 10-Q filings. 
-10-K’s are an annual report on a company’s performance, and include information. 
+10-K filings are an annual report on a company’s performance, and include information. 
 They are divided into items that show a company’s financial statements, 
 stock projections, and pertinent information for shareholders in sections that 
-are denoted as items. 
+are denoted as items. 10-Q filings are similar to 10-K filings, with the key differences being less detail given the quarterly frequency, along with unaudited financial statements.\\
+Within the 10-K reports, the item that we pulled data for from each company  For our project, the textual data that is most likely to  capture a company’s sentiment is Item 1A, Risk Factors. This item is a company issued statement on the risk factors that could affect the operations of the  business for the next fiscal year. Additionally, we will extract items 7 and 7a from the 10-K, which is the section titled "Management's Discussion and Analysis", which allows the corporation's management to discuss their current state in their own words, often highlighting potential issues, but also future areas of expansion. We will extract this data from 10-K statements for every company in our trading universe to create sentiment indicators for our RL agent to use. In form 10-Q, items 7/7a of the 10-K correspond to Item 2.\\
 
-Withing the 10-K reports, the item that we pulled data for from each company  For our project, the textual data that is most likely to 
-capture a company’s sentiment is Item 1A, Risk Factors. This item is a company 
-issued statement on the risk factors that could affect the operations of the 
-business for the next fiscal year. We will extract this data from 10-K statements 
-for every company in our trading universe to create sentiment indicators for our 
-RL agent to use. 
+Sourcing the data was quite simple - we were able to scrape the SEC's EDGAR database for all 10-K and 10-Q filings in the database's history, ranging from 1994 through 2023. The size of this database is roughly 108.3 GiB, or 116.3 GB.\\
+To extract meaningful values from the text, we first clean it from its scraped format (HTML), and we use regular-expression based text parsing to extract cleaned text from Item 1A and 7/7A, and Item 2 in 10-Qs. We then construct a data frame, where each row contains the company ticker, the date of the filing, the extracted section, the text of the extracted section. We then pass this into the FinBERT model to add a final column containing sentiment scores, calculated by the methodology explained in Section \ref{finbert}
 
 \subsection{Sentiment Analysis}
 
@@ -77,9 +74,9 @@ to provide to our reinforcement learning agent. Our approach, which is to utiliz
 FinBERT model, fine-tuned to recognize the sentiment of financial text to 
 create embeddings for us \cite{finbert}. 
 
-\subsubsection{FinBERT Sentiment Scores}
+\subsubsection{FinBERT Sentiment Scores}\label{finbert}
 
-Over the full trading period (2010-2020), we will feed all of the headlines and SEC filings text for S$\&P$ 100 companies to pre-trained FinBERT. 
+Over the full trading period (2010-2020), we will feed all of the headlines and selected SEC filings text for S$\&P$ 100 companies to pre-trained FinBERT. 
 The model then generates probabilities of the content having a positive, negative, or neutral sentiment. For the news headlines, we developed a novel function to extract a single embedding for a stock on a given day. 
 
 The function that we created is:
@@ -101,7 +98,7 @@ Where $a$ represents the company's sentiment score on the reporting date, $t$ re
 \subsection{Finalized Data Processing Pipeline}
 We dedicate this section of the paper to outline the pre-processing pipeline for both our SEC filings and news data.
 
-\subsubsection{Creating News Tensors}
+\subsubsection{Creating News Tensors}\label{newstensors}
 
 From the concatenated dataset of news headline data from each publisher as described in the "News Data" section, we feed the dataset (loaded into a pandas dataframe) through a multi-stage pipeline. 
 The first step is to scrape the current $S\&P$ 100 companies and then filter the dataset down to only include headlines from companies in the $S\&P$ 100. 
@@ -118,6 +115,12 @@ This finalized dataset is then written to \texttt{news\_sentiment\_data.csv}
 \subsubsection{News Dataset Statistics}
 
 Our dataset contains data for 84 out of the total 100 tickers in the $S\&P$ 100, and it contains 70,872 entries containing the sentiment embedding of news for a company on a given day. Below are some reported summary statistics on the distribution of news reports across the tickers:
+
+\subsubsection{Creating SEC Tensors}
+The process to create SEC-sourced tensors is similar to that as described for news-based tensors in section \ref{newstensors}. We scrape the SEC EDGAR database for the current $S\&P$ 100 companies' logged history of 10-K and 10-Q filings. We then use the FinBERT pre-trained tokenizer to tokenize the extracted text for more efficient processing through FinBERT. Once we generate probabilities for sentiment probabilities (positive, negative, and neutral), we then merge this onto the original SEC dataframe mentioned in Section \ref{filings} and write out this new dataframe to the file \texttt{sec\_sentiment.csv}
+
+\subsubsection{SEC Filings Dataset Statistics}
+The SEC-filings dataset contains 10-K and 10-Q filings for 99 out of 100 tickers in the $S\&P$ 100\footnote{The dataset is missing filings for BRK.B}. There are 9,906 individual filings over the collected period. 
 
 \begin{table}[htbp]
     \centering
