@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.10)  14 MAY 2024 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.10)  15 MAY 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,54 +1443,58 @@ Chapter 1.
 [3
 
 
-] [4]
-<../figures/news_sent_dist.pdf, id=162, 462.52798pt x 346.89601pt>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 56--65
+
+ []
+
+[4] [5]
+<../figures/news_sent_dist.pdf, id=174, 462.52798pt x 346.89601pt>
 File: ../figures/news_sent_dist.pdf Graphic file (type pdf)
 <use ../figures/news_sent_dist.pdf>
-Package pdftex.def Info: ../figures/news_sent_dist.pdf  used on input line 147.
+Package pdftex.def Info: ../figures/news_sent_dist.pdf  used on input line 150.
 
 (pdftex.def)             Requested size: 357.73405pt x 268.3123pt.
- [5
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.152 
-      ]
+l.155 
+       <../figures/news_sent_dist.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-77.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+80.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-[6 <../figures/news_sent_dist.pdf>]
-<formulation.png, id=220, 1116.17pt x 348.30125pt>
+) [7]
+<formulation.png, id=236, 1116.17pt x 348.30125pt>
 File: formulation.png Graphic file (type png)
 <use formulation.png>
-Package pdftex.def Info: formulation.png  used on input line 232.
+Package pdftex.def Info: formulation.png  used on input line 235.
 (pdftex.def)             Requested size: 369.88582pt x 115.4234pt.
- [7 <./formulation.png>]) [8]
+ [8 <./formulation.png>]) [9]
 \openout2 = `literature.aux'.
 
-
-(./literature.tex
+ (./literature.tex
 Chapter 2.
 
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [9
+ [10
 
 
 
 
 ]
-[10] [11]
-<transaction_cost_time_updates.png, id=267, 832.3095pt x 132.495pt>
+[11] [12]
+<transaction_cost_time_updates.png, id=278, 832.3095pt x 132.495pt>
 File: transaction_cost_time_updates.png Graphic file (type png)
 <use transaction_cost_time_updates.png>
 Package pdftex.def Info: transaction_cost_time_updates.png  used on input line 
 167.
 (pdftex.def)             Requested size: 369.88582pt x 58.88223pt.
-) [12 <./transaction_cost_time_updates.png>]
+) [13 <./transaction_cost_time_updates.png>]
 \openout2 = `documentation.aux'.
 
  (./documentation.tex
@@ -1569,7 +1573,7 @@ without setting minted's outputdir, or by using a build tool that
 changes paths in ways minted cannot detect, 
 or using frozencache with a missing file.
 
-) [13
+) [14
 
 
 
@@ -1580,7 +1584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
 b-[]for-[]nlpbacktests /
  []
 
-) [14
+) [15
 
 
 
@@ -1595,11 +1599,11 @@ runsystem(rm report.pyg)...disabled (restricted).
 
  ) 
 Here is how much of TeX's memory you used:
- 50144 strings out of 474116
- 1186088 string characters out of 5743682
+ 50204 strings out of 474116
+ 1186845 string characters out of 5743682
  1945187 words of memory out of 5000000
- 71457 multiletter control sequences out of 15000+600000
- 603869 words of font info for 208 fonts, out of 8000000 for 9000
+ 71490 multiletter control sequences out of 15000+600000
+ 611571 words of font info for 231 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,13n,101p,1603b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -1620,10 +1624,10 @@ e/2024/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb></usr/local/texlive/
 2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (14 pages, 845235 bytes).
+Output written on report.pdf (15 pages, 847505 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
- 51932 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 59100 words of extra memory for PDF output out of 61914 (max. 10000000)
 
