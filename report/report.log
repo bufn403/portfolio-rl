@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.10)  16 MAY 2024 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.10)  16 MAY 2024 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1463,30 +1463,22 @@ Chapter 1.
 [4
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+] [5]
+<../figures/news_sent_dist.pdf, id=217, 462.52798pt x 346.89601pt>
+File: ../figures/news_sent_dist.pdf Graphic file (type pdf)
+<use ../figures/news_sent_dist.pdf>
+Package pdftex.def Info: ../figures/news_sent_dist.pdf  used on input line 142.
 
- []
-
-[5] [6
+(pdftex.def)             Requested size: 357.73405pt x 268.3123pt.
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.140 
-      ]
-<../figures/news_sent_dist.pdf, id=224, 462.52798pt x 346.89601pt>
-File: ../figures/news_sent_dist.pdf Graphic file (type pdf)
-<use ../figures/news_sent_dist.pdf>
-Package pdftex.def Info: ../figures/news_sent_dist.pdf  used on input line 145.
-
-(pdftex.def)             Requested size: 357.73405pt x 268.3123pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <../figures/news_sent_dist.pdf>]
+l.148 \subsubsection
+                    {Creating SEC Tensors}]
 ! Misplaced alignment tab character &.
-l.177 ...ion and dropping of companies from the S&
+l.174 ...ion and dropping of companies from the S&
                                                   P100, as well as some newe...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1495,33 +1487,35 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<../figures/sec_sent_dist.pdf, id=266, 462.52798pt x 346.89601pt>
+<../figures/sec_sent_dist.pdf, id=227, 462.52798pt x 346.89601pt>
 File: ../figures/sec_sent_dist.pdf Graphic file (type pdf)
 <use ../figures/sec_sent_dist.pdf>
-Package pdftex.def Info: ../figures/sec_sent_dist.pdf  used on input line 181.
+Package pdftex.def Info: ../figures/sec_sent_dist.pdf  used on input line 178.
 (pdftex.def)             Requested size: 357.73405pt x 268.3123pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8
+[7 <../figures/news_sent_dist.pdf>] [8
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.200 
-       <../figures/sec_sent_dist.pdf>]
+l.205 \item \cite
+                 {drl_mvo} Deep Reinforcement Learning Comparison with Mean-...
+ <../figures/sec_sent_dist.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-08.
+05.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [9]
-<formulation.png, id=330, 1116.17pt x 348.30125pt>
+)
+<formulation.png, id=318, 1116.17pt x 348.30125pt>
 File: formulation.png Graphic file (type png)
 <use formulation.png>
-Package pdftex.def Info: formulation.png  used on input line 263.
+Package pdftex.def Info: formulation.png  used on input line 260.
 (pdftex.def)             Requested size: 369.88582pt x 115.4234pt.
-) [10 <./formulation.png>] [11]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
+[10 <./formulation.png>]
 \openout2 = `literature.aux'.
 
  (./literature.tex
@@ -1529,20 +1523,20 @@ Chapter 2.
 
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [12
+ [11
 
 
 
 
 ]
-[13] [14]
-<transaction_cost_time_updates.png, id=374, 832.3095pt x 132.495pt>
+[12] [13]
+<transaction_cost_time_updates.png, id=368, 832.3095pt x 132.495pt>
 File: transaction_cost_time_updates.png Graphic file (type png)
 <use transaction_cost_time_updates.png>
 Package pdftex.def Info: transaction_cost_time_updates.png  used on input line 
 167.
 (pdftex.def)             Requested size: 369.88582pt x 58.88223pt.
-) [15 <./transaction_cost_time_updates.png>]
+) [14 <./transaction_cost_time_updates.png>]
 \openout2 = `documentation.aux'.
 
  (./documentation.tex
@@ -1621,7 +1615,7 @@ without setting minted's outputdir, or by using a build tool that
 changes paths in ways minted cannot detect, 
 or using frozencache with a missing file.
 
-) [16
+) [15
 
 
 
@@ -1631,13 +1625,13 @@ or using frozencache with a missing file.
 
  (./results.tex
 Chapter 4.
-<../figures/Benchmark Portfolio Strategies.png, id=387, 578.16pt x 433.62pt>
+<../figures/Benchmark Portfolio Strategies.png, id=381, 578.16pt x 433.62pt>
 File: ../figures/Benchmark Portfolio Strategies.png Graphic file (type png)
 <use ../figures/Benchmark Portfolio Strategies.png>
 Package pdftex.def Info: ../figures/Benchmark Portfolio Strategies.png  used on
  input line 8.
 (pdftex.def)             Requested size: 317.9892pt x 238.49173pt.
-[17
+[16
 
 
 
@@ -1649,7 +1643,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.33 
       <../figures/Benchmark Portfolio Strategies.png>]
-<../figures/Strategies with Historical Prices (DiffSharpe Reward).png, id=394, 
+<../figures/Strategies with Historical Prices (DiffSharpe Reward).png, id=388, 
 578.16pt x 433.62pt>
 File: ../figures/Strategies with Historical Prices (DiffSharpe Reward).png Grap
 hic file (type png)
@@ -1657,7 +1651,7 @@ hic file (type png)
 Package pdftex.def Info: ../figures/Strategies with Historical Prices (DiffShar
 pe Reward).png  used on input line 57.
 (pdftex.def)             Requested size: 317.9892pt x 238.49173pt.
-<../figures/Strategies with Historical Prices (Profit Reward).png, id=395, 578.
+<../figures/Strategies with Historical Prices (Profit Reward).png, id=389, 578.
 16pt x 433.62pt>
 File: ../figures/Strategies with Historical Prices (Profit Reward).png Graphic 
 file (type png)
@@ -1668,7 +1662,7 @@ eward).png  used on input line 81.
 
 Underfull \vbox (badness 1931) has occurred while \output is active []
 
- [18
+ [17
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1676,7 +1670,7 @@ as been already used, duplicate ignored
 l.108   \end{table}
                    % <../figures/Strategies with Historical Prices (DiffSharpe 
 Reward).png>]
-<../figures/Strategies with SEC Filings (DiffSharpe Reward).png, id=402, 578.16
+<../figures/Strategies with SEC Filings (DiffSharpe Reward).png, id=396, 578.16
 pt x 433.62pt>
 File: ../figures/Strategies with SEC Filings (DiffSharpe Reward).png Graphic fi
 le (type png)
@@ -1684,7 +1678,7 @@ le (type png)
 Package pdftex.def Info: ../figures/Strategies with SEC Filings (DiffSharpe Rew
 ard).png  used on input line 112.
 (pdftex.def)             Requested size: 317.9892pt x 238.49173pt.
-<../figures/Strategies with SEC Filings (Profit Reward).png, id=403, 578.16pt x
+<../figures/Strategies with SEC Filings (Profit Reward).png, id=397, 578.16pt x
  433.62pt>
 File: ../figures/Strategies with SEC Filings (Profit Reward).png Graphic file (
 type png)
@@ -1692,7 +1686,7 @@ type png)
 Package pdftex.def Info: ../figures/Strategies with SEC Filings (Profit Reward)
 .png  used on input line 136.
 (pdftex.def)             Requested size: 317.9892pt x 238.49173pt.
-<../figures/Strategies with Combined Data (DiffSharpe Reward).png, id=404, 578.
+<../figures/Strategies with Combined Data (DiffSharpe Reward).png, id=398, 578.
 16pt x 433.62pt>
 File: ../figures/Strategies with Combined Data (DiffSharpe Reward).png Graphic 
 file (type png)
@@ -1700,7 +1694,7 @@ file (type png)
 Package pdftex.def Info: ../figures/Strategies with Combined Data (DiffSharpe R
 eward).png  used on input line 164.
 (pdftex.def)             Requested size: 317.9892pt x 238.49173pt.
- [19
+ [18
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1713,7 +1707,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.184   \end{table}
                    % <../figures/Strategies with Historical Prices (Profit Rewa
-rd).png>] [20
+rd).png>] [19
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1721,7 +1715,7 @@ as been already used, duplicate ignored
 l.184   \end{table}
                    % <../figures/Strategies with SEC Filings (DiffSharpe Reward
 ).png> <../figures/Strategies with SEC Filings (Profit Reward).png>]
-<../figures/Strategies with Combined Data (Profit Reward).png, id=423, 578.16pt
+<../figures/Strategies with Combined Data (Profit Reward).png, id=417, 578.16pt
  x 433.62pt>
 File: ../figures/Strategies with Combined Data (Profit Reward).png Graphic file
  (type png)
@@ -1729,7 +1723,7 @@ File: ../figures/Strategies with Combined Data (Profit Reward).png Graphic file
 Package pdftex.def Info: ../figures/Strategies with Combined Data (Profit Rewar
 d).png  used on input line 188.
 (pdftex.def)             Requested size: 317.9892pt x 238.49173pt.
- [21
+ [20
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1742,14 +1736,14 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.200 
        <../figures/Strategies with Combined Data (DiffSharpe Reward).png>])
-[22 <../figures/Strategies with Combined Data (Profit Reward).png>]
+[21 <../figures/Strategies with Combined Data (Profit Reward).png>]
 (./report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 72--75
 \T1/cmtt/m/n/10 datasets / miguelaenlle / massive-[]stock-[]news-[]analysis-[]d
 b-[]for-[]nlpbacktests /
  []
 
-) [23
+) [22
 
 
 
@@ -1769,8 +1763,8 @@ runsystem(rm report.pyg)...disabled (restricted).
 
  ) 
 Here is how much of TeX's memory you used:
- 50315 strings out of 474116
- 1192746 string characters out of 5743682
+ 50314 strings out of 474116
+ 1192739 string characters out of 5743682
  1945187 words of memory out of 5000000
  71585 multiletter control sequences out of 15000+600000
  603999 words of font info for 210 fonts, out of 8000000 for 9000
@@ -1794,10 +1788,10 @@ e/2024/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb></usr/local/texlive/
 2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (23 pages, 1503858 bytes).
+Output written on report.pdf (22 pages, 1503610 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 553 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 93 named destinations out of 1000 (max. 500000)
  52052 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -63,9 +63,6 @@ stock projections, and pertinent information for shareholders in sections that
 are denoted as items. 10-Q filings are similar to 10-K filings, with the key differences being less detail given the quarterly frequency, along with unaudited financial statements.
 
 
-Within the 10-K reports, the item that we pulled data for from each company  For our project, the textual data that is most likely to capture a company’s sentiment is Item 1A, Risk Factors. This item is a company issued statement on the risk factors that could affect the operations of the  business for the next fiscal year. Additionally, we will extract items 7 and 7a from the 10-K, which is the section titled "Management's Discussion and Analysis", which allows the corporation's management to discuss their current state in their own words, often highlighting potential issues, but also future areas of expansion. We will extract this data from 10-K statements for every company in our trading universe to create sentiment indicators for our RL agent to use. In form 10-Q, items 7/7a of the 10-K correspond to Item 2.\\
-
-
 \subsection{Sentiment Analysis}
 
 Using the news sources and SEC filings data described above, we wish to 
@@ -149,12 +146,12 @@ The figure highlights that news sentiment has a bimodal distribution. Much of th
 This indicates that the headlines that display strong enough sentiment that they could inform and change the actions of our reinforcement learning agents.
 
 \subsubsection{Creating SEC Tensors}
-To obtain filings for each company, we scrape the SEC's EDGAR database for all 10-K and 10-Q filings in the database's history, ranging from 1994 through 2023. The filings from the EDGAR database are returned as HTML files which we stored in a cloud database. The size of this database is roughly 108.3 GiB, or 116.3 GB.\\
-To extract meaningful values from the text, we first parse and clean the HTML so we can extract the raw text from each document. Then we use regular-expression based text parsing to extract text from Item 1A and 7/7A, and Item 2 in 10-Qs. We then construct a data frame, where each row contains the company ticker, the date of the filing, the extracted section name, the text of the extracted section. We then pass this into the FinBERT model to add a final column containing sentiment scores, calculated by the methodology explained in Section \ref{finbert}
-The process to create SEC-sourced tensors is similar to that as described for news-based tensors in section \ref{newstensors}. We scrape the SEC EDGAR database for the current $S\&P$ 100 companies' logged history of 10-K and 10-Q filings. We then use the FinBERT pre-trained tokenizer to tokenize the extracted text for more efficient processing through FinBERT. Once we generate probabilities for sentiment probabilities (positive, negative, and neutral), we then merge this onto the original SEC dataframe mentioned in Section \ref{filings} and write out this new dataframe to the file \texttt{sec\_sentiment.csv}
-
+To create tensors, we initially attempted to scrape the SEC's EDGAR database for all 10-K and 10-Q filings in the database's history, ranging from 1994 through 2023. The filings from the EDGAR database are returned as HTML files which we stored in a cloud database. The size of this database is roughly 108.3 GiB, or 116.3 GB.\\
+To extract meaningful values from the text, we first parse and clean the HTML so we can extract the raw text from each document. Then we use regular-expression based text parsing to extract text from Item 1A and 7/7A, and Item 2 in 10-Qs. We then construct a data frame, where each row contains the company ticker, the date of the filing, the extracted section name, the text of the extracted section. We then pass this into the FinBERT model to add a final column containing sentiment scores, calculated by the methodology explained in Section \ref{finbert}. However, issues were encountered both with the size of the dataset being computationally intensive, along with parsing issues due to the way the filings are stored and transmitted.
+The process to create SEC-sourced tensors is then to extract positive, negative, and neutral words as specified by the Loughran-McDonald sentiment dictionary. We then utilize the proportions in a similar fashion to the news embeddings:
+\[\texttt{Value}_{\texttt{Embedding}} = \tanh\Biggl( \frac{\frac{\texttt{positive word count proportion}}{\texttt{negative word count proportion}}}{\texttt{neutral word count proportion}} \Biggr)\]
 \subsubsection{SEC Filings Dataset Statistics}
-Our dataset contains data for 99 out of the 100 tickers in the $S\&P$ 100, containing over 9,000 filings between 1994 and the present day. The size of this dataset is roughly 116 GB, and the used subset consists of roughly 6,100 filings. Below are some reported summary statistics on the distribution of SEC filings across the tickers:
+Our dataset contains data for 99 out of the 100 tickers in the $S\&P$ 100, containing over 9,000 filings between 1994 and the present day, with the used subset consists of roughly 6,100 filings. Below are some reported summary statistics on the distribution of SEC filings across the tickers:
 
 \begin{table}[htbp]
     \centering
