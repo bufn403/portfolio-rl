@@ -1,47 +1,47 @@
-\contentsline {chapter}{\numberline {1}Project Overview}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Dataset Creation}{4}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Stock Data}{4}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}News Data}{4}{subsection.1.2.2}%
-\contentsline {subsubsection}{SEC Filings}{5}{section*.2}%
-\contentsline {subsection}{\numberline {1.2.3}Sentiment Analysis}{5}{subsection.1.2.3}%
-\contentsline {subsubsection}{FinBERT Sentiment Scores}{5}{section*.3}%
-\contentsline {subsection}{\numberline {1.2.4}Finalized Data Processing Pipeline}{6}{subsection.1.2.4}%
-\contentsline {subsubsection}{Creating News Tensors}{6}{section*.4}%
-\contentsline {subsubsection}{News Dataset Statistics}{6}{section*.5}%
-\contentsline {subsubsection}{Creating SEC Tensors}{7}{section*.6}%
-\contentsline {subsubsection}{SEC Filings Dataset Statistics}{7}{section*.7}%
-\contentsline {section}{\numberline {1.3}Algorithmic and Analytical Challenge}{8}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Existing Literature}{9}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Methodology}{9}{subsection.1.3.2}%
-\contentsline {subsubsection}{Markov Decision Process Problem Formulation}{9}{section*.8}%
-\contentsline {subsubsection}{Use of Libraries}{10}{section*.9}%
-\contentsline {subsubsection}{Strategy Benchmarking}{10}{section*.10}%
-\contentsline {chapter}{\numberline {2}Literature Notes and Commentary}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Reinforcement Learning Overview}{11}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Markov Decision Process}{11}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}RL Terminology}{11}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Specialization to Our Application}{12}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Differential Sharpe Ratio}{12}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Transaction Costs}{13}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Documentation}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Gym Environments}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}RL Framework}{15}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}AbstractRewardManager}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}AbstractDataManager}{15}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}PortfolioEnvWithTCost}{15}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Results}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Benchmarks Portfolios}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}RL Portfolios}{17}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Differential Sharpe Reward}{17}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {1}Project Overview}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Dataset Creation}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Stock Data}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}News Data}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{SEC Filings}{4}{section*.2}%
+\contentsline {subsection}{\numberline {1.2.3}Sentiment Analysis}{4}{subsection.1.2.3}%
+\contentsline {subsubsection}{FinBERT Sentiment Scores}{4}{section*.3}%
+\contentsline {subsection}{\numberline {1.2.4}Finalized Data Processing Pipeline}{5}{subsection.1.2.4}%
+\contentsline {subsubsection}{Creating News Tensors}{5}{section*.4}%
+\contentsline {subsubsection}{News Dataset Statistics}{5}{section*.5}%
+\contentsline {subsubsection}{Creating SEC Tensors}{6}{section*.6}%
+\contentsline {subsubsection}{SEC Filings Dataset Statistics}{6}{section*.7}%
+\contentsline {section}{\numberline {1.3}Algorithmic and Analytical Challenge}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Existing Literature}{8}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Methodology}{8}{subsection.1.3.2}%
+\contentsline {subsubsection}{Markov Decision Process Problem Formulation}{8}{section*.8}%
+\contentsline {subsubsection}{Use of Libraries}{9}{section*.9}%
+\contentsline {subsubsection}{Strategy Benchmarking}{9}{section*.10}%
+\contentsline {chapter}{\numberline {2}Literature Notes and Commentary}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Reinforcement Learning Overview}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Markov Decision Process}{10}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}RL Terminology}{10}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Specialization to Our Application}{11}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Differential Sharpe Ratio}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Transaction Costs}{12}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Documentation}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Gym Environments}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}RL Framework}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}AbstractRewardManager}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}AbstractDataManager}{14}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}PortfolioEnvWithTCost}{14}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Results}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Benchmarks Portfolios}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}RL Portfolios}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Differential Sharpe Reward}{16}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Profit Reward}{17}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}RL Portfolio With Alternative Data}{18}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}News Data}{18}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}SEC Data}{18}{subsection.4.3.2}%
-\contentsline {subsubsection}{Differential Sharpe Reward}{18}{section*.11}%
-\contentsline {subsubsection}{Profit Reward}{18}{section*.12}%
-\contentsline {subsection}{\numberline {4.3.3}SEC and News Data Combined}{18}{subsection.4.3.3}%
-\contentsline {subsubsection}{Differential Sharpe Reward}{18}{section*.13}%
-\contentsline {subsubsection}{Profit Reward}{20}{section*.14}%
-\contentsline {section}{\numberline {4.4}Summary of Results}{20}{section.4.4}%
-\contentsline {chapter}{Bibliography}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.3}RL Portfolio With Alternative Data}{17}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}News Data}{17}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}SEC Data}{17}{subsection.4.3.2}%
+\contentsline {subsubsection}{Differential Sharpe Reward}{17}{section*.11}%
+\contentsline {subsubsection}{Profit Reward}{17}{section*.12}%
+\contentsline {subsection}{\numberline {4.3.3}SEC and News Data Combined}{19}{subsection.4.3.3}%
+\contentsline {subsubsection}{Differential Sharpe Reward}{19}{section*.13}%
+\contentsline {subsubsection}{Profit Reward}{19}{section*.14}%
+\contentsline {section}{\numberline {4.4}Summary of Results}{19}{section.4.4}%
+\contentsline {chapter}{Bibliography}{21}{section.4.4}%

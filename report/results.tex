@@ -3,15 +3,10 @@
 \section{Benchmarks Portfolios}
 To inform our discussion of our agents' trading performance, we want to compare each of our benchmark portfolios against the S$\&$P 100 index performance.
 
-\begin{center}
-\begin{figure}
-\includegraphics[width=.8\textwidth]{Benchmark Portfolio Strategies}
-\end{figure}
-\end{center}
 
 \begin{table}[htbp]
     \centering
-    \caption{Performance Metrics}
+    \caption{Benchmark Portfolio Strategies}
       \begin{tabular}{lcccc}
       \toprule
             & Net Profit & Sharpe Ratio & Sortino Ratio & Max Drawdown \\
@@ -24,10 +19,17 @@ To inform our discussion of our agents' trading performance, we want to compare 
       S\&P & 0.158347 & 0.552242 & -14.756129 & 0.197728 \\
       \bottomrule
       \end{tabular}%
-    \label{tab:addlabel}%
+    \label{tab:benchmark_table}%
   \end{table}%
 
-As we can see, most of our benchmarks underperform the S$\&$P index over the trading period in terms of profitability. 
+  \begin{center}
+    \begin{figure}[h!]
+    \includegraphics[width=.8\textwidth]{Benchmark Portfolio Strategies}
+    \end{figure}
+    \label{fig:benchmark_graph}
+    \end{center}
+
+As we can from figures \ref{fig:enchmark_graph} and \ref{tab:benchmark_table} most of our benchmarks underperform the S$\&$P index over the trading period in terms of profitability. 
 Further, the only benchmark that does outperform the S$\&$P (Naive Equal) has a significantly lower sharpe ratio (0.39) than the S$\&$P (0.55) indicating that after adjusting for portfolio deviation, the S$\&$P outperforms it.
 Further, the maximum drawdown and sortino ratios for most of our benchmarks compared to the S$\&$P are fairly similar indicating that they have similar downside risks.
 
@@ -49,16 +51,26 @@ We also test across each both of our rewards, differential sharpe ratio and prof
       S\&P   & 0.158347 & 0.552242 & -14.756129 & 0.197728 \\
       \bottomrule
       \end{tabular}%
-    \label{tab:addlabel}%
+    \label{tab:rl_strategies_diff_table}%
   \end{table}%
+
+  From \ref{tab:rl_strategies_diff_table} it is evident that our strategies are underperforming the S\&P index over the trading period.
+  The sharpe ratio of each of the reinforcement learning portfiolios is markedly lower than that of the S\&P.
+  This indicates that our policy gradient optimization process is not effectively learning the differential sharpe ratio reward effectively ove 
+  It is also of note that the CNN appears to perform better than the MLP and RNN policy networks with higher profit and sharpe ratio. Figure \ref{fig:rl_strategies_diff_figure} also reinforces these takeaways.
 
   \begin{center}
     \begin{figure}
     \includegraphics[width=.8\textwidth]{Strategies with Historical Prices (DiffSharpe Reward)}
+    \label{fig:rl_strategies_diff_figure}
     \end{figure}
     \end{center}
 
     \subsection{Profit Reward}
+
+    In contrast, we see more encouraging results when we change to using the the profit reward. We see from \ref{tab:rl_strategies_profit}, that with the CNN, we actially outperform the S\&P by 1 percent over the trading period with a higher sharpe ratio and lower maximum drawdown.
+
+    We hypothesize that this is because the profit reward is easier to learn. However, we will investigate if these findings hold up when integrating our alternative data.
 
     \begin{table}[htbp]
         \centering
@@ -73,7 +85,7 @@ We also test across each both of our rewards, differential sharpe ratio and prof
           S\&P   & 0.158347 & 0.552242 & -14.756129 & 0.197728 \\
           \bottomrule
           \end{tabular}%
-        \label{tab:addlabel}%
+        \label{tab:rl_strategies_profit}%
       \end{table}%
 
     \begin{center}
@@ -128,12 +140,13 @@ We also test across each both of our rewards, differential sharpe ratio and prof
       S\&P   & 0.158347 & 0.552242 & -14.756129 & 0.197728 \\
       \bottomrule
       \end{tabular}%
-    \label{tab:addlabel}%
+    \label{tab:sec_profit}%
   \end{table}%
 
 \begin{center}
     \begin{figure}
     \includegraphics[width=.8\textwidth]{Strategies with SEC Filings (Profit Reward)}
+    \caption{Strategies with SEC Filings (Profit Reward)}
     \end{figure}
 \end{center}
 
@@ -145,7 +158,7 @@ We also test across each both of our rewards, differential sharpe ratio and prof
 
 \begin{table}[htbp]
     \centering
-    \caption{Performance Metrics of SEC+News Models and S\&P Benchmark}
+    \caption{Strategies with Combined Data (DiffSharpe Reward)}
       \begin{tabular}{lcccc}
       \toprule
             & Net Profit & Sharpe Ratio & Sortino Ratio & Max Drawdown \\
@@ -156,12 +169,14 @@ We also test across each both of our rewards, differential sharpe ratio and prof
       S\&P   & 0.158347 & 0.552242 & -14.756129 & 0.197728 \\
       \bottomrule
       \end{tabular}%
-    \label{tab:addlabel}%
+    \label{tab:combined_sharpe}%
   \end{table}%
 
   \begin{center}
     \begin{figure}
     \includegraphics[width=.8\textwidth]{Strategies with Combined Data (DiffSharpe Reward)}
+    \caption{Strategies with Combined Data (DiffSharpe Reward)}
+    \label{fig:combined_sharpe}
     \end{figure}
 \end{center}
 
@@ -169,7 +184,7 @@ We also test across each both of our rewards, differential sharpe ratio and prof
 
 \begin{table}[htbp]
     \centering
-    \caption{Performance Metrics}
+    \caption{Strategies with Combined Data (DiffSharpe Reward)}
       \begin{tabular}{lcccc}
       \toprule
             & Net Profit & Sharpe Ratio & Sortino Ratio & Max Drawdown \\
@@ -180,13 +195,14 @@ We also test across each both of our rewards, differential sharpe ratio and prof
       S\&P   & 0.158347 & 0.552242 & -14.756129 & 0.197728 \\
       \bottomrule
       \end{tabular}%
-    \label{tab:addlabel}%
+    \label{tab:combined_profit}%
   \end{table}%
 
   \begin{center}
     \begin{figure}
     \includegraphics[width=.8\textwidth]{Strategies with Combined Data (Profit Reward)}
     \end{figure}
+    \label{fig:combined_profit}
 \end{center}
 
 
