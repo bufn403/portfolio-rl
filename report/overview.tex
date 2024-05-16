@@ -112,7 +112,7 @@ Then for each batch, we save off the tensors to separate files. A finalized vers
 Then in the \texttt{tensor\_data\_loading.ipynb} script, we merge the tensors with the original concatenated dataset and create our the sentiment embedding as described in the "FinBERT Sentiment Scores" section. 
 This finalized dataset is then written to \texttt{news\_sentiment\_data.csv}
 
-\subsubsection{News Dataset Statistics}
+\subsubsection{News Dataset Statistics}\label{newsstats}
 
 Our dataset contains data for 84 out of the total 100 tickers in the $S\&P$ 100, and it contains 70,872 entries containing the sentiment embedding of news for a company on a given day. Below are some reported summary statistics on the distribution of news reports across the tickers:
 
@@ -140,6 +140,7 @@ This is an important consideration when examining the results of our work.
 
 Now, we will examine the distribution of sentiment scores across the articles to examine key facts about their distribution.
 
+
 \begin{figure}
 \includegraphics[width=.9\textwidth]{news_sent_dist}
 \end{figure}
@@ -153,10 +154,34 @@ To extract meaningful values from the text, we first parse and clean the HTML so
 The process to create SEC-sourced tensors is similar to that as described for news-based tensors in section \ref{newstensors}. We scrape the SEC EDGAR database for the current $S\&P$ 100 companies' logged history of 10-K and 10-Q filings. We then use the FinBERT pre-trained tokenizer to tokenize the extracted text for more efficient processing through FinBERT. Once we generate probabilities for sentiment probabilities (positive, negative, and neutral), we then merge this onto the original SEC dataframe mentioned in Section \ref{filings} and write out this new dataframe to the file \texttt{sec\_sentiment.csv}
 
 \subsubsection{SEC Filings Dataset Statistics}
-The SEC-filings dataset contains 10-K and 10-Q filings for 99 out of 100 tickers in the $S\&P$ 100\footnote{The dataset is missing filings for BRK.B}. There are 9,906 individual filings over the collected period. 
+Our dataset contains data for 99 out of the 100 tickers in the $S\&P$ 100, containing over 9,000 filings between 1994 and the present day. The size of this dataset is roughly 116 GB, and the used subset consists of roughly 6,100 filings. Below are some reported summary statistics on the distribution of SEC filings across the tickers:
 
+\begin{table}[htbp]
+    \centering
+    \caption{Company SEC Filings Distribution}
+    \begin{tabular}{l c}
+        \toprule
+        \textbf{Statistic} & \textbf{Value} \\
+        \midrule
+        Count & 99 \\
+        Mean No. of Filings & 61.42 \\
+        Standard Deviation & 10.18 \\
+        Minimum Observations & 20 \\
+        25th Percentile & 64 \\
+        Median & 65 \\
+        75th Percentile & 65 \\
+        Maximum & 66 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+Since there are only 4 filings per year, we use forward filling with decay to fill in the "missing" dates. Giving the addition and dropping of companies from the S&P100, as well as some newer public companies joining, each company does not have the same number of filings over the time period.\\
+We now look at the distribution of sentiment scores as calculated in Section \ref{newsstats}:
 
+\begin{figure}[H]
+\includegraphics[width=.9\textwidth]{sec_sent_dist}
+\end{figure}
 
+There is a pronounced tail towards 1, indicating a strongly positive unimodal distribution, as compared to that of the news sentiment. Since we utilize sections of the SEC filings that are written by the companies themselves, it is likely that companies aim to provide filings that suggest strong performance and future outlook. In the dataset, we do observe some drops in sentiment, such as times of financial crisis or bad market conditions, like in 2013 for some technology-based companies.
 
 \section{Algorithmic and Analytical Challenge}
 
