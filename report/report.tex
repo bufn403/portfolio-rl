@@ -55,6 +55,11 @@
 \usetikzlibrary{positioning}
 \usepackage{stmaryrd}
 
+\makeatletter
+\let\c@table\c@figure % for (1)
+\let\ftype@table\ftype@figure % for (2)
+\makeatother
+
 
 \title{BUFN403 Project Report}
 \author{%
@@ -79,9 +84,8 @@
 \tableofcontents
 
 \include{overview}
-
 \include{literature}
-
+\include{data}
 \include{documentation}
 
 \addcontentsline{toc}{chapter}{Bibliography}

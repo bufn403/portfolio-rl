@@ -59,8 +59,8 @@ We proceed with model-free RL in this project.
 \subsection{Specialization to Our Application}
 
 In the portfolio optimization setting, our RL agent seeks to produce an optimal set of portfolio weights given all the information it knows.
-Assume that there are $n$ tradeable stocks in our universe, and one risk-free asset.
-The action space $A = \left\{a \in \R^{n+1} \:|\: \sum_i a_i = 1\right\}$ is the set of all possible portfolio weights.
+Assume that there are $m$ tradeable stocks in our universe, and one risk-free asset.
+The action space $A = \left\{a \in \R^{m+1} \:|\: \sum_i a_i = 1\right\}$ is the set of all possible portfolio weights.
 
 The state space $S$ encompasses all information available to the agent when it is asked to make a portfolio allocation decision at a given time.
 Depending on what information is provided, this could include past performance of the strategy, historical stock prices, encoded news information for
