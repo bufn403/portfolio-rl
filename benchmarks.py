@@ -20,6 +20,10 @@ def sortino_ratio(returns, target_returns, rf=None, annualized=False) -> np.floa
     """
     scale_factor = np.sqrt(252) if annualized else 1
     np_returns = np.array(returns)
+    if rf is not None:
+        mean = np.nanmean(np_returns - rf)
+    else:
+        mean = np.nanmean(np_returns)
     mask = (np_returns > 0)
     if not target_returns:
         target_returns = 0
@@ -27,10 +31,7 @@ def sortino_ratio(returns, target_returns, rf=None, annualized=False) -> np.floa
         return np.nan
     np_returns[mask] = np.nan
     try:
-        if rf is not None:
-            return scale_factor * (np.nanmean(np_returns - rf) / np.nanstd(np_returns))
-        else:
-            return scale_factor * (np.nanmean(np_returns) / np.nanstd(np_returns))
+        return scale_factor * (mean / np.nanstd(np_returns))
     except ZeroDivisionError:
         return np.nan
 
