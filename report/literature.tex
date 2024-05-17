@@ -236,3 +236,59 @@ The three channels in the state matrix on the left are the high, low, and closin
 The authors claim that this framework beats all of their benchmark strategies in the cryptocurrency market.
 The architecture remains essentially the same in our implementation. Due to the use of multiple channels in the state tensor, it makes it easy to
 add additional channels for alternative data sources, such as news sentiment.
+
+
+
+\section{OLMAR Benchmark Strategy}
+\label{olmar_section}
+Online Portoflio Selection with Moving Average Reversion (OLMAR), introduced in \cite{olmar_paper}, is used by both \cite{rl_augmented_states} and \cite{drl_framework} as a benchmark strating strategy.
+Our codebase includes both custom and library implementations of OLMAR; we provide a brief description of the method here.
+
+Consider a universe of $m$ tradeable assets (and no risk-free asset).
+Let $$\Delta_m = \left\{b_t \in \R^m \:|\: b_{t,i} \geq 0 \:\forall i, \sum_{i=1}^m b_{t,i} = 1\right\}$$ be the space of possible portfolios, which is a simplex.
+Let $p_t \in \R^{m}$ be the price at time $t$, and and let $x_t \in \R^m$ be the price-relative vector for time $t$, computed as
+$x_{t,i} = p_{t,i} / p_{t-1,i}$ for all $i$; that is, $x_t$ is the element-wise division of $p_t$ by $p_{t-1}$.
+The goal of the algorithm is to produce a good portfolio $b_{t+1}$ given $p_t, p_{t-1}, ... p_{t-w+1}$ (that is, historical stock prices over a lookback of period $w$).
+
+If we believe that the price of an asset is mean-reverting, then a good prediction for the next price-relative vector $\tilde x_{t+1}$ is
+\begin{align*}
+  \tilde x_{t+1} = \frac{\mathop{\mathrm{MA}}_t(x)}{p_t} = \frac{1}{w}\left(\frac{p_t}{p_t} + \frac{p_{t-1}}{p_t} + \cdots + \frac{p_{t-w+1}}{p_t}\right)
+\end{align*}
+To obtain a good return over the next time period, we want $b_{t+1} \cdot \tilde x_{t+1}$ to be high.
+However, to keep transaction costs down, we do not want to be too far away from the previous portfolio $b_t$.
+Therefore, we formula the optimization problem:
+\begin{align*}
+  b_{t+1} = \mathop{\mathrm{arg\:min}}_{b \in \Delta_m} \frac{1}{2}\|b - b_t\| \:\:\text{such that}\:\: b \cdot \tilde{x}_{t+1} \geq \epsilon
+\end{align*}
+for some positive threshold value $\epsilon$. This optimization problem can be solved numerically using standard constrained solvers.
+
+Alternatively, the authors present the following solution: if we ignore the non-negativity constraint, then the solution is
+\begin{align*}
+  b_{t+1} = b_t + \lambda_{t+1}(\tilde x_{t+1} - \bar x_{t+1} \mathbb{1}) && \bar x_{t+1} = \frac{\mathbb{1} \cdot \tilde x_{t+1}}{m} && \lambda_{t+1} = \max\left\{0, \frac{\epsilon - b_t \cdot \tilde x_{t+1}}{\|\tilde x_{t+1} - \bar x_{t+1} \mathbb{1}\|^2}\right\}
+\end{align*}
+To enforce the non-negativity constraint, we can project this solution back into the simplex $\Delta_m$.
+
+
+\section{WMAMR Benchmark Strategy}
+Weighted Moving Average Mean Reversion, introduced in \cite{wmamr_paper}, is another trading strategy benchmark used by \cite{rl_augmented_states}.
+It is a relatively simple modification to OLMAR, so we will not restate the content of Section \ref{olmar_section}.
+
+The definitions of all terms remain the same. Define the $\epsilon$-insensitive loss function
+\begin{align*}
+  l_{1,\epsilon}(b, \tilde x_{t+1}) = \begin{cases}
+    0 & b \cdot \tilde x_{t+1} \leq \epsilon \\
+    b \cdot \tilde x_{t+1} - \epsilon & \text{otherwise}
+  \end{cases}
+\end{align*}
+The authors formula the optimization problem as
+\begin{align*}
+  b_{t+1} = \mathop{\mathrm{arg\:min}}_{b \in \Delta_m} \frac{1}{2}\|b - b_t\|^2 \:\:\text{such that}\:\: l_{1,\epsilon}(b, \tilde x_{t+1}) = 0
+\end{align*}
+As with OLMAR, this optimization problem can be solved numerically.
+If we ignore the non-negativity constraint, then an analytic solution is
+\begin{align*}
+  b_{t+1} = b_t - \tau_t(\tilde x_{t+1} - \bar x_{t+1} \cdot \mathbb{1}) && \tau_t = \max\left\{0, \frac{l_{1,\epsilon}}{\|\tilde x_{t+1} - \bar x_{t+1}\|^2}\right\}
+\end{align*}
+To recover the non-negativity constraint, we project this solution back into the simplex $\Delta_m$.
+
+
